@@ -47,6 +47,21 @@ player data from SofaScore, FotMob, Transfermarkt, KBStats, and Analyst.
 Generated JSON, CSV, and debug HTML must be written through `project_paths.py`;
 do not write generated files beside a notebook or into the project root.
 
+## Timestamped output retention
+
+Timestamped output exporters invoke the shared cleanup in `project_paths.py`. The
+cleanup uses the final timestamp in a filename as the output creation time and
+retains the 10 newest files in each applicable family. Files without a supported
+creation timestamp in their filename are never removed.
+
+Most families are distinguished by output directory, filename pattern with
+timestamps removed, and file extension. Meaningful labels such as matchday,
+percentile, and datatype remain separate. Two high-volume CSV directories use a
+single limit across their methods: `outputs/expected_points` retains its 10 newest
+expected-points CSVs, and `outputs/optimized_squad` retains its 10 newest optimizer
+CSVs. Run timestamped-output notebooks through their final retention cell to apply
+the same cleanup after notebook exports.
+
 ## Setup
 
 From PowerShell in the project root:
