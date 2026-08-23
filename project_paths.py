@@ -41,6 +41,8 @@ LIGAINSIDER_PREDICTED_LINEUPS_DIR = LIGAINSIDER_OUTPUT_DIR / "predicted_lineups"
 
 KBSTATS_PLAYERS_DIR = OUTPUTS_DIR / "kbstats" / "players"
 EXPECTED_POINTS_DIR = OUTPUTS_DIR / "expected_points"
+OPTIMIZED_SQUAD_DIR = OUTPUTS_DIR / "optimized_squad"
+# Canonical, per-arena selected lineup snapshots. Each arena owns one JSON file.
 SELECTED_LINEUPS_DIR = OUTPUTS_DIR / "selected_lineups"
 DERIVED_BUNDESLIGA_SNAPSHOTS_DIR = (
     OUTPUTS_DIR / "derived" / "bundesliga_snapshots"
