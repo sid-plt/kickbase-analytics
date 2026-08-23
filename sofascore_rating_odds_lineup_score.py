@@ -24,6 +24,7 @@ from project_paths import (
     ROTOWIRE_PREDICTED_LINEUPS_DIR,
     SOFASCORE_ODDS_DIR,
     ensure_directory,
+    prune_timestamped_outputs,
 )
 from kickbase_player_name_cross_references import (
     REFERENCE_COLUMNS as KICKBASE_REFERENCE_COLUMNS,
@@ -966,6 +967,7 @@ def run_score_creation(
     if output_path.exists():
         raise FileExistsError(f"Refusing to overwrite existing score CSV: {output_path}")
     scored.to_csv(output_path, index=False, encoding="utf-8-sig")
+    prune_timestamped_outputs()
     review = pd.DataFrame(review_rows)
     print("Input summary")
     print(f"  Matchday: {matchday}; ratings: {ratings_input.path.name}")
