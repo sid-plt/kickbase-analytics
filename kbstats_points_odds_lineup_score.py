@@ -20,6 +20,7 @@ from project_paths import (
     EXPECTED_POINTS_DIR,
     KBSTATS_PLAYERS_DIR,
     ensure_directory,
+    prune_timestamped_outputs,
 )
 from sofascore_average_rating_score import load_kbstats_players, normalize_name, validate_scored_players
 from sofascore_rating_odds_lineup_score import (
@@ -528,6 +529,7 @@ def run_score_creation(
     if output_path.exists():
         raise FileExistsError(f"Refusing to overwrite existing score CSV: {output_path}")
     scored.to_csv(output_path, index=False, encoding="utf-8-sig")
+    prune_timestamped_outputs()
 
     review = pd.DataFrame(review_rows)
     print("Input summary")

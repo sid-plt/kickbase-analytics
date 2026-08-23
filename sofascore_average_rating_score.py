@@ -26,6 +26,7 @@ from project_paths import (
     KBSTATS_PLAYERS_DIR,
     SOFASCORE_PLAYER_AVERAGE_RATINGS_DIR,
     ensure_directory,
+    prune_timestamped_outputs,
 )
 from player_name_cross_references import (
     REFERENCE_COLUMNS,
@@ -383,6 +384,7 @@ def save_scored_players(
         scored.to_csv(output_path, index=False, encoding="utf-8-sig")
     except OSError as exc:
         raise OSError(f"Could not write score CSV {output_path}: {exc}") from exc
+    prune_timestamped_outputs()
     return output_path
 
 

@@ -17,6 +17,7 @@ from project_paths import (
     DERIVED_TRANSFERMARKT_TEAM_MARKET_VALUE_PERCENTILES_DIR,
     EXPECTED_POINTS_DIR,
     ensure_directory,
+    prune_timestamped_outputs,
 )
 from transfermarkt_market_value_score import (
     FUZZY_MATCH_THRESHOLD,
@@ -74,6 +75,7 @@ def derive_team_market_value_percentiles() -> dict[str, Any]:
         derived.to_csv(output_path, index=False, encoding="utf-8-sig")
     except OSError as exc:
         raise OSError(f"Could not write derived percentile CSV {output_path}: {exc}") from exc
+    prune_timestamped_outputs()
 
     populated = derived[PERCENTILE_COLUMN].notna().sum()
     print("Input")
@@ -313,6 +315,7 @@ def run_percentile_score_creation() -> dict[str, Any]:
         scored.to_csv(output_path, index=False, encoding="utf-8-sig")
     except OSError as exc:
         raise OSError(f"Could not write score CSV {output_path}: {exc}") from exc
+    prune_timestamped_outputs()
     print(f"\nOutput: {output_path}")
     if not additions.empty:
         print(f"Saved {len(additions)} confirmed name override(s): {OVERRIDE_PATH}")
