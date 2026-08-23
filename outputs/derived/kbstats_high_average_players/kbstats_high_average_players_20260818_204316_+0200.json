@@ -1,0 +1,4119 @@
+{
+  "generated_at": "2026-08-18T20:43:16+02:00",
+  "source_file": "kbstats_players_20260818_204143_+0200.json",
+  "percentile": 75.0,
+  "average_points_cutoff": 90.0,
+  "minimum_games_played": 5,
+  "eligible_player_count": 290,
+  "selected_player_count": 79,
+  "players": [
+    {
+      "id": "8329",
+      "teamId": "2",
+      "firstName": "Michael",
+      "lastName": "Olise",
+      "marketValue": 64621231.0,
+      "averagePoints": 225.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 23.0,
+      "totalPlaytimeS": 154488.0,
+      "totalPoints": 7185.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/42c4a07d3d9a4dd0a7a4d68a1e5b5fee.png",
+      "number": 17.0,
+      "trend": 1,
+      "pointsPerValue": 111.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 33005.0,
+        "yesterday": 34321.0,
+        "twoDays": 35915.0,
+        "sevenDaysAvg": 239891.0,
+        "thirtyDaysAvg": 1079005.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 81
+        },
+        {
+          "hasPlayed": true,
+          "points": 334
+        },
+        {
+          "hasPlayed": true,
+          "points": 290
+        },
+        {
+          "hasPlayed": true,
+          "points": 166
+        },
+        {
+          "hasPlayed": true,
+          "points": 152
+        }
+      ],
+      "startProbability": 1,
+      "name": "Michael Olise",
+      "marketChangeToday": 33005.0
+    },
+    {
+      "id": "7226",
+      "teamId": "2",
+      "firstName": "Harry",
+      "lastName": "Kane",
+      "marketValue": 68674466.0,
+      "averagePoints": 216.0,
+      "games": 31.0,
+      "gamesPlayed": 31.0,
+      "start11": 25.0,
+      "totalPlaytimeS": 158399.0,
+      "totalPoints": 6703.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5f6dd618010f4c54a4039708d3ed0a0a.png",
+      "number": 9.0,
+      "trend": 1,
+      "pointsPerValue": 97.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 26167.0,
+        "yesterday": 24472.0,
+        "twoDays": 26425.0,
+        "sevenDaysAvg": 191063.0,
+        "thirtyDaysAvg": 926413.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 415
+        },
+        {
+          "hasPlayed": true,
+          "points": 53
+        },
+        {
+          "hasPlayed": true,
+          "points": 45
+        },
+        {
+          "hasPlayed": true,
+          "points": 150
+        },
+        {
+          "hasPlayed": true,
+          "points": 163
+        }
+      ],
+      "startProbability": 1,
+      "name": "Harry Kane",
+      "marketChangeToday": 26167.0
+    },
+    {
+      "id": "1685",
+      "teamId": "2",
+      "firstName": "Joshua",
+      "lastName": "Kimmich",
+      "marketValue": 59703646.0,
+      "averagePoints": 186.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 151968.0,
+      "totalPoints": 5391.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/e84941ae3809492c84e8f8bad5b3791e.png",
+      "number": 6.0,
+      "trend": 1,
+      "pointsPerValue": 90.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 27478.0,
+        "yesterday": 27719.0,
+        "twoDays": 27156.0,
+        "sevenDaysAvg": 200453.0,
+        "thirtyDaysAvg": 831025.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 317
+        },
+        {
+          "hasPlayed": true,
+          "points": 238
+        },
+        {
+          "hasPlayed": true,
+          "points": 83
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 215
+        }
+      ],
+      "startProbability": 1,
+      "name": "Joshua Kimmich",
+      "marketChangeToday": 27478.0
+    },
+    {
+      "id": "11675",
+      "teamId": "2",
+      "firstName": "Luis",
+      "lastName": "Díaz",
+      "marketValue": 53334606.0,
+      "averagePoints": 178.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 27.0,
+      "totalPlaytimeS": 163321.0,
+      "totalPoints": 5698.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/8be4ef70fac349c3920923d1d22c624f.png",
+      "number": 14.0,
+      "trend": 1,
+      "pointsPerValue": 106.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 34292.0,
+        "yesterday": 36000.0,
+        "twoDays": 34525.0,
+        "sevenDaysAvg": 248223.0,
+        "thirtyDaysAvg": 1048240.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 205
+        },
+        {
+          "hasPlayed": true,
+          "points": 50
+        },
+        {
+          "hasPlayed": true,
+          "points": 54
+        },
+        {
+          "hasPlayed": true,
+          "points": 30
+        },
+        {
+          "hasPlayed": true,
+          "points": 225
+        }
+      ],
+      "startProbability": 1,
+      "name": "Luis Díaz",
+      "marketChangeToday": 34292.0
+    },
+    {
+      "id": "2522",
+      "teamId": "43",
+      "firstName": "David",
+      "lastName": "Raum",
+      "marketValue": 33567593.0,
+      "averagePoints": 148.0,
+      "games": 30.0,
+      "gamesPlayed": 30.0,
+      "start11": 29.0,
+      "totalPlaytimeS": 167920.0,
+      "totalPoints": 4445.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/63b51608f37a4eb083c1865d497d3cbe.png",
+      "number": 22.0,
+      "trend": 1,
+      "pointsPerValue": 132.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 105469.0,
+        "yesterday": 106374.0,
+        "twoDays": 99931.0,
+        "sevenDaysAvg": 730100.0,
+        "thirtyDaysAvg": 2720905.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 152
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 28
+        }
+      ],
+      "startProbability": 1,
+      "name": "David Raum",
+      "marketChangeToday": 105469.0
+    },
+    {
+      "id": "2383",
+      "teamId": "3",
+      "firstName": "Nico",
+      "lastName": "Schlotterbeck",
+      "marketValue": 28970210.0,
+      "averagePoints": 148.0,
+      "games": 28.0,
+      "gamesPlayed": 28.0,
+      "start11": 28.0,
+      "totalPlaytimeS": 166561.0,
+      "totalPoints": 4142.0,
+      "status": 1,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/531ad1f9d6804b9db55d5aace6d79888.png",
+      "number": 4.0,
+      "trend": 2,
+      "pointsPerValue": 142.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -664207.0,
+        "yesterday": -667761.0,
+        "twoDays": -653551.0,
+        "sevenDaysAvg": -4679855.0,
+        "thirtyDaysAvg": -6244306.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 142
+        },
+        {
+          "hasPlayed": true,
+          "points": 250
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        },
+        {
+          "hasPlayed": true,
+          "points": 146
+        },
+        {
+          "hasPlayed": true,
+          "points": 67
+        }
+      ],
+      "startProbability": 5,
+      "name": "Nico Schlotterbeck",
+      "marketChangeToday": -664207.0
+    },
+    {
+      "id": "4199",
+      "teamId": "7",
+      "firstName": "Aleix",
+      "lastName": "García",
+      "marketValue": 38207285.0,
+      "averagePoints": 142.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 31.0,
+      "totalPlaytimeS": 175200.0,
+      "totalPoints": 4684.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/3de0ab19c54f4523a5bf21f686259db0.png",
+      "number": 24.0,
+      "trend": 1,
+      "pointsPerValue": 122.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 112617.0,
+        "yesterday": 114866.0,
+        "twoDays": 111423.0,
+        "sevenDaysAvg": 778335.0,
+        "thirtyDaysAvg": 2869773.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 229
+        },
+        {
+          "hasPlayed": true,
+          "points": 121
+        },
+        {
+          "hasPlayed": true,
+          "points": 214
+        },
+        {
+          "hasPlayed": true,
+          "points": 93
+        },
+        {
+          "hasPlayed": true,
+          "points": 181
+        }
+      ],
+      "startProbability": 1,
+      "name": "Aleix García",
+      "marketChangeToday": 112617.0
+    },
+    {
+      "id": "1961",
+      "teamId": "2",
+      "firstName": "Serge",
+      "lastName": "Gnabry",
+      "marketValue": 16884711.0,
+      "averagePoints": 142.0,
+      "games": 21.0,
+      "gamesPlayed": 21.0,
+      "start11": 16.0,
+      "totalPlaytimeS": 80707.0,
+      "totalPoints": 2980.0,
+      "status": 2,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/e88435a468a14a10b3e6894bbc3bb0a1.png",
+      "number": 7.0,
+      "trend": 2,
+      "pointsPerValue": 176.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -429526.0,
+        "yesterday": -413437.0,
+        "twoDays": -424869.0,
+        "sevenDaysAvg": -2012673.0,
+        "thirtyDaysAvg": -253534.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 5,
+      "name": "Serge Gnabry",
+      "marketChangeToday": -429526.0
+    },
+    {
+      "id": "7158",
+      "teamId": "9",
+      "firstName": "Deniz",
+      "lastName": "Undav",
+      "marketValue": 43988728.0,
+      "averagePoints": 138.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 25.0,
+      "totalPlaytimeS": 146045.0,
+      "totalPoints": 4006.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/ce96ede35441430c92ce3362f11f218c.png",
+      "number": 26.0,
+      "trend": 1,
+      "pointsPerValue": 91.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 61252.0,
+        "yesterday": 61390.0,
+        "twoDays": 58871.0,
+        "sevenDaysAvg": 441324.0,
+        "thirtyDaysAvg": 2232314.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 131
+        },
+        {
+          "hasPlayed": true,
+          "points": 215
+        },
+        {
+          "hasPlayed": true,
+          "points": 62
+        },
+        {
+          "hasPlayed": true,
+          "points": 74
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 1,
+      "name": "Deniz Undav",
+      "marketChangeToday": 61252.0
+    },
+    {
+      "id": "2783",
+      "teamId": "7",
+      "firstName": "Edmond",
+      "lastName": "Tapsoba",
+      "marketValue": 32271165.0,
+      "averagePoints": 136.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 29.0,
+      "totalPlaytimeS": 171644.0,
+      "totalPoints": 3941.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/21031db97a054165806a98d2f0c0d73b.png",
+      "number": 12.0,
+      "trend": 1,
+      "pointsPerValue": 122.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 67451.0,
+        "yesterday": 70016.0,
+        "twoDays": 58844.0,
+        "sevenDaysAvg": 442065.0,
+        "thirtyDaysAvg": 1825750.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 111
+        },
+        {
+          "hasPlayed": true,
+          "points": 6
+        },
+        {
+          "hasPlayed": true,
+          "points": 135
+        },
+        {
+          "hasPlayed": true,
+          "points": 93
+        },
+        {
+          "hasPlayed": true,
+          "points": 194
+        }
+      ],
+      "startProbability": 1,
+      "name": "Edmond Tapsoba",
+      "marketChangeToday": 67451.0
+    },
+    {
+      "id": "2038",
+      "teamId": "2",
+      "firstName": "Konrad",
+      "lastName": "Laimer",
+      "marketValue": 32688837.0,
+      "averagePoints": 136.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 22.0,
+      "totalPlaytimeS": 131747.0,
+      "totalPoints": 3943.0,
+      "status": 2,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5facdf754a204792b327d0754f2ede01.png",
+      "number": 27.0,
+      "trend": 2,
+      "pointsPerValue": 120.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -602064.0,
+        "yesterday": -581587.0,
+        "twoDays": -205597.0,
+        "sevenDaysAvg": -1359433.0,
+        "thirtyDaysAvg": -177470.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 69
+        },
+        {
+          "hasPlayed": true,
+          "points": 135
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        },
+        {
+          "hasPlayed": true,
+          "points": 241
+        },
+        {
+          "hasPlayed": true,
+          "points": 39
+        }
+      ],
+      "startProbability": 3,
+      "name": "Konrad Laimer",
+      "marketChangeToday": -602064.0
+    },
+    {
+      "id": "1639",
+      "teamId": "18",
+      "firstName": "Nadiem",
+      "lastName": "Amiri",
+      "marketValue": 33009010.0,
+      "averagePoints": 134.0,
+      "games": 26.0,
+      "gamesPlayed": 26.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 136794.0,
+      "totalPoints": 3493.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/fee710e358914669ab855823274a461e.png",
+      "number": 10.0,
+      "trend": 1,
+      "pointsPerValue": 105.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 113282.0,
+        "yesterday": 113757.0,
+        "twoDays": 108361.0,
+        "sevenDaysAvg": 785455.0,
+        "thirtyDaysAvg": 2432187.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 254
+        },
+        {
+          "hasPlayed": true,
+          "points": 98
+        },
+        {
+          "hasPlayed": true,
+          "points": 168
+        },
+        {
+          "hasPlayed": true,
+          "points": 93
+        },
+        {
+          "hasPlayed": true,
+          "points": 229
+        }
+      ],
+      "startProbability": 1,
+      "name": "Nadiem Amiri",
+      "marketChangeToday": 113282.0
+    },
+    {
+      "id": "1246",
+      "teamId": "43",
+      "firstName": "Willi",
+      "lastName": "Orban",
+      "marketValue": 31081756.0,
+      "averagePoints": 131.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 33.0,
+      "totalPlaytimeS": 193712.0,
+      "totalPoints": 4323.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/bda722458bd445d5ba24094a5306031d.png",
+      "number": 4.0,
+      "trend": 1,
+      "pointsPerValue": 139.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 67534.0,
+        "yesterday": 63147.0,
+        "twoDays": 61764.0,
+        "sevenDaysAvg": 439668.0,
+        "thirtyDaysAvg": 1798893.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 110
+        },
+        {
+          "hasPlayed": true,
+          "points": 313
+        },
+        {
+          "hasPlayed": true,
+          "points": 82
+        },
+        {
+          "hasPlayed": true,
+          "points": 131
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 2,
+      "name": "Willi Orban",
+      "marketChangeToday": 67534.0
+    },
+    {
+      "id": "2300",
+      "teamId": "2",
+      "firstName": "Josip",
+      "lastName": "Stanišić",
+      "marketValue": 24052327.0,
+      "averagePoints": 128.0,
+      "games": 26.0,
+      "gamesPlayed": 26.0,
+      "start11": 19.0,
+      "totalPlaytimeS": 124437.0,
+      "totalPoints": 3330.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/0828c39abfa3434387731b4125f9c877.png",
+      "number": 44.0,
+      "trend": 2,
+      "pointsPerValue": 138.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -295777.0,
+        "yesterday": -309066.0,
+        "twoDays": -444112.0,
+        "sevenDaysAvg": -3457558.0,
+        "thirtyDaysAvg": -4575129.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 70
+        },
+        {
+          "hasPlayed": true,
+          "points": 172
+        },
+        {
+          "hasPlayed": true,
+          "points": 46
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        },
+        {
+          "hasPlayed": true,
+          "points": 105
+        }
+      ],
+      "startProbability": 3,
+      "name": "Josip Stanišić",
+      "marketChangeToday": -295777.0
+    },
+    {
+      "id": "2736",
+      "teamId": "3",
+      "firstName": "Ramy",
+      "lastName": "Bensebaini",
+      "marketValue": 20748993.0,
+      "averagePoints": 128.0,
+      "games": 21.0,
+      "gamesPlayed": 21.0,
+      "start11": 15.0,
+      "totalPlaytimeS": 102687.0,
+      "totalPoints": 2683.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/f52b92d109bf4f53b2fb20e5c50f00ec.png",
+      "number": 5.0,
+      "trend": 1,
+      "pointsPerValue": 129.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 209041.0,
+        "yesterday": 194941.0,
+        "twoDays": 173674.0,
+        "sevenDaysAvg": 1306023.0,
+        "thirtyDaysAvg": 4499529.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 364
+        },
+        {
+          "hasPlayed": true,
+          "points": 106
+        }
+      ],
+      "startProbability": 1,
+      "name": "Ramy Bensebaini",
+      "marketChangeToday": 209041.0
+    },
+    {
+      "id": "173",
+      "teamId": "2",
+      "firstName": "Jonathan",
+      "lastName": "Tah",
+      "marketValue": 36842007.0,
+      "averagePoints": 127.0,
+      "games": 28.0,
+      "gamesPlayed": 28.0,
+      "start11": 23.0,
+      "totalPlaytimeS": 135209.0,
+      "totalPoints": 3559.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/bbdbcc801d7245e79786231de87b80b7.png",
+      "number": 4.0,
+      "trend": 1,
+      "pointsPerValue": 96.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 55833.0,
+        "yesterday": 48730.0,
+        "twoDays": 52317.0,
+        "sevenDaysAvg": 347287.0,
+        "thirtyDaysAvg": 1706208.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 146
+        },
+        {
+          "hasPlayed": true,
+          "points": 53
+        },
+        {
+          "hasPlayed": true,
+          "points": 84
+        },
+        {
+          "hasPlayed": true,
+          "points": 59
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 1,
+      "name": "Jonathan Tah",
+      "marketChangeToday": 55833.0
+    },
+    {
+      "id": "1704",
+      "teamId": "3",
+      "firstName": "Waldemar",
+      "lastName": "Anton",
+      "marketValue": 33790852.0,
+      "averagePoints": 126.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 32.0,
+      "totalPlaytimeS": 190794.0,
+      "totalPoints": 4034.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/b1a7f338e7c9453d93897bd6ac8c9457.png",
+      "number": 3.0,
+      "trend": 1,
+      "pointsPerValue": 119.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 59293.0,
+        "yesterday": 65784.0,
+        "twoDays": 62612.0,
+        "sevenDaysAvg": 415347.0,
+        "thirtyDaysAvg": 1862984.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 156
+        },
+        {
+          "hasPlayed": true,
+          "points": 123
+        },
+        {
+          "hasPlayed": true,
+          "points": 40
+        },
+        {
+          "hasPlayed": true,
+          "points": 153
+        },
+        {
+          "hasPlayed": true,
+          "points": 133
+        }
+      ],
+      "startProbability": 1,
+      "name": "Waldemar Anton",
+      "marketChangeToday": 59293.0
+    },
+    {
+      "id": "6668",
+      "teamId": "2",
+      "firstName": "Kim",
+      "lastName": "Minjae",
+      "marketValue": 9179929.0,
+      "averagePoints": 124.0,
+      "games": 25.0,
+      "gamesPlayed": 25.0,
+      "start11": 19.0,
+      "totalPlaytimeS": 106765.0,
+      "totalPoints": 3112.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5c6879180be846a0be7608b367bb4100.png",
+      "number": 3.0,
+      "trend": 2,
+      "pointsPerValue": 339.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -195520.0,
+        "yesterday": -246093.0,
+        "twoDays": -390054.0,
+        "sevenDaysAvg": -2335828.0,
+        "thirtyDaysAvg": -1610964.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 173
+        },
+        {
+          "hasPlayed": true,
+          "points": 166
+        },
+        {
+          "hasPlayed": true,
+          "points": 148
+        },
+        {
+          "hasPlayed": true,
+          "points": 125
+        }
+      ],
+      "startProbability": 4,
+      "name": "Kim Minjae",
+      "marketChangeToday": -195520.0
+    },
+    {
+      "id": "1664",
+      "teamId": "9",
+      "firstName": "Maximilian",
+      "lastName": "Mittelstädt",
+      "marketValue": 27529977.0,
+      "averagePoints": 123.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 142785.0,
+      "totalPoints": 3927.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/b8cb80b921914e60885e8e9429df9518.png",
+      "number": 7.0,
+      "trend": 2,
+      "pointsPerValue": 142.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -323951.0,
+        "yesterday": -311545.0,
+        "twoDays": -322175.0,
+        "sevenDaysAvg": -1343740.0,
+        "thirtyDaysAvg": -132567.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 66
+        },
+        {
+          "hasPlayed": true,
+          "points": 206
+        },
+        {
+          "hasPlayed": true,
+          "points": 43
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        },
+        {
+          "hasPlayed": true,
+          "points": 28
+        }
+      ],
+      "startProbability": 3,
+      "name": "Maximilian Mittelstädt",
+      "marketChangeToday": -323951.0
+    },
+    {
+      "id": "2694",
+      "teamId": "9",
+      "firstName": "Angelo",
+      "lastName": "Stiller",
+      "marketValue": 36932625.0,
+      "averagePoints": 119.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 30.0,
+      "totalPlaytimeS": 180374.0,
+      "totalPoints": 4054.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/7810bc5805c94de984743e33da7c044c.png",
+      "number": 6.0,
+      "trend": 1,
+      "pointsPerValue": 109.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 45738.0,
+        "yesterday": 42758.0,
+        "twoDays": 36140.0,
+        "sevenDaysAvg": 325661.0,
+        "thirtyDaysAvg": 1507090.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 108
+        },
+        {
+          "hasPlayed": true,
+          "points": 141
+        },
+        {
+          "hasPlayed": true,
+          "points": 87
+        },
+        {
+          "hasPlayed": true,
+          "points": 112
+        },
+        {
+          "hasPlayed": true,
+          "points": 33
+        }
+      ],
+      "startProbability": 1,
+      "name": "Angelo Stiller",
+      "marketChangeToday": 45738.0
+    },
+    {
+      "id": "6080",
+      "teamId": "2",
+      "firstName": "Aleksandar",
+      "lastName": "Pavlović",
+      "marketValue": 31871006.0,
+      "averagePoints": 119.0,
+      "games": 24.0,
+      "gamesPlayed": 24.0,
+      "start11": 16.0,
+      "totalPlaytimeS": 98316.0,
+      "totalPoints": 2844.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/edb0e886b6a545f1b564cd3d24c6e4b3.png",
+      "number": 45.0,
+      "trend": 1,
+      "pointsPerValue": 89.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 91672.0,
+        "yesterday": 93308.0,
+        "twoDays": 84783.0,
+        "sevenDaysAvg": 627423.0,
+        "thirtyDaysAvg": 2597917.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 43
+        },
+        {
+          "hasPlayed": true,
+          "points": 68
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 1,
+      "name": "Aleksandar Pavlović",
+      "marketChangeToday": 91672.0
+    },
+    {
+      "id": "1991",
+      "teamId": "2",
+      "firstName": "Dayotchanculle",
+      "lastName": "Upamecano",
+      "marketValue": 33748368.0,
+      "averagePoints": 119.0,
+      "games": 24.0,
+      "gamesPlayed": 24.0,
+      "start11": 21.0,
+      "totalPlaytimeS": 119193.0,
+      "totalPoints": 2858.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/786ab7fb4f394b598ffdd4d09c323bfa.png",
+      "number": 2.0,
+      "trend": 1,
+      "pointsPerValue": 84.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 71387.0,
+        "yesterday": 66183.0,
+        "twoDays": 65015.0,
+        "sevenDaysAvg": 481936.0,
+        "thirtyDaysAvg": 2199848.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 152
+        },
+        {
+          "hasPlayed": true,
+          "points": 71
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 2,
+      "name": "Dayotchanculle Upamecano",
+      "marketChangeToday": 71387.0
+    },
+    {
+      "id": "3120",
+      "teamId": "2",
+      "firstName": "Tom",
+      "lastName": "Bischof",
+      "marketValue": 22168089.0,
+      "averagePoints": 118.0,
+      "games": 26.0,
+      "gamesPlayed": 26.0,
+      "start11": 14.0,
+      "totalPlaytimeS": 88493.0,
+      "totalPoints": 3077.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/f25237e8f3a640479c355850b4139da6.png",
+      "number": 8.0,
+      "trend": 1,
+      "pointsPerValue": 138.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 153621.0,
+        "yesterday": 141854.0,
+        "twoDays": 115777.0,
+        "sevenDaysAvg": 915510.0,
+        "thirtyDaysAvg": 3526137.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 268
+        },
+        {
+          "hasPlayed": true,
+          "points": 228
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 3,
+      "name": "Tom Bischof",
+      "marketChangeToday": 153621.0
+    },
+    {
+      "id": "2275",
+      "teamId": "43",
+      "firstName": "Christoph",
+      "lastName": "Baumgartner",
+      "marketValue": 19684464.0,
+      "averagePoints": 117.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 32.0,
+      "totalPlaytimeS": 179653.0,
+      "totalPoints": 3846.0,
+      "status": 4,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/8b2225416e584d5ebd4ee89d8a8a99eb.png",
+      "number": 14.0,
+      "trend": 2,
+      "pointsPerValue": 195.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -114325.0,
+        "yesterday": -72230.0,
+        "twoDays": -73766.0,
+        "sevenDaysAvg": -73559.0,
+        "thirtyDaysAvg": -1391966.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 8
+        },
+        {
+          "hasPlayed": true,
+          "points": 114
+        },
+        {
+          "hasPlayed": true,
+          "points": 129
+        },
+        {
+          "hasPlayed": true,
+          "points": 47
+        },
+        {
+          "hasPlayed": true,
+          "points": 130
+        }
+      ],
+      "startProbability": 5,
+      "name": "Christoph Baumgartner",
+      "marketChangeToday": -114325.0
+    },
+    {
+      "id": "7745",
+      "teamId": "14",
+      "firstName": "Vladimír",
+      "lastName": "Coufal",
+      "marketValue": 25481719.0,
+      "averagePoints": 115.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 198844.0,
+      "totalPoints": 3918.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/63bd51c8d410447694f867a0c98d983d.png",
+      "number": 34.0,
+      "trend": 1,
+      "pointsPerValue": 153.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 71002.0,
+        "yesterday": 66177.0,
+        "twoDays": 54445.0,
+        "sevenDaysAvg": 653730.0,
+        "thirtyDaysAvg": 3578841.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 52
+        },
+        {
+          "hasPlayed": true,
+          "points": 235
+        },
+        {
+          "hasPlayed": true,
+          "points": 76
+        },
+        {
+          "hasPlayed": true,
+          "points": 152
+        },
+        {
+          "hasPlayed": true,
+          "points": 112
+        }
+      ],
+      "startProbability": 1,
+      "name": "Vladimír Coufal",
+      "marketChangeToday": 71002.0
+    },
+    {
+      "id": "49",
+      "teamId": "5",
+      "firstName": "Matthias",
+      "lastName": "Ginter",
+      "marketValue": 26502372.0,
+      "averagePoints": 114.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 32.0,
+      "totalPlaytimeS": 188048.0,
+      "totalPoints": 3663.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/e75f1bbb74d94ef7af63b5e586bb25ad.png",
+      "number": 28.0,
+      "trend": 1,
+      "pointsPerValue": 138.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 46225.0,
+        "yesterday": 46958.0,
+        "twoDays": 42795.0,
+        "sevenDaysAvg": 281788.0,
+        "thirtyDaysAvg": 1385970.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 243
+        },
+        {
+          "hasPlayed": true,
+          "points": 39
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 146
+        }
+      ],
+      "startProbability": 1,
+      "name": "Matthias Ginter",
+      "marketChangeToday": 46225.0
+    },
+    {
+      "id": "11631",
+      "teamId": "14",
+      "firstName": "Wouter",
+      "lastName": "Burger",
+      "marketValue": 23029581.0,
+      "averagePoints": 114.0,
+      "games": 30.0,
+      "gamesPlayed": 30.0,
+      "start11": 30.0,
+      "totalPlaytimeS": 159518.0,
+      "totalPoints": 3425.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/50a59d7c22f64565b2f31bba1dfae5bd.png",
+      "number": 18.0,
+      "trend": 1,
+      "pointsPerValue": 148.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 179074.0,
+        "yesterday": 166665.0,
+        "twoDays": 161351.0,
+        "sevenDaysAvg": 1188453.0,
+        "thirtyDaysAvg": 4518357.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 65
+        },
+        {
+          "hasPlayed": true,
+          "points": 206
+        },
+        {
+          "hasPlayed": true,
+          "points": 105
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        },
+        {
+          "hasPlayed": true,
+          "points": 85
+        }
+      ],
+      "startProbability": 1,
+      "name": "Wouter Burger",
+      "marketChangeToday": 179074.0
+    },
+    {
+      "id": "3072",
+      "teamId": "2",
+      "firstName": "Jonas",
+      "lastName": "Urbig",
+      "marketValue": 9219556.0,
+      "averagePoints": 114.0,
+      "games": 14.0,
+      "gamesPlayed": 14.0,
+      "start11": 11.0,
+      "totalPlaytimeS": 73976.0,
+      "totalPoints": 1591.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/c0e433f099ae43b186eae925a0234c11.png",
+      "number": 40.0,
+      "trend": 2,
+      "pointsPerValue": 172.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -229497.0,
+        "yesterday": -240469.0,
+        "twoDays": -413667.0,
+        "sevenDaysAvg": -2586199.0,
+        "thirtyDaysAvg": -2504993.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 41
+        },
+        {
+          "hasPlayed": true,
+          "points": 187
+        },
+        {
+          "hasPlayed": true,
+          "points": 80
+        },
+        {
+          "hasPlayed": true,
+          "points": 204
+        },
+        {
+          "hasPlayed": true,
+          "points": 150
+        }
+      ],
+      "startProbability": 4,
+      "name": "Jonas Urbig",
+      "marketChangeToday": -229497.0
+    },
+    {
+      "id": "54",
+      "teamId": "3",
+      "firstName": "Emre",
+      "lastName": "Can",
+      "marketValue": 1471820.0,
+      "averagePoints": 114.0,
+      "games": 9.0,
+      "gamesPlayed": 9.0,
+      "start11": 7.0,
+      "totalPlaytimeS": 41373.0,
+      "totalPoints": 1026.0,
+      "status": 1,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/29f90f2f2f2045f69460f20564a894ab.png",
+      "number": 23.0,
+      "trend": 2,
+      "pointsPerValue": 697.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -105051.0,
+        "yesterday": -112009.0,
+        "twoDays": -118611.0,
+        "sevenDaysAvg": -800249.0,
+        "thirtyDaysAvg": -2722342.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 5,
+      "name": "Emre Can",
+      "marketChangeToday": -105051.0
+    },
+    {
+      "id": "3190",
+      "teamId": "9",
+      "firstName": "Jeff",
+      "lastName": "Chabot",
+      "marketValue": 25724278.0,
+      "averagePoints": 113.0,
+      "games": 27.0,
+      "gamesPlayed": 27.0,
+      "start11": 26.0,
+      "totalPlaytimeS": 150716.0,
+      "totalPoints": 3061.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/2aa1e27ad0dd4e83b94ff2e16dfbdddc.png",
+      "number": 24.0,
+      "trend": 2,
+      "pointsPerValue": 118.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -58151.0,
+        "yesterday": -5100.0,
+        "twoDays": 7399.0,
+        "sevenDaysAvg": 70850.0,
+        "thirtyDaysAvg": 913268.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 82
+        },
+        {
+          "hasPlayed": true,
+          "points": 130
+        },
+        {
+          "hasPlayed": true,
+          "points": 59
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 86
+        }
+      ],
+      "startProbability": 2,
+      "name": "Jeff Chabot",
+      "marketChangeToday": -58151.0
+    },
+    {
+      "id": "1815",
+      "teamId": "14",
+      "firstName": "Andrej",
+      "lastName": "Kramarić",
+      "marketValue": 20087142.0,
+      "averagePoints": 111.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 26.0,
+      "totalPlaytimeS": 143136.0,
+      "totalPoints": 3757.0,
+      "status": 4,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/cbbf900916ce4e759f7d917366e1515d.png",
+      "number": 27.0,
+      "trend": 2,
+      "pointsPerValue": 187.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -487714.0,
+        "yesterday": -483842.0,
+        "twoDays": -466464.0,
+        "sevenDaysAvg": -3259882.0,
+        "thirtyDaysAvg": -4239886.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 4
+        },
+        {
+          "hasPlayed": true,
+          "points": 180
+        },
+        {
+          "hasPlayed": true,
+          "points": 245
+        },
+        {
+          "hasPlayed": true,
+          "points": 62
+        },
+        {
+          "hasPlayed": true,
+          "points": 239
+        }
+      ],
+      "startProbability": 4,
+      "name": "Andrej Kramarić",
+      "marketChangeToday": -487714.0
+    },
+    {
+      "id": "1883",
+      "teamId": "15",
+      "firstName": "Moritz",
+      "lastName": "Nicolas",
+      "marketValue": 19009783.0,
+      "averagePoints": 111.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 200791.0,
+      "totalPoints": 3766.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/ef78be83f1204677ac7ba9f2c7a35c23.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 198.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 72684.0,
+        "yesterday": 63248.0,
+        "twoDays": 55917.0,
+        "sevenDaysAvg": 498770.0,
+        "thirtyDaysAvg": 2602083.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 135
+        },
+        {
+          "hasPlayed": true,
+          "points": 151
+        },
+        {
+          "hasPlayed": true,
+          "points": 111
+        },
+        {
+          "hasPlayed": true,
+          "points": 166
+        },
+        {
+          "hasPlayed": true,
+          "points": 81
+        }
+      ],
+      "startProbability": 1,
+      "name": "Moritz Nicolas",
+      "marketChangeToday": 72684.0
+    },
+    {
+      "id": "577",
+      "teamId": "15",
+      "firstName": "Daniel",
+      "lastName": "Batz",
+      "marketValue": 3054739.0,
+      "averagePoints": 111.0,
+      "games": 21.0,
+      "gamesPlayed": 21.0,
+      "start11": 21.0,
+      "totalPlaytimeS": 125022.0,
+      "totalPoints": 2331.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/e60790d49ac84cdea97c383097ad8e12.png",
+      "number": 33.0,
+      "trend": 2,
+      "pointsPerValue": 763.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -125138.0,
+        "yesterday": -128736.0,
+        "twoDays": -124951.0,
+        "sevenDaysAvg": -872316.0,
+        "thirtyDaysAvg": -2675311.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 282
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 45
+        },
+        {
+          "hasPlayed": true,
+          "points": 37
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        }
+      ],
+      "startProbability": 5,
+      "name": "Daniel Batz",
+      "marketChangeToday": -125138.0
+    },
+    {
+      "id": "4",
+      "teamId": "7",
+      "firstName": "Janis",
+      "lastName": "Blaswich",
+      "marketValue": 1209478.0,
+      "averagePoints": 111.0,
+      "games": 11.0,
+      "gamesPlayed": 11.0,
+      "start11": 10.0,
+      "totalPlaytimeS": 62668.0,
+      "totalPoints": 1222.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/d17035064d4a480484cb35d2dab54e46.png",
+      "number": 28.0,
+      "trend": 2,
+      "pointsPerValue": 1010.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -113140.0,
+        "yesterday": -110972.0,
+        "twoDays": -107334.0,
+        "sevenDaysAvg": -792525.0,
+        "thirtyDaysAvg": -2869355.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 177
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 5,
+      "name": "Janis Blaswich",
+      "marketChangeToday": -113140.0
+    },
+    {
+      "id": "11955",
+      "teamId": "9",
+      "firstName": "Bilal",
+      "lastName": "El Khannouss",
+      "marketValue": 23961239.0,
+      "averagePoints": 109.0,
+      "games": 25.0,
+      "gamesPlayed": 25.0,
+      "start11": 19.0,
+      "totalPlaytimeS": 106302.0,
+      "totalPoints": 2713.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/308c317d260f4051ad8394dd0c0d1f02.png",
+      "number": 11.0,
+      "trend": 2,
+      "pointsPerValue": 113.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -303062.0,
+        "yesterday": -334142.0,
+        "twoDays": -315664.0,
+        "sevenDaysAvg": -1544834.0,
+        "thirtyDaysAvg": -86045.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 21
+        },
+        {
+          "hasPlayed": true,
+          "points": 37
+        },
+        {
+          "hasPlayed": true,
+          "points": 178
+        },
+        {
+          "hasPlayed": true,
+          "points": 149
+        }
+      ],
+      "startProbability": 3,
+      "name": "Bilal El Khannouss",
+      "marketChangeToday": -303062.0
+    },
+    {
+      "id": "8227",
+      "teamId": "43",
+      "firstName": "Maarten",
+      "lastName": "Vandevoordt",
+      "marketValue": 15446600.0,
+      "averagePoints": 109.0,
+      "games": 12.0,
+      "gamesPlayed": 12.0,
+      "start11": 11.0,
+      "totalPlaytimeS": 69295.0,
+      "totalPoints": 1313.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/cb4de12c99d148feb2f88e1c91186400.png",
+      "number": 26.0,
+      "trend": 1,
+      "pointsPerValue": 85.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 146901.0,
+        "yesterday": 143407.0,
+        "twoDays": 136866.0,
+        "sevenDaysAvg": 1019021.0,
+        "thirtyDaysAvg": 4246194.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 77
+        },
+        {
+          "hasPlayed": true,
+          "points": 87
+        },
+        {
+          "hasPlayed": true,
+          "points": 96
+        },
+        {
+          "hasPlayed": true,
+          "points": 135
+        }
+      ],
+      "startProbability": 2,
+      "name": "Maarten Vandevoordt",
+      "marketChangeToday": 146901.0
+    },
+    {
+      "id": "2144",
+      "teamId": "4",
+      "firstName": "Robin",
+      "lastName": "Koch",
+      "marketValue": 23465622.0,
+      "averagePoints": 107.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 32.0,
+      "totalPlaytimeS": 188534.0,
+      "totalPoints": 3419.0,
+      "status": 2,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/340cf29dd65140208f579773d046dd30.png",
+      "number": 4.0,
+      "trend": 1,
+      "pointsPerValue": 145.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 10031.0,
+        "yesterday": 57022.0,
+        "twoDays": 127443.0,
+        "sevenDaysAvg": 782809.0,
+        "thirtyDaysAvg": 3413975.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 94
+        },
+        {
+          "hasPlayed": true,
+          "points": 42
+        },
+        {
+          "hasPlayed": true,
+          "points": 81
+        },
+        {
+          "hasPlayed": true,
+          "points": 108
+        },
+        {
+          "hasPlayed": true,
+          "points": 89
+        }
+      ],
+      "startProbability": 1,
+      "name": "Robin Koch",
+      "marketChangeToday": 10031.0
+    },
+    {
+      "id": "1686",
+      "teamId": "15",
+      "firstName": "Nico",
+      "lastName": "Elvedi",
+      "marketValue": 17399452.0,
+      "averagePoints": 106.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 33.0,
+      "totalPlaytimeS": 194378.0,
+      "totalPoints": 3508.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/d31a5e1b135340b188caada5fa5b8b30.png",
+      "number": 30.0,
+      "trend": 2,
+      "pointsPerValue": 201.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -590594.0,
+        "yesterday": -684947.0,
+        "twoDays": -464368.0,
+        "sevenDaysAvg": -1322999.0,
+        "thirtyDaysAvg": 1426367.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 298
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 77
+        },
+        {
+          "hasPlayed": true,
+          "points": 130
+        },
+        {
+          "hasPlayed": true,
+          "points": 133
+        }
+      ],
+      "startProbability": 4,
+      "name": "Nico Elvedi",
+      "marketChangeToday": -590594.0
+    },
+    {
+      "id": "10789",
+      "teamId": "2",
+      "firstName": "Lennart",
+      "lastName": "Karl",
+      "marketValue": 23721815.0,
+      "averagePoints": 106.0,
+      "games": 26.0,
+      "gamesPlayed": 26.0,
+      "start11": 16.0,
+      "totalPlaytimeS": 84581.0,
+      "totalPoints": 2765.0,
+      "status": 2,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/70997dc609a7466ebc62a28327fcd5c0.png",
+      "number": 42.0,
+      "trend": 2,
+      "pointsPerValue": 116.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -337992.0,
+        "yesterday": -314133.0,
+        "twoDays": -374352.0,
+        "sevenDaysAvg": -2447455.0,
+        "thirtyDaysAvg": -1630448.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 194
+        },
+        {
+          "hasPlayed": true,
+          "points": 57
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 4,
+      "name": "Lennart Karl",
+      "marketChangeToday": -337992.0
+    },
+    {
+      "id": "7224",
+      "teamId": "43",
+      "firstName": "Lukeba",
+      "lastName": "Castello Jr.",
+      "marketValue": 18988448.0,
+      "averagePoints": 106.0,
+      "games": 26.0,
+      "gamesPlayed": 26.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 142996.0,
+      "totalPoints": 2765.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/02c2d826957a4899a614c0ad25d8a9a8.png",
+      "number": 23.0,
+      "trend": 2,
+      "pointsPerValue": 145.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -208629.0,
+        "yesterday": -295890.0,
+        "twoDays": -410490.0,
+        "sevenDaysAvg": -1808564.0,
+        "thirtyDaysAvg": -831614.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 66
+        },
+        {
+          "hasPlayed": true,
+          "points": 116
+        },
+        {
+          "hasPlayed": true,
+          "points": 28
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 3,
+      "name": "Lukeba Castello Jr.",
+      "marketChangeToday": -208629.0
+    },
+    {
+      "id": "6081",
+      "teamId": "4",
+      "firstName": "Can",
+      "lastName": "Uzun",
+      "marketValue": 27634306.0,
+      "averagePoints": 106.0,
+      "games": 21.0,
+      "gamesPlayed": 21.0,
+      "start11": 15.0,
+      "totalPlaytimeS": 76576.0,
+      "totalPoints": 2232.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/57ff676333514f5cbfe8036ee8243473.png",
+      "number": 42.0,
+      "trend": 1,
+      "pointsPerValue": 80.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 97702.0,
+        "yesterday": 99174.0,
+        "twoDays": 93630.0,
+        "sevenDaysAvg": 668812.0,
+        "thirtyDaysAvg": 2089625.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 31
+        },
+        {
+          "hasPlayed": true,
+          "points": 143
+        },
+        {
+          "hasPlayed": true,
+          "points": 218
+        },
+        {
+          "hasPlayed": true,
+          "points": 220
+        },
+        {
+          "hasPlayed": true,
+          "points": 9
+        }
+      ],
+      "startProbability": 2,
+      "name": "Can Uzun",
+      "marketChangeToday": 97702.0
+    },
+    {
+      "id": "2395",
+      "teamId": "3",
+      "firstName": "Julian",
+      "lastName": "Ryerson",
+      "marketValue": 25619908.0,
+      "averagePoints": 105.0,
+      "games": 31.0,
+      "gamesPlayed": 31.0,
+      "start11": 26.0,
+      "totalPlaytimeS": 148097.0,
+      "totalPoints": 3246.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5c70c2a110fd48919c487e0b0d97af57.png",
+      "number": 26.0,
+      "trend": 1,
+      "pointsPerValue": 126.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 42874.0,
+        "yesterday": 15327.0,
+        "twoDays": -50528.0,
+        "sevenDaysAvg": 23621.0,
+        "thirtyDaysAvg": 1154912.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 141
+        },
+        {
+          "hasPlayed": true,
+          "points": 127
+        },
+        {
+          "hasPlayed": true,
+          "points": 41
+        },
+        {
+          "hasPlayed": true,
+          "points": 171
+        },
+        {
+          "hasPlayed": true,
+          "points": 3
+        }
+      ],
+      "startProbability": 1,
+      "name": "Julian Ryerson",
+      "marketChangeToday": 42874.0
+    },
+    {
+      "id": "2373",
+      "teamId": "14",
+      "firstName": "Ozan",
+      "lastName": "Kabak",
+      "marketValue": 21314772.0,
+      "averagePoints": 105.0,
+      "games": 25.0,
+      "gamesPlayed": 25.0,
+      "start11": 18.0,
+      "totalPlaytimeS": 117698.0,
+      "totalPoints": 2629.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/f41310cc735c4e749a950dc72a7c76c9.png",
+      "number": 5.0,
+      "trend": 1,
+      "pointsPerValue": 123.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 171402.0,
+        "yesterday": 165543.0,
+        "twoDays": 167656.0,
+        "sevenDaysAvg": 1139992.0,
+        "thirtyDaysAvg": 4403347.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 29
+        },
+        {
+          "hasPlayed": true,
+          "points": 198
+        },
+        {
+          "hasPlayed": true,
+          "points": 34
+        },
+        {
+          "hasPlayed": true,
+          "points": 100
+        },
+        {
+          "hasPlayed": true,
+          "points": 150
+        }
+      ],
+      "startProbability": 1,
+      "name": "Ozan Kabak",
+      "marketChangeToday": 171402.0
+    },
+    {
+      "id": "1873",
+      "teamId": "3",
+      "firstName": "Gregor",
+      "lastName": "Kobel",
+      "marketValue": 22984417.0,
+      "averagePoints": 104.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 202740.0,
+      "totalPoints": 3530.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5cf1813a3f0f4cb6997088b18ad5adcf.png",
+      "number": 1.0,
+      "trend": 2,
+      "pointsPerValue": 153.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -77598.0,
+        "yesterday": -38116.0,
+        "twoDays": -59705.0,
+        "sevenDaysAvg": -140161.0,
+        "thirtyDaysAvg": 1570043.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 154
+        },
+        {
+          "hasPlayed": true,
+          "points": 81
+        },
+        {
+          "hasPlayed": true,
+          "points": 82
+        },
+        {
+          "hasPlayed": true,
+          "points": 160
+        },
+        {
+          "hasPlayed": true,
+          "points": 65
+        }
+      ],
+      "startProbability": 1,
+      "name": "Gregor Kobel",
+      "marketChangeToday": -77598.0
+    },
+    {
+      "id": "2988",
+      "teamId": "9",
+      "firstName": "Jamie",
+      "lastName": "Leweling",
+      "marketValue": 27088772.0,
+      "averagePoints": 103.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 26.0,
+      "totalPlaytimeS": 153640.0,
+      "totalPoints": 3282.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/f1ba50c544bd40d9ae5a68fbc1ee8cbd.png",
+      "number": 18.0,
+      "trend": 1,
+      "pointsPerValue": 121.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 45038.0,
+        "yesterday": 41547.0,
+        "twoDays": 40568.0,
+        "sevenDaysAvg": 196055.0,
+        "thirtyDaysAvg": 1383773.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 76
+        },
+        {
+          "hasPlayed": true,
+          "points": 166
+        },
+        {
+          "hasPlayed": true,
+          "points": 121
+        },
+        {
+          "hasPlayed": true,
+          "points": 22
+        },
+        {
+          "hasPlayed": true,
+          "points": 40
+        }
+      ],
+      "startProbability": 2,
+      "name": "Jamie Leweling",
+      "marketChangeToday": 45038.0
+    },
+    {
+      "id": "2746",
+      "teamId": "7",
+      "firstName": "Patrik",
+      "lastName": "Schick",
+      "marketValue": 29279552.0,
+      "averagePoints": 103.0,
+      "games": 28.0,
+      "gamesPlayed": 28.0,
+      "start11": 23.0,
+      "totalPlaytimeS": 130835.0,
+      "totalPoints": 2889.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/9f0daa3f23514ac7a72c46ba81396a95.png",
+      "number": 14.0,
+      "trend": 1,
+      "pointsPerValue": 98.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 32242.0,
+        "yesterday": 31086.0,
+        "twoDays": 34557.0,
+        "sevenDaysAvg": 253259.0,
+        "thirtyDaysAvg": 1373023.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 42
+        },
+        {
+          "hasPlayed": true,
+          "points": 23
+        },
+        {
+          "hasPlayed": true,
+          "points": 367
+        },
+        {
+          "hasPlayed": true,
+          "points": 227
+        },
+        {
+          "hasPlayed": true,
+          "points": 161
+        }
+      ],
+      "startProbability": 3,
+      "name": "Patrik Schick",
+      "marketChangeToday": 32242.0
+    },
+    {
+      "id": "3089",
+      "teamId": "2",
+      "firstName": "Hiroki",
+      "lastName": "Ito",
+      "marketValue": 4605004.0,
+      "averagePoints": 103.0,
+      "games": 16.0,
+      "gamesPlayed": 16.0,
+      "start11": 10.0,
+      "totalPlaytimeS": 60821.0,
+      "totalPoints": 1652.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/da6a70c8cd1d413f9143de52e07a8ee7.png",
+      "number": 21.0,
+      "trend": 2,
+      "pointsPerValue": 358.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -55148.0,
+        "yesterday": -71251.0,
+        "twoDays": -72471.0,
+        "sevenDaysAvg": -904288.0,
+        "thirtyDaysAvg": -3502599.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 145
+        },
+        {
+          "hasPlayed": true,
+          "points": 117
+        },
+        {
+          "hasPlayed": true,
+          "points": 153
+        },
+        {
+          "hasPlayed": true,
+          "points": 129
+        }
+      ],
+      "startProbability": 5,
+      "name": "Hiroki Ito",
+      "marketChangeToday": -55148.0
+    },
+    {
+      "id": "1920",
+      "teamId": "3",
+      "firstName": "Serhou",
+      "lastName": "Guirassy",
+      "marketValue": 28960380.0,
+      "averagePoints": 102.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 27.0,
+      "totalPlaytimeS": 151810.0,
+      "totalPoints": 3356.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/fb2bd82aeb8440f8acdbcf6ebf4487dc.png",
+      "number": 9.0,
+      "trend": 1,
+      "pointsPerValue": 115.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 117105.0,
+        "yesterday": 114378.0,
+        "twoDays": 108306.0,
+        "sevenDaysAvg": 774109.0,
+        "thirtyDaysAvg": 2824485.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 155
+        },
+        {
+          "hasPlayed": true,
+          "points": 134
+        },
+        {
+          "hasPlayed": true,
+          "points": 26
+        },
+        {
+          "hasPlayed": true,
+          "points": 187
+        },
+        {
+          "hasPlayed": true,
+          "points": 101
+        }
+      ],
+      "startProbability": 2,
+      "name": "Serhou Guirassy",
+      "marketChangeToday": 117105.0
+    },
+    {
+      "id": "2141",
+      "teamId": "43",
+      "firstName": "Ridle ",
+      "lastName": "Baku",
+      "marketValue": 18641371.0,
+      "averagePoints": 102.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 28.0,
+      "totalPlaytimeS": 162435.0,
+      "totalPoints": 3278.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/dea132bbe8444490a8b8fa7d725f4b64.png",
+      "number": 17.0,
+      "trend": 2,
+      "pointsPerValue": 175.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -249379.0,
+        "yesterday": -254725.0,
+        "twoDays": -236305.0,
+        "sevenDaysAvg": -867645.0,
+        "thirtyDaysAvg": 1603970.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": -4
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        },
+        {
+          "hasPlayed": true,
+          "points": 38
+        },
+        {
+          "hasPlayed": true,
+          "points": 224
+        },
+        {
+          "hasPlayed": true,
+          "points": 124
+        }
+      ],
+      "startProbability": 3,
+      "name": "Ridle  Baku",
+      "marketChangeToday": -249379.0
+    },
+    {
+      "id": "7963",
+      "teamId": "7",
+      "firstName": "Jarell",
+      "lastName": "Quansah",
+      "marketValue": 22185043.0,
+      "averagePoints": 102.0,
+      "games": 28.0,
+      "gamesPlayed": 28.0,
+      "start11": 25.0,
+      "totalPlaytimeS": 152471.0,
+      "totalPoints": 2867.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/28464ad9ca424fa199f3f674422285de.png",
+      "number": 4.0,
+      "trend": 1,
+      "pointsPerValue": 129.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 144380.0,
+        "yesterday": 125618.0,
+        "twoDays": 105366.0,
+        "sevenDaysAvg": 908446.0,
+        "thirtyDaysAvg": 4148880.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 223
+        },
+        {
+          "hasPlayed": true,
+          "points": 35
+        },
+        {
+          "hasPlayed": true,
+          "points": 85
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        },
+        {
+          "hasPlayed": true,
+          "points": 74
+        }
+      ],
+      "startProbability": 2,
+      "name": "Jarell Quansah",
+      "marketChangeToday": 144380.0
+    },
+    {
+      "id": "2172",
+      "teamId": "9",
+      "firstName": "Chris",
+      "lastName": "Führich",
+      "marketValue": 25347466.0,
+      "averagePoints": 101.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 20.0,
+      "totalPlaytimeS": 110946.0,
+      "totalPoints": 3346.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/58b49d98f88041f2861d70e0af0a69e5.png",
+      "number": 10.0,
+      "trend": 1,
+      "pointsPerValue": 132.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 71607.0,
+        "yesterday": 62803.0,
+        "twoDays": 63075.0,
+        "sevenDaysAvg": 715852.0,
+        "thirtyDaysAvg": 3478022.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 164
+        },
+        {
+          "hasPlayed": true,
+          "points": 99
+        },
+        {
+          "hasPlayed": true,
+          "points": 198
+        },
+        {
+          "hasPlayed": true,
+          "points": 82
+        },
+        {
+          "hasPlayed": true,
+          "points": 122
+        }
+      ],
+      "startProbability": 2,
+      "name": "Chris Führich",
+      "marketChangeToday": 71607.0
+    },
+    {
+      "id": "3481",
+      "teamId": "10",
+      "firstName": "Jens",
+      "lastName": "Stage",
+      "marketValue": 19120295.0,
+      "averagePoints": 100.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 29.0,
+      "totalPlaytimeS": 160601.0,
+      "totalPoints": 2895.0,
+      "status": 2,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/1660e6fa98fe418d8a4abdb17bda1d62.png",
+      "number": 6.0,
+      "trend": 1,
+      "pointsPerValue": 151.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 128742.0,
+        "yesterday": 147343.0,
+        "twoDays": 147454.0,
+        "sevenDaysAvg": 1020870.0,
+        "thirtyDaysAvg": 3745307.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 48
+        },
+        {
+          "hasPlayed": true,
+          "points": 12
+        },
+        {
+          "hasPlayed": true,
+          "points": 30
+        },
+        {
+          "hasPlayed": true,
+          "points": 157
+        },
+        {
+          "hasPlayed": true,
+          "points": 265
+        }
+      ],
+      "startProbability": 2,
+      "name": "Jens Stage",
+      "marketChangeToday": 128742.0
+    },
+    {
+      "id": "524",
+      "teamId": "14",
+      "firstName": "Oliver",
+      "lastName": "Baumann",
+      "marketValue": 19151787.0,
+      "averagePoints": 99.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 203483.0,
+      "totalPoints": 3366.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/edda0b62817c41d1a3a343129e44683d.png",
+      "number": 1.0,
+      "trend": 2,
+      "pointsPerValue": 175.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -125340.0,
+        "yesterday": -152367.0,
+        "twoDays": -219921.0,
+        "sevenDaysAvg": -984146.0,
+        "thirtyDaysAvg": 322385.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 22
+        },
+        {
+          "hasPlayed": true,
+          "points": 161
+        },
+        {
+          "hasPlayed": true,
+          "points": 112
+        },
+        {
+          "hasPlayed": true,
+          "points": 57
+        },
+        {
+          "hasPlayed": true,
+          "points": 119
+        }
+      ],
+      "startProbability": 1,
+      "name": "Oliver Baumann",
+      "marketChangeToday": -125340.0
+    },
+    {
+      "id": "6061",
+      "teamId": "7",
+      "firstName": "Ibrahim",
+      "lastName": "Maza",
+      "marketValue": 29412735.0,
+      "averagePoints": 98.0,
+      "games": 28.0,
+      "gamesPlayed": 28.0,
+      "start11": 20.0,
+      "totalPlaytimeS": 121679.0,
+      "totalPoints": 2743.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/7ff9728d20544b96a1fe698af86f9f2f.png",
+      "number": 30.0,
+      "trend": 1,
+      "pointsPerValue": 93.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 97044.0,
+        "yesterday": 83976.0,
+        "twoDays": 88164.0,
+        "sevenDaysAvg": 602703.0,
+        "thirtyDaysAvg": 2083800.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 85
+        },
+        {
+          "hasPlayed": true,
+          "points": 34
+        },
+        {
+          "hasPlayed": true,
+          "points": 182
+        },
+        {
+          "hasPlayed": true,
+          "points": 40
+        },
+        {
+          "hasPlayed": true,
+          "points": 79
+        }
+      ],
+      "startProbability": 1,
+      "name": "Ibrahim Maza",
+      "marketChangeToday": 97044.0
+    },
+    {
+      "id": "2804",
+      "teamId": "2",
+      "firstName": "Jamal",
+      "lastName": "Musiala",
+      "marketValue": 35277696.0,
+      "averagePoints": 98.0,
+      "games": 15.0,
+      "gamesPlayed": 15.0,
+      "start11": 7.0,
+      "totalPlaytimeS": 45579.0,
+      "totalPoints": 1476.0,
+      "status": 2,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/0874c227bdbf4d93b915953ecd463f34.png",
+      "number": 10.0,
+      "trend": 1,
+      "pointsPerValue": 41.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 22740.0,
+        "yesterday": 38967.0,
+        "twoDays": 68693.0,
+        "sevenDaysAvg": 435804.0,
+        "thirtyDaysAvg": 2130252.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 36
+        },
+        {
+          "hasPlayed": true,
+          "points": 100
+        },
+        {
+          "hasPlayed": true,
+          "points": 42
+        },
+        {
+          "hasPlayed": true,
+          "points": 198
+        },
+        {
+          "hasPlayed": true,
+          "points": 125
+        }
+      ],
+      "startProbability": 3,
+      "name": "Jamal Musiala",
+      "marketChangeToday": 22740.0
+    },
+    {
+      "id": "4596",
+      "teamId": "43",
+      "firstName": "Brajan",
+      "lastName": "Gruda",
+      "marketValue": 17763317.0,
+      "averagePoints": 98.0,
+      "games": 13.0,
+      "gamesPlayed": 13.0,
+      "start11": 8.0,
+      "totalPlaytimeS": 49007.0,
+      "totalPoints": 1270.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/f1dd66425b59403ab0f2796e4ad0b0f8.png",
+      "number": 10.0,
+      "trend": 1,
+      "pointsPerValue": 71.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 269114.0,
+        "yesterday": 251568.0,
+        "twoDays": 252482.0,
+        "sevenDaysAvg": 1735796.0,
+        "thirtyDaysAvg": 6559912.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 28
+        },
+        {
+          "hasPlayed": true,
+          "points": 68
+        },
+        {
+          "hasPlayed": true,
+          "points": 89
+        },
+        {
+          "hasPlayed": true,
+          "points": 24
+        },
+        {
+          "hasPlayed": true,
+          "points": 48
+        }
+      ],
+      "startProbability": 1,
+      "name": "Brajan Gruda",
+      "marketChangeToday": 269114.0
+    },
+    {
+      "id": "3019",
+      "teamId": "5",
+      "firstName": "Noah",
+      "lastName": "Atubolu",
+      "marketValue": 8143278.0,
+      "averagePoints": 97.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 203699.0,
+      "totalPoints": 3299.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/7e82d7704f244cccb027dc6c519dc149.png",
+      "number": 1.0,
+      "trend": 2,
+      "pointsPerValue": 405.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 66323.0,
+        "yesterday": -256672.0,
+        "twoDays": -246327.0,
+        "sevenDaysAvg": -1480181.0,
+        "thirtyDaysAvg": -3762918.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 118
+        },
+        {
+          "hasPlayed": true,
+          "points": 51
+        },
+        {
+          "hasPlayed": true,
+          "points": 64
+        },
+        {
+          "hasPlayed": true,
+          "points": 23
+        },
+        {
+          "hasPlayed": true,
+          "points": 94
+        }
+      ],
+      "startProbability": 5,
+      "name": "Noah Atubolu",
+      "marketChangeToday": 66323.0
+    },
+    {
+      "id": "7673",
+      "teamId": "14",
+      "firstName": "Albian",
+      "lastName": "Hajdari",
+      "marketValue": 17748506.0,
+      "averagePoints": 97.0,
+      "games": 30.0,
+      "gamesPlayed": 30.0,
+      "start11": 28.0,
+      "totalPlaytimeS": 160153.0,
+      "totalPoints": 2924.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/0f60a3cd21c94cc4913d13f811e532a9.png",
+      "number": 21.0,
+      "trend": 1,
+      "pointsPerValue": 164.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 174230.0,
+        "yesterday": 164812.0,
+        "twoDays": 164976.0,
+        "sevenDaysAvg": 1192880.0,
+        "thirtyDaysAvg": 4567085.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": -7
+        },
+        {
+          "hasPlayed": true,
+          "points": 245
+        },
+        {
+          "hasPlayed": true,
+          "points": 81
+        },
+        {
+          "hasPlayed": true,
+          "points": 171
+        },
+        {
+          "hasPlayed": true,
+          "points": 120
+        }
+      ],
+      "startProbability": 1,
+      "name": "Albian Hajdari",
+      "marketChangeToday": 174230.0
+    },
+    {
+      "id": "1580",
+      "teamId": "28",
+      "firstName": "Marvin",
+      "lastName": "Schwäbe",
+      "marketValue": 14180935.0,
+      "averagePoints": 96.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 205397.0,
+      "totalPoints": 3249.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/2708fddc28474a2299885f3eb69be6bc.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 229.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 149678.0,
+        "yesterday": 144536.0,
+        "twoDays": 128191.0,
+        "sevenDaysAvg": 950167.0,
+        "thirtyDaysAvg": 3555900.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 60
+        },
+        {
+          "hasPlayed": true,
+          "points": 75
+        },
+        {
+          "hasPlayed": true,
+          "points": 3
+        },
+        {
+          "hasPlayed": true,
+          "points": 50
+        },
+        {
+          "hasPlayed": true,
+          "points": 130
+        }
+      ],
+      "startProbability": 1,
+      "name": "Marvin Schwäbe",
+      "marketChangeToday": 149678.0
+    },
+    {
+      "id": "3218",
+      "teamId": "5",
+      "firstName": "Mio",
+      "lastName": "Backhaus",
+      "marketValue": 16900135.0,
+      "averagePoints": 95.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 32.0,
+      "totalPlaytimeS": 190988.0,
+      "totalPoints": 3025.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/5fddf9666b2c47e4852e7bc1db9068e9.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 178.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 129890.0,
+        "yesterday": 104077.0,
+        "twoDays": 86605.0,
+        "sevenDaysAvg": 767188.0,
+        "thirtyDaysAvg": 3610181.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 179
+        },
+        {
+          "hasPlayed": true,
+          "points": 115
+        },
+        {
+          "hasPlayed": true,
+          "points": 74
+        },
+        {
+          "hasPlayed": true,
+          "points": 120
+        },
+        {
+          "hasPlayed": true,
+          "points": 67
+        }
+      ],
+      "startProbability": 1,
+      "name": "Mio Backhaus",
+      "marketChangeToday": 129890.0
+    },
+    {
+      "id": "11010",
+      "teamId": "15",
+      "firstName": "Kevin",
+      "lastName": "Diks",
+      "marketValue": 16229488.0,
+      "averagePoints": 95.0,
+      "games": 30.0,
+      "gamesPlayed": 30.0,
+      "start11": 28.0,
+      "totalPlaytimeS": 161173.0,
+      "totalPoints": 2844.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/31b917d90d104b98a6cc8bb90e5c94a4.png",
+      "number": 4.0,
+      "trend": 1,
+      "pointsPerValue": 175.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 188711.0,
+        "yesterday": 187242.0,
+        "twoDays": 185833.0,
+        "sevenDaysAvg": 1273802.0,
+        "thirtyDaysAvg": 4490892.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 241
+        },
+        {
+          "hasPlayed": true,
+          "points": 71
+        },
+        {
+          "hasPlayed": true,
+          "points": 33
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 72
+        }
+      ],
+      "startProbability": 1,
+      "name": "Kevin Diks",
+      "marketChangeToday": 188711.0
+    },
+    {
+      "id": "4563",
+      "teamId": "7",
+      "firstName": "Loïc",
+      "lastName": "Badé",
+      "marketValue": 13177223.0,
+      "averagePoints": 95.0,
+      "games": 23.0,
+      "gamesPlayed": 23.0,
+      "start11": 19.0,
+      "totalPlaytimeS": 110581.0,
+      "totalPoints": 2192.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/80f11505e8d445ae827aefe485b1c4c7.png",
+      "number": 5.0,
+      "trend": 2,
+      "pointsPerValue": 166.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -286141.0,
+        "yesterday": -314685.0,
+        "twoDays": -296414.0,
+        "sevenDaysAvg": -1000799.0,
+        "thirtyDaysAvg": 719652.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 50
+        },
+        {
+          "hasPlayed": true,
+          "points": 121
+        }
+      ],
+      "startProbability": 3,
+      "name": "Loïc Badé",
+      "marketChangeToday": -286141.0
+    },
+    {
+      "id": "237",
+      "teamId": "2",
+      "firstName": "Manuel",
+      "lastName": "Neuer",
+      "marketValue": 12860372.0,
+      "averagePoints": 95.0,
+      "games": 22.0,
+      "gamesPlayed": 22.0,
+      "start11": 22.0,
+      "totalPlaytimeS": 124205.0,
+      "totalPoints": 2083.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/aadd45c3d6354126886481e0a33a3c1f.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 161.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 98835.0,
+        "yesterday": 70077.0,
+        "twoDays": 55823.0,
+        "sevenDaysAvg": 407561.0,
+        "thirtyDaysAvg": 1329241.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 45
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 2,
+      "name": "Manuel Neuer",
+      "marketChangeToday": 98835.0
+    },
+    {
+      "id": "2714",
+      "teamId": "3",
+      "firstName": "Maximilian",
+      "lastName": "Beier",
+      "marketValue": 25759065.0,
+      "averagePoints": 94.0,
+      "games": 32.0,
+      "gamesPlayed": 32.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 132156.0,
+      "totalPoints": 3023.0,
+      "status": 2,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/901a04fa3f274f95921af3b42a45f795.png",
+      "number": 14.0,
+      "trend": 2,
+      "pointsPerValue": 117.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -123194.0,
+        "yesterday": -9315.0,
+        "twoDays": 27213.0,
+        "sevenDaysAvg": 99396.0,
+        "thirtyDaysAvg": 2094280.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 52
+        },
+        {
+          "hasPlayed": true,
+          "points": 207
+        },
+        {
+          "hasPlayed": true,
+          "points": 17
+        },
+        {
+          "hasPlayed": true,
+          "points": 241
+        },
+        {
+          "hasPlayed": true,
+          "points": 13
+        }
+      ],
+      "startProbability": 1,
+      "name": "Maximilian Beier",
+      "marketChangeToday": -123194.0
+    },
+    {
+      "id": "3069",
+      "teamId": "3",
+      "firstName": "Felix",
+      "lastName": "Nmecha",
+      "marketValue": 26352498.0,
+      "averagePoints": 94.0,
+      "games": 29.0,
+      "gamesPlayed": 29.0,
+      "start11": 25.0,
+      "totalPlaytimeS": 141393.0,
+      "totalPoints": 2730.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/510ad66f94f943fb940c1a7b11792266.png",
+      "number": 8.0,
+      "trend": 1,
+      "pointsPerValue": 103.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 124984.0,
+        "yesterday": 132133.0,
+        "twoDays": 130844.0,
+        "sevenDaysAvg": 889822.0,
+        "thirtyDaysAvg": 5833149.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 126
+        },
+        {
+          "hasPlayed": true,
+          "points": 14
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 1,
+      "name": "Felix Nmecha",
+      "marketChangeToday": 124984.0
+    },
+    {
+      "id": "1655",
+      "teamId": "4",
+      "firstName": "Michael",
+      "lastName": "Zetterer",
+      "marketValue": 5099861.0,
+      "averagePoints": 94.0,
+      "games": 22.0,
+      "gamesPlayed": 22.0,
+      "start11": 21.0,
+      "totalPlaytimeS": 131394.0,
+      "totalPoints": 2075.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/7b95a79040f048299e6825e31771d397.png",
+      "number": 23.0,
+      "trend": 2,
+      "pointsPerValue": 406.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -289596.0,
+        "yesterday": -272335.0,
+        "twoDays": -272681.0,
+        "sevenDaysAvg": -2009248.0,
+        "thirtyDaysAvg": -1572124.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 133
+        },
+        {
+          "hasPlayed": true,
+          "points": 105
+        },
+        {
+          "hasPlayed": true,
+          "points": 66
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        },
+        {
+          "hasPlayed": true,
+          "points": 47
+        }
+      ],
+      "startProbability": 4,
+      "name": "Michael Zetterer",
+      "marketChangeToday": -289596.0
+    },
+    {
+      "id": "8057",
+      "teamId": "4",
+      "firstName": "Arthur",
+      "lastName": "Theate",
+      "marketValue": 12707788.0,
+      "averagePoints": 93.0,
+      "games": 24.0,
+      "gamesPlayed": 24.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 142350.0,
+      "totalPoints": 2226.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/8dd075b3ad334b36ae27f1910cd562d4.png",
+      "number": 3.0,
+      "trend": 2,
+      "pointsPerValue": 175.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -390449.0,
+        "yesterday": -417371.0,
+        "twoDays": -412890.0,
+        "sevenDaysAvg": -2592302.0,
+        "thirtyDaysAvg": -68869.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 23
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 67
+        }
+      ],
+      "startProbability": 3,
+      "name": "Arthur Theate",
+      "marketChangeToday": -390449.0
+    },
+    {
+      "id": "72",
+      "teamId": "7",
+      "firstName": "Mark",
+      "lastName": "Flekken",
+      "marketValue": 14684317.0,
+      "averagePoints": 93.0,
+      "games": 24.0,
+      "gamesPlayed": 24.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 141251.0,
+      "totalPoints": 2230.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/98ea8901b970421b88f6a41a3137142f.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 151.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 137845.0,
+        "yesterday": 138392.0,
+        "twoDays": 134625.0,
+        "sevenDaysAvg": 936689.0,
+        "thirtyDaysAvg": 3327112.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 110
+        },
+        {
+          "hasPlayed": true,
+          "points": 77
+        },
+        {
+          "hasPlayed": true,
+          "points": 111
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 75
+        }
+      ],
+      "startProbability": 1,
+      "name": "Mark Flekken",
+      "marketChangeToday": 137845.0
+    },
+    {
+      "id": "2766",
+      "teamId": "7",
+      "firstName": "Exequiel",
+      "lastName": "Palacios",
+      "marketValue": 21030171.0,
+      "averagePoints": 93.0,
+      "games": 18.0,
+      "gamesPlayed": 18.0,
+      "start11": 12.0,
+      "totalPlaytimeS": 73391.0,
+      "totalPoints": 1672.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/0d5ad85f5920460c8489a65db5c6a1cb.png",
+      "number": 25.0,
+      "trend": 2,
+      "pointsPerValue": 79.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -581759.0,
+        "yesterday": -555407.0,
+        "twoDays": -327791.0,
+        "sevenDaysAvg": -1426755.0,
+        "thirtyDaysAvg": 1757117.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 174
+        },
+        {
+          "hasPlayed": true,
+          "points": 28
+        },
+        {
+          "hasPlayed": true,
+          "points": 109
+        },
+        {
+          "hasPlayed": true,
+          "points": 91
+        },
+        {
+          "hasPlayed": true,
+          "points": 125
+        }
+      ],
+      "startProbability": 3,
+      "name": "Exequiel Palacios",
+      "marketChangeToday": -581759.0
+    },
+    {
+      "id": "1863",
+      "teamId": "6",
+      "firstName": "Daniel",
+      "lastName": "Heuer Fernandes",
+      "marketValue": 14049239.0,
+      "averagePoints": 92.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 33.0,
+      "totalPlaytimeS": 199082.0,
+      "totalPoints": 3051.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/25bb5ce570244f8296d6e817316ad707.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 217.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 164402.0,
+        "yesterday": 143982.0,
+        "twoDays": 130119.0,
+        "sevenDaysAvg": 957465.0,
+        "thirtyDaysAvg": 3346796.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 100
+        },
+        {
+          "hasPlayed": true,
+          "points": 119
+        },
+        {
+          "hasPlayed": true,
+          "points": 92
+        },
+        {
+          "hasPlayed": true,
+          "points": 54
+        }
+      ],
+      "startProbability": 1,
+      "name": "Daniel Heuer Fernandes",
+      "marketChangeToday": 164402.0
+    },
+    {
+      "id": "2069",
+      "teamId": "28",
+      "firstName": "Timo",
+      "lastName": "Hübers",
+      "marketValue": 2461787.0,
+      "averagePoints": 92.0,
+      "games": 8.0,
+      "gamesPlayed": 8.0,
+      "start11": 8.0,
+      "totalPlaytimeS": 45515.0,
+      "totalPoints": 737.0,
+      "status": 4,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/6dbad3a67b1c4ffa892f8bef224e9f85.png",
+      "number": 4.0,
+      "trend": 2,
+      "pointsPerValue": 299.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -119441.0,
+        "yesterday": -121098.0,
+        "twoDays": -121738.0,
+        "sevenDaysAvg": -856531.0,
+        "thirtyDaysAvg": -3099500.0
+      },
+      "history": [
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 5,
+      "name": "Timo Hübers",
+      "marketChangeToday": -119441.0
+    },
+    {
+      "id": "9507",
+      "teamId": "43",
+      "firstName": "Antonio",
+      "lastName": "Nusa",
+      "marketValue": 25332200.0,
+      "averagePoints": 91.0,
+      "games": 31.0,
+      "gamesPlayed": 31.0,
+      "start11": 24.0,
+      "totalPlaytimeS": 129764.0,
+      "totalPoints": 2835.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/7b0130fc7648401b8dac316e07e7327b.png",
+      "number": 7.0,
+      "trend": 1,
+      "pointsPerValue": 111.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 68643.0,
+        "yesterday": 52470.0,
+        "twoDays": 54418.0,
+        "sevenDaysAvg": 742044.0,
+        "thirtyDaysAvg": 3981902.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 20
+        },
+        {
+          "hasPlayed": true,
+          "points": 42
+        },
+        {
+          "hasPlayed": true,
+          "points": 25
+        },
+        {
+          "hasPlayed": true,
+          "points": 95
+        },
+        {
+          "hasPlayed": true,
+          "points": 265
+        }
+      ],
+      "startProbability": 2,
+      "name": "Antonio Nusa",
+      "marketChangeToday": 68643.0
+    },
+    {
+      "id": "2195",
+      "teamId": "13",
+      "firstName": "Finn",
+      "lastName": "Dahmen",
+      "marketValue": 15981293.0,
+      "averagePoints": 90.0,
+      "games": 34.0,
+      "gamesPlayed": 34.0,
+      "start11": 34.0,
+      "totalPlaytimeS": 203411.0,
+      "totalPoints": 3060.0,
+      "status": 0,
+      "position": 1,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/b2d5477eac9e43ec9b45f8b1fd08da38.png",
+      "number": 1.0,
+      "trend": 1,
+      "pointsPerValue": 191.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 102302.0,
+        "yesterday": 93551.0,
+        "twoDays": 75655.0,
+        "sevenDaysAvg": 615023.0,
+        "thirtyDaysAvg": 2573211.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 28
+        },
+        {
+          "hasPlayed": true,
+          "points": 77
+        },
+        {
+          "hasPlayed": true,
+          "points": 109
+        },
+        {
+          "hasPlayed": true,
+          "points": 87
+        },
+        {
+          "hasPlayed": true,
+          "points": 274
+        }
+      ],
+      "startProbability": 1,
+      "name": "Finn Dahmen",
+      "marketChangeToday": 102302.0
+    },
+    {
+      "id": "3158",
+      "teamId": "14",
+      "firstName": "Fisnik",
+      "lastName": "Asllani",
+      "marketValue": 26913785.0,
+      "averagePoints": 90.0,
+      "games": 33.0,
+      "gamesPlayed": 33.0,
+      "start11": 31.0,
+      "totalPlaytimeS": 150494.0,
+      "totalPoints": 2966.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/61214fe54f31411ea068f8fb8b3c1e49.png",
+      "number": 11.0,
+      "trend": 1,
+      "pointsPerValue": 110.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -3868.0,
+        "yesterday": 55501.0,
+        "twoDays": 56973.0,
+        "sevenDaysAvg": 286726.0,
+        "thirtyDaysAvg": 1621727.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 42
+        },
+        {
+          "hasPlayed": true,
+          "points": 83
+        },
+        {
+          "hasPlayed": true,
+          "points": 91
+        },
+        {
+          "hasPlayed": true,
+          "points": 151
+        },
+        {
+          "hasPlayed": true,
+          "points": 57
+        }
+      ],
+      "startProbability": 3,
+      "name": "Fisnik Asllani",
+      "marketChangeToday": -3868.0
+    },
+    {
+      "id": "7723",
+      "teamId": "40",
+      "firstName": "Leopold",
+      "lastName": "Querfeld",
+      "marketValue": 14006664.0,
+      "averagePoints": 90.0,
+      "games": 31.0,
+      "gamesPlayed": 31.0,
+      "start11": 30.0,
+      "totalPlaytimeS": 181108.0,
+      "totalPoints": 2789.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/b9dfbb26ed9347b9a1585f29718c9d76.png",
+      "number": 14.0,
+      "trend": 1,
+      "pointsPerValue": 199.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 176080.0,
+        "yesterday": 152328.0,
+        "twoDays": 139623.0,
+        "sevenDaysAvg": 886557.0,
+        "thirtyDaysAvg": 2547818.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 53
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 38
+        },
+        {
+          "hasPlayed": true,
+          "points": 90
+        }
+      ],
+      "startProbability": 3,
+      "name": "Leopold Querfeld",
+      "marketChangeToday": 176080.0
+    },
+    {
+      "id": "2887",
+      "teamId": "4",
+      "firstName": "Ritsu",
+      "lastName": "Dōan",
+      "marketValue": 20892017.0,
+      "averagePoints": 90.0,
+      "games": 31.0,
+      "gamesPlayed": 31.0,
+      "start11": 28.0,
+      "totalPlaytimeS": 154093.0,
+      "totalPoints": 2793.0,
+      "status": 0,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/a635c31b1d4a4468826bb1915a8495c6.png",
+      "number": 20.0,
+      "trend": 1,
+      "pointsPerValue": 133.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 150131.0,
+        "yesterday": 145496.0,
+        "twoDays": 150128.0,
+        "sevenDaysAvg": 1101380.0,
+        "thirtyDaysAvg": 4137235.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 89
+        },
+        {
+          "hasPlayed": true,
+          "points": 18
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        },
+        {
+          "hasPlayed": true,
+          "points": 138
+        },
+        {
+          "hasPlayed": false,
+          "points": null
+        }
+      ],
+      "startProbability": 2,
+      "name": "Ritsu Dōan",
+      "marketChangeToday": 150131.0
+    },
+    {
+      "id": "2854",
+      "teamId": "9",
+      "firstName": "Ermedin",
+      "lastName": "Demirović",
+      "marketValue": 22590885.0,
+      "averagePoints": 90.0,
+      "games": 25.0,
+      "gamesPlayed": 25.0,
+      "start11": 17.0,
+      "totalPlaytimeS": 98446.0,
+      "totalPoints": 2254.0,
+      "status": 0,
+      "position": 4,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/b48829b887d04fe9afd4fbe51f04a3ea.png",
+      "number": 9.0,
+      "trend": 2,
+      "pointsPerValue": 99.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -341432.0,
+        "yesterday": -314917.0,
+        "twoDays": -404492.0,
+        "sevenDaysAvg": -2630831.0,
+        "thirtyDaysAvg": -1894135.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 8
+        },
+        {
+          "hasPlayed": true,
+          "points": 206
+        },
+        {
+          "hasPlayed": true,
+          "points": 119
+        },
+        {
+          "hasPlayed": true,
+          "points": 115
+        },
+        {
+          "hasPlayed": true,
+          "points": 4
+        }
+      ],
+      "startProbability": 3,
+      "name": "Ermedin Demirović",
+      "marketChangeToday": -341432.0
+    },
+    {
+      "id": "6300",
+      "teamId": "43",
+      "firstName": "Assan",
+      "lastName": "Ouédraogo",
+      "marketValue": 16329143.0,
+      "averagePoints": 90.0,
+      "games": 19.0,
+      "gamesPlayed": 19.0,
+      "start11": 13.0,
+      "totalPlaytimeS": 61254.0,
+      "totalPoints": 1705.0,
+      "status": 1,
+      "position": 3,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/0d8a1173062a4478822b06c0490cfe41.png",
+      "number": 8.0,
+      "trend": 2,
+      "pointsPerValue": 104.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": -593932.0,
+        "yesterday": -587794.0,
+        "twoDays": -601181.0,
+        "sevenDaysAvg": -4232240.0,
+        "thirtyDaysAvg": -2948921.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 127
+        },
+        {
+          "hasPlayed": true,
+          "points": 75
+        },
+        {
+          "hasPlayed": true,
+          "points": -16
+        },
+        {
+          "hasPlayed": true,
+          "points": 87
+        },
+        {
+          "hasPlayed": true,
+          "points": 47
+        }
+      ],
+      "startProbability": 5,
+      "name": "Assan Ouédraogo",
+      "marketChangeToday": -593932.0
+    },
+    {
+      "id": "2006",
+      "teamId": "18",
+      "firstName": "Stefan",
+      "lastName": "Posch",
+      "marketValue": 9561639.0,
+      "averagePoints": 90.0,
+      "games": 16.0,
+      "gamesPlayed": 16.0,
+      "start11": 16.0,
+      "totalPlaytimeS": 93180.0,
+      "totalPoints": 1446.0,
+      "status": 0,
+      "position": 2,
+      "playerImage": "https://kickbase.b-cdn.net/content/file/61c45113d8144342ae187dd599d3eff5.png",
+      "number": 0.0,
+      "trend": 1,
+      "pointsPerValue": 151.0,
+      "pointsStdDev": null,
+      "marketChange": {
+        "today": 372719.0,
+        "yesterday": 350150.0,
+        "twoDays": 280200.0,
+        "sevenDaysAvg": 1212866.0,
+        "thirtyDaysAvg": 1212866.0
+      },
+      "history": [
+        {
+          "hasPlayed": true,
+          "points": 97
+        },
+        {
+          "hasPlayed": true,
+          "points": 63
+        },
+        {
+          "hasPlayed": true,
+          "points": 121
+        },
+        {
+          "hasPlayed": true,
+          "points": 53
+        },
+        {
+          "hasPlayed": true,
+          "points": 154
+        }
+      ],
+      "startProbability": 2,
+      "name": "Stefan Posch",
+      "marketChangeToday": 372719.0
+    }
+  ]
+}

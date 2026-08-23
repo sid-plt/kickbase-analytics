@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "user_supplied_screenshots",
+    "conversation_id": "6a78f0e4-7ac4-83eb-8f63-62addc6366e6",
+    "language": "English",
+    "note": "The explanations below are based only on the screenshot contents captured in the referenced conversation. Repeated position- or location-specific screenshots are consolidated into one rule. Genuine source conflicts are retained as separate records."
+  },
+  "position_codes": {
+    "GK": "goalkeeper",
+    "DEF": "defender",
+    "MID": "midfielder",
+    "FWD": "striker/attacker"
+  },
+  "metrics": [
+    {
+      "id": "goal",
+      "name": "GOAL",
+      "category": "scoring",
+      "scoring": { "type": "by_position", "points": { "GK": 120, "DEF": 100, "MID": 90, "FWD": 80 } },
+      "position_specific": true,
+      "explanation": "Points for scoring a goal depend on the player's actual tactical position in that match. The league's official evaluation determines that position."
+    },
+    {
+      "id": "penalty_saved",
+      "name": "PENALTY SAVED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 100 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "Awarded when the goalkeeper actively saves a penalty during normal match play.",
+      "exclusions": ["A penalty that misses without active goalkeeper intervention does not qualify."]
+    },
+    {
+      "id": "penalty_scored",
+      "name": "PENALTY SCORED",
+      "category": "scoring",
+      "scoring": { "type": "fixed", "points": 80 },
+      "position_specific": false,
+      "explanation": "Awarded when a player scores a penalty during normal match play. The player's position is irrelevant."
+    },
+    {
+      "id": "assist",
+      "name": "ASSIST",
+      "category": "creation",
+      "scoring": { "type": "by_position", "points": { "GK": 55, "DEF": 45, "MID": 35, "FWD": 35 } },
+      "position_specific": true,
+      "explanation": "The pass must reach the eventual goalscorer without contact from another player. The league's official evaluation is decisive.",
+      "exclusions": ["If an opponent touches the ball while the eventual scorer is dribbling or involved in a running duel, the preceding pass does not qualify."]
+    },
+    {
+      "id": "shootout_penalty_saved",
+      "name": "PENALTY SAVED (PENALTY SHOOT-OUT)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 50 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "Awarded when the goalkeeper actively saves a penalty in a penalty shoot-out.",
+      "exclusions": ["A penalty that simply misses does not qualify.", "Post or crossbar metrics and other team-specific or player points are not additionally awarded during the shoot-out."]
+    },
+    {
+      "id": "secondary_assist",
+      "name": "SECONDARY ASSIST",
+      "category": "creation",
+      "scoring": { "type": "by_position", "points": { "GK": 45, "DEF": 35, "MID": 25, "FWD": 25 } },
+      "position_specific": true,
+      "explanation": "Awarded when a player creates such a strong situation for the eventual assister that only a simple pass to the goalscorer remains. A cross to the eventual assister in a dangerous area near goal can qualify if the later assist is not demanding.",
+      "exclusions": ["It does not qualify if the eventual assister must win a duel, win a running duel, or execute a demanding precise or well-timed pass.", "Corners and free kicks are excluded."]
+    },
+    {
+      "id": "shootout_penalty_scored",
+      "name": "PENALTY SCORED (PENALTY SHOOT-OUT)",
+      "category": "scoring",
+      "scoring": { "type": "fixed", "points": 40 },
+      "position_specific": false,
+      "explanation": "Awarded for converting a penalty in a penalty shoot-out.",
+      "exclusions": ["Post or crossbar metrics and other team-specific or player points are not additionally awarded during the shoot-out."]
+    },
+    {
+      "id": "penalty_won",
+      "name": "PENALTY WON",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 30 },
+      "position_specific": false,
+      "explanation": "Awarded when the player is fouled inside the penalty area and a penalty is given.",
+      "exclusions": ["Penalties awarded for handball are excluded."]
+    },
+    {
+      "id": "own_goal_forced",
+      "name": "OWN GOAL FORCED",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 25 },
+      "position_specific": false,
+      "explanation": "Awarded when a player's pass or shot forces an opponent to put the ball into the opponent's own goal."
+    },
+    {
+      "id": "deflected_assist",
+      "name": "DEFLECTED ASSIST",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 25 },
+      "position_specific": false,
+      "explanation": "Awarded when an intended pass to the eventual goalscorer is deflected but remains within the originally intended danger zone."
+    },
+    {
+      "id": "deadly_pass",
+      "name": "DEADLY PASS",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "A through ball or lofted pass that travels through or over the opponent's defensive line and puts a teammate into a one-on-one situation with the goalkeeper.",
+      "exclusions": ["Crosses are excluded."]
+    },
+    {
+      "id": "rebound_assist",
+      "name": "REBOUND ASSIST",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "Awarded when the player's ball is blocked by a defender and a teammate scores the rebound.",
+      "conditions": ["No other player may touch the ball between the block and the goal."]
+    },
+    {
+      "id": "woodwork_assist",
+      "name": "WOODWORK ASSIST",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "Awarded when the player's shot hits the goal frame and rebounds directly to a teammate who scores.",
+      "conditions": ["No other player may touch the ball between the woodwork contact and the teammate receiving and scoring it."]
+    },
+    {
+      "id": "big_chance_created",
+      "name": "BIG CHANCE CREATED",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "A pass that creates a clear scoring opportunity, described as either a one-on-one situation or a free shot on goal from the danger zone.",
+      "source_conflict": { "group": "big_chance_created_points", "conflicts_with": "big_chance_zero", "note": "Another supplied screenshot shows the same metric at 0 points." }
+    },
+    {
+      "id": "goal_line_clearance",
+      "name": "CLEARED ON THE LINE",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "A field player stops or deflects a shot on the goal line that otherwise would certainly have entered the goal on a direct trajectory.",
+      "conditions": ["It must be established that no other player could have intervened."]
+    },
+    {
+      "id": "dive_save",
+      "name": "DIVE SAVE (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper makes a diving or rushing save and parries the ball to the side."
+    },
+    {
+      "id": "last_man_tackle",
+      "name": "BONUS: LAST MAN TACKLE",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "additive_bonus": true,
+      "explanation": "A bonus for a successful tackle when the tackler is the last defender between the opponent and the goal.",
+      "exclusions": ["The goalkeeper is not counted when deciding who is the last defender."]
+    },
+    {
+      "id": "game_won",
+      "name": "GAME WON",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": false,
+      "explanation": "Awarded when the player's team wins and the player actively participated in the match."
+    },
+    {
+      "id": "big_chance_saved",
+      "name": "BIG CHANCE SAVED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "additive_bonus": true,
+      "explanation": "Awarded when the goalkeeper actively saves a shot classified as a big chance. Preventing a one-on-one situation always qualifies.",
+      "exclusions": ["Merely collecting or catching the ball without meaningful effort is excluded."]
+    },
+    {
+      "id": "challenged_collection",
+      "name": "BALL COVERED CHALLENGED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 15 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper dives to collect the ball directly from an opponent's foot while the opponent is in the goalkeeper's immediate vicinity."
+    },
+    {
+      "id": "shot_blocked",
+      "name": "SHOT BLOCKED",
+      "category": "defending",
+      "scoring": {
+        "type": "by_location",
+        "variants": [
+          { "location": "inside the 6-yard box", "points": 15 },
+          { "location": "inside the penalty area, using the more specific 6-yard-box rule where applicable", "points": 10 },
+          { "location": "outside the penalty area", "points": 5 }
+        ]
+      },
+      "position_specific": false,
+      "explanation": "An active and purposeful defensive movement that blocks an opponent's shot. The value depends on where the block occurs."
+    },
+    {
+      "id": "shot_on_goal",
+      "name": "SHOT ON GOAL",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 12 },
+      "position_specific": false,
+      "explanation": "A shot directed at the opponent's goal."
+    },
+    {
+      "id": "keeper_sweeper",
+      "name": "ACCURATE KEEPER-SWEEPER (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper actively runs toward the ball and deflects or plays it, after which the goalkeeper's team retains possession."
+    },
+    {
+      "id": "long_range_bonus",
+      "name": "BONUS: LONG RANGE",
+      "category": "scoring",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "additive_bonus": true,
+      "explanation": "An additional bonus when a goal is scored from outside the penalty area."
+    },
+    {
+      "id": "post_label_crossbar",
+      "name": "POST",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "explanation": "Despite the displayed label POST, the supplied explanation describes a shot that hits the crossbar without a deflection from an opponent.",
+      "source_note": "The label and explanation discrepancy is preserved."
+    },
+    {
+      "id": "left_post",
+      "name": "LEFT POST",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "explanation": "A shot hits the left post without an opponent deflection."
+    },
+    {
+      "id": "right_post",
+      "name": "RIGHT POST",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "explanation": "A shot hits the right post without an opponent deflection."
+    },
+    {
+      "id": "dive_catch",
+      "name": "DIVE CATCH (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper rushes or dives and catches the ball rather than parrying it."
+    },
+    {
+      "id": "intentional_assist",
+      "name": "INTENTIONAL ASSIST",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "additive_bonus": true,
+      "explanation": "A bonus when the passer clearly intends the pass to immediately generate a shot on goal."
+    },
+    {
+      "id": "box_shot_saved",
+      "name": "SHOT SAVED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper saves or blocks a shot taken from inside the penalty area."
+    },
+    {
+      "id": "narrow_miss",
+      "name": "SHOT ON TARGET (NARROW MISS)",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 10 },
+      "position_specific": false,
+      "explanation": "A shot narrowly misses the goal.",
+      "conditions": ["The horizontal miss is at most 3.5% of pitch width; on a 68-metre-wide pitch this is 2.38 metres.", "A shot over the goal qualifies if it passes less than 1 metre above the goal."]
+    },
+    {
+      "id": "target_shot_blocked",
+      "name": "SHOT ON TARGET (BLOCKED)",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 8 },
+      "position_specific": false,
+      "explanation": "A shot that would have been on target but is blocked by an opposing player."
+    },
+    {
+      "id": "cross_intercepted",
+      "name": "CROSS INTERCEPTED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper catches a cross."
+    },
+    {
+      "id": "ball_intercepted",
+      "name": "BALL INTERCEPTED",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "The player actively intervenes to win the ball and the player's team retains possession.",
+      "exclusions": ["Merely collecting a ball after an opponent pushes it too far ahead does not qualify."]
+    },
+    {
+      "id": "punched_ball",
+      "name": "PUNCHED BALL (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper clears a high ball by punching or fisting it away."
+    },
+    {
+      "id": "distance_shot_saved",
+      "name": "DISTANCE SHOT SAVED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper holds or saves a shot taken from outside the penalty area."
+    },
+    {
+      "id": "standing_saved",
+      "name": "STANDING SAVED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper deflects or saves the ball while remaining standing."
+    },
+    {
+      "id": "shot_assist",
+      "name": "SHOT ASSIST",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "A pass reaches a teammate who subsequently takes a shot on goal.",
+      "conditions": ["The pass must reach the teammate without contact from an opponent."]
+    },
+    {
+      "id": "contest_won",
+      "name": "CONTEST WON",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "The player actively beats an opponent and takes that opponent out of the play.",
+      "exclusions": ["Simply passing or running past an opponent does not qualify."]
+    },
+    {
+      "id": "tackle_won",
+      "name": "TACKLE WON",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "The player wins a direct contest for the ball when an opponent had possession before the duel or tackle."
+    },
+    {
+      "id": "starting_eleven",
+      "name": "STARTING 11",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "Awarded when the player is on the pitch at the start of the match."
+    },
+    {
+      "id": "team_goal",
+      "name": "TEAM GOAL",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "Awarded each time the player's team scores while the player is on the pitch.",
+      "exclusions": ["A player already substituted off receives no points for later team goals."]
+    },
+    {
+      "id": "clean_sheet",
+      "name": "CLEAN SHEET",
+      "category": "team_and_participation",
+      "scoring": {
+        "type": "time_and_position",
+        "interval_minutes": 10,
+        "points_per_interval": { "GK": 5, "DEF": 3, "MID": 2, "FWD": 1 },
+        "full_match_bonus": { "GK": 5, "DEF": 3, "MID": 2, "FWD": 1 }
+      },
+      "position_specific": true,
+      "explanation": "If the player's team concedes no goals in the match, the player earns the position-specific amount for every 10 minutes played and the same amount again for completing the full match.",
+      "exclusions": ["Penalty shoot-outs do not affect the clean-sheet assessment."]
+    },
+    {
+      "id": "unchallenged_collection",
+      "name": "BALL COVERED UNCHALLENGED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper collects the ball without taking a risk, while an opponent is still close to the ball.",
+      "exclusions": ["Simply picking up a ball played into empty space does not qualify."]
+    },
+    {
+      "id": "far_shot_miss",
+      "name": "SHOT ON GOAL (FAR AWAY)",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "A shot misses outside the narrow-miss thresholds.",
+      "conditions": ["It misses by more than 3.5% of pitch width horizontally, or passes at least 1 metre above the goal."]
+    },
+    {
+      "id": "cleared_in_box",
+      "name": "CLEARED (IN THE BOX)",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 5 },
+      "position_specific": false,
+      "explanation": "An active intervention inside the player's own penalty area when the opponent previously had possession and the action immediately ends the dangerous situation."
+    },
+    {
+      "id": "cross",
+      "name": "CROSS",
+      "category": "passing",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "An accurate cross that reaches a teammate. It may originate from a corner, set piece, or open play."
+    },
+    {
+      "id": "aerial_won",
+      "name": "AERIAL WON",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "An aerial duel won with a header when the ball is at least shoulder height. Either both field players jump, or one jumps while the other actively makes the header difficult. A field-player-versus-goalkeeper contest also qualifies if the goalkeeper deflects the ball."
+    },
+    {
+      "id": "fouled_last_third",
+      "name": "FOULED LAST THIRD",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "The player is fouled in the most attacking or final third of the pitch, measured from the fouled player's team's attacking perspective."
+    },
+    {
+      "id": "interception_in_box",
+      "name": "INTERCEPTION (IN THE BOX)",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "A defending player actively intercepts a pass between opposing players inside the defender's own penalty area."
+    },
+    {
+      "id": "corner_won",
+      "name": "CORNER WON",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "The player in possession performs an action that results in the player's team being awarded a corner."
+    },
+    {
+      "id": "cleared_outside_box",
+      "name": "CLEARED (OUTSIDE THE BOX)",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 3 },
+      "position_specific": false,
+      "explanation": "An active intervention outside the player's own penalty area when the opponent previously had possession and the action terminates the immediate game situation."
+    },
+    {
+      "id": "cross_blocked",
+      "name": "CROSS BLOCKED",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 2 },
+      "position_specific": false,
+      "explanation": "An active and intentional defensive action that blocks an opponent's attempted cross."
+    },
+    {
+      "id": "pass_final_third",
+      "name": "PASS FINAL THIRD",
+      "category": "passing",
+      "scoring": { "type": "fixed", "points": 2 },
+      "position_specific": false,
+      "explanation": "A successful pass ending in the opponent's final third.",
+      "exclusions": ["Crosses, throw-ins, and goalkeeper drops are excluded."]
+    },
+    {
+      "id": "subbed_on",
+      "name": "SUBBED ON",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": 2 },
+      "position_specific": false,
+      "explanation": "Awarded when a player enters the match as a substitute."
+    },
+    {
+      "id": "forward_zone_pass",
+      "name": "FORWARD ZONE PASS",
+      "category": "passing",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": false,
+      "explanation": "A successful pass ending in the opponent's half.",
+      "exclusions": ["Crosses, throw-ins, and goalkeeper drops are excluded."]
+    },
+    {
+      "id": "accurate_throw",
+      "name": "ACCURATE THROW (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "A goalkeeper throw or drop during open play that successfully reaches a teammate."
+    },
+    {
+      "id": "accurate_long_ball",
+      "name": "ACCURATE LONG BALL",
+      "category": "passing",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": false,
+      "explanation": "A successful pass travelling more than 32 metres.",
+      "exclusions": ["Throw-ins, crosses, and goalkeeper drops are excluded."]
+    },
+    {
+      "id": "cross_block_possession",
+      "name": "CROSS BLOCKED AND POSSESSION",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": false,
+      "explanation": "Awarded when a player retains or gains possession after blocking a cross."
+    },
+    {
+      "id": "interception_outside_box",
+      "name": "INTERCEPTION (OUTSIDE THE BOX)",
+      "category": "defending",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": false,
+      "explanation": "A defending player actively intercepts a pass between opposing players outside the defender's own penalty area."
+    },
+    {
+      "id": "minutes_bonus",
+      "name": "PLAYED MINUTES BONUS",
+      "category": "team_and_participation",
+      "scoring": { "type": "time_based", "interval_minutes": 10, "points_per_interval": 1, "full_match_bonus": 1 },
+      "position_specific": false,
+      "explanation": "The player receives 1 point for every 10 minutes played, including extra time, plus 1 additional point for completing the entire playing time."
+    },
+    {
+      "id": "fouled_opponent_half",
+      "name": "FOULED IN THE OPPONENT'S HALF",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": 1 },
+      "position_specific": false,
+      "explanation": "The player is fouled in the opposition half, measured from the fouled player's attacking perspective."
+    },
+    {
+      "id": "big_chance_zero",
+      "name": "BIG CHANCE CREATED",
+      "category": "creation",
+      "scoring": { "type": "fixed", "points": 0 },
+      "position_specific": false,
+      "explanation": "A supplied screenshot lists BIG CHANCE CREATED at 0 points. No additional explanation was captured for this version.",
+      "source_conflict": { "group": "big_chance_created_points", "conflicts_with": "big_chance_created", "note": "Another supplied screenshot shows the same metric at +15 points with a clear-chance explanation." }
+    },
+    {
+      "id": "aerial_lost",
+      "name": "AERIAL LOST",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": -1 },
+      "position_specific": false,
+      "explanation": "The player loses an aerial duel. The aerial-contest conditions match AERIAL WON: the ball is at least shoulder height, the stated jumping or challenge conditions apply, and the duel is resolved through a header. A field-player-versus-goalkeeper contest can qualify if the goalkeeper deflects the ball."
+    },
+    {
+      "id": "overrun",
+      "name": "OVERRUN",
+      "category": "negative_action",
+      "scoring": { "type": "fixed", "points": -1 },
+      "position_specific": false,
+      "explanation": "While carrying the ball, the player pushes it too far ahead and consequently loses possession."
+    },
+    {
+      "id": "possession_lost",
+      "name": "POSSESSION LOST",
+      "category": "negative_action",
+      "scoring": { "type": "fixed", "points": -1 },
+      "position_specific": false,
+      "explanation": "The player loses possession of the ball to an opponent."
+    },
+    {
+      "id": "foul",
+      "name": "FOUL",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -2 },
+      "position_specific": false,
+      "explanation": "The player commits a foul."
+    },
+    {
+      "id": "hand_ball",
+      "name": "HAND BALL",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -2 },
+      "position_specific": false,
+      "explanation": "The player's handball is penalized."
+    },
+    {
+      "id": "challenge_lost",
+      "name": "CHALLENGE LOST",
+      "category": "duels",
+      "scoring": { "type": "fixed", "points": -3 },
+      "position_specific": false,
+      "explanation": "The player loses a one-on-one situation without making contact with the opponent, such as missing an attempted tackle and being dribbled past."
+    },
+    {
+      "id": "offside",
+      "name": "OFFSIDE",
+      "category": "negative_action",
+      "scoring": { "type": "fixed", "points": -3 },
+      "position_specific": false,
+      "explanation": "The player is actively offside when a teammate passes or shoots."
+    },
+    {
+      "id": "cross_not_claimed",
+      "name": "CROSS NOT CLAIMED (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": -5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper attempts to catch a cross but fails, either missing the ball or allowing the cross to travel past."
+    },
+    {
+      "id": "dangerous_play",
+      "name": "DANGEROUS PLAY",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -5 },
+      "position_specific": false,
+      "explanation": "A foul or action in which the player accepts the risk of injuring the opponent."
+    },
+    {
+      "id": "incorrect_throw_in",
+      "name": "INCORRECT THROW-IN",
+      "category": "negative_action",
+      "scoring": { "type": "fixed", "points": -5 },
+      "position_specific": false,
+      "explanation": "The referee penalizes the player or team because the throw-in was performed incorrectly."
+    },
+    {
+      "id": "six_second_violation",
+      "name": "6 SEC VIOLATION (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": -5 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The referee penalizes the goalkeeper for violating the six-second possession rule."
+    },
+    {
+      "id": "goal_conceded",
+      "name": "GOAL CONCEDED",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": -5 },
+      "position_specific": false,
+      "explanation": "Applied when the player's team concedes a goal while the player is on the pitch.",
+      "exclusions": ["A player already substituted off is not penalized for later goals."]
+    },
+    {
+      "id": "yellow_card",
+      "name": "YELLOW CARD",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -10 },
+      "position_specific": false,
+      "explanation": "Applied when the referee gives the player a yellow card for the player's action."
+    },
+    {
+      "id": "back_pass_foul",
+      "name": "BACK PASS FOUL (GK)",
+      "category": "goalkeeping",
+      "scoring": { "type": "fixed", "points": -15 },
+      "position_specific": true,
+      "positions": ["GK"],
+      "explanation": "The goalkeeper is penalized for illegally handling or taking a deliberate back pass."
+    },
+    {
+      "id": "big_chance_missed",
+      "name": "BIG CHANCE MISSED",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": -15 },
+      "position_specific": false,
+      "explanation": "The player fails to score from a clear scoring opportunity where a goal would normally be expected.",
+      "assessment_factors": ["distance from goal", "whether the finish is unchallenged", "players in the shooting lane", "shooting angle"]
+    },
+    {
+      "id": "mistake_before_shot",
+      "name": "MISTAKE BEFORE SHOT",
+      "category": "error",
+      "scoring": { "type": "fixed", "points": -15 },
+      "position_specific": false,
+      "explanation": "A player's mistake immediately leads to an opponent's shot on goal."
+    },
+    {
+      "id": "game_lost",
+      "name": "GAME LOST",
+      "category": "team_and_participation",
+      "scoring": { "type": "fixed", "points": -15 },
+      "position_specific": false,
+      "explanation": "Applied when the player's team loses and the player was on the pitch at any point during the match."
+    },
+    {
+      "id": "shootout_penalty_missed",
+      "name": "PENALTY MISSED (PENALTY SHOOT-OUT)",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": -30 },
+      "position_specific": false,
+      "explanation": "Any shoot-out penalty that is not scored qualifies, including one that misses, hits a post or crossbar, or is saved.",
+      "exclusions": ["Post or crossbar metrics and other team-specific or player points are not additionally awarded during the shoot-out."]
+    },
+    {
+      "id": "mistake_before_goal",
+      "name": "MISTAKE BEFORE GOAL",
+      "category": "error",
+      "scoring": { "type": "fixed", "points": -45 },
+      "position_specific": false,
+      "explanation": "An error considered causal for an opponent's goal. It can apply to any player on the pitch.",
+      "assessment_factors": ["how avoidable or reasonable the error was", "whether the player's team had a realistic opportunity to correct or neutralize the error afterward"]
+    },
+    {
+      "id": "penalty_conceded",
+      "name": "PENALTY CONCEDED",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -45 },
+      "position_specific": false,
+      "explanation": "The player commits a foul inside the penalty area that results in a penalty kick."
+    },
+    {
+      "id": "second_yellow",
+      "name": "2ND YELLOW",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -50 },
+      "position_specific": false,
+      "explanation": "The player receives a yellow-red card, meaning dismissal for a second yellow card, as punishment for the player's action."
+    },
+    {
+      "id": "penalty_missed",
+      "name": "PENALTY MISSED",
+      "category": "shooting",
+      "scoring": { "type": "fixed", "points": -60 },
+      "position_specific": false,
+      "explanation": "A penalty during normal match play is not converted, including a shot that goes wide, hits the goal frame, is saved or held by the goalkeeper, or otherwise fails to result in a goal."
+    },
+    {
+      "id": "own_goal",
+      "name": "OWN GOAL",
+      "category": "error",
+      "scoring": { "type": "fixed", "points": -60 },
+      "position_specific": false,
+      "explanation": "A defending player's action causally produces a goal against the player's own team. The action must involve relevant tactical or action intent affecting the ball, and the league's official evaluation is decisive.",
+      "exclusions": ["An action not actively aimed at playing or deflecting the ball is excluded.", "An action that was not causal in changing the ball's trajectory into the goal is excluded."]
+    },
+    {
+      "id": "red_card",
+      "name": "RED CARD",
+      "category": "discipline",
+      "scoring": { "type": "fixed", "points": -75 },
+      "position_specific": false,
+      "explanation": "Applied when the referee punishes the player's action with a straight red card."
+    }
+  ]
+}

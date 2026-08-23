@@ -1,0 +1,83 @@
+[
+  {
+    "match_id": 16434036,
+    "home_team": "VfB Stuttgart",
+    "away_team": "1. FC Köln",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434042,
+    "home_team": "Bayer 04 Leverkusen",
+    "away_team": "1. FC Union Berlin",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434028,
+    "home_team": "Borussia M'gladbach",
+    "away_team": "SV 07 Elversberg",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434024,
+    "home_team": "SC Paderborn 07",
+    "away_team": "SC Freiburg",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434101,
+    "home_team": "SV Werder Bremen",
+    "away_team": "RB Leipzig",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434019,
+    "home_team": "TSG Hoffenheim",
+    "away_team": "Borussia Dortmund",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434032,
+    "home_team": "FC Schalke 04",
+    "away_team": "FC Bayern München",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434030,
+    "home_team": "Hamburger SV",
+    "away_team": "1. FSV Mainz 05",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  },
+  {
+    "match_id": 16434021,
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "FC Augsburg",
+    "bookmakers": [],
+    "issues": [
+      "SofaScore returned HTTP 404; no odds are available for this match."
+    ]
+  }
+]

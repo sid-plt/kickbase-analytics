@@ -1,0 +1,2568 @@
+{
+  "generated_at": "2026-08-10T18:17:43+02:00",
+  "source_file": "team_form_2026-08-10_18-16-58_140922+0200.json",
+  "rating_threshold": 7.0,
+  "qualification": {
+    "minimum_rated_matches": 3,
+    "last_two_exception": true
+  },
+  "teams": {
+    "2672": {
+      "team": "FC Bayern München",
+      "overall": {
+        "players": [
+          {
+            "player_id": 896569,
+            "player_name": "Kim Min-jae",
+            "position": "D",
+            "average_rating": 7.65,
+            "ratings": [
+              {
+                "match_id": 16489297,
+                "rating": 6.9
+              },
+              {
+                "match_id": 16284981,
+                "rating": 8.4
+              }
+            ]
+          },
+          {
+            "player_id": 1129935,
+            "player_name": "Tom Bischof",
+            "position": "M",
+            "average_rating": 7.5,
+            "ratings": [
+              {
+                "match_id": 16311585,
+                "rating": 7.5
+              },
+              {
+                "match_id": 16489297,
+                "rating": 6.9
+              },
+              {
+                "match_id": 16284981,
+                "rating": 8.1
+              }
+            ]
+          },
+          {
+            "player_id": 1142251,
+            "player_name": "Aleksandar Pavlović",
+            "position": "M",
+            "average_rating": 7.07,
+            "ratings": [
+              {
+                "match_id": 16060976,
+                "rating": 6.8
+              },
+              {
+                "match_id": 16489297,
+                "rating": 7.0
+              },
+              {
+                "match_id": 16284981,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 364612,
+            "player_name": "João Palhinha",
+            "position": "M",
+            "average_rating": 7.07,
+            "ratings": [
+              {
+                "match_id": 16311585,
+                "rating": 7.2
+              },
+              {
+                "match_id": 16489297,
+                "rating": 7.2
+              },
+              {
+                "match_id": 16284981,
+                "rating": 6.8
+              }
+            ]
+          },
+          {
+            "player_id": 227672,
+            "player_name": "Jonathan Tah",
+            "position": "D",
+            "average_rating": 7.03,
+            "ratings": [
+              {
+                "match_id": 16060976,
+                "rating": 7.0
+              },
+              {
+                "match_id": 16489297,
+                "rating": 6.7
+              },
+              {
+                "match_id": 16284981,
+                "rating": 7.4
+              }
+            ]
+          }
+        ]
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 978838,
+            "player_name": "Michael Olise",
+            "position": "M",
+            "average_rating": 8.34,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065235,
+                "rating": 8.4
+              },
+              {
+                "match_id": 14065232,
+                "rating": 9.7
+              },
+              {
+                "match_id": 14065251,
+                "rating": 8.7
+              },
+              {
+                "match_id": 14065556,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 1129935,
+            "player_name": "Tom Bischof",
+            "position": "D",
+            "average_rating": 8.0,
+            "ratings": [
+              {
+                "match_id": 14065251,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065556,
+                "rating": 8.4
+              }
+            ]
+          },
+          {
+            "player_id": 259117,
+            "player_name": "Joshua Kimmich",
+            "position": "M",
+            "average_rating": 7.85,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 8.2
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065251,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065556,
+                "rating": 8.2
+              }
+            ]
+          },
+          {
+            "player_id": 108579,
+            "player_name": "Harry Kane",
+            "position": "F",
+            "average_rating": 7.42,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065251,
+                "rating": 5.8
+              },
+              {
+                "match_id": 14065556,
+                "rating": 10.0
+              }
+            ]
+          },
+          {
+            "player_id": 798583,
+            "player_name": "Dayot Upamecano",
+            "position": "D",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065251,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065556,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 1130647,
+            "player_name": "Jonas Urbig",
+            "position": "G",
+            "average_rating": 7.28,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065251,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065556,
+                "rating": 6.9
+              }
+            ]
+          },
+          {
+            "player_id": 184661,
+            "player_name": "Leon Goretzka",
+            "position": "M",
+            "average_rating": 7.26,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065232,
+                "rating": 9.0
+              },
+              {
+                "match_id": 14065251,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065556,
+                "rating": 7.3
+              }
+            ]
+          },
+          {
+            "player_id": 896569,
+            "player_name": "Kim Min-jae",
+            "position": "D",
+            "average_rating": 7.15,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065235,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065251,
+                "rating": 8.6
+              }
+            ]
+          },
+          {
+            "player_id": 227672,
+            "player_name": "Jonathan Tah",
+            "position": "D",
+            "average_rating": 7.1,
+            "ratings": [
+              {
+                "match_id": 14065235,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065251,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065556,
+                "rating": 7.5
+              }
+            ]
+          },
+          {
+            "player_id": 1085381,
+            "player_name": "Nicolas Jackson",
+            "position": "F",
+            "average_rating": 7.1,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065232,
+                "rating": 6.2
+              },
+              {
+                "match_id": 14065251,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065556,
+                "rating": 7.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2677": {
+      "team": "VfB Stuttgart",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 861981,
+            "player_name": "Nikolas Nartey",
+            "position": "F",
+            "average_rating": 7.75,
+            "ratings": [
+              {
+                "match_id": 14065248,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.7
+              }
+            ]
+          },
+          {
+            "player_id": 891510,
+            "player_name": "Chris Führich",
+            "position": "M",
+            "average_rating": 7.38,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065256,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065244,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065248,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 584722,
+            "player_name": "Alexander Nübel",
+            "position": "G",
+            "average_rating": 7.32,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065256,
+                "rating": 6.3
+              },
+              {
+                "match_id": 14065244,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065248,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.9
+              }
+            ]
+          },
+          {
+            "player_id": 901882,
+            "player_name": "Angelo Stiller",
+            "position": "M",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065256,
+                "rating": 8.1
+              },
+              {
+                "match_id": 14065244,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065248,
+                "rating": 8.1
+              },
+              {
+                "match_id": 14065560,
+                "rating": 6.8
+              }
+            ]
+          },
+          {
+            "player_id": 1464641,
+            "player_name": "Chema Andrés",
+            "position": "M",
+            "average_rating": 7.23,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065256,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 878081,
+            "player_name": "Ermedin Demirović",
+            "position": "F",
+            "average_rating": 7.1,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065256,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065244,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065560,
+                "rating": 6.3
+              }
+            ]
+          },
+          {
+            "player_id": 788949,
+            "player_name": "Maximilian Mittelstädt",
+            "position": "D",
+            "average_rating": 7.08,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065256,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065244,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065560,
+                "rating": 6.9
+              }
+            ]
+          },
+          {
+            "player_id": 863271,
+            "player_name": "Jeff Chabot",
+            "position": "D",
+            "average_rating": 7.03,
+            "ratings": [
+              {
+                "match_id": 14065222,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065244,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065248,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2671": {
+      "team": "1. FC Köln",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 1800475,
+            "player_name": "Said El Mala",
+            "position": "F",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 14065229,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065242,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065253,
+                "rating": 5.0
+              },
+              {
+                "match_id": 14065556,
+                "rating": 8.0
+              }
+            ]
+          },
+          {
+            "player_id": 319861,
+            "player_name": "Luca Waldschmidt",
+            "position": "F",
+            "average_rating": 7.0,
+            "ratings": [
+              {
+                "match_id": 14065229,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065242,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065253,
+                "rating": 6.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2569": {
+      "team": "TSG Hoffenheim",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 138024,
+            "player_name": "Vladimír Coufal",
+            "position": "D",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065237,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065244,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065252,
+                "rating": 8.4
+              },
+              {
+                "match_id": 14065559,
+                "rating": 6.4
+              }
+            ]
+          },
+          {
+            "player_id": 1493305,
+            "player_name": "Leon Avdullahu",
+            "position": "M",
+            "average_rating": 7.18,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065237,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065244,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065252,
+                "rating": 8.1
+              },
+              {
+                "match_id": 14065559,
+                "rating": 5.8
+              }
+            ]
+          },
+          {
+            "player_id": 1568123,
+            "player_name": "Bazoumana Touré",
+            "position": "M",
+            "average_rating": 7.14,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065237,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065244,
+                "rating": 8.6
+              },
+              {
+                "match_id": 14065252,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065559,
+                "rating": 6.5
+              }
+            ]
+          },
+          {
+            "player_id": 67647,
+            "player_name": "Andrej Kramarić",
+            "position": "M",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065237,
+                "rating": 6.1
+              },
+              {
+                "match_id": 14065244,
+                "rating": 8.2
+              },
+              {
+                "match_id": 14065252,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065559,
+                "rating": 6.2
+              }
+            ]
+          },
+          {
+            "player_id": 916946,
+            "player_name": "Wouter Burger",
+            "position": "M",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065237,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065244,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065252,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065559,
+                "rating": 6.6
+              }
+            ]
+          },
+          {
+            "player_id": 1000269,
+            "player_name": "Albian Hajdari",
+            "position": "D",
+            "average_rating": 7.0,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065237,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065244,
+                "rating": 6.2
+              },
+              {
+                "match_id": 14065252,
+                "rating": 8.7
+              },
+              {
+                "match_id": 14065559,
+                "rating": 5.8
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2547": {
+      "team": "1. FC Union Berlin",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 48557,
+            "player_name": "Christopher Trimmel",
+            "position": "D",
+            "average_rating": 7.8,
+            "ratings": [
+              {
+                "match_id": 14065225,
+                "rating": 8.5
+              },
+              {
+                "match_id": 14065257,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065242,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065247,
+                "rating": 8.8
+              },
+              {
+                "match_id": 14065558,
+                "rating": 7.6
+              }
+            ]
+          },
+          {
+            "player_id": 877302,
+            "player_name": "András Schäfer",
+            "position": "M",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065225,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065257,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065242,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065247,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065558,
+                "rating": 8.9
+              }
+            ]
+          },
+          {
+            "player_id": 953767,
+            "player_name": "Andrej Ilić",
+            "position": "F",
+            "average_rating": 7.26,
+            "ratings": [
+              {
+                "match_id": 14065225,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065257,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065242,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065247,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065558,
+                "rating": 9.0
+              }
+            ]
+          },
+          {
+            "player_id": 148167,
+            "player_name": "Carl Klaus",
+            "position": "G",
+            "average_rating": 7.23,
+            "ratings": [
+              {
+                "match_id": 14065257,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065242,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065247,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065558,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 855663,
+            "player_name": "Diogo Leite",
+            "position": "D",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 14065225,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065257,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065242,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065247,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065558,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 791642,
+            "player_name": "Josip Juranović",
+            "position": "D",
+            "average_rating": 7.0,
+            "ratings": [
+              {
+                "match_id": 14065257,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065242,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065247,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065558,
+                "rating": 7.2
+              }
+            ]
+          },
+          {
+            "player_id": 608362,
+            "player_name": "Oliver Burke",
+            "position": "M",
+            "average_rating": 7.0,
+            "ratings": [
+              {
+                "match_id": 14065225,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065257,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065242,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065247,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065558,
+                "rating": 6.7
+              }
+            ]
+          },
+          {
+            "player_id": 927405,
+            "player_name": "Woo-Yeong Jeong",
+            "position": "M",
+            "average_rating": 7.0,
+            "ratings": [
+              {
+                "match_id": 14065247,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065558,
+                "rating": 7.6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2674": {
+      "team": "Eintracht Frankfurt",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 1440948,
+            "player_name": "Can Uzun",
+            "position": "M",
+            "average_rating": 7.52,
+            "ratings": [
+              {
+                "match_id": 14065223,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065231,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065239,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065245,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 591706,
+            "player_name": "Ellyes Skhiri",
+            "position": "M",
+            "average_rating": 7.06,
+            "ratings": [
+              {
+                "match_id": 14065223,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065231,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065239,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065245,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065560,
+                "rating": 7.2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2556": {
+      "team": "1. FSV Mainz 05",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 327755,
+            "player_name": "Nadiem Amiri",
+            "position": "M",
+            "average_rating": 7.52,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065246,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065247,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065562,
+                "rating": 8.5
+              }
+            ]
+          },
+          {
+            "player_id": 94312,
+            "player_name": "Daniel Batz",
+            "position": "G",
+            "average_rating": 7.38,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065235,
+                "rating": 6.2
+              },
+              {
+                "match_id": 14065246,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065562,
+                "rating": 9.5
+              }
+            ]
+          },
+          {
+            "player_id": 138126,
+            "player_name": "Phillipp Mwene",
+            "position": "M",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065235,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065246,
+                "rating": 8.2
+              },
+              {
+                "match_id": 14065247,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065562,
+                "rating": 7.5
+              }
+            ]
+          },
+          {
+            "player_id": 352544,
+            "player_name": "Sheraldo Becker",
+            "position": "F",
+            "average_rating": 7.06,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 5.9
+              },
+              {
+                "match_id": 14065235,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065246,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065247,
+                "rating": 8.5
+              },
+              {
+                "match_id": 14065562,
+                "rating": 6.8
+              }
+            ]
+          },
+          {
+            "player_id": 1548910,
+            "player_name": "Kacper Potulski",
+            "position": "D",
+            "average_rating": 7.03,
+            "ratings": [
+              {
+                "match_id": 14065246,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065247,
+                "rating": 5.6
+              },
+              {
+                "match_id": 14065562,
+                "rating": 8.4
+              }
+            ]
+          },
+          {
+            "player_id": 157377,
+            "player_name": "Silvan Widmer",
+            "position": "M",
+            "average_rating": 7.03,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065235,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065246,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065562,
+                "rating": 7.2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2561": {
+      "team": "SC Paderborn 07",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 1195736,
+            "player_name": "Dennis Seimen",
+            "position": "G",
+            "average_rating": 8.35,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 9.6
+              },
+              {
+                "match_id": 16163444,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 1128792,
+            "player_name": "Calvin Brackelmann",
+            "position": "D",
+            "average_rating": 7.75,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 7.3
+              },
+              {
+                "match_id": 16163444,
+                "rating": 8.2
+              }
+            ]
+          },
+          {
+            "player_id": 981788,
+            "player_name": "Laurin Curda",
+            "position": "M",
+            "average_rating": 7.75,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 6.7
+              },
+              {
+                "match_id": 16163444,
+                "rating": 8.8
+              }
+            ]
+          },
+          {
+            "player_id": 1199101,
+            "player_name": "Santiago Castañeda",
+            "position": "M",
+            "average_rating": 7.5,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 7.7
+              },
+              {
+                "match_id": 16163444,
+                "rating": 7.3
+              }
+            ]
+          },
+          {
+            "player_id": 1083387,
+            "player_name": "Mattes Hansen",
+            "position": "D",
+            "average_rating": 7.45,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 6.8
+              },
+              {
+                "match_id": 16163444,
+                "rating": 8.1
+              }
+            ]
+          },
+          {
+            "player_id": 844131,
+            "player_name": "Felix Götze",
+            "position": "D",
+            "average_rating": 7.05,
+            "ratings": [
+              {
+                "match_id": 16163439,
+                "rating": 6.8
+              },
+              {
+                "match_id": 16163444,
+                "rating": 7.3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2673": {
+      "team": "Borussia Dortmund",
+      "overall": {
+        "players": [
+          {
+            "player_id": 907463,
+            "player_name": "Felix Nmecha",
+            "position": "M",
+            "average_rating": 7.05,
+            "ratings": [
+              {
+                "match_id": 16330990,
+                "rating": 7.1
+              },
+              {
+                "match_id": 16435283,
+                "rating": 7.0
+              }
+            ]
+          },
+          {
+            "player_id": 1471049,
+            "player_name": "Joane Gadou",
+            "position": "D",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 16332036,
+                "rating": 6.9
+              },
+              {
+                "match_id": 16485281,
+                "rating": 7.0
+              },
+              {
+                "match_id": 16330988,
+                "rating": 7.4
+              },
+              {
+                "match_id": 16330990,
+                "rating": 6.8
+              },
+              {
+                "match_id": 16435283,
+                "rating": 7.1
+              }
+            ]
+          }
+        ]
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 940871,
+            "player_name": "Nico Schlotterbeck",
+            "position": "D",
+            "average_rating": 7.6,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065228,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065243,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065245,
+                "rating": 8.5
+              },
+              {
+                "match_id": 14065561,
+                "rating": 7.8
+              }
+            ]
+          },
+          {
+            "player_id": 556866,
+            "player_name": "Gregor Kobel",
+            "position": "G",
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065228,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065243,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065245,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065561,
+                "rating": 7.3
+              }
+            ]
+          },
+          {
+            "player_id": 799046,
+            "player_name": "Waldemar Anton",
+            "position": "D",
+            "average_rating": 7.14,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065228,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.3
+              },
+              {
+                "match_id": 14065245,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065561,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 980628,
+            "player_name": "Maximilian Beier",
+            "position": "F",
+            "average_rating": 7.12,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065228,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065245,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065561,
+                "rating": 6.2
+              }
+            ]
+          },
+          {
+            "player_id": 133908,
+            "player_name": "Marcel Sabitzer",
+            "position": "M",
+            "average_rating": 7.08,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065228,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065243,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065245,
+                "rating": 7.2
+              }
+            ]
+          },
+          {
+            "player_id": 1861666,
+            "player_name": "Samuele Inacio",
+            "position": "F",
+            "average_rating": 7.04,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065228,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065245,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065561,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 800951,
+            "player_name": "Julian Ryerson",
+            "position": "M",
+            "average_rating": 7.02,
+            "ratings": [
+              {
+                "match_id": 14065230,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065228,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065245,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065561,
+                "rating": 7.1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2676": {
+      "team": "Hamburger SV",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 904835,
+            "player_name": "Fábio Vieira",
+            "position": "F",
+            "average_rating": 7.6,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065237,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065239,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065255,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065557,
+                "rating": 7.9
+              }
+            ]
+          },
+          {
+            "player_id": 168987,
+            "player_name": "Robert Glatzel",
+            "position": "F",
+            "average_rating": 7.5,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065237,
+                "rating": 8.1
+              },
+              {
+                "match_id": 14065239,
+                "rating": 6.8
+              }
+            ]
+          },
+          {
+            "player_id": 113442,
+            "player_name": "Daniel Fernandes",
+            "position": "G",
+            "average_rating": 7.48,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065237,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065239,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065255,
+                "rating": 7.1
+              }
+            ]
+          },
+          {
+            "player_id": 1405212,
+            "player_name": "Luka Vušković",
+            "position": "D",
+            "average_rating": 7.47,
+            "ratings": [
+              {
+                "match_id": 14065239,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065255,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065557,
+                "rating": 7.3
+              }
+            ]
+          },
+          {
+            "player_id": 1000263,
+            "player_name": "Albert Grønbæk",
+            "position": "M",
+            "average_rating": 7.22,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065237,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065239,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065255,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065557,
+                "rating": 6.5
+              }
+            ]
+          },
+          {
+            "player_id": 1546267,
+            "player_name": "Fabio Baldé",
+            "position": "F",
+            "average_rating": 7.15,
+            "ratings": [
+              {
+                "match_id": 14065255,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065557,
+                "rating": 6.6
+              }
+            ]
+          },
+          {
+            "player_id": 1064305,
+            "player_name": "Nicolai Remberg",
+            "position": "M",
+            "average_rating": 7.02,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065237,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065239,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065255,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065557,
+                "rating": 6.9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "36360": {
+      "team": "RB Leipzig",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 2087085,
+            "player_name": "Yan Diomande",
+            "position": "F",
+            "average_rating": 7.46,
+            "ratings": [
+              {
+                "match_id": 14065223,
+                "rating": 8.8
+              },
+              {
+                "match_id": 14065257,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065236,
+                "rating": 5.9
+              },
+              {
+                "match_id": 14065250,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065555,
+                "rating": 7.0
+              }
+            ]
+          },
+          {
+            "player_id": 791079,
+            "player_name": "Xaver Schlager",
+            "position": "M",
+            "average_rating": 7.37,
+            "ratings": [
+              {
+                "match_id": 14065257,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065236,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065250,
+                "rating": 7.7
+              }
+            ]
+          },
+          {
+            "player_id": 1048009,
+            "player_name": "El Chadaille Bitshiabu",
+            "position": "D",
+            "average_rating": 7.33,
+            "ratings": [
+              {
+                "match_id": 14065223,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065257,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065236,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 136924,
+            "player_name": "Willi Orbán",
+            "position": "D",
+            "average_rating": 7.23,
+            "ratings": [
+              {
+                "match_id": 14065257,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065236,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065250,
+                "rating": 8.9
+              },
+              {
+                "match_id": 14065555,
+                "rating": 6.2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2527": {
+      "team": "Borussia M'gladbach",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 578166,
+            "player_name": "Moritz Nicolas",
+            "position": "G",
+            "average_rating": 7.54,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 8.7
+              },
+              {
+                "match_id": 14065233,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065249,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065559,
+                "rating": 7.4
+              }
+            ]
+          },
+          {
+            "player_id": 1048650,
+            "player_name": "Rocco Reitz",
+            "position": "M",
+            "average_rating": 7.53,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065233,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065243,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065249,
+                "rating": 7.5
+              }
+            ]
+          },
+          {
+            "player_id": 282229,
+            "player_name": "Nico Elvedi",
+            "position": "D",
+            "average_rating": 7.33,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065233,
+                "rating": 7.4
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065559,
+                "rating": 8.0
+              }
+            ]
+          },
+          {
+            "player_id": 583806,
+            "player_name": "Kevin Diks",
+            "position": "D",
+            "average_rating": 7.25,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065243,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065249,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065559,
+                "rating": 8.4
+              }
+            ]
+          },
+          {
+            "player_id": 95381,
+            "player_name": "Kevin Stöger",
+            "position": "M",
+            "average_rating": 7.06,
+            "ratings": [
+              {
+                "match_id": 14065227,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065233,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065243,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065249,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065559,
+                "rating": 6.8
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2538": {
+      "team": "SC Freiburg",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 1518931,
+            "player_name": "Johan Manzambi",
+            "position": "M",
+            "average_rating": 7.48,
+            "ratings": [
+              {
+                "match_id": 14065226,
+                "rating": 8.2
+              },
+              {
+                "match_id": 14065240,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065255,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065555,
+                "rating": 7.5
+              }
+            ]
+          },
+          {
+            "player_id": 142259,
+            "player_name": "Matthias Ginter",
+            "position": "D",
+            "average_rating": 7.35,
+            "ratings": [
+              {
+                "match_id": 14065226,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065240,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065255,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065555,
+                "rating": 8.0
+              }
+            ]
+          },
+          {
+            "player_id": 1019321,
+            "player_name": "Igor Matanović",
+            "position": "F",
+            "average_rating": 7.26,
+            "ratings": [
+              {
+                "match_id": 14065226,
+                "rating": 6.3
+              },
+              {
+                "match_id": 14065228,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065240,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065255,
+                "rating": 8.5
+              },
+              {
+                "match_id": 14065555,
+                "rating": 8.0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2534": {
+      "team": "SV Werder Bremen",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 1083390,
+            "player_name": "Mio Backhaus",
+            "position": "G",
+            "average_rating": 7.6,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065256,
+                "rating": 7.0
+              },
+              {
+                "match_id": 14065241,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065252,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065561,
+                "rating": 8.9
+              }
+            ]
+          },
+          {
+            "player_id": 830127,
+            "player_name": "Romano Schmid",
+            "position": "M",
+            "average_rating": 7.38,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065256,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065241,
+                "rating": 8.7
+              },
+              {
+                "match_id": 14065252,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065561,
+                "rating": 6.8
+              }
+            ]
+          },
+          {
+            "player_id": 830142,
+            "player_name": "Jens Stage",
+            "position": "M",
+            "average_rating": 7.1,
+            "ratings": [
+              {
+                "match_id": 14065224,
+                "rating": 8.4
+              },
+              {
+                "match_id": 14065256,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065241,
+                "rating": 6.1
+              },
+              {
+                "match_id": 14065252,
+                "rating": 6.6
+              },
+              {
+                "match_id": 14065561,
+                "rating": 6.4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2598": {
+      "team": "SV 07 Elversberg",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": []
+      }
+    },
+    "2681": {
+      "team": "Bayer 04 Leverkusen",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 920379,
+            "player_name": "Nathan Tella",
+            "position": "F",
+            "average_rating": 7.97,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065236,
+                "rating": 9.2
+              }
+            ]
+          },
+          {
+            "player_id": 796047,
+            "player_name": "Aleix García",
+            "position": "M",
+            "average_rating": 7.94,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 8.0
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.3
+              },
+              {
+                "match_id": 14065236,
+                "rating": 8.8
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065557,
+                "rating": 8.0
+              }
+            ]
+          },
+          {
+            "player_id": 177177,
+            "player_name": "Alejandro Grimaldo",
+            "position": "M",
+            "average_rating": 7.54,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065238,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065236,
+                "rating": 9.0
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065557,
+                "rating": 6.9
+              }
+            ]
+          },
+          {
+            "player_id": 280609,
+            "player_name": "Patrik Schick",
+            "position": "F",
+            "average_rating": 7.52,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065236,
+                "rating": 9.2
+              },
+              {
+                "match_id": 14065248,
+                "rating": 6.4
+              },
+              {
+                "match_id": 14065557,
+                "rating": 6.5
+              }
+            ]
+          },
+          {
+            "player_id": 822600,
+            "player_name": "Exequiel Palacios",
+            "position": "M",
+            "average_rating": 7.36,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065238,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065236,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065248,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065557,
+                "rating": 8.1
+              }
+            ]
+          },
+          {
+            "player_id": 883262,
+            "player_name": "Edmond Tapsoba",
+            "position": "D",
+            "average_rating": 7.16,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065238,
+                "rating": 7.9
+              },
+              {
+                "match_id": 14065236,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065248,
+                "rating": 6.1
+              },
+              {
+                "match_id": 14065557,
+                "rating": 7.1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2600": {
+      "team": "FC Augsburg",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": [
+          {
+            "player_id": 929620,
+            "player_name": "Fabian Rieder",
+            "position": "M",
+            "average_rating": 7.52,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 8.9
+              },
+              {
+                "match_id": 14065231,
+                "rating": 7.5
+              },
+              {
+                "match_id": 14065241,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065249,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065558,
+                "rating": 6.3
+              }
+            ]
+          },
+          {
+            "player_id": 1129365,
+            "player_name": "Anton Kade",
+            "position": "F",
+            "average_rating": 7.46,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 6.7
+              },
+              {
+                "match_id": 14065231,
+                "rating": 7.2
+              },
+              {
+                "match_id": 14065241,
+                "rating": 9.0
+              },
+              {
+                "match_id": 14065249,
+                "rating": 7.7
+              },
+              {
+                "match_id": 14065558,
+                "rating": 6.7
+              }
+            ]
+          },
+          {
+            "player_id": 822564,
+            "player_name": "Finn Dahmen",
+            "position": "G",
+            "average_rating": 7.44,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 9.9
+              },
+              {
+                "match_id": 14065231,
+                "rating": 8.3
+              },
+              {
+                "match_id": 14065241,
+                "rating": 6.5
+              },
+              {
+                "match_id": 14065249,
+                "rating": 6.9
+              },
+              {
+                "match_id": 14065558,
+                "rating": 5.6
+              }
+            ]
+          },
+          {
+            "player_id": 1122806,
+            "player_name": "Arthur Chaves",
+            "position": "D",
+            "average_rating": 7.2,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065231,
+                "rating": 7.8
+              },
+              {
+                "match_id": 14065241,
+                "rating": 6.7
+              }
+            ]
+          },
+          {
+            "player_id": 354878,
+            "player_name": "Dimitrios Giannoulis",
+            "position": "M",
+            "average_rating": 7.05,
+            "ratings": [
+              {
+                "match_id": 14065221,
+                "rating": 7.1
+              },
+              {
+                "match_id": 14065231,
+                "rating": 6.8
+              },
+              {
+                "match_id": 14065241,
+                "rating": 7.6
+              },
+              {
+                "match_id": 14065249,
+                "rating": 6.7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2530": {
+      "team": "FC Schalke 04",
+      "overall": {
+        "players": []
+      },
+      "bundesliga": {
+        "players": []
+      }
+    }
+  },
+  "failed_matches": [
+    {
+      "match_id": 16400192,
+      "team_id": 2671,
+      "team": "1. FC Köln",
+      "category": "overall",
+      "error": "SofaScoreLineupError: Lineup response has no usable home.players list: https://www.sofascore.com/api/v1/event/16400192/lineups"
+    },
+    {
+      "match_id": 16564738,
+      "team_id": 2556,
+      "team": "1. FSV Mainz 05",
+      "category": "overall",
+      "error": "SofaScoreLineupError: Lineup response has no usable home.players list: https://www.sofascore.com/api/v1/event/16564738/lineups"
+    },
+    {
+      "match_id": 16485367,
+      "team_id": 2561,
+      "team": "SC Paderborn 07",
+      "category": "overall",
+      "error": "SofaScoreLineupError: Lineup response has no usable home.players list: https://www.sofascore.com/api/v1/event/16485367/lineups"
+    },
+    {
+      "match_id": 16489896,
+      "team_id": 2600,
+      "team": "FC Augsburg",
+      "category": "overall",
+      "error": "SofaScoreLineupError: Lineup response has no usable home.players list: https://www.sofascore.com/api/v1/event/16489896/lineups"
+    },
+    {
+      "match_id": 16485302,
+      "team_id": 2530,
+      "team": "FC Schalke 04",
+      "category": "overall",
+      "error": "SofaScoreLineupError: Lineup response has no usable home.players list: https://www.sofascore.com/api/v1/event/16485302/lineups"
+    }
+  ]
+}

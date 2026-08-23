@@ -1,0 +1,1751 @@
+{
+  "metadata": {
+    "source": "RotoWire",
+    "source_url": "https://www.rotowire.com/soccer/lineups.php?league=BUND",
+    "league_code": "BUND",
+    "captured_at": "2026-08-11T11:43:01+02:00",
+    "capture_finished_at": "2026-08-11T11:43:08+02:00",
+    "match_count": 9,
+    "team_count": 18,
+    "player_count": 198
+  },
+  "matches": [
+    {
+      "match_time": "August 28 2:30 PM ET",
+      "home": {
+        "team_name": "Bayern Munich",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Manuel Neuer",
+            "displayed_name": "Manuel Neuer",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 16146,
+            "player_url": "https://www.rotowire.com/soccer/player/manuel-neuer-16146"
+          },
+          {
+            "full_name": "Nathaniel Brown",
+            "displayed_name": "N. Brown",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 40933,
+            "player_url": "https://www.rotowire.com/soccer/player/nathaniel-brown-40933"
+          },
+          {
+            "full_name": "Jonathan Tah",
+            "displayed_name": "Jonathan Tah",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 19360,
+            "player_url": "https://www.rotowire.com/soccer/player/jonathan-tah-19360"
+          },
+          {
+            "full_name": "Dayot Upamecano",
+            "displayed_name": "D. Upamecano",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 23324,
+            "player_url": "https://www.rotowire.com/soccer/player/dayot-upamecano-23324"
+          },
+          {
+            "full_name": "Konrad Laimer",
+            "displayed_name": "K. Laimer",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 24583,
+            "player_url": "https://www.rotowire.com/soccer/player/konrad-laimer-24583"
+          },
+          {
+            "full_name": "Joshua Kimmich",
+            "displayed_name": "J. Kimmich",
+            "position": "DMC",
+            "injury_status": "QUES",
+            "player_id": 19296,
+            "player_url": "https://www.rotowire.com/soccer/player/joshua-kimmich-19296"
+          },
+          {
+            "full_name": "Aleksandar Pavlovic",
+            "displayed_name": "A. Pavlovic",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 39554,
+            "player_url": "https://www.rotowire.com/soccer/player/aleksandar-pavlovic-39554"
+          },
+          {
+            "full_name": "Luis Diaz",
+            "displayed_name": "Luis Diaz",
+            "position": "AML",
+            "injury_status": null,
+            "player_id": 28527,
+            "player_url": "https://www.rotowire.com/soccer/player/luis-diaz-28527"
+          },
+          {
+            "full_name": "Jamal Musiala",
+            "displayed_name": "J. Musiala",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 32430,
+            "player_url": "https://www.rotowire.com/soccer/player/jamal-musiala-32430"
+          },
+          {
+            "full_name": "Michael Olise",
+            "displayed_name": "M. Olise",
+            "position": "AMR",
+            "injury_status": null,
+            "player_id": 31393,
+            "player_url": "https://www.rotowire.com/soccer/player/michael-olise-31393"
+          },
+          {
+            "full_name": "Harry Kane",
+            "displayed_name": "Harry Kane",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 17352,
+            "player_url": "https://www.rotowire.com/soccer/player/harry-kane-17352"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "VfB Stuttgart",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Fabian Bredlow",
+            "displayed_name": "F. Bredlow",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 26142,
+            "player_url": "https://www.rotowire.com/soccer/player/fabian-bredlow-26142"
+          },
+          {
+            "full_name": "Jeff Chabot",
+            "displayed_name": "Jeff Chabot",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 27950,
+            "player_url": "https://www.rotowire.com/soccer/player/jeff-chabot-27950"
+          },
+          {
+            "full_name": "Ramon Hendriks",
+            "displayed_name": "R. Hendriks",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 29953,
+            "player_url": "https://www.rotowire.com/soccer/player/ramon-hendriks-29953"
+          },
+          {
+            "full_name": "Finn Jeltsch",
+            "displayed_name": "Finn Jeltsch",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 45081,
+            "player_url": "https://www.rotowire.com/soccer/player/finn-jeltsch-45081"
+          },
+          {
+            "full_name": "Maximilian Mittelstadt",
+            "displayed_name": "M. Mittelstadt",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 20187,
+            "player_url": "https://www.rotowire.com/soccer/player/maximilian-mittelstadt-20187"
+          },
+          {
+            "full_name": "Grischa Promel",
+            "displayed_name": "G. Promel",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 28867,
+            "player_url": "https://www.rotowire.com/soccer/player/grischa-promel-28867"
+          },
+          {
+            "full_name": "Angelo Stiller",
+            "displayed_name": "A. Stiller",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 34239,
+            "player_url": "https://www.rotowire.com/soccer/player/angelo-stiller-34239"
+          },
+          {
+            "full_name": "Jamie Leweling",
+            "displayed_name": "J. Leweling",
+            "position": "MR",
+            "injury_status": "QUES",
+            "player_id": 35268,
+            "player_url": "https://www.rotowire.com/soccer/player/jamie-leweling-35268"
+          },
+          {
+            "full_name": "Chris Fuhrich",
+            "displayed_name": "C. Fuhrich",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 25325,
+            "player_url": "https://www.rotowire.com/soccer/player/chris-fuhrich-25325"
+          },
+          {
+            "full_name": "Bilal El Khannouss",
+            "displayed_name": "B. El Khannouss",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 44134,
+            "player_url": "https://www.rotowire.com/soccer/player/bilal-el-khannouss-44134"
+          },
+          {
+            "full_name": "Deniz Undav",
+            "displayed_name": "Deniz Undav",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 36371,
+            "player_url": "https://www.rotowire.com/soccer/player/deniz-undav-36371"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 9:30 AM ET",
+      "home": {
+        "team_name": "SV 07 Elversberg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Nicolas Kristof",
+            "displayed_name": "N. Kristof",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 48713,
+            "player_url": "https://www.rotowire.com/soccer/player/nicolas-kristof-48713"
+          },
+          {
+            "full_name": "Lasse Gunther",
+            "displayed_name": "L. Gunther",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 34743,
+            "player_url": "https://www.rotowire.com/soccer/player/lasse-gunther-34743"
+          },
+          {
+            "full_name": "Lukas Pinckert",
+            "displayed_name": "L. Pinckert",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48715,
+            "player_url": "https://www.rotowire.com/soccer/player/lukas-pinckert-48715"
+          },
+          {
+            "full_name": "Maximilian Rohr",
+            "displayed_name": "M. Rohr",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48716,
+            "player_url": "https://www.rotowire.com/soccer/player/maximilian-rohr-48716"
+          },
+          {
+            "full_name": "Jan Gyamerah",
+            "displayed_name": "Jan Gyamerah",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 48720,
+            "player_url": "https://www.rotowire.com/soccer/player/jan-gyamerah-48720"
+          },
+          {
+            "full_name": "Lukasz Poreba",
+            "displayed_name": "L. Poreba",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 37101,
+            "player_url": "https://www.rotowire.com/soccer/player/lukasz-poreba-37101"
+          },
+          {
+            "full_name": "Amara Conde",
+            "displayed_name": "Amara Conde",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 21880,
+            "player_url": "https://www.rotowire.com/soccer/player/amara-conde-21880"
+          },
+          {
+            "full_name": "Tom Zimmerschied",
+            "displayed_name": "T. Zimmerschied",
+            "position": "AML",
+            "injury_status": "QUES",
+            "player_id": 48725,
+            "player_url": "https://www.rotowire.com/soccer/player/tom-zimmerschied-48725"
+          },
+          {
+            "full_name": "Francis Onyeka",
+            "displayed_name": "Francis Onyeka",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 40979,
+            "player_url": "https://www.rotowire.com/soccer/player/francis-onyeka-40979"
+          },
+          {
+            "full_name": "Lukas Petkov",
+            "displayed_name": "Lukas Petkov",
+            "position": "AMR",
+            "injury_status": null,
+            "player_id": 34182,
+            "player_url": "https://www.rotowire.com/soccer/player/lukas-petkov-34182"
+          },
+          {
+            "full_name": "David Mokwa",
+            "displayed_name": "David Mokwa",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 44893,
+            "player_url": "https://www.rotowire.com/soccer/player/david-mokwa-44893"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Bayer Leverkusen",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Mark Flekken",
+            "displayed_name": "Mark Flekken",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 25881,
+            "player_url": "https://www.rotowire.com/soccer/player/mark-flekken-25881"
+          },
+          {
+            "full_name": "Miguel Gutierrez",
+            "displayed_name": "M. Gutierrez",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 32495,
+            "player_url": "https://www.rotowire.com/soccer/player/miguel-gutierrez-32495"
+          },
+          {
+            "full_name": "Loic Bade",
+            "displayed_name": "Loic Bade",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 32787,
+            "player_url": "https://www.rotowire.com/soccer/player/loic-bade-32787"
+          },
+          {
+            "full_name": "Edmond Tapsoba",
+            "displayed_name": "E. Tapsoba",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 30343,
+            "player_url": "https://www.rotowire.com/soccer/player/edmond-tapsoba-30343"
+          },
+          {
+            "full_name": "Jarell Quansah",
+            "displayed_name": "J. Quansah",
+            "position": "DR",
+            "injury_status": "QUES",
+            "player_id": 36116,
+            "player_url": "https://www.rotowire.com/soccer/player/jarell-quansah-36116"
+          },
+          {
+            "full_name": "Exequiel Palacios",
+            "displayed_name": "E. Palacios",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 30689,
+            "player_url": "https://www.rotowire.com/soccer/player/exequiel-palacios-30689"
+          },
+          {
+            "full_name": "Aleix Garcia",
+            "displayed_name": "Aleix Garcia",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 20993,
+            "player_url": "https://www.rotowire.com/soccer/player/aleix-garcia-20993"
+          },
+          {
+            "full_name": "Afonso Moreira",
+            "displayed_name": "Afonso Moreira",
+            "position": "AML",
+            "injury_status": null,
+            "player_id": 40418,
+            "player_url": "https://www.rotowire.com/soccer/player/afonso-moreira-40418"
+          },
+          {
+            "full_name": "Ibrahim Maza",
+            "displayed_name": "Ibrahim Maza",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 38959,
+            "player_url": "https://www.rotowire.com/soccer/player/ibrahim-maza-38959"
+          },
+          {
+            "full_name": "Lucas Vazquez",
+            "displayed_name": "L. Vazquez",
+            "position": "AMR",
+            "injury_status": null,
+            "player_id": 19066,
+            "player_url": "https://www.rotowire.com/soccer/player/lucas-vazquez-19066"
+          },
+          {
+            "full_name": "Patrik Schick",
+            "displayed_name": "P. Schick",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 22100,
+            "player_url": "https://www.rotowire.com/soccer/player/patrik-schick-22100"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 9:30 AM ET",
+      "home": {
+        "team_name": "1. FC Köln",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Marvin Schwabe",
+            "displayed_name": "M. Schwabe",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 34845,
+            "player_url": "https://www.rotowire.com/soccer/player/marvin-schwabe-34845"
+          },
+          {
+            "full_name": "Gideon Mensah",
+            "displayed_name": "G. Mensah",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 35498,
+            "player_url": "https://www.rotowire.com/soccer/player/gideon-mensah-35498"
+          },
+          {
+            "full_name": "Luka Lochoshvili",
+            "displayed_name": "L. Lochoshvili",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 33712,
+            "player_url": "https://www.rotowire.com/soccer/player/luka-lochoshvili-33712"
+          },
+          {
+            "full_name": "Jahmai Simpson-Pusey",
+            "displayed_name": "J. Simpson-Pusey",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 43829,
+            "player_url": "https://www.rotowire.com/soccer/player/jahmai-simpson-pusey-43829"
+          },
+          {
+            "full_name": "Alessio Castro-Montes",
+            "displayed_name": "A. Castro-Montes",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 30261,
+            "player_url": "https://www.rotowire.com/soccer/player/alessio-castro-montes-30261"
+          },
+          {
+            "full_name": "Reigan Heskey",
+            "displayed_name": "R. Heskey",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 47544,
+            "player_url": "https://www.rotowire.com/soccer/player/reigan-heskey-47544"
+          },
+          {
+            "full_name": "Isak Johannesson",
+            "displayed_name": "I. Johannesson",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 37860,
+            "player_url": "https://www.rotowire.com/soccer/player/isak-johannesson-37860"
+          },
+          {
+            "full_name": "Tom Krauss",
+            "displayed_name": "Tom Krauss",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 29789,
+            "player_url": "https://www.rotowire.com/soccer/player/tom-krauss-29789"
+          },
+          {
+            "full_name": "Jan Thielmann",
+            "displayed_name": "J. Thielmann",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 30688,
+            "player_url": "https://www.rotowire.com/soccer/player/jan-thielmann-30688"
+          },
+          {
+            "full_name": "Ragnar Ache",
+            "displayed_name": "Ragnar Ache",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 32826,
+            "player_url": "https://www.rotowire.com/soccer/player/ragnar-ache-32826"
+          },
+          {
+            "full_name": "Luca Waldschmidt",
+            "displayed_name": "L. Waldschmidt",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 19652,
+            "player_url": "https://www.rotowire.com/soccer/player/luca-waldschmidt-19652"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "1899 Hoffenheim",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Oliver Baumann",
+            "displayed_name": "O. Baumann",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 13852,
+            "player_url": "https://www.rotowire.com/soccer/player/oliver-baumann-13852"
+          },
+          {
+            "full_name": "Mats Rots",
+            "displayed_name": "Mats Rots",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 44362,
+            "player_url": "https://www.rotowire.com/soccer/player/mats-rots-44362"
+          },
+          {
+            "full_name": "Ozan Kabak",
+            "displayed_name": "Ozan Kabak",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 26898,
+            "player_url": "https://www.rotowire.com/soccer/player/ozan-kabak-26898"
+          },
+          {
+            "full_name": "Albian Hajdari",
+            "displayed_name": "A. Hajdari",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 33456,
+            "player_url": "https://www.rotowire.com/soccer/player/albian-hajdari-33456"
+          },
+          {
+            "full_name": "Vladimir Coufal",
+            "displayed_name": "V. Coufal",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 29751,
+            "player_url": "https://www.rotowire.com/soccer/player/vladimir-coufal-29751"
+          },
+          {
+            "full_name": "Leon Avdullahu",
+            "displayed_name": "L. Avdullahu",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 46571,
+            "player_url": "https://www.rotowire.com/soccer/player/leon-avdullahu-46571"
+          },
+          {
+            "full_name": "Nathan De Cat",
+            "displayed_name": "N. De Cat",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 44434,
+            "player_url": "https://www.rotowire.com/soccer/player/nathan-de-cat-44434"
+          },
+          {
+            "full_name": "Wouter Burger",
+            "displayed_name": "W. Burger",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 29962,
+            "player_url": "https://www.rotowire.com/soccer/player/wouter-burger-29962"
+          },
+          {
+            "full_name": "Andrej Kramaric",
+            "displayed_name": "A. Kramaric",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 18613,
+            "player_url": "https://www.rotowire.com/soccer/player/andrej-kramaric-18613"
+          },
+          {
+            "full_name": "Tim Lemperle",
+            "displayed_name": "Tim Lemperle",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 32420,
+            "player_url": "https://www.rotowire.com/soccer/player/tim-lemperle-32420"
+          },
+          {
+            "full_name": "Fisnik Asllani",
+            "displayed_name": "F. Asllani",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 36042,
+            "player_url": "https://www.rotowire.com/soccer/player/fisnik-asllani-36042"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 9:30 AM ET",
+      "home": {
+        "team_name": "Union Berlin",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Frederik Ronnow",
+            "displayed_name": "F. Ronnow",
+            "position": "GK",
+            "injury_status": "QUES",
+            "player_id": 25880,
+            "player_url": "https://www.rotowire.com/soccer/player/frederik-ronnow-25880"
+          },
+          {
+            "full_name": "Derrick Kohn",
+            "displayed_name": "Derrick Kohn",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 44139,
+            "player_url": "https://www.rotowire.com/soccer/player/derrick-kohn-44139"
+          },
+          {
+            "full_name": "Leopold Querfeld",
+            "displayed_name": "L. Querfeld",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 43385,
+            "player_url": "https://www.rotowire.com/soccer/player/leopold-querfeld-43385"
+          },
+          {
+            "full_name": "Zeno Van Den Bosch",
+            "displayed_name": "Z. Van Den Bosch",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 40542,
+            "player_url": "https://www.rotowire.com/soccer/player/zeno-van-den-bosch-40542"
+          },
+          {
+            "full_name": "Christopher Trimmel",
+            "displayed_name": "C. Trimmel",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 28862,
+            "player_url": "https://www.rotowire.com/soccer/player/christopher-trimmel-28862"
+          },
+          {
+            "full_name": "Livan Burcu",
+            "displayed_name": "Livan Burcu",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 43803,
+            "player_url": "https://www.rotowire.com/soccer/player/livan-burcu-43803"
+          },
+          {
+            "full_name": "Andras Schafer",
+            "displayed_name": "A. Schafer",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 27106,
+            "player_url": "https://www.rotowire.com/soccer/player/andras-schafer-27106"
+          },
+          {
+            "full_name": "Aljoscha Kemlein",
+            "displayed_name": "A. Kemlein",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 38075,
+            "player_url": "https://www.rotowire.com/soccer/player/aljoscha-kemlein-38075"
+          },
+          {
+            "full_name": "Ilyas Ansah",
+            "displayed_name": "Ilyas Ansah",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 46542,
+            "player_url": "https://www.rotowire.com/soccer/player/ilyas-ansah-46542"
+          },
+          {
+            "full_name": "Andrej Ilic",
+            "displayed_name": "Andrej Ilic",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 41221,
+            "player_url": "https://www.rotowire.com/soccer/player/andrej-ilic-41221"
+          },
+          {
+            "full_name": "Emmanuel Latte Lath",
+            "displayed_name": "E. Latte Lath",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 23156,
+            "player_url": "https://www.rotowire.com/soccer/player/emmanuel-latte-lath-23156"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Eintracht Frankfurt",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Kaua Santos",
+            "displayed_name": "Kaua Santos",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 40300,
+            "player_url": "https://www.rotowire.com/soccer/player/kaua-santos-40300"
+          },
+          {
+            "full_name": "Keita Kosugi",
+            "displayed_name": "Keita Kosugi",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 47541,
+            "player_url": "https://www.rotowire.com/soccer/player/keita-kosugi-47541"
+          },
+          {
+            "full_name": "Nnamdi Collins",
+            "displayed_name": "N. Collins",
+            "position": "DC",
+            "injury_status": "QUES",
+            "player_id": 32798,
+            "player_url": "https://www.rotowire.com/soccer/player/nnamdi-collins-32798"
+          },
+          {
+            "full_name": "Robin Koch",
+            "displayed_name": "Robin Koch",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 24987,
+            "player_url": "https://www.rotowire.com/soccer/player/robin-koch-24987"
+          },
+          {
+            "full_name": "Elias Baum",
+            "displayed_name": "Elias Baum",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 40787,
+            "player_url": "https://www.rotowire.com/soccer/player/elias-baum-40787"
+          },
+          {
+            "full_name": "Ansgar Knauff",
+            "displayed_name": "A. Knauff",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 32814,
+            "player_url": "https://www.rotowire.com/soccer/player/ansgar-knauff-32814"
+          },
+          {
+            "full_name": "Noel Aseko-Nkili",
+            "displayed_name": "N. Aseko-Nkili",
+            "position": "MC",
+            "injury_status": "QUES",
+            "player_id": 40897,
+            "player_url": "https://www.rotowire.com/soccer/player/noel-aseko-nkili-40897"
+          },
+          {
+            "full_name": "Raphael Onyedika",
+            "displayed_name": "R. Onyedika",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 37923,
+            "player_url": "https://www.rotowire.com/soccer/player/raphael-onyedika-37923"
+          },
+          {
+            "full_name": "Ritsu Doan",
+            "displayed_name": "Ritsu Doan",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 28528,
+            "player_url": "https://www.rotowire.com/soccer/player/ritsu-doan-28528"
+          },
+          {
+            "full_name": "Jonathan Burkardt",
+            "displayed_name": "J. Burkardt",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 26685,
+            "player_url": "https://www.rotowire.com/soccer/player/jonathan-burkardt-26685"
+          },
+          {
+            "full_name": "Can Uzun",
+            "displayed_name": "Can Uzun",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 43464,
+            "player_url": "https://www.rotowire.com/soccer/player/can-uzun-43464"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 9:30 AM ET",
+      "home": {
+        "team_name": "FSV Mainz 05",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Robin Zentner",
+            "displayed_name": "R. Zentner",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 24862,
+            "player_url": "https://www.rotowire.com/soccer/player/robin-zentner-24862"
+          },
+          {
+            "full_name": "Danny da Costa",
+            "displayed_name": "D. da Costa",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 19909,
+            "player_url": "https://www.rotowire.com/soccer/player/danny-da-costa-19909"
+          },
+          {
+            "full_name": "Fabio Gruber",
+            "displayed_name": "Fabio Gruber",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48617,
+            "player_url": "https://www.rotowire.com/soccer/player/fabio-gruber-48617"
+          },
+          {
+            "full_name": "Kacper Potulski",
+            "displayed_name": "K. Potulski",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 47449,
+            "player_url": "https://www.rotowire.com/soccer/player/kacper-potulski-47449"
+          },
+          {
+            "full_name": "Phillipp Mwene",
+            "displayed_name": "P. Mwene",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 26099,
+            "player_url": "https://www.rotowire.com/soccer/player/phillipp-mwene-26099"
+          },
+          {
+            "full_name": "Nadiem Amiri",
+            "displayed_name": "Nadiem Amiri",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 19623,
+            "player_url": "https://www.rotowire.com/soccer/player/nadiem-amiri-19623"
+          },
+          {
+            "full_name": "Paul Nebel",
+            "displayed_name": "Paul Nebel",
+            "position": "MC",
+            "injury_status": "QUES",
+            "player_id": 33336,
+            "player_url": "https://www.rotowire.com/soccer/player/paul-nebel-33336"
+          },
+          {
+            "full_name": "Eric Martel",
+            "displayed_name": "Eric Martel",
+            "position": "MC",
+            "injury_status": "QUES",
+            "player_id": 34104,
+            "player_url": "https://www.rotowire.com/soccer/player/eric-martel-34104"
+          },
+          {
+            "full_name": "Anthony Caci",
+            "displayed_name": "Anthony Caci",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 25792,
+            "player_url": "https://www.rotowire.com/soccer/player/anthony-caci-25792"
+          },
+          {
+            "full_name": "Phillip Tietz",
+            "displayed_name": "P. Tietz",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 28994,
+            "player_url": "https://www.rotowire.com/soccer/player/phillip-tietz-28994"
+          },
+          {
+            "full_name": "Sheraldo Becker",
+            "displayed_name": "S. Becker",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 29570,
+            "player_url": "https://www.rotowire.com/soccer/player/sheraldo-becker-29570"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SC Paderborn",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Nahuel Noll",
+            "displayed_name": "Nahuel Noll",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 34726,
+            "player_url": "https://www.rotowire.com/soccer/player/nahuel-noll-34726"
+          },
+          {
+            "full_name": "Felix Gotze",
+            "displayed_name": "Felix Gotze",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 23174,
+            "player_url": "https://www.rotowire.com/soccer/player/felix-gotze-23174"
+          },
+          {
+            "full_name": "Tjark Scheller",
+            "displayed_name": "T. Scheller",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48700,
+            "player_url": "https://www.rotowire.com/soccer/player/tjark-scheller-48700"
+          },
+          {
+            "full_name": "Marcel Hoffmeier",
+            "displayed_name": "M. Hoffmeier",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48701,
+            "player_url": "https://www.rotowire.com/soccer/player/marcel-hoffmeier-48701"
+          },
+          {
+            "full_name": "Raphael Obermair",
+            "displayed_name": "R. Obermair",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 23809,
+            "player_url": "https://www.rotowire.com/soccer/player/raphael-obermair-23809"
+          },
+          {
+            "full_name": "Santiago Castaneda",
+            "displayed_name": "S. Castaneda",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 48702,
+            "player_url": "https://www.rotowire.com/soccer/player/santiago-castaneda-48702"
+          },
+          {
+            "full_name": "Mika Baur",
+            "displayed_name": "Mika Baur",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 40686,
+            "player_url": "https://www.rotowire.com/soccer/player/mika-baur-40686"
+          },
+          {
+            "full_name": "Laurin Curda",
+            "displayed_name": "Laurin Curda",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 48704,
+            "player_url": "https://www.rotowire.com/soccer/player/laurin-curda-48704"
+          },
+          {
+            "full_name": "Luka Duric",
+            "displayed_name": "Luka Duric",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 45012,
+            "player_url": "https://www.rotowire.com/soccer/player/luka-duric-45012"
+          },
+          {
+            "full_name": "Oliver Batista Meier",
+            "displayed_name": "O. Batista Meier",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 30860,
+            "player_url": "https://www.rotowire.com/soccer/player/oliver-batista-meier-30860"
+          },
+          {
+            "full_name": "Stefano Marino",
+            "displayed_name": "S. Marino",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 48712,
+            "player_url": "https://www.rotowire.com/soccer/player/stefano-marino-48712"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 9:30 AM ET",
+      "home": {
+        "team_name": "RB Leipzig",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Maarten Vandevoordt",
+            "displayed_name": "M. Vandevoordt",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 29875,
+            "player_url": "https://www.rotowire.com/soccer/player/maarten-vandevoordt-29875"
+          },
+          {
+            "full_name": "David Raum",
+            "displayed_name": "David Raum",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 35002,
+            "player_url": "https://www.rotowire.com/soccer/player/david-raum-35002"
+          },
+          {
+            "full_name": "Maxime Esteve",
+            "displayed_name": "M. Esteve",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 34659,
+            "player_url": "https://www.rotowire.com/soccer/player/maxime-esteve-34659"
+          },
+          {
+            "full_name": "Willi Orban",
+            "displayed_name": "Willi Orban",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 21614,
+            "player_url": "https://www.rotowire.com/soccer/player/willi-orban-21614"
+          },
+          {
+            "full_name": "Ridle Baku",
+            "displayed_name": "Ridle Baku",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 24936,
+            "player_url": "https://www.rotowire.com/soccer/player/ridle-baku-24936"
+          },
+          {
+            "full_name": "Christoph Baumgartner",
+            "displayed_name": "C. Baumgartner",
+            "position": "MC",
+            "injury_status": "QUES",
+            "player_id": 27052,
+            "player_url": "https://www.rotowire.com/soccer/player/christoph-baumgartner-27052"
+          },
+          {
+            "full_name": "Nicolas Seiwald",
+            "displayed_name": "N. Seiwald",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 33490,
+            "player_url": "https://www.rotowire.com/soccer/player/nicolas-seiwald-33490"
+          },
+          {
+            "full_name": "Assan Ouedraogo",
+            "displayed_name": "A. Ouedraogo",
+            "position": "MC",
+            "injury_status": "QUES",
+            "player_id": 43427,
+            "player_url": "https://www.rotowire.com/soccer/player/assan-ouedraogo-43427"
+          },
+          {
+            "full_name": "Antonio Nusa",
+            "displayed_name": "Antonio Nusa",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 35612,
+            "player_url": "https://www.rotowire.com/soccer/player/antonio-nusa-35612"
+          },
+          {
+            "full_name": "Brajan Gruda",
+            "displayed_name": "Brajan Gruda",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 38703,
+            "player_url": "https://www.rotowire.com/soccer/player/brajan-gruda-38703"
+          },
+          {
+            "full_name": "Romulo",
+            "displayed_name": "Romulo",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 46816,
+            "player_url": "https://www.rotowire.com/soccer/player/romulo-46816"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Mönchengladbach",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Moritz Nicolas",
+            "displayed_name": "M. Nicolas",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 25259,
+            "player_url": "https://www.rotowire.com/soccer/player/moritz-nicolas-25259"
+          },
+          {
+            "full_name": "David Herold",
+            "displayed_name": "David Herold",
+            "position": "DL",
+            "injury_status": "QUES",
+            "player_id": 48369,
+            "player_url": "https://www.rotowire.com/soccer/player/david-herold-48369"
+          },
+          {
+            "full_name": "Kevin Diks",
+            "displayed_name": "Kevin Diks",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 21650,
+            "player_url": "https://www.rotowire.com/soccer/player/kevin-diks-21650"
+          },
+          {
+            "full_name": "Nico Elvedi",
+            "displayed_name": "Nico Elvedi",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 19409,
+            "player_url": "https://www.rotowire.com/soccer/player/nico-elvedi-19409"
+          },
+          {
+            "full_name": "Daiki Hashioka",
+            "displayed_name": "D. Hashioka",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 34941,
+            "player_url": "https://www.rotowire.com/soccer/player/daiki-hashioka-34941"
+          },
+          {
+            "full_name": "Enzo Leopold",
+            "displayed_name": "Enzo Leopold",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 48424,
+            "player_url": "https://www.rotowire.com/soccer/player/enzo-leopold-48424"
+          },
+          {
+            "full_name": "Philipp Sander",
+            "displayed_name": "P. Sander",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 43368,
+            "player_url": "https://www.rotowire.com/soccer/player/philipp-sander-43368"
+          },
+          {
+            "full_name": "Robin Hack",
+            "displayed_name": "Robin Hack",
+            "position": "AML",
+            "injury_status": null,
+            "player_id": 24593,
+            "player_url": "https://www.rotowire.com/soccer/player/robin-hack-24593"
+          },
+          {
+            "full_name": "Hugo Bolin",
+            "displayed_name": "Hugo Bolin",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 35979,
+            "player_url": "https://www.rotowire.com/soccer/player/hugo-bolin-35979"
+          },
+          {
+            "full_name": "Wael Mohya",
+            "displayed_name": "Wael Mohya",
+            "position": "AMR",
+            "injury_status": null,
+            "player_id": 47369,
+            "player_url": "https://www.rotowire.com/soccer/player/wael-mohya-47369"
+          },
+          {
+            "full_name": "Tim Kleindienst",
+            "displayed_name": "T. Kleindienst",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 24759,
+            "player_url": "https://www.rotowire.com/soccer/player/tim-kleindienst-24759"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 29 12:30 PM ET",
+      "home": {
+        "team_name": "Borussia Dortmund",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Gregor Kobel",
+            "displayed_name": "Gregor Kobel",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 21692,
+            "player_url": "https://www.rotowire.com/soccer/player/gregor-kobel-21692"
+          },
+          {
+            "full_name": "Waldemar Anton",
+            "displayed_name": "W. Anton",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 20160,
+            "player_url": "https://www.rotowire.com/soccer/player/waldemar-anton-20160"
+          },
+          {
+            "full_name": "Joane Gadou",
+            "displayed_name": "Joane Gadou",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 41324,
+            "player_url": "https://www.rotowire.com/soccer/player/joane-gadou-41324"
+          },
+          {
+            "full_name": "Luca Reggiani",
+            "displayed_name": "L. Reggiani",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 47792,
+            "player_url": "https://www.rotowire.com/soccer/player/luca-reggiani-47792"
+          },
+          {
+            "full_name": "Daniel Svensson",
+            "displayed_name": "D. Svensson",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 45075,
+            "player_url": "https://www.rotowire.com/soccer/player/daniel-svensson-45075"
+          },
+          {
+            "full_name": "Felix Nmecha",
+            "displayed_name": "Felix Nmecha",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 27147,
+            "player_url": "https://www.rotowire.com/soccer/player/felix-nmecha-27147"
+          },
+          {
+            "full_name": "Jobe Bellingham",
+            "displayed_name": "J. Bellingham",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 35914,
+            "player_url": "https://www.rotowire.com/soccer/player/jobe-bellingham-35914"
+          },
+          {
+            "full_name": "Julian Ryerson",
+            "displayed_name": "J. Ryerson",
+            "position": "MR",
+            "injury_status": "QUES",
+            "player_id": 28864,
+            "player_url": "https://www.rotowire.com/soccer/player/julian-ryerson-28864"
+          },
+          {
+            "full_name": "Konstantinos Karetsas",
+            "displayed_name": "K. Karetsas",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 47271,
+            "player_url": "https://www.rotowire.com/soccer/player/konstantinos-karetsas-47271"
+          },
+          {
+            "full_name": "Samuele Inacio",
+            "displayed_name": "Samuele Inacio",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 47795,
+            "player_url": "https://www.rotowire.com/soccer/player/samuele-inacio-47795"
+          },
+          {
+            "full_name": "Serhou Guirassy",
+            "displayed_name": "S. Guirassy",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 20078,
+            "player_url": "https://www.rotowire.com/soccer/player/serhou-guirassy-20078"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hamburger SV",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Daniel Heuer Fernandes",
+            "displayed_name": "D. Heuer Fernandes",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 21877,
+            "player_url": "https://www.rotowire.com/soccer/player/daniel-heuer-fernandes-21877"
+          },
+          {
+            "full_name": "Jordan Torunarigha",
+            "displayed_name": "J. Torunarigha",
+            "position": "DC",
+            "injury_status": "QUES",
+            "player_id": 23418,
+            "player_url": "https://www.rotowire.com/soccer/player/jordan-torunarigha-23418"
+          },
+          {
+            "full_name": "Warmed Omari",
+            "displayed_name": "Warmed Omari",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 34652,
+            "player_url": "https://www.rotowire.com/soccer/player/warmed-omari-34652"
+          },
+          {
+            "full_name": "Nicolas Capaldo",
+            "displayed_name": "Nicolas Capaldo",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 35667,
+            "player_url": "https://www.rotowire.com/soccer/player/nicolas-capaldo-35667"
+          },
+          {
+            "full_name": "Miro Muheim",
+            "displayed_name": "Miro Muheim",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 46536,
+            "player_url": "https://www.rotowire.com/soccer/player/miro-muheim-46536"
+          },
+          {
+            "full_name": "Nicolai Remberg",
+            "displayed_name": "N. Remberg",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 43988,
+            "player_url": "https://www.rotowire.com/soccer/player/nicolai-remberg-43988"
+          },
+          {
+            "full_name": "Albert Sambi Lokonga",
+            "displayed_name": "A. Lokonga",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 34878,
+            "player_url": "https://www.rotowire.com/soccer/player/albert-sambi-lokonga-34878"
+          },
+          {
+            "full_name": "Bakery Jatta",
+            "displayed_name": "Bakery Jatta",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 21857,
+            "player_url": "https://www.rotowire.com/soccer/player/bakery-jatta-21857"
+          },
+          {
+            "full_name": "Martin Adeline",
+            "displayed_name": "M. Adeline",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 36122,
+            "player_url": "https://www.rotowire.com/soccer/player/martin-adeline-36122"
+          },
+          {
+            "full_name": "Albert Gronbaek",
+            "displayed_name": "A. Gronbaek",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 37790,
+            "player_url": "https://www.rotowire.com/soccer/player/albert-gronbaek-37790"
+          },
+          {
+            "full_name": "Patson Daka",
+            "displayed_name": "Patson Daka",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 29755,
+            "player_url": "https://www.rotowire.com/soccer/player/patson-daka-29755"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 30 9:30 AM ET",
+      "home": {
+        "team_name": "SC Freiburg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Mio Backhaus",
+            "displayed_name": "Mio Backhaus",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 37379,
+            "player_url": "https://www.rotowire.com/soccer/player/mio-backhaus-37379"
+          },
+          {
+            "full_name": "Berkay Yilmaz",
+            "displayed_name": "B. Yilmaz",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 43855,
+            "player_url": "https://www.rotowire.com/soccer/player/berkay-yilmaz-43855"
+          },
+          {
+            "full_name": "Philipp Lienhart",
+            "displayed_name": "P. Lienhart",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 24618,
+            "player_url": "https://www.rotowire.com/soccer/player/philipp-lienhart-24618"
+          },
+          {
+            "full_name": "Matthias Ginter",
+            "displayed_name": "M. Ginter",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 17592,
+            "player_url": "https://www.rotowire.com/soccer/player/matthias-ginter-17592"
+          },
+          {
+            "full_name": "Philipp Treu",
+            "displayed_name": "Philipp Treu",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 43806,
+            "player_url": "https://www.rotowire.com/soccer/player/philipp-treu-43806"
+          },
+          {
+            "full_name": "Rihito Yamamoto",
+            "displayed_name": "R. Yamamoto",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 43796,
+            "player_url": "https://www.rotowire.com/soccer/player/rihito-yamamoto-43796"
+          },
+          {
+            "full_name": "Maximilian Eggestein",
+            "displayed_name": "M. Eggestein",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 20260,
+            "player_url": "https://www.rotowire.com/soccer/player/maximilian-eggestein-20260"
+          },
+          {
+            "full_name": "Vincenzo Grifo",
+            "displayed_name": "V. Grifo",
+            "position": "AML",
+            "injury_status": null,
+            "player_id": 21595,
+            "player_url": "https://www.rotowire.com/soccer/player/vincenzo-grifo-21595"
+          },
+          {
+            "full_name": "Yuito Suzuki",
+            "displayed_name": "Yuito Suzuki",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 38722,
+            "player_url": "https://www.rotowire.com/soccer/player/yuito-suzuki-38722"
+          },
+          {
+            "full_name": "Jan-Niklas Beste",
+            "displayed_name": "J. Beste",
+            "position": "AMR",
+            "injury_status": null,
+            "player_id": 26591,
+            "player_url": "https://www.rotowire.com/soccer/player/jan-niklas-beste-26591"
+          },
+          {
+            "full_name": "Igor Matanovic",
+            "displayed_name": "I. Matanovic",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 35599,
+            "player_url": "https://www.rotowire.com/soccer/player/igor-matanovic-35599"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Werder Bremen",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Karl Jakob Hein",
+            "displayed_name": "K. Hein",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 35197,
+            "player_url": "https://www.rotowire.com/soccer/player/karl-jakob-hein-35197"
+          },
+          {
+            "full_name": "Olivier Deman",
+            "displayed_name": "O. Deman",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 40312,
+            "player_url": "https://www.rotowire.com/soccer/player/olivier-deman-40312"
+          },
+          {
+            "full_name": "Amos Pieper",
+            "displayed_name": "Amos Pieper",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 32806,
+            "player_url": "https://www.rotowire.com/soccer/player/amos-pieper-32806"
+          },
+          {
+            "full_name": "Marco Friedl",
+            "displayed_name": "Marco Friedl",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 23443,
+            "player_url": "https://www.rotowire.com/soccer/player/marco-friedl-23443"
+          },
+          {
+            "full_name": "Mitchell Weiser",
+            "displayed_name": "M. Weiser",
+            "position": "DR",
+            "injury_status": "QUES",
+            "player_id": 18200,
+            "player_url": "https://www.rotowire.com/soccer/player/mitchell-weiser-18200"
+          },
+          {
+            "full_name": "Senne Lynen",
+            "displayed_name": "Senne Lynen",
+            "position": "DMC",
+            "injury_status": "QUES",
+            "player_id": 37714,
+            "player_url": "https://www.rotowire.com/soccer/player/senne-lynen-37714"
+          },
+          {
+            "full_name": "Jens Stage",
+            "displayed_name": "Jens Stage",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 30066,
+            "player_url": "https://www.rotowire.com/soccer/player/jens-stage-30066"
+          },
+          {
+            "full_name": "Chuki",
+            "displayed_name": "Chuki",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 43893,
+            "player_url": "https://www.rotowire.com/soccer/player/chuki-43893"
+          },
+          {
+            "full_name": "Samuel Mbangula",
+            "displayed_name": "S. Mbangula",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 38382,
+            "player_url": "https://www.rotowire.com/soccer/player/samuel-mbangula-38382"
+          },
+          {
+            "full_name": "Justin Njinmah",
+            "displayed_name": "J. Njinmah",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 36168,
+            "player_url": "https://www.rotowire.com/soccer/player/justin-njinmah-36168"
+          },
+          {
+            "full_name": "Cedric Itten",
+            "displayed_name": "Cedric Itten",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 34012,
+            "player_url": "https://www.rotowire.com/soccer/player/cedric-itten-34012"
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "August 30 11:30 AM ET",
+      "home": {
+        "team_name": "FC Augsburg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Finn Dahmen",
+            "displayed_name": "Finn Dahmen",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 25565,
+            "player_url": "https://www.rotowire.com/soccer/player/finn-dahmen-25565"
+          },
+          {
+            "full_name": "Chrislain Matsima",
+            "displayed_name": "C. Matsima",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 29183,
+            "player_url": "https://www.rotowire.com/soccer/player/chrislain-matsima-29183"
+          },
+          {
+            "full_name": "Jeffrey Gouweleeuw",
+            "displayed_name": "J. Gouweleeuw",
+            "position": "DC",
+            "injury_status": "QUES",
+            "player_id": 21003,
+            "player_url": "https://www.rotowire.com/soccer/player/jeffrey-gouweleeuw-21003"
+          },
+          {
+            "full_name": "Calvin Brackelmann",
+            "displayed_name": "C. Brackelmann",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48428,
+            "player_url": "https://www.rotowire.com/soccer/player/calvin-brackelmann-48428"
+          },
+          {
+            "full_name": "Hennes Behrens",
+            "displayed_name": "H. Behrens",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 45016,
+            "player_url": "https://www.rotowire.com/soccer/player/hennes-behrens-45016"
+          },
+          {
+            "full_name": "Han-Noah Massengo",
+            "displayed_name": "H. Massengo",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 26985,
+            "player_url": "https://www.rotowire.com/soccer/player/han-noah-massengo-26985"
+          },
+          {
+            "full_name": "Fabian Rieder",
+            "displayed_name": "F. Rieder",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 35671,
+            "player_url": "https://www.rotowire.com/soccer/player/fabian-rieder-35671"
+          },
+          {
+            "full_name": "Robin Fellhauer",
+            "displayed_name": "R. Fellhauer",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 46636,
+            "player_url": "https://www.rotowire.com/soccer/player/robin-fellhauer-46636"
+          },
+          {
+            "full_name": "Anton Kade",
+            "displayed_name": "Anton Kade",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 36254,
+            "player_url": "https://www.rotowire.com/soccer/player/anton-kade-36254"
+          },
+          {
+            "full_name": "Mert Komur",
+            "displayed_name": "Mert Komur",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 38788,
+            "player_url": "https://www.rotowire.com/soccer/player/mert-komur-38788"
+          },
+          {
+            "full_name": "Michael Gregoritsch",
+            "displayed_name": "M. Gregoritsch",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 20154,
+            "player_url": "https://www.rotowire.com/soccer/player/michael-gregoritsch-20154"
+          }
+        ]
+      },
+      "away": {
+        "team_name": "FC Schalke 04",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Loris Karius",
+            "displayed_name": "Loris Karius",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 17335,
+            "player_url": "https://www.rotowire.com/soccer/player/loris-karius-17335"
+          },
+          {
+            "full_name": "Nikola Katic",
+            "displayed_name": "Nikola Katic",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 30012,
+            "player_url": "https://www.rotowire.com/soccer/player/nikola-katic-30012"
+          },
+          {
+            "full_name": "Mertcan Ayhan",
+            "displayed_name": "M. Ayhan",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48678,
+            "player_url": "https://www.rotowire.com/soccer/player/mertcan-ayhan-48678"
+          },
+          {
+            "full_name": "Hasan Kurucay",
+            "displayed_name": "H. Kurucay",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 48679,
+            "player_url": "https://www.rotowire.com/soccer/player/hasan-kurucay-48679"
+          },
+          {
+            "full_name": "Robin Gosens",
+            "displayed_name": "Robin Gosens",
+            "position": "ML",
+            "injury_status": "QUES",
+            "player_id": 24895,
+            "player_url": "https://www.rotowire.com/soccer/player/robin-gosens-24895"
+          },
+          {
+            "full_name": "Soufiane El-Faouzi",
+            "displayed_name": "S. El-Faouzi",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 48688,
+            "player_url": "https://www.rotowire.com/soccer/player/soufiane-el-faouzi-48688"
+          },
+          {
+            "full_name": "Satoshi Tanaka",
+            "displayed_name": "S. Tanaka",
+            "position": "MC",
+            "injury_status": null,
+            "player_id": 48690,
+            "player_url": "https://www.rotowire.com/soccer/player/satoshi-tanaka-48690"
+          },
+          {
+            "full_name": "Eric Junior",
+            "displayed_name": "Eric Junior",
+            "position": "MR",
+            "injury_status": "QUES",
+            "player_id": 27879,
+            "player_url": "https://www.rotowire.com/soccer/player/eric-junior-27879"
+          },
+          {
+            "full_name": "Kenan Karaman",
+            "displayed_name": "K. Karaman",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 20178,
+            "player_url": "https://www.rotowire.com/soccer/player/kenan-karaman-20178"
+          },
+          {
+            "full_name": "Adil Aouchiche",
+            "displayed_name": "A. Aouchiche",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 29662,
+            "player_url": "https://www.rotowire.com/soccer/player/adil-aouchiche-29662"
+          },
+          {
+            "full_name": "Moussa Sylla",
+            "displayed_name": "Moussa Sylla",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 25422,
+            "player_url": "https://www.rotowire.com/soccer/player/moussa-sylla-25422"
+          }
+        ]
+      }
+    }
+  ]
+}

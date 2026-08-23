@@ -1,0 +1,9 @@
+# Local Python environments
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter's automatic notebook checkpoints
+.ipynb_checkpoints/

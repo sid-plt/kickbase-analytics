@@ -1,0 +1,83 @@
+[
+  {
+    "match_id": 5881159,
+    "home_team": "VfB Stuttgart",
+    "away_team": "1. FC Köln",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881152,
+    "home_team": "Bayer Leverkusen",
+    "away_team": "Union Berlin",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881153,
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "Elversberg",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881156,
+    "home_team": "Hoffenheim",
+    "away_team": "Borussia Dortmund",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881157,
+    "home_team": "Paderborn",
+    "away_team": "Freiburg",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881160,
+    "home_team": "Werder Bremen",
+    "away_team": "RB Leipzig",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881158,
+    "home_team": "Schalke 04",
+    "away_team": "Bayern München",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881155,
+    "home_team": "Hamburger SV",
+    "away_team": "Mainz 05",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  },
+  {
+    "match_id": 5881154,
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "Augsburg",
+    "bookmakers": [],
+    "issues": [
+      "OddsUnavailableError: No full-time 1X2 market is available."
+    ]
+  }
+]

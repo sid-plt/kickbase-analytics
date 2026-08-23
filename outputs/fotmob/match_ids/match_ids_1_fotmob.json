@@ -1,0 +1,65 @@
+[
+  {
+    "home_team": "Bayern München",
+    "home_team_id": 9823,
+    "away_team": "VfB Stuttgart",
+    "away_team_id": 10269,
+    "match_id": 5881143
+  },
+  {
+    "home_team": "Elversberg",
+    "home_team_id": 8232,
+    "away_team": "Bayer Leverkusen",
+    "away_team_id": 8178,
+    "match_id": 5881146
+  },
+  {
+    "home_team": "1. FC Köln",
+    "home_team_id": 8722,
+    "away_team": "Hoffenheim",
+    "away_team_id": 8226,
+    "match_id": 5881147
+  },
+  {
+    "home_team": "Mainz 05",
+    "home_team_id": 9905,
+    "away_team": "Paderborn",
+    "away_team_id": 8460,
+    "match_id": 5881149
+  },
+  {
+    "home_team": "RB Leipzig",
+    "home_team_id": 178475,
+    "away_team": "Borussia Mönchengladbach",
+    "away_team_id": 9788,
+    "match_id": 5881150
+  },
+  {
+    "home_team": "Union Berlin",
+    "home_team_id": 8149,
+    "away_team": "Eintracht Frankfurt",
+    "away_team_id": 9810,
+    "match_id": 5881151
+  },
+  {
+    "home_team": "Borussia Dortmund",
+    "home_team_id": 9789,
+    "away_team": "Hamburger SV",
+    "away_team_id": 9790,
+    "match_id": 5881145
+  },
+  {
+    "home_team": "Freiburg",
+    "home_team_id": 8358,
+    "away_team": "Werder Bremen",
+    "away_team_id": 8697,
+    "match_id": 5881148
+  },
+  {
+    "home_team": "Augsburg",
+    "home_team_id": 8406,
+    "away_team": "Schalke 04",
+    "away_team_id": 10189,
+    "match_id": 5881144
+  }
+]

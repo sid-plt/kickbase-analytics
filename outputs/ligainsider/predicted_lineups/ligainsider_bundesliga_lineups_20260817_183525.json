@@ -1,0 +1,3126 @@
+{
+  "metadata": {
+    "source": "LigaInsider",
+    "source_url": "https://www.ligainsider.de/",
+    "captured_at": "2026-08-17T18:35:25+02:00",
+    "capture_finished_at": "2026-08-17T18:35:44+02:00",
+    "match_count": 9,
+    "team_count": 18,
+    "player_count": 267,
+    "team_page_count": 18,
+    "team_pages": {
+      "Bayern München": "https://www.ligainsider.de/fc-bayern-muenchen/1/",
+      "Borussia Dortmund": "https://www.ligainsider.de/borussia-dortmund/14/",
+      "RB Leipzig": "https://www.ligainsider.de/rb-leipzig/1311/",
+      "VfB Stuttgart": "https://www.ligainsider.de/vfb-stuttgart/12/",
+      "TSG Hoffenheim": "https://www.ligainsider.de/tsg-hoffenheim/10/",
+      "Bayer 04 Leverkusen": "https://www.ligainsider.de/bayer-04-leverkusen/4/",
+      "SC Freiburg": "https://www.ligainsider.de/sc-freiburg/18/",
+      "Eintracht Frankfurt": "https://www.ligainsider.de/eintracht-frankfurt/3/",
+      "FC Augsburg": "https://www.ligainsider.de/fc-augsburg/21/",
+      "FSV Mainz 05": "https://www.ligainsider.de/1-fsv-mainz-05/17/",
+      "1. FC Union Berlin": "https://www.ligainsider.de/1-fc-union-berlin/1246/",
+      "Borussia Mönchengladbach": "https://www.ligainsider.de/borussia-moenchengladbach/5/",
+      "Hamburger SV": "https://www.ligainsider.de/hamburger-sv/9/",
+      "1. FC Köln": "https://www.ligainsider.de/1-fc-koeln/15/",
+      "SV Werder Bremen": "https://www.ligainsider.de/sv-werder-bremen/2/",
+      "Schalke 04": "https://www.ligainsider.de/fc-schalke-04/13/",
+      "SV 07 Elversberg": "https://www.ligainsider.de/sv-07-elversberg/1331/",
+      "SC Paderborn": "https://www.ligainsider.de/sc-paderborn-07/1249/"
+    },
+    "skipped_teams": [],
+    "unmatched_teams": []
+  },
+  "matches": [
+    {
+      "match_time": "2026-08-28T20:30+02:00",
+      "home": {
+        "team_name": "Bayern München",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Manuel Neuer",
+            "displayed_name": "Neuer",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 114,
+            "player_url": "https://www.ligainsider.de/manuel-neuer_114/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Konrad Laimer",
+            "displayed_name": "Laimer",
+            "position": "DR",
+            "injury_status": "QUES",
+            "player_id": 6324,
+            "player_url": "https://www.ligainsider.de/konrad-laimer_6324/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Josip Stanisic",
+            "displayed_name": "Stanišić",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 20102,
+            "player_url": "https://www.ligainsider.de/josip-stanisic_20102/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Jonathan Tah",
+            "displayed_name": "Tah",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 2385,
+            "player_url": "https://www.ligainsider.de/jonathan-tah_2385/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Minjae Kim",
+            "displayed_name": "Minjae",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 27022,
+            "player_url": "https://www.ligainsider.de/minjae-kim_27022/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Dayot Upamecano",
+            "displayed_name": "Upamecano",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 11541,
+            "player_url": "https://www.ligainsider.de/dayot-upamecano_11541/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Nathaniel Brown",
+            "displayed_name": "Brown",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 35857,
+            "player_url": "https://www.ligainsider.de/nathaniel-brown_35857/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Joshua Kimmich",
+            "displayed_name": "Kimmich",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 5768,
+            "player_url": "https://www.ligainsider.de/joshua-kimmich_5768/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Tom Bischof",
+            "displayed_name": "Bischof",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 26133,
+            "player_url": "https://www.ligainsider.de/tom-bischof_26133/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jamal Musiala",
+            "displayed_name": "Musiala",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 24149,
+            "player_url": "https://www.ligainsider.de/jamal-musiala_24149/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Ismael Saibari",
+            "displayed_name": "Saibari",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 25609,
+            "player_url": "https://www.ligainsider.de/ismael-saibari_25609/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Aleksandar Pavlovic",
+            "displayed_name": "Pavlović",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 35918,
+            "player_url": "https://www.ligainsider.de/aleksandar-pavlovic_35918/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Michael Olise",
+            "displayed_name": "Olise",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 37170,
+            "player_url": "https://www.ligainsider.de/michael-olise_37170/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Harry Kane",
+            "displayed_name": "Kane",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 4828,
+            "player_url": "https://www.ligainsider.de/harry-kane_4828/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Luis Diaz",
+            "displayed_name": "Luis Díaz",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 22566,
+            "player_url": "https://www.ligainsider.de/luis-diaz_22566/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "VfB Stuttgart",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Fabian Bredlow",
+            "displayed_name": "Bredlow",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 6395,
+            "player_url": "https://www.ligainsider.de/fabian-bredlow_6395/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Nikolas Nartey",
+            "displayed_name": "Nartey",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 13737,
+            "player_url": "https://www.ligainsider.de/nikolas-nartey_13737/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ramon Hendriks",
+            "displayed_name": "Hendriks",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 23957,
+            "player_url": "https://www.ligainsider.de/ramon-hendriks_23957/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Finn Jeltsch",
+            "displayed_name": "Jeltsch",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 36816,
+            "player_url": "https://www.ligainsider.de/finn-jeltsch_36816/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Julian Chabot",
+            "displayed_name": "Chabot",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 12583,
+            "player_url": "https://www.ligainsider.de/julian-chabot_12583/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Maximilian Mittelstaedt",
+            "displayed_name": "Mittelstädt",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 6206,
+            "player_url": "https://www.ligainsider.de/maximilian-mittelstaedt_6206/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Grischa Proemel",
+            "displayed_name": "Prömel",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 5816,
+            "player_url": "https://www.ligainsider.de/grischa-proemel_5816/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Deniz Undav",
+            "displayed_name": "Undav",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 19154,
+            "player_url": "https://www.ligainsider.de/deniz-undav_19154/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Angelo Stiller",
+            "displayed_name": "Stiller",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 20766,
+            "player_url": "https://www.ligainsider.de/angelo-stiller_20766/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jamie Leweling",
+            "displayed_name": "Leweling",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 21336,
+            "player_url": "https://www.ligainsider.de/jamie-leweling_21336/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ermedin Demirovic",
+            "displayed_name": "Demirović",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 24166,
+            "player_url": "https://www.ligainsider.de/ermedin-demirovic_24166/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Bilal El Khannouss",
+            "displayed_name": "El Khannouss",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 37086,
+            "player_url": "https://www.ligainsider.de/bilal-el-khannouss_37086/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Chris Fuehrich",
+            "displayed_name": "Führich",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 18542,
+            "player_url": "https://www.ligainsider.de/chris-fuehrich_18542/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T15:30+02:00",
+      "home": {
+        "team_name": "1. FC Köln",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Marvin Schwaebe",
+            "displayed_name": "Schwäbe",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 2626,
+            "player_url": "https://www.ligainsider.de/marvin-schwaebe_2626/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Alessio Castro Montes",
+            "displayed_name": "Castro-Montes",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 22736,
+            "player_url": "https://www.ligainsider.de/alessio-castro-montes_22736/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jahmai Simpson Pusey",
+            "displayed_name": "Simpson-Pusey",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 38128,
+            "player_url": "https://www.ligainsider.de/jahmai-simpson-pusey_38128/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Luka Lochoshvili",
+            "displayed_name": "Lochoshvili",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 23949,
+            "player_url": "https://www.ligainsider.de/luka-lochoshvili_23949/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Gideon Mensah",
+            "displayed_name": "Mensah",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 16759,
+            "player_url": "https://www.ligainsider.de/gideon-mensah_16759/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Isak Johannesson",
+            "displayed_name": "Jóhannesson",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 35249,
+            "player_url": "https://www.ligainsider.de/isak-johannesson_35249/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Marius Buelter",
+            "displayed_name": "Bülter",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 19202,
+            "player_url": "https://www.ligainsider.de/marius-buelter_19202/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Paul Okon Engstler",
+            "displayed_name": "Okon-Engstler",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 38936,
+            "player_url": "https://www.ligainsider.de/paul-okon-engstler_38936/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Luca Waldschmidt",
+            "displayed_name": "Waldschmidt",
+            "position": "AMC",
+            "injury_status": "QUES",
+            "player_id": 2594,
+            "player_url": "https://www.ligainsider.de/luca-waldschmidt_2594/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Tom Krauss",
+            "displayed_name": "Krauß",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 20244,
+            "player_url": "https://www.ligainsider.de/tom-krauss_20244/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Linton Maina",
+            "displayed_name": "Maina",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 18217,
+            "player_url": "https://www.ligainsider.de/linton-maina_18217/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jan Thielmann",
+            "displayed_name": "Thielmann",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 21998,
+            "player_url": "https://www.ligainsider.de/jan-thielmann_21998/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Ragnar Ache",
+            "displayed_name": "Ache",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 23720,
+            "player_url": "https://www.ligainsider.de/ragnar-ache_23720/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Said El Mala",
+            "displayed_name": "S. El Mala",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 38546,
+            "player_url": "https://www.ligainsider.de/said-el-mala_38546/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 38544,
+            "player_url": "https://www.ligainsider.de/neuzugang_38544/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSG Hoffenheim",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Oliver Baumann",
+            "displayed_name": "Baumann",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 567,
+            "player_url": "https://www.ligainsider.de/oliver-baumann_567/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Vladimir Coufal",
+            "displayed_name": "Coufal",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 11929,
+            "player_url": "https://www.ligainsider.de/vladimir-coufal_11929/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ozan Kabak",
+            "displayed_name": "Ozan Kabak",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 20416,
+            "player_url": "https://www.ligainsider.de/ozan-kabak_20416/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Albian Hajdari",
+            "displayed_name": "Hajdari",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 37227,
+            "player_url": "https://www.ligainsider.de/albian-hajdari_37227/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Mats Rots",
+            "displayed_name": "Rots",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 37794,
+            "player_url": "https://www.ligainsider.de/mats-rots_37794/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Bernardo",
+            "displayed_name": "Bernardo",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 11324,
+            "player_url": "https://www.ligainsider.de/bernardo_11324/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Nathan De Cat",
+            "displayed_name": "De Cat",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 38750,
+            "player_url": "https://www.ligainsider.de/nathan-de-cat_38750/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Leon Avdullahu",
+            "displayed_name": "Avdullahu",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 38223,
+            "player_url": "https://www.ligainsider.de/leon-avdullahu_38223/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Wouter Burger",
+            "displayed_name": "Burger",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 22632,
+            "player_url": "https://www.ligainsider.de/wouter-burger_22632/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Bambase Conte",
+            "displayed_name": "Conté",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 27420,
+            "player_url": "https://www.ligainsider.de/bambase-conte_27420/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Patrick Wimmer",
+            "displayed_name": "Wimmer",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 26236,
+            "player_url": "https://www.ligainsider.de/patrick-wimmer_26236/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Max Moerstedt",
+            "displayed_name": "Moerstedt",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 36318,
+            "player_url": "https://www.ligainsider.de/max-moerstedt_36318/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Adam Hlozek",
+            "displayed_name": "Hložek",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 24095,
+            "player_url": "https://www.ligainsider.de/adam-hlozek_24095/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Adam Daghim",
+            "displayed_name": "Daghim",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 37622,
+            "player_url": "https://www.ligainsider.de/adam-daghim_37622/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T15:30+02:00",
+      "home": {
+        "team_name": "1. FC Union Berlin",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Carl Klaus",
+            "displayed_name": "Klaus",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 1982,
+            "player_url": "https://www.ligainsider.de/carl-klaus_1982/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Matheo Raab",
+            "displayed_name": "Raab",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 11224,
+            "player_url": "https://www.ligainsider.de/matheo-raab_11224/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Josip Juranovic",
+            "displayed_name": "Juranović",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 26979,
+            "player_url": "https://www.ligainsider.de/josip-juranovic_26979/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Leopold Querfeld",
+            "displayed_name": "Querfeld",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 27234,
+            "player_url": "https://www.ligainsider.de/leopold-querfeld_27234/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Marvin Friedrich",
+            "displayed_name": "Friedrich",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 3296,
+            "player_url": "https://www.ligainsider.de/marvin-friedrich_3296/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Zeno Van Den Bosch",
+            "displayed_name": "Van Den Bosch",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 25990,
+            "player_url": "https://www.ligainsider.de/zeno-van-den-bosch_25990/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Tom Rothe",
+            "displayed_name": "Rothe",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 26243,
+            "player_url": "https://www.ligainsider.de/tom-rothe_26243/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Derrick Koehn",
+            "displayed_name": "Köhn",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 14385,
+            "player_url": "https://www.ligainsider.de/derrick-koehn_14385/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Andras Schaefer",
+            "displayed_name": "Schäfer",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 27369,
+            "player_url": "https://www.ligainsider.de/andras-schaefer_27369/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Wooyeong Jeong",
+            "displayed_name": "Jeong",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 14145,
+            "player_url": "https://www.ligainsider.de/wooyeong-jeong_14145/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Rani Khedira",
+            "displayed_name": "Khedira",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 2122,
+            "player_url": "https://www.ligainsider.de/rani-khedira_2122/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Aljoscha Kemlein",
+            "displayed_name": "Kemlein",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 27560,
+            "player_url": "https://www.ligainsider.de/aljoscha-kemlein_27560/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Livan Burcu",
+            "displayed_name": "Burcu",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 36114,
+            "player_url": "https://www.ligainsider.de/livan-burcu_36114/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Emmanuel Latte Lath",
+            "displayed_name": "Latte Lath",
+            "position": "FWCR",
+            "injury_status": null,
+            "player_id": 24183,
+            "player_url": "https://www.ligainsider.de/emmanuel-latte-lath_24183/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ilyas Ansah",
+            "displayed_name": "Ansah",
+            "position": "FWCL",
+            "injury_status": null,
+            "player_id": 36892,
+            "player_url": "https://www.ligainsider.de/ilyas-ansah_36892/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Eintracht Frankfurt",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Kaua Santos",
+            "displayed_name": "Kauã S.",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 36306,
+            "player_url": "https://www.ligainsider.de/kaua-santos_36306/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 37149,
+            "player_url": "https://www.ligainsider.de/neuzugang_37149/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Michael Zetterer",
+            "displayed_name": "Zetterer",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 6257,
+            "player_url": "https://www.ligainsider.de/michael-zetterer_6257/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Elias Baum",
+            "displayed_name": "Baum",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 35727,
+            "player_url": "https://www.ligainsider.de/elias-baum_35727/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Robin Koch",
+            "displayed_name": "Koch",
+            "position": "DCR",
+            "injury_status": "QUES",
+            "player_id": 12490,
+            "player_url": "https://www.ligainsider.de/robin-koch_12490/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Nnamdi Collins",
+            "displayed_name": "Collins",
+            "position": "DCL",
+            "injury_status": "QUES",
+            "player_id": 24116,
+            "player_url": "https://www.ligainsider.de/nnamdi-collins_24116/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Otavio",
+            "displayed_name": "Otávio",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 39011,
+            "player_url": "https://www.ligainsider.de/otavio_39011/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Arthur Theate",
+            "displayed_name": "Theate",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 26137,
+            "player_url": "https://www.ligainsider.de/arthur-theate_26137/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Keita Kosugi",
+            "displayed_name": "Kosugi",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 38762,
+            "player_url": "https://www.ligainsider.de/keita-kosugi_38762/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 27513,
+            "player_url": "https://www.ligainsider.de/neuzugang_27513/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Ansgar Knauff",
+            "displayed_name": "Knauff",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 24398,
+            "player_url": "https://www.ligainsider.de/ansgar-knauff_24398/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Ritsu Doan",
+            "displayed_name": "Dōan",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 22974,
+            "player_url": "https://www.ligainsider.de/ritsu-doan_22974/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Raphael Onyedika",
+            "displayed_name": "Onyedika",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 26786,
+            "player_url": "https://www.ligainsider.de/raphael-onyedika_26786/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Hugo Larsson",
+            "displayed_name": "Larsson",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 35384,
+            "player_url": "https://www.ligainsider.de/hugo-larsson_35384/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Oscar Hoejlund",
+            "displayed_name": "Højlund",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 37210,
+            "player_url": "https://www.ligainsider.de/oscar-hoejlund_37210/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Can Uzun",
+            "displayed_name": "Uzun",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 35949,
+            "player_url": "https://www.ligainsider.de/can-uzun_35949/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Younes Ebnoutalib",
+            "displayed_name": "Ebnoutalib",
+            "position": "FWCR",
+            "injury_status": null,
+            "player_id": 38489,
+            "player_url": "https://www.ligainsider.de/younes-ebnoutalib_38489/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "FWCR",
+            "injury_status": null,
+            "player_id": 27514,
+            "player_url": "https://www.ligainsider.de/neuzugang_27514/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Jonathan Burkardt",
+            "displayed_name": "Burkardt",
+            "position": "FWCL",
+            "injury_status": null,
+            "player_id": 19272,
+            "player_url": "https://www.ligainsider.de/jonathan-burkardt_19272/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T15:30+02:00",
+      "home": {
+        "team_name": "FSV Mainz 05",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Robin Zentner",
+            "displayed_name": "Zentner",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 3298,
+            "player_url": "https://www.ligainsider.de/robin-zentner_3298/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Stefan Posch",
+            "displayed_name": "Posch",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 12798,
+            "player_url": "https://www.ligainsider.de/stefan-posch_12798/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Fabio Gruber",
+            "displayed_name": "Gruber",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 26579,
+            "player_url": "https://www.ligainsider.de/fabio-gruber_26579/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Danny Da Costa",
+            "displayed_name": "da Costa",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 650,
+            "player_url": "https://www.ligainsider.de/danny-da-costa_650/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Dominik Kohr",
+            "displayed_name": "Kohr",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 1821,
+            "player_url": "https://www.ligainsider.de/dominik-kohr_1821/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Anthony Caci",
+            "displayed_name": "Caci",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 26102,
+            "player_url": "https://www.ligainsider.de/anthony-caci_26102/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jaesung Lee",
+            "displayed_name": "Lee",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 21202,
+            "player_url": "https://www.ligainsider.de/jaesung-lee_21202/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Lennard Maloney",
+            "displayed_name": "Maloney",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 15833,
+            "player_url": "https://www.ligainsider.de/lennard-maloney_15833/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Kaishu Sano",
+            "displayed_name": "Kaishu",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 36958,
+            "player_url": "https://www.ligainsider.de/kaishu-sano_36958/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Kacper Potulski",
+            "displayed_name": "Potulski",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 38608,
+            "player_url": "https://www.ligainsider.de/kacper-potulski_38608/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Nadiem Amiri",
+            "displayed_name": "Amiri",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 5815,
+            "player_url": "https://www.ligainsider.de/nadiem-amiri_5815/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Phillipp Mwene",
+            "displayed_name": "Mwene",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 2723,
+            "player_url": "https://www.ligainsider.de/phillipp-mwene_2723/",
+            "formation_row": 3,
+            "slot_index": 5,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Sheraldo Becker",
+            "displayed_name": "Becker",
+            "position": "FWCR",
+            "injury_status": "QUES",
+            "player_id": 20640,
+            "player_url": "https://www.ligainsider.de/sheraldo-becker_20640/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Phillip Tietz",
+            "displayed_name": "Tietz",
+            "position": "FWCL",
+            "injury_status": null,
+            "player_id": 7480,
+            "player_url": "https://www.ligainsider.de/phillip-tietz_7480/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SC Paderborn",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Nahuel Noll",
+            "displayed_name": "Noll",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 24594,
+            "player_url": "https://www.ligainsider.de/nahuel-noll_24594/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Tjark Scheller",
+            "displayed_name": "Scheller",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 36890,
+            "player_url": "https://www.ligainsider.de/tjark-scheller_36890/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Felix Goetze",
+            "displayed_name": "Götze",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 10508,
+            "player_url": "https://www.ligainsider.de/felix-goetze_10508/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jano Ter Horst",
+            "displayed_name": "ter Horst",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 36702,
+            "player_url": "https://www.ligainsider.de/jano-ter-horst_36702/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Marcel Hoffmeier",
+            "displayed_name": "Hoffmeier",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 26447,
+            "player_url": "https://www.ligainsider.de/marcel-hoffmeier_26447/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jonah Sticker",
+            "displayed_name": "Sticker",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 38855,
+            "player_url": "https://www.ligainsider.de/jonah-sticker_38855/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Laurin Curda",
+            "displayed_name": "Curda",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 36261,
+            "player_url": "https://www.ligainsider.de/laurin-curda_36261/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ruben Mueller",
+            "displayed_name": "Müller",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 37563,
+            "player_url": "https://www.ligainsider.de/ruben-mueller_37563/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Santiago Castaneda",
+            "displayed_name": "Castañeda",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 37450,
+            "player_url": "https://www.ligainsider.de/santiago-castaneda_37450/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Luka Duric",
+            "displayed_name": "Đurić",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 38279,
+            "player_url": "https://www.ligainsider.de/luka-duric_38279/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Laurin Ulrich",
+            "displayed_name": "Ulrich",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 27568,
+            "player_url": "https://www.ligainsider.de/laurin-ulrich_27568/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Raphael Obermair",
+            "displayed_name": "Obermair",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 12780,
+            "player_url": "https://www.ligainsider.de/raphael-obermair_12780/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Albert Millgramm",
+            "displayed_name": "Millgramm",
+            "position": "AMCR",
+            "injury_status": null,
+            "player_id": 38879,
+            "player_url": "https://www.ligainsider.de/albert-millgramm_38879/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Stefano Marino",
+            "displayed_name": "Marino",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 27339,
+            "player_url": "https://www.ligainsider.de/stefano-marino_27339/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Steffen Tigges",
+            "displayed_name": "Tigges",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 15810,
+            "player_url": "https://www.ligainsider.de/steffen-tigges_15810/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Oliver Batista Meier",
+            "displayed_name": "Batista Meier",
+            "position": "AMCL",
+            "injury_status": null,
+            "player_id": 19164,
+            "player_url": "https://www.ligainsider.de/oliver-batista-meier_19164/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T15:30+02:00",
+      "home": {
+        "team_name": "RB Leipzig",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Maarten Vandevoordt",
+            "displayed_name": "Vandevoordt",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 21774,
+            "player_url": "https://www.ligainsider.de/maarten-vandevoordt_21774/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ridle Baku",
+            "displayed_name": "Baku",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 15835,
+            "player_url": "https://www.ligainsider.de/ridle-baku_15835/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Willi Orban",
+            "displayed_name": "Orbán",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 1667,
+            "player_url": "https://www.ligainsider.de/willi-orban_1667/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Castello Lukeba",
+            "displayed_name": "Castello Jr.",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 27079,
+            "player_url": "https://www.ligainsider.de/castello-lukeba_27079/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Maxime Esteve",
+            "displayed_name": "Estève",
+            "position": "DCL",
+            "injury_status": "QUES",
+            "player_id": 38844,
+            "player_url": "https://www.ligainsider.de/maxime-esteve_38844/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "David Raum",
+            "displayed_name": "Raum",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 12557,
+            "player_url": "https://www.ligainsider.de/david-raum_12557/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Brajan Gruda",
+            "displayed_name": "Gruda",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 35733,
+            "player_url": "https://www.ligainsider.de/brajan-gruda_35733/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Nicolas Seiwald",
+            "displayed_name": "Seiwald",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 24619,
+            "player_url": "https://www.ligainsider.de/nicolas-seiwald_24619/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ezechiel Banzuzi",
+            "displayed_name": "Banzuzi",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 38383,
+            "player_url": "https://www.ligainsider.de/ezechiel-banzuzi_38383/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Rocco Reitz",
+            "displayed_name": "Reitz",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 24546,
+            "player_url": "https://www.ligainsider.de/rocco-reitz_24546/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Johan Bakayoko",
+            "displayed_name": "Bakayoko",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 35421,
+            "player_url": "https://www.ligainsider.de/johan-bakayoko_35421/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 27513,
+            "player_url": "https://www.ligainsider.de/neuzugang_27513/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Tidiam Gomis",
+            "displayed_name": "Gomis",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 36962,
+            "player_url": "https://www.ligainsider.de/tidiam-gomis_36962/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Romulo Cardoso",
+            "displayed_name": "Rômulo",
+            "position": "FW",
+            "injury_status": "QUES",
+            "player_id": 38565,
+            "player_url": "https://www.ligainsider.de/romulo-cardoso_38565/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Antonio Nusa",
+            "displayed_name": "Nusa",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 37124,
+            "player_url": "https://www.ligainsider.de/antonio-nusa_37124/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Borussia Mönchengladbach",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Moritz Nicolas",
+            "displayed_name": "Nicolas",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 6295,
+            "player_url": "https://www.ligainsider.de/moritz-nicolas_6295/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Daiki Hashioka",
+            "displayed_name": "Hashioka",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 36955,
+            "player_url": "https://www.ligainsider.de/daiki-hashioka_36955/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Kevin Diks",
+            "displayed_name": "Diks",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 11591,
+            "player_url": "https://www.ligainsider.de/kevin-diks_11591/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jan Leszczynski",
+            "displayed_name": "Leszczyński",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 38925,
+            "player_url": "https://www.ligainsider.de/jan-leszczynski_38925/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 27514,
+            "player_url": "https://www.ligainsider.de/neuzugang_27514/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Lukas Ullrich",
+            "displayed_name": "Ullrich",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 27518,
+            "player_url": "https://www.ligainsider.de/lukas-ullrich_27518/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "David Herold",
+            "displayed_name": "Herold",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 34927,
+            "player_url": "https://www.ligainsider.de/david-herold_34927/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Kevin Stoeger",
+            "displayed_name": "Stöger",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 692,
+            "player_url": "https://www.ligainsider.de/kevin-stoeger_692/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Enzo Leopold",
+            "displayed_name": "Leopold",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 20348,
+            "player_url": "https://www.ligainsider.de/enzo-leopold_20348/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Hugo Bolin",
+            "displayed_name": "Bolin",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 37888,
+            "player_url": "https://www.ligainsider.de/hugo-bolin_37888/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Philipp Sander",
+            "displayed_name": "Sander",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 18612,
+            "player_url": "https://www.ligainsider.de/philipp-sander_18612/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Franck Honorat",
+            "displayed_name": "Honorat",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 23248,
+            "player_url": "https://www.ligainsider.de/franck-honorat_23248/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Tim Kleindienst",
+            "displayed_name": "Kleindienst",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 6321,
+            "player_url": "https://www.ligainsider.de/tim-kleindienst_6321/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Isac Lidberg",
+            "displayed_name": "Lidberg",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 37438,
+            "player_url": "https://www.ligainsider.de/isac-lidberg_37438/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Wael Mohya",
+            "displayed_name": "Mohya",
+            "position": "FWL",
+            "injury_status": "QUES",
+            "player_id": 38636,
+            "player_url": "https://www.ligainsider.de/wael-mohya_38636/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Robin Hack",
+            "displayed_name": "Hack",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 14139,
+            "player_url": "https://www.ligainsider.de/robin-hack_14139/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T15:30+02:00",
+      "home": {
+        "team_name": "SV 07 Elversberg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Nicolas Kristof",
+            "displayed_name": "Kristof",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 26473,
+            "player_url": "https://www.ligainsider.de/nicolas-kristof_26473/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jan Gyamerah",
+            "displayed_name": "Gyamerah",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 5825,
+            "player_url": "https://www.ligainsider.de/jan-gyamerah_5825/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Lukas Pinckert",
+            "displayed_name": "Pinckert",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 38539,
+            "player_url": "https://www.ligainsider.de/lukas-pinckert_38539/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Maximilian Rohr",
+            "displayed_name": "Rohr",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 24711,
+            "player_url": "https://www.ligainsider.de/maximilian-rohr_24711/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Lasse Guenther",
+            "displayed_name": "Günther",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 26087,
+            "player_url": "https://www.ligainsider.de/lasse-guenther_26087/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Felix Keidel",
+            "displayed_name": "Keidel",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 27483,
+            "player_url": "https://www.ligainsider.de/felix-keidel_27483/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Amara Conde",
+            "displayed_name": "Condé",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 6545,
+            "player_url": "https://www.ligainsider.de/amara-conde_6545/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Francis Onyeka",
+            "displayed_name": "Onyeka",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 36948,
+            "player_url": "https://www.ligainsider.de/francis-onyeka_36948/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Noah Darvich",
+            "displayed_name": "Darvich",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 36018,
+            "player_url": "https://www.ligainsider.de/noah-darvich_36018/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Lukasz Poreba",
+            "displayed_name": "Poręba",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 36788,
+            "player_url": "https://www.ligainsider.de/lukasz-poreba_36788/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Lukas Petkov",
+            "displayed_name": "Petkov",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 20088,
+            "player_url": "https://www.ligainsider.de/lukas-petkov_20088/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "David Mokwa",
+            "displayed_name": "Mokwa",
+            "position": "FW",
+            "injury_status": "QUES",
+            "player_id": 35765,
+            "player_url": "https://www.ligainsider.de/david-mokwa_35765/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Luca Schnellbacher",
+            "displayed_name": "Schnellbacher",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 6495,
+            "player_url": "https://www.ligainsider.de/luca-schnellbacher_6495/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Noel Futkeu",
+            "displayed_name": "Futkeu",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 24815,
+            "player_url": "https://www.ligainsider.de/noel-futkeu_24815/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Cole Campbell",
+            "displayed_name": "Campbell",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 36946,
+            "player_url": "https://www.ligainsider.de/cole-campbell_36946/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Bayer 04 Leverkusen",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Mark Flekken",
+            "displayed_name": "Flekken",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 4530,
+            "player_url": "https://www.ligainsider.de/mark-flekken_4530/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Lucas Vazquez",
+            "displayed_name": "Vázquez",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 7631,
+            "player_url": "https://www.ligainsider.de/lucas-vazquez_7631/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jarell Quansah",
+            "displayed_name": "Quansah",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 36489,
+            "player_url": "https://www.ligainsider.de/jarell-quansah_36489/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Arthur",
+            "displayed_name": "Arthur",
+            "position": "DR",
+            "injury_status": "QUES",
+            "player_id": 35904,
+            "player_url": "https://www.ligainsider.de/arthur_35904/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Loic Bade",
+            "displayed_name": "Badé",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 35823,
+            "player_url": "https://www.ligainsider.de/loic-bade_35823/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Facundo Medina",
+            "displayed_name": "Medina",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 36418,
+            "player_url": "https://www.ligainsider.de/facundo-medina_36418/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Edmond Tapsoba",
+            "displayed_name": "Tapsoba",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 19022,
+            "player_url": "https://www.ligainsider.de/edmond-tapsoba_19022/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Miguel Gutierrez",
+            "displayed_name": "Gutiérrez",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 24219,
+            "player_url": "https://www.ligainsider.de/miguel-gutierrez_24219/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Equi Fernandez",
+            "displayed_name": "Fernández",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 38674,
+            "player_url": "https://www.ligainsider.de/equi-fernandez_38674/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Exequiel Palacios",
+            "displayed_name": "Palacios",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 20382,
+            "player_url": "https://www.ligainsider.de/exequiel-palacios_20382/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Malik Tillman",
+            "displayed_name": "Tillman",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 23862,
+            "player_url": "https://www.ligainsider.de/malik-tillman_23862/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ernest Poku",
+            "displayed_name": "Poku",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 37740,
+            "player_url": "https://www.ligainsider.de/ernest-poku_37740/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Aleix Garcia",
+            "displayed_name": "Aleix García",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 7138,
+            "player_url": "https://www.ligainsider.de/aleix-garcia_7138/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ibrahim Maza",
+            "displayed_name": "Maza",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 35905,
+            "player_url": "https://www.ligainsider.de/ibrahim-maza_35905/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Patrik Schick",
+            "displayed_name": "Schick",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 7794,
+            "player_url": "https://www.ligainsider.de/patrik-schick_7794/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Afonso Moreira",
+            "displayed_name": "Moreira",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 36841,
+            "player_url": "https://www.ligainsider.de/afonso-moreira_36841/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-29T18:30+02:00",
+      "home": {
+        "team_name": "Borussia Dortmund",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Gregor Kobel",
+            "displayed_name": "Kobel",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 9357,
+            "player_url": "https://www.ligainsider.de/gregor-kobel_9357/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Joane Gadou",
+            "displayed_name": "Gadou",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 37021,
+            "player_url": "https://www.ligainsider.de/joane-gadou_37021/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Waldemar Anton",
+            "displayed_name": "Anton",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 5837,
+            "player_url": "https://www.ligainsider.de/waldemar-anton_5837/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ramy Bensebaini",
+            "displayed_name": "Bensebaini",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 7791,
+            "player_url": "https://www.ligainsider.de/ramy-bensebaini_7791/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Julian Ryerson",
+            "displayed_name": "Ryerson",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 18478,
+            "player_url": "https://www.ligainsider.de/julian-ryerson_18478/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jobe Bellingham",
+            "displayed_name": "Jobe",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 38153,
+            "player_url": "https://www.ligainsider.de/jobe-bellingham_38153/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Felix Nmecha",
+            "displayed_name": "F. Nmecha",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 25090,
+            "player_url": "https://www.ligainsider.de/felix-nmecha_25090/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Daniel Svensson",
+            "displayed_name": "Svensson",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 38304,
+            "player_url": "https://www.ligainsider.de/daniel-svensson_38304/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Konstantinos Karetsas",
+            "displayed_name": "Karetsas",
+            "position": "AMCR",
+            "injury_status": null,
+            "player_id": 38406,
+            "player_url": "https://www.ligainsider.de/konstantinos-karetsas_38406/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Serhou Guirassy",
+            "displayed_name": "Guirassy",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 10454,
+            "player_url": "https://www.ligainsider.de/serhou-guirassy_10454/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Maximilian Beier",
+            "displayed_name": "Beier",
+            "position": "AMCL",
+            "injury_status": "QUES",
+            "player_id": 20804,
+            "player_url": "https://www.ligainsider.de/maximilian-beier_20804/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Samuele Inacio",
+            "displayed_name": "Inácio",
+            "position": "AMCL",
+            "injury_status": null,
+            "player_id": 37188,
+            "player_url": "https://www.ligainsider.de/samuele-inacio_37188/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hamburger SV",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Daniel Heuer Fernandes",
+            "displayed_name": "Fernandes",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 6379,
+            "player_url": "https://www.ligainsider.de/daniel-heuer-fernandes_6379/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Nicolas Capaldo",
+            "displayed_name": "Capaldo",
+            "position": "DCR",
+            "injury_status": "QUES",
+            "player_id": 26628,
+            "player_url": "https://www.ligainsider.de/nicolas-capaldo_26628/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 27513,
+            "player_url": "https://www.ligainsider.de/neuzugang_27513/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jordan Torunarigha",
+            "displayed_name": "Torunarigha",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 6513,
+            "player_url": "https://www.ligainsider.de/jordan-torunarigha_6513/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Bakery Jatta",
+            "displayed_name": "Jatta",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 7056,
+            "player_url": "https://www.ligainsider.de/bakery-jatta_7056/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Nicolai Remberg",
+            "displayed_name": "Remberg",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 26449,
+            "player_url": "https://www.ligainsider.de/nicolai-remberg_26449/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Albert Sambi Lokonga",
+            "displayed_name": "Sambi",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 18447,
+            "player_url": "https://www.ligainsider.de/albert-sambi-lokonga_18447/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Miro Muheim",
+            "displayed_name": "Muheim",
+            "position": "ML",
+            "injury_status": "QUES",
+            "player_id": 26094,
+            "player_url": "https://www.ligainsider.de/miro-muheim_26094/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Louis Lemke",
+            "displayed_name": "Lemke",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 38811,
+            "player_url": "https://www.ligainsider.de/louis-lemke_38811/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Martin Adeline",
+            "displayed_name": "Adeline",
+            "position": "AMCR",
+            "injury_status": null,
+            "player_id": 38937,
+            "player_url": "https://www.ligainsider.de/martin-adeline_38937/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Rayan Philippe",
+            "displayed_name": "Philippe",
+            "position": "AMCR",
+            "injury_status": null,
+            "player_id": 36121,
+            "player_url": "https://www.ligainsider.de/rayan-philippe_36121/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Patson Daka",
+            "displayed_name": "Daka",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 16774,
+            "player_url": "https://www.ligainsider.de/patson-daka_16774/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Albert Groenbaek",
+            "displayed_name": "Grønbæk",
+            "position": "AMCL",
+            "injury_status": null,
+            "player_id": 35437,
+            "player_url": "https://www.ligainsider.de/albert-groenbaek_35437/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-30T15:30+02:00",
+      "home": {
+        "team_name": "SC Freiburg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Mio Backhaus",
+            "displayed_name": "Backhaus",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 27467,
+            "player_url": "https://www.ligainsider.de/mio-backhaus_27467/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Philipp Treu",
+            "displayed_name": "Treu",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 20344,
+            "player_url": "https://www.ligainsider.de/philipp-treu_20344/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Matthias Ginter",
+            "displayed_name": "Ginter",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 1835,
+            "player_url": "https://www.ligainsider.de/matthias-ginter_1835/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Philipp Lienhart",
+            "displayed_name": "Lienhart",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 13911,
+            "player_url": "https://www.ligainsider.de/philipp-lienhart_13911/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Christian Guenter",
+            "displayed_name": "Günter",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 2153,
+            "player_url": "https://www.ligainsider.de/christian-guenter_2153/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jordy Makengo",
+            "displayed_name": "Makengo",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 26088,
+            "player_url": "https://www.ligainsider.de/jordy-makengo_26088/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Berkay Yilmaz",
+            "displayed_name": "Yilmaz",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 37208,
+            "player_url": "https://www.ligainsider.de/berkay-yilmaz_37208/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Maximilian Eggestein",
+            "displayed_name": "Eggestein",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 6131,
+            "player_url": "https://www.ligainsider.de/maximilian-eggestein_6131/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Yuito Suzuki",
+            "displayed_name": "Yuito",
+            "position": "AMC",
+            "injury_status": null,
+            "player_id": 37105,
+            "player_url": "https://www.ligainsider.de/yuito-suzuki_37105/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Yannik Engelhardt",
+            "displayed_name": "Engelhardt",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 20278,
+            "player_url": "https://www.ligainsider.de/yannik-engelhardt_20278/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Niklas Beste",
+            "displayed_name": "Beste",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 14520,
+            "player_url": "https://www.ligainsider.de/niklas-beste_14520/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Igor Matanovic",
+            "displayed_name": "Matanović",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 25780,
+            "player_url": "https://www.ligainsider.de/igor-matanovic_25780/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Vincenzo Grifo",
+            "displayed_name": "Grifo",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 2361,
+            "player_url": "https://www.ligainsider.de/vincenzo-grifo_2361/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Derry Scherhant",
+            "displayed_name": "Scherhant",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 27532,
+            "player_url": "https://www.ligainsider.de/derry-scherhant_27532/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Werder Bremen",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Karl Hein",
+            "displayed_name": "Hein",
+            "position": "GK",
+            "injury_status": "QUES",
+            "player_id": 25603,
+            "player_url": "https://www.ligainsider.de/karl-hein_25603/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Neuzugang",
+            "displayed_name": "Neuzugang",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 27513,
+            "player_url": "https://www.ligainsider.de/neuzugang_27513/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Mick Schmetgens",
+            "displayed_name": "Schmetgens",
+            "position": "DR",
+            "injury_status": null,
+            "player_id": 37129,
+            "player_url": "https://www.ligainsider.de/mick-schmetgens_37129/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Amos Pieper",
+            "displayed_name": "Pieper",
+            "position": "DCR",
+            "injury_status": "QUES",
+            "player_id": 7061,
+            "player_url": "https://www.ligainsider.de/amos-pieper_7061/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Marco Friedl",
+            "displayed_name": "Friedl",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 7047,
+            "player_url": "https://www.ligainsider.de/marco-friedl_7047/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Olivier Deman",
+            "displayed_name": "Deman",
+            "position": "DL",
+            "injury_status": null,
+            "player_id": 36310,
+            "player_url": "https://www.ligainsider.de/olivier-deman_36310/",
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jens Stage",
+            "displayed_name": "Stage",
+            "position": "MCR",
+            "injury_status": "QUES",
+            "player_id": 22538,
+            "player_url": "https://www.ligainsider.de/jens-stage_22538/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Senne Lynen",
+            "displayed_name": "Lynen",
+            "position": "DMC",
+            "injury_status": null,
+            "player_id": 35359,
+            "player_url": "https://www.ligainsider.de/senne-lynen_35359/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Chuki",
+            "displayed_name": "Chuki",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 38831,
+            "player_url": "https://www.ligainsider.de/chuki_38831/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Justin Njinmah",
+            "displayed_name": "Njinmah",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 27480,
+            "player_url": "https://www.ligainsider.de/justin-njinmah_27480/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Marco Gruell",
+            "displayed_name": "Grüll",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 26702,
+            "player_url": "https://www.ligainsider.de/marco-gruell_26702/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Paul Erevbenagie",
+            "displayed_name": "Erevbenagie",
+            "position": "FWR",
+            "injury_status": null,
+            "player_id": 38929,
+            "player_url": "https://www.ligainsider.de/paul-erevbenagie_38929/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Cedric Itten",
+            "displayed_name": "Itten",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 18071,
+            "player_url": "https://www.ligainsider.de/cedric-itten_18071/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Salim Musah",
+            "displayed_name": "Musah",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 37144,
+            "player_url": "https://www.ligainsider.de/salim-musah_37144/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Samuel Mbangula",
+            "displayed_name": "Mbangula",
+            "position": "FWL",
+            "injury_status": null,
+            "player_id": 38551,
+            "player_url": "https://www.ligainsider.de/samuel-mbangula_38551/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "2026-08-30T17:30+02:00",
+      "home": {
+        "team_name": "FC Augsburg",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Finn Dahmen",
+            "displayed_name": "Dahmen",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 18728,
+            "player_url": "https://www.ligainsider.de/finn-dahmen_18728/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Chrislain Matsima",
+            "displayed_name": "Matsima",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 26695,
+            "player_url": "https://www.ligainsider.de/chrislain-matsima_26695/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Jeffrey Gouweleeuw",
+            "displayed_name": "Gouweleeuw",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 1851,
+            "player_url": "https://www.ligainsider.de/jeffrey-gouweleeuw_1851/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Noahkai Banks",
+            "displayed_name": "Banks",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 37195,
+            "player_url": "https://www.ligainsider.de/noahkai-banks_37195/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Keven Schlotterbeck",
+            "displayed_name": "Schlotterbeck",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 19286,
+            "player_url": "https://www.ligainsider.de/keven-schlotterbeck_19286/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Calvin Brackelmann",
+            "displayed_name": "Brackelmann",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 12771,
+            "player_url": "https://www.ligainsider.de/calvin-brackelmann_12771/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Marius Wolf",
+            "displayed_name": "Wolf",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 5670,
+            "player_url": "https://www.ligainsider.de/marius-wolf_5670/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Han Noah Massengo",
+            "displayed_name": "Massengo",
+            "position": "MCR",
+            "injury_status": "QUES",
+            "player_id": 35978,
+            "player_url": "https://www.ligainsider.de/han-noah-massengo_35978/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Fabian Rieder",
+            "displayed_name": "Rieder",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 25579,
+            "player_url": "https://www.ligainsider.de/fabian-rieder_25579/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Hennes Behrens",
+            "displayed_name": "Behrens",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 37221,
+            "player_url": "https://www.ligainsider.de/hennes-behrens_37221/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Anton Kade",
+            "displayed_name": "Kade",
+            "position": "AMCR",
+            "injury_status": null,
+            "player_id": 26138,
+            "player_url": "https://www.ligainsider.de/anton-kade_26138/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Michael Gregoritsch",
+            "displayed_name": "Gregoritsch",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 1512,
+            "player_url": "https://www.ligainsider.de/michael-gregoritsch_1512/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Robin Fellhauer",
+            "displayed_name": "Fellhauer",
+            "position": "AMCL",
+            "injury_status": null,
+            "player_id": 24864,
+            "player_url": "https://www.ligainsider.de/robin-fellhauer_24864/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Schalke 04",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": "Loris Karius",
+            "displayed_name": "Karius",
+            "position": "GK",
+            "injury_status": null,
+            "player_id": 1641,
+            "player_url": "https://www.ligainsider.de/loris-karius_1641/",
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Timo Becker",
+            "displayed_name": "T. Becker",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 11068,
+            "player_url": "https://www.ligainsider.de/timo-becker_11068/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Mertcan Ayhan",
+            "displayed_name": "Ayhan",
+            "position": "DCR",
+            "injury_status": null,
+            "player_id": 38514,
+            "player_url": "https://www.ligainsider.de/mertcan-ayhan_38514/",
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Nikola Katic",
+            "displayed_name": "Katić",
+            "position": "DC",
+            "injury_status": null,
+            "player_id": 23002,
+            "player_url": "https://www.ligainsider.de/nikola-katic_23002/",
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Hasan Kurucay",
+            "displayed_name": "Kuruçay",
+            "position": "DCL",
+            "injury_status": null,
+            "player_id": 35927,
+            "player_url": "https://www.ligainsider.de/hasan-kurucay_35927/",
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Dejan Ljubicic",
+            "displayed_name": "Ljubičić",
+            "position": "MR",
+            "injury_status": null,
+            "player_id": 24396,
+            "player_url": "https://www.ligainsider.de/dejan-ljubicic_24396/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Junior Dina Ebimbe",
+            "displayed_name": "Dina Ebimbe",
+            "position": "MR",
+            "injury_status": "QUES",
+            "player_id": 26881,
+            "player_url": "https://www.ligainsider.de/junior-dina-ebimbe_26881/",
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Satoshi Tanaka",
+            "displayed_name": "Tanaka",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 38876,
+            "player_url": "https://www.ligainsider.de/satoshi-tanaka_38876/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Ron Schallenberg",
+            "displayed_name": "Schallenberg",
+            "position": "MCR",
+            "injury_status": null,
+            "player_id": 14580,
+            "player_url": "https://www.ligainsider.de/ron-schallenberg_14580/",
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Soufiane El Faouzi",
+            "displayed_name": "El-Faouzi",
+            "position": "MCL",
+            "injury_status": null,
+            "player_id": 26067,
+            "player_url": "https://www.ligainsider.de/soufiane-el-faouzi_26067/",
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Vitalie Becker",
+            "displayed_name": "V. Becker",
+            "position": "ML",
+            "injury_status": null,
+            "player_id": 37365,
+            "player_url": "https://www.ligainsider.de/vitalie-becker_37365/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Robin Gosens",
+            "displayed_name": "Gosens",
+            "position": "ML",
+            "injury_status": "QUES",
+            "player_id": 16537,
+            "player_url": "https://www.ligainsider.de/robin-gosens_16537/",
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Kenan Karaman",
+            "displayed_name": "Karaman",
+            "position": "AMCR",
+            "injury_status": "QUES",
+            "player_id": 2676,
+            "player_url": "https://www.ligainsider.de/kenan-karaman_2676/",
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Junior Adamu",
+            "displayed_name": "Adamu",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 24620,
+            "player_url": "https://www.ligainsider.de/junior-adamu_24620/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": "Moussa Sylla",
+            "displayed_name": "Sylla",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 16217,
+            "player_url": "https://www.ligainsider.de/moussa-sylla_16217/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": "Edin Dzeko",
+            "displayed_name": "Džeko",
+            "position": "FW",
+            "injury_status": null,
+            "player_id": 4755,
+            "player_url": "https://www.ligainsider.de/edin-dzeko_4755/",
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": "Adil Aouchiche",
+            "displayed_name": "Aouchiche",
+            "position": "AMCL",
+            "injury_status": null,
+            "player_id": 22176,
+            "player_url": "https://www.ligainsider.de/adil-aouchiche_22176/",
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    }
+  ]
+}

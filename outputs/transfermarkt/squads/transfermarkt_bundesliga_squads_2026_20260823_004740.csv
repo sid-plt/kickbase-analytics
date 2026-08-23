@@ -1,0 +1,546 @@
+team,team_id,season_id,shirt_number,player_name,player_id,position,age,nationalities,contract_until,market_value,market_value_eur,player_url
+1. FC Köln,3,2026,10,Said El Mala,1168219,Left Winger,19,Germany,30/06/2031,€45.00m,45000000,https://www.transfermarkt.com/said-el-mala/profil/spieler/1168219
+1. FC Köln,3,2026,22,Jahmai Simpson-Pusey,942497,Centre-Back,20,England,30/06/2030,€9.00m,9000000,https://www.transfermarkt.com/jahmai-simpson-pusey/profil/spieler/942497
+1. FC Köln,3,2026,9,Ragnar Ache,416380,Centre-Forward,28,Germany|Ghana,30/06/2029,€9.00m,9000000,https://www.transfermarkt.com/ragnar-ache/profil/spieler/416380
+1. FC Köln,3,2026,27,Thijs Dallinga,538964,Centre-Forward,26,Netherlands,30/06/2027,€9.00m,9000000,https://www.transfermarkt.com/thijs-dallinga/profil/spieler/538964
+1. FC Köln,3,2026,8,Ísak Jóhannesson,579565,Central Midfield,23,Iceland|England,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/isak-johannesson/profil/spieler/579565
+1. FC Köln,3,2026,33,Rav van den Berg,640556,Centre-Back,22,Netherlands,30/06/2030,€7.00m,7000000,https://www.transfermarkt.com/rav-van-den-berg/profil/spieler/640556
+1. FC Köln,3,2026,28,Sebastian Sebulonsen,592387,Right-Back,26,Norway,30/06/2028,€5.50m,5500000,https://www.transfermarkt.com/sebastian-sebulonsen/profil/spieler/592387
+1. FC Köln,3,2026,6,Ellyes Skhiri,290587,Defensive Midfield,31,Tunisia|France,30/06/2028,€5.00m,5000000,https://www.transfermarkt.com/ellyes-skhiri/profil/spieler/290587
+1. FC Köln,3,2026,29,Jan Thielmann,472249,Right Winger,24,Germany,30/06/2028,€5.00m,5000000,https://www.transfermarkt.com/jan-thielmann/profil/spieler/472249
+1. FC Köln,3,2026,5,Tom Krauß,405687,Defensive Midfield,25,Germany,30/06/2029,€4.50m,4500000,https://www.transfermarkt.com/tom-krauss/profil/spieler/405687
+1. FC Köln,3,2026,14,Gideon Mensah,397171,Left-Back,28,Ghana,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/gideon-mensah/profil/spieler/397171
+1. FC Köln,3,2026,2,Joël Schmied,322517,Centre-Back,27,Switzerland,30/06/2029,€3.00m,3000000,https://www.transfermarkt.com/joel-schmied/profil/spieler/322517
+1. FC Köln,3,2026,37,Linton Maina,335103,Left Winger,27,Germany|Kenya,,€3.00m,3000000,https://www.transfermarkt.com/linton-maina/profil/spieler/335103
+1. FC Köln,3,2026,1,Marvin Schwäbe,160929,Goalkeeper,31,Germany,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/marvin-schwabe/profil/spieler/160929
+1. FC Köln,3,2026,17,Alessio Castro-Montes,340166,Right-Back,29,Belgium|Spain,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/alessio-castro-montes/profil/spieler/340166
+1. FC Köln,3,2026,3,Julian Pauli,744558,Centre-Back,21,Germany|England,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/julian-pauli/profil/spieler/744558
+1. FC Köln,3,2026,24,Luka Lochoshvili,345189,Centre-Back,28,Georgia,30/06/2029,€2.50m,2500000,https://www.transfermarkt.com/luka-lochoshvili/profil/spieler/345189
+1. FC Köln,3,2026,7,Luca Waldschmidt,196095,Centre-Forward,30,Germany,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/luca-waldschmidt/profil/spieler/196095
+1. FC Köln,3,2026,38,Youssoupha Niang,944331,Right Winger,20,Germany|Senegal,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/youssoupha-niang/profil/spieler/944331
+1. FC Köln,3,2026,30,Marius Bülter,116088,Left Winger,33,Germany,30/06/2027,€1.80m,1800000,https://www.transfermarkt.com/marius-bulter/profil/spieler/116088
+1. FC Köln,3,2026,4,Timo Hübers,236981,Centre-Back,30,Germany,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/timo-hubers/profil/spieler/236981
+1. FC Köln,3,2026,23,Paul Okon-Engstler,1064377,Defensive Midfield,21,Australia|Italy,30/06/2030,€1.20m,1200000,https://www.transfermarkt.com/paul-okon-engstler/profil/spieler/1064377
+1. FC Köln,3,2026,,Imad Rondic,464154,Centre-Forward,27,Bosnia-Herzegovina,30/06/2029,€750k,750000,https://www.transfermarkt.com/imad-rondic/profil/spieler/464154
+1. FC Köln,3,2026,20,Ron-Robert Zieler,21327,Goalkeeper,37,Germany,30/06/2027,€500k,500000,https://www.transfermarkt.com/ron-robert-zieler/profil/spieler/21327
+1. FC Köln,3,2026,,Elias Bakatukanda,795762,Centre-Back,22,DR Congo|Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/elias-bakatukanda/profil/spieler/795762
+1. FC Köln,3,2026,19,Malek El Mala,1168222,Centre-Forward,21,Germany,30/06/2030,€250k,250000,https://www.transfermarkt.com/malek-el-mala/profil/spieler/1168222
+1. FC Köln,3,2026,44,Matthias Köbbing,227089,Goalkeeper,29,Germany,30/06/2027,€100k,100000,https://www.transfermarkt.com/matthias-kobbing/profil/spieler/227089
+1. FC Köln,3,2026,31,Gil Neves,1073474,Central Midfield,18,Portugal|Luxembourg,,-,,https://www.transfermarkt.com/gil-neves/profil/spieler/1073474
+1. FC Köln,3,2026,21,Martin James,1077676,Goalkeeper,18,France,30/06/2029,-,,https://www.transfermarkt.com/martin-james/profil/spieler/1077676
+1. FC Köln,3,2026,11,Reigan Heskey,1056437,Left Winger,18,England|Antigua and Barbuda,30/06/2031,-,,https://www.transfermarkt.com/reigan-heskey/profil/spieler/1056437
+Bayer Leverkusen,15,2026,30,Ibrahim Maza,905011,Attacking Midfield,20,Algeria|Germany,30/06/2030,€45.00m,45000000,https://www.transfermarkt.com/ibrahim-maza/profil/spieler/905011
+Bayer Leverkusen,15,2026,4,Jarell Quansah,632349,Centre-Back,23,England|Scotland,30/06/2030,€45.00m,45000000,https://www.transfermarkt.com/jarell-quansah/profil/spieler/632349
+Bayer Leverkusen,15,2026,35,Christian Kofane,1364454,Centre-Forward,20,Cameroon,30/06/2029,€40.00m,40000000,https://www.transfermarkt.com/christian-kofane/profil/spieler/1364454
+Bayer Leverkusen,15,2026,12,Edmond Tapsoba,564545,Centre-Back,27,Burkina Faso,30/06/2031,€35.00m,35000000,https://www.transfermarkt.com/edmond-tapsoba/profil/spieler/564545
+Bayer Leverkusen,15,2026,10,Malik Tillman,467437,Attacking Midfield,24,United States|Germany,30/06/2030,€30.00m,30000000,https://www.transfermarkt.com/malik-tillman/profil/spieler/467437
+Bayer Leverkusen,15,2026,19,Ernest Poku,718303,Right Winger,22,Netherlands|Ghana,30/06/2030,€25.00m,25000000,https://www.transfermarkt.com/ernest-poku/profil/spieler/718303
+Bayer Leverkusen,15,2026,25,Exequiel Palacios,401578,Central Midfield,27,Argentina,30/06/2030,€25.00m,25000000,https://www.transfermarkt.com/exequiel-palacios/profil/spieler/401578
+Bayer Leverkusen,15,2026,3,Miguel Gutiérrez,525299,Left-Back,25,Spain,30/06/2031,€22.00m,22000000,https://www.transfermarkt.com/miguel-gutierrez/profil/spieler/525299
+Bayer Leverkusen,15,2026,9,Afonso Moreira,952282,Left Winger,21,Portugal,30/06/2031,€20.00m,20000000,https://www.transfermarkt.com/afonso-moreira/profil/spieler/952282
+Bayer Leverkusen,15,2026,24,Aleix García,261504,Central Midfield,29,Spain,30/06/2029,€20.00m,20000000,https://www.transfermarkt.com/aleix-garcia/profil/spieler/261504
+Bayer Leverkusen,15,2026,17,Eliesse Ben Seghir,810895,Left Winger,21,Morocco|France,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/eliesse-ben-seghir/profil/spieler/810895
+Bayer Leverkusen,15,2026,6,Equi Fernández,664708,Defensive Midfield,24,Argentina|Paraguay,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/equi-fernandez/profil/spieler/664708
+Bayer Leverkusen,15,2026,18,Kennet Eichhorn,1214123,Defensive Midfield,17,Germany,30/06/2031,€20.00m,20000000,https://www.transfermarkt.com/kennet-eichhorn/profil/spieler/1214123
+Bayer Leverkusen,15,2026,5,Loïc Badé,730581,Centre-Back,26,France|Cote d'Ivoire,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/loic-bade/profil/spieler/730581
+Bayer Leverkusen,15,2026,2,Facundo Medina,474800,Centre-Back,27,Argentina,30/06/2031,€18.00m,18000000,https://www.transfermarkt.com/facundo-medina/profil/spieler/474800
+Bayer Leverkusen,15,2026,14,Patrik Schick,242086,Centre-Forward,30,Czech Republic,30/06/2030,€18.00m,18000000,https://www.transfermarkt.com/patrik-schick/profil/spieler/242086
+Bayer Leverkusen,15,2026,42,Montrell Culbreath,1058514,Right Winger,18,Germany|United States,30/06/2031,€15.00m,15000000,https://www.transfermarkt.com/montrell-culbreath/profil/spieler/1058514
+Bayer Leverkusen,15,2026,23,Nathan Tella,340322,Right Winger,27,Nigeria|England,30/06/2031,€15.00m,15000000,https://www.transfermarkt.com/nathan-tella/profil/spieler/340322
+Bayer Leverkusen,15,2026,44,Jeanuël Belocian,919515,Centre-Back,21,France|Guadeloupe,30/06/2029,€12.00m,12000000,https://www.transfermarkt.com/jeanuel-belocian/profil/spieler/919515
+Bayer Leverkusen,15,2026,13,Arthur,977464,Right-Back,23,Brazil,30/06/2031,€8.00m,8000000,https://www.transfermarkt.com/arthur/profil/spieler/977464
+Bayer Leverkusen,15,2026,16,Axel Tape,1077670,Centre-Back,19,France|Cote d'Ivoire,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/axel-tape/profil/spieler/1077670
+Bayer Leverkusen,15,2026,11,Martin Terrier,442891,Left Winger,29,France,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/martin-terrier/profil/spieler/442891
+Bayer Leverkusen,15,2026,1,Mark Flekken,125714,Goalkeeper,33,Netherlands,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/mark-flekken/profil/spieler/125714
+Bayer Leverkusen,15,2026,8,Robert Andrich,159088,Defensive Midfield,31,Germany,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/robert-andrich/profil/spieler/159088
+Bayer Leverkusen,15,2026,22,Victor Boniface,656681,Centre-Forward,25,Nigeria,30/06/2028,€5.00m,5000000,https://www.transfermarkt.com/victor-boniface/profil/spieler/656681
+Bayer Leverkusen,15,2026,15,Tim Oermann,696164,Centre-Back,22,Germany,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/tim-oermann/profil/spieler/696164
+Bayer Leverkusen,15,2026,7,Jonas Hofmann,7161,Attacking Midfield,34,Germany,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/jonas-hofmann/profil/spieler/7161
+Bayer Leverkusen,15,2026,17,Lucas Vázquez,221316,Right-Back,35,Spain,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/lucas-vazquez/profil/spieler/221316
+Bayer Leverkusen,15,2026,28,Janis Blaswich,81173,Goalkeeper,35,Germany,30/06/2027,€700k,700000,https://www.transfermarkt.com/janis-blaswich/profil/spieler/81173
+Bayer Leverkusen,15,2026,36,Niklas Lomb,85543,Goalkeeper,33,Germany,30/06/2027,€250k,250000,https://www.transfermarkt.com/niklas-lomb/profil/spieler/85543
+Bayer Leverkusen,15,2026,,Naba Mensah,991480,Central Midfield,19,Germany|Ghana,30/06/2027,-,,https://www.transfermarkt.com/naba-mensah/profil/spieler/991480
+Bayer Leverkusen,15,2026,,Ndjicoura Bomba,1392804,Centre-Forward,18,Mali,30/06/2030,-,,https://www.transfermarkt.com/ndjicoura-bomba/profil/spieler/1392804
+Bayern Munich,27,2026,17,Michael Olise,566723,Right Winger,24,France|England,30/06/2029,€170.00m,170000000,https://www.transfermarkt.com/michael-olise/profil/spieler/566723
+Bayern Munich,27,2026,10,Jamal Musiala,580195,Attacking Midfield,23,Germany|England,30/06/2030,€100.00m,100000000,https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195
+Bayern Munich,27,2026,45,Aleksandar Pavlovic,792380,Defensive Midfield,22,Germany|Serbia,30/06/2029,€90.00m,90000000,https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380
+Bayern Munich,27,2026,2,Dayot Upamecano,344695,Centre-Back,27,France|Guinea-Bissau,30/06/2030,€75.00m,75000000,https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695
+Bayern Munich,27,2026,14,Luis Díaz,480692,Left Winger,29,Colombia,30/06/2029,€70.00m,70000000,https://www.transfermarkt.com/luis-diaz/profil/spieler/480692
+Bayern Munich,27,2026,9,Harry Kane,132098,Centre-Forward,33,England|Ireland,30/06/2027,€60.00m,60000000,https://www.transfermarkt.com/harry-kane/profil/spieler/132098
+Bayern Munich,27,2026,42,Lennart Karl,1075147,Attacking Midfield,18,Germany,30/06/2029,€60.00m,60000000,https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147
+Bayern Munich,27,2026,34,Ismael Saibari,702869,Attacking Midfield,25,Morocco|Belgium,30/06/2031,€55.00m,55000000,https://www.transfermarkt.com/ismael-saibari/profil/spieler/702869
+Bayern Munich,27,2026,11,Nathaniel Brown,691892,Left-Back,23,Germany|United States,30/06/2031,€50.00m,50000000,https://www.transfermarkt.com/nathaniel-brown/profil/spieler/691892
+Bayern Munich,27,2026,19,Alphonso Davies,424204,Left-Back,25,Canada|Liberia,30/06/2030,€40.00m,40000000,https://www.transfermarkt.com/alphonso-davies/profil/spieler/424204
+Bayern Munich,27,2026,44,Josip Stanisic,483046,Right-Back,26,Croatia|Germany,30/06/2029,€40.00m,40000000,https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046
+Bayern Munich,27,2026,8,Tom Bischof,822959,Central Midfield,21,Germany,30/06/2029,€40.00m,40000000,https://www.transfermarkt.com/tom-bischof/profil/spieler/822959
+Bayern Munich,27,2026,6,Joshua Kimmich,161056,Defensive Midfield,31,Germany,30/06/2029,€35.00m,35000000,https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056
+Bayern Munich,27,2026,27,Konrad Laimer,223967,Right-Back,29,Austria,30/06/2029,€32.00m,32000000,https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967
+Bayern Munich,27,2026,4,Jonathan Tah,196357,Centre-Back,30,Germany|Cote d'Ivoire,30/06/2029,€28.00m,28000000,https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357
+Bayern Munich,27,2026,3,Min-jae Kim,503482,Centre-Back,29,"Korea, South",30/06/2028,€20.00m,20000000,https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482
+Bayern Munich,27,2026,21,Hiroki Ito,353892,Centre-Back,27,Japan,30/06/2028,€18.00m,18000000,https://www.transfermarkt.com/hiroki-ito/profil/spieler/353892
+Bayern Munich,27,2026,40,Jonas Urbig,607720,Goalkeeper,23,Germany,30/06/2029,€18.00m,18000000,https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720
+Bayern Munich,27,2026,7,Serge Gnabry,159471,Second Striker,31,Germany|Cote d'Ivoire,30/06/2028,€18.00m,18000000,https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471
+Bayern Munich,27,2026,,João Palhinha,257455,Defensive Midfield,31,Portugal,30/06/2028,€15.00m,15000000,https://www.transfermarkt.com/joao-palhinha/profil/spieler/257455
+Bayern Munich,27,2026,22,Arijon Ibrahimovic,744728,Left Winger,20,Germany|Kosovo,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/arijon-ibrahimovic/profil/spieler/744728
+Bayern Munich,27,2026,23,Sacha Boey,475413,Right-Back,25,France|Belgium,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/sacha-boey/profil/spieler/475413
+Bayern Munich,27,2026,28,Bryan Zaragoza,713644,Left Winger,24,Spain,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/bryan-zaragoza/profil/spieler/713644
+Bayern Munich,27,2026,39,Bara Sapoko Ndiaye,1497653,Central Midfield,18,Senegal,30/06/2031,€4.00m,4000000,https://www.transfermarkt.com/bara-sapoko-ndiaye/profil/spieler/1497653
+Bayern Munich,27,2026,32,Felipe Chávez,1009441,Central Midfield,19,Peru|Germany,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/felipe-chavez/profil/spieler/1009441
+Bayern Munich,27,2026,1,Manuel Neuer,17259,Goalkeeper,40,Germany,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259
+Bayern Munich,27,2026,47,David Santos Daiber,1118495,Defensive Midfield,19,Portugal|Germany,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/david-santos-daiber/profil/spieler/1118495
+Bayern Munich,27,2026,26,Sven Ulreich,40680,Goalkeeper,38,Germany,30/06/2027,€500k,500000,https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680
+Borussia Dortmund,16,2026,8,Felix Nmecha,406640,Central Midfield,25,Germany|England,30/06/2030,€55.00m,55000000,https://www.transfermarkt.com/felix-nmecha/profil/spieler/406640
+Borussia Dortmund,16,2026,4,Nico Schlotterbeck,388198,Centre-Back,26,Germany,30/06/2031,€55.00m,55000000,https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/388198
+Borussia Dortmund,16,2026,1,Gregor Kobel,257814,Goalkeeper,28,Switzerland,30/06/2028,€40.00m,40000000,https://www.transfermarkt.com/gregor-kobel/profil/spieler/257814
+Borussia Dortmund,16,2026,7,Jobe Bellingham,796297,Central Midfield,20,England|Ireland,30/06/2030,€40.00m,40000000,https://www.transfermarkt.com/jobe-bellingham/profil/spieler/796297
+Borussia Dortmund,16,2026,14,Maximilian Beier,578392,Centre-Forward,23,Germany,30/06/2029,€40.00m,40000000,https://www.transfermarkt.com/maximilian-beier/profil/spieler/578392
+Borussia Dortmund,16,2026,19,Konstantinos Karetsas,990148,Attacking Midfield,18,Greece|Belgium,30/06/2031,€35.00m,35000000,https://www.transfermarkt.com/konstantinos-karetsas/profil/spieler/990148
+Borussia Dortmund,16,2026,9,Serhou Guirassy,270541,Centre-Forward,30,Guinea|France,30/06/2028,€32.00m,32000000,https://www.transfermarkt.com/serhou-guirassy/profil/spieler/270541
+Borussia Dortmund,16,2026,25,Joey Veerman,408574,Central Midfield,27,Netherlands,30/06/2031,€25.00m,25000000,https://www.transfermarkt.com/joey-veerman/profil/spieler/408574
+Borussia Dortmund,16,2026,26,Julian Ryerson,370789,Right-Back,28,Norway|United States,30/06/2028,€25.00m,25000000,https://www.transfermarkt.com/julian-ryerson/profil/spieler/370789
+Borussia Dortmund,16,2026,24,Daniel Svensson,579287,Left-Back,24,Sweden,30/06/2029,€22.00m,22000000,https://www.transfermarkt.com/daniel-svensson/profil/spieler/579287
+Borussia Dortmund,16,2026,21,Fábio Silva,505653,Centre-Forward,24,Portugal,30/06/2030,€22.00m,22000000,https://www.transfermarkt.com/fabio-silva/profil/spieler/505653
+Borussia Dortmund,16,2026,45,Giannis Konstantelias,628331,Attacking Midfield,23,Greece,30/06/2031,€22.00m,22000000,https://www.transfermarkt.com/giannis-konstantelias/profil/spieler/628331
+Borussia Dortmund,16,2026,17,Carney Chukwuemeka,659459,Central Midfield,22,Austria|England,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/carney-chukwuemeka/profil/spieler/659459
+Borussia Dortmund,16,2026,22,Joane Gadou,1075577,Centre-Back,19,France|Cote d'Ivoire,30/06/2031,€20.00m,20000000,https://www.transfermarkt.com/joane-gadou/profil/spieler/1075577
+Borussia Dortmund,16,2026,3,Waldemar Anton,193004,Centre-Back,30,Germany,30/06/2028,€18.00m,18000000,https://www.transfermarkt.com/waldemar-anton/profil/spieler/193004
+Borussia Dortmund,16,2026,40,Samuele Inácio,1058359,Second Striker,18,Italy|Brazil,30/06/2029,€15.00m,15000000,https://www.transfermarkt.com/samuele-inacio/profil/spieler/1058359
+Borussia Dortmund,16,2026,36,Kauã Prates,1275068,Left-Back,18,Brazil,30/06/2031,€10.00m,10000000,https://www.transfermarkt.com/kaua-prates/profil/spieler/1275068
+Borussia Dortmund,16,2026,49,Luca Reggiani,1074990,Centre-Back,18,Italy,,€10.00m,10000000,https://www.transfermarkt.com/luca-reggiani/profil/spieler/1074990
+Borussia Dortmund,16,2026,5,Ramy Bensebaini,284732,Centre-Back,31,Algeria,30/06/2027,€7.00m,7000000,https://www.transfermarkt.com/ramy-bensebaini/profil/spieler/284732
+Borussia Dortmund,16,2026,20,Marcel Sabitzer,106987,Central Midfield,32,Austria,30/06/2027,€6.00m,6000000,https://www.transfermarkt.com/marcel-sabitzer/profil/spieler/106987
+Borussia Dortmund,16,2026,28,Justin Lerma,1185507,Attacking Midfield,18,Ecuador,30/06/2031,€3.20m,3200000,https://www.transfermarkt.com/justin-lerma/profil/spieler/1185507
+Borussia Dortmund,16,2026,23,Emre Can,119296,Centre-Back,32,Germany|Türkiye,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/emre-can/profil/spieler/119296
+Borussia Dortmund,16,2026,39,Filippo Mane,883007,Centre-Back,21,Italy|Senegal,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/filippo-mane/profil/spieler/883007
+Borussia Dortmund,16,2026,33,Alexander Meyer,76158,Goalkeeper,35,Germany,30/06/2027,€500k,500000,https://www.transfermarkt.com/alexander-meyer/profil/spieler/76158
+Borussia Dortmund,16,2026,41,Mathis Albert,1193849,Left Winger,17,United States|Germany,30/06/2027,€300k,300000,https://www.transfermarkt.com/mathis-albert/profil/spieler/1193849
+Borussia Dortmund,16,2026,30,Patrick Drewes,94192,Goalkeeper,33,Germany,30/06/2027,€300k,300000,https://www.transfermarkt.com/patrick-drewes/profil/spieler/94192
+Borussia Dortmund,16,2026,44,Enzo dos Santos,1311594,Central Midfield,17,Luxembourg|Cape Verde,30/06/2029,€250k,250000,https://www.transfermarkt.com/enzo-dos-santos/profil/spieler/1311594
+Borussia Dortmund,16,2026,48,Mussa Kaba,1141179,Defensive Midfield,17,Germany|Guinea,30/06/2031,€200k,200000,https://www.transfermarkt.com/mussa-kaba/profil/spieler/1141179
+Borussia Dortmund,16,2026,31,Silas Ostrzinski,684116,Goalkeeper,22,Germany,30/06/2027,€200k,200000,https://www.transfermarkt.com/silas-ostrzinski/profil/spieler/684116
+Borussia Mönchengladbach,18,2026,36,Wael Mohya,1070979,Attacking Midfield,17,Germany|Morocco,,€17.00m,17000000,https://www.transfermarkt.com/wael-mohya/profil/spieler/1070979
+Borussia Mönchengladbach,18,2026,17,Jens Castrop,613192,Central Midfield,23,"Korea, South|Germany",30/06/2029,€10.00m,10000000,https://www.transfermarkt.com/jens-castrop/profil/spieler/613192
+Borussia Mönchengladbach,18,2026,6,Ko Itakura,355816,Centre-Back,29,Japan,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/ko-itakura/profil/spieler/355816
+Borussia Mönchengladbach,18,2026,1,Moritz Nicolas,284270,Goalkeeper,28,Germany,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/moritz-nicolas/profil/spieler/284270
+Borussia Mönchengladbach,18,2026,11,Tim Kleindienst,193033,Centre-Forward,30,Germany,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/tim-kleindienst/profil/spieler/193033
+Borussia Mönchengladbach,18,2026,9,Franck Honorat,229006,Right Winger,30,France,30/06/2029,€7.00m,7000000,https://www.transfermarkt.com/franck-honorat/profil/spieler/229006
+Borussia Mönchengladbach,18,2026,29,Joe Scally,504153,Right-Back,23,United States,30/06/2027,€7.00m,7000000,https://www.transfermarkt.com/joe-scally/profil/spieler/504153
+Borussia Mönchengladbach,18,2026,25,Robin Hack,284010,Left Winger,27,Germany,30/06/2029,€7.00m,7000000,https://www.transfermarkt.com/robin-hack/profil/spieler/284010
+Borussia Mönchengladbach,18,2026,38,Hugo Bolin,667251,Left Winger,23,Sweden,30/06/2030,€6.00m,6000000,https://www.transfermarkt.com/hugo-bolin/profil/spieler/667251
+Borussia Mönchengladbach,18,2026,26,Lukas Ullrich,787151,Left-Back,22,Germany,30/06/2029,€6.00m,6000000,https://www.transfermarkt.com/lukas-ullrich/profil/spieler/787151
+Borussia Mönchengladbach,18,2026,3,Isac Lidberg,322073,Centre-Forward,27,Sweden,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/isac-lidberg/profil/spieler/322073
+Borussia Mönchengladbach,18,2026,4,Kevin Diks,335209,Centre-Back,29,Indonesia|Netherlands,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/kevin-diks/profil/spieler/335209
+Borussia Mönchengladbach,18,2026,22,Yukhym Konoplya,467250,Right-Back,26,Ukraine,30/06/2029,€5.00m,5000000,https://www.transfermarkt.com/yukhym-konoplya/profil/spieler/467250
+Borussia Mönchengladbach,18,2026,20,David Herold,604358,Left-Back,23,Germany,30/06/2030,€4.00m,4000000,https://www.transfermarkt.com/david-herold/profil/spieler/604358
+Borussia Mönchengladbach,18,2026,8,Enzo Leopold,383362,Central Midfield,26,Germany,30/06/2030,€4.00m,4000000,https://www.transfermarkt.com/enzo-leopold/profil/spieler/383362
+Borussia Mönchengladbach,18,2026,16,Philipp Sander,388409,Defensive Midfield,28,Germany,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/philipp-sander/profil/spieler/388409
+Borussia Mönchengladbach,18,2026,18,Shuto Machino,550580,Centre-Forward,26,Japan,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/shuto-machino/profil/spieler/550580
+Borussia Mönchengladbach,18,2026,2,Fabio Chiarodia,724104,Centre-Back,21,Italy|Germany,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/fabio-chiarodia/profil/spieler/724104
+Borussia Mönchengladbach,18,2026,10,Florian Neuhaus,278332,Central Midfield,29,Germany,30/06/2027,€2.50m,2500000,https://www.transfermarkt.com/florian-neuhaus/profil/spieler/278332
+Borussia Mönchengladbach,18,2026,31,Tomas Cvancara,544148,Centre-Forward,26,Czech Republic,30/06/2028,€2.00m,2000000,https://www.transfermarkt.com/tomas-cvancara/profil/spieler/544148
+Borussia Mönchengladbach,18,2026,7,Kevin Stöger,106872,Attacking Midfield,32,Austria,30/06/2027,€1.80m,1800000,https://www.transfermarkt.com/kevin-stoger/profil/spieler/106872
+Borussia Mönchengladbach,18,2026,14,Daiki Hashioka,387191,Right-Back,27,Japan,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/daiki-hashioka/profil/spieler/387191
+Borussia Mönchengladbach,18,2026,47,Zento Uno,957526,Defensive Midfield,22,Japan,30/06/2030,€1.00m,1000000,https://www.transfermarkt.com/zento-uno/profil/spieler/957526
+Borussia Mönchengladbach,18,2026,5,Jan Leszczyński,1118874,Centre-Back,19,Poland,30/06/2030,€600k,600000,https://www.transfermarkt.com/jan-leszczynski/profil/spieler/1118874
+Borussia Mönchengladbach,18,2026,23,Jan Olschowsky,455922,Goalkeeper,24,Germany,30/06/2027,€450k,450000,https://www.transfermarkt.com/jan-olschowsky/profil/spieler/455922
+Borussia Mönchengladbach,18,2026,33,Daniel Batz,90317,Goalkeeper,35,Germany,30/06/2029,€350k,350000,https://www.transfermarkt.com/daniel-batz/profil/spieler/90317
+Borussia Mönchengladbach,18,2026,27,Fritz Fleck,1067439,Attacking Midfield,19,Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/fritz-fleck/profil/spieler/1067439
+Borussia Mönchengladbach,18,2026,21,Tobias Sippel,31653,Goalkeeper,38,Germany,30/06/2027,€300k,300000,https://www.transfermarkt.com/tobias-sippel/profil/spieler/31653
+Borussia Mönchengladbach,18,2026,39,Iaia Manco Danfa,1211929,Centre-Forward,19,Guinea-Bissau|Portugal,30/06/2028,€250k,250000,https://www.transfermarkt.com/iaia-manco-danfa/profil/spieler/1211929
+Borussia Mönchengladbach,18,2026,34,Mathieu Nguefack,1070980,Central Midfield,18,Germany|Cameroon,30/06/2027,-,,https://www.transfermarkt.com/mathieu-nguefack/profil/spieler/1070980
+Eintracht Frankfurt,24,2026,42,Can Uzun,816585,Attacking Midfield,20,Türkiye|Germany,30/06/2029,€45.00m,45000000,https://www.transfermarkt.com/can-uzun/profil/spieler/816585
+Eintracht Frankfurt,24,2026,9,Jonathan Burkardt,333647,Centre-Forward,26,Germany,30/06/2030,€30.00m,30000000,https://www.transfermarkt.com/jonathan-burkardt/profil/spieler/333647
+Eintracht Frankfurt,24,2026,16,Hugo Larsson,931838,Central Midfield,22,Sweden,30/06/2029,€28.00m,28000000,https://www.transfermarkt.com/hugo-larsson/profil/spieler/931838
+Eintracht Frankfurt,24,2026,19,Jean-Mattéo Bahoya,939964,Left Winger,21,France|Cameroon,30/06/2029,€25.00m,25000000,https://www.transfermarkt.com/jean-matteo-bahoya/profil/spieler/939964
+Eintracht Frankfurt,24,2026,25,Raphael Onyedika,699783,Defensive Midfield,25,Nigeria,30/06/2031,€23.00m,23000000,https://www.transfermarkt.com/raphael-onyedika/profil/spieler/699783
+Eintracht Frankfurt,24,2026,34,Nnamdi Collins,684315,Centre-Back,22,Germany|Nigeria,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/nnamdi-collins/profil/spieler/684315
+Eintracht Frankfurt,24,2026,17,Elye Wahi,659542,Centre-Forward,23,Cote d'Ivoire|France,30/06/2030,€18.00m,18000000,https://www.transfermarkt.com/elye-wahi/profil/spieler/659542
+Eintracht Frankfurt,24,2026,3,Arthur Theate,368891,Centre-Back,26,Belgium,30/06/2029,€17.00m,17000000,https://www.transfermarkt.com/arthur-theate/profil/spieler/368891
+Eintracht Frankfurt,24,2026,20,Ritsu Doan,358504,Right Winger,28,Japan,30/06/2030,€17.00m,17000000,https://www.transfermarkt.com/ritsu-doan/profil/spieler/358504
+Eintracht Frankfurt,24,2026,7,Ansgar Knauff,429874,Right Winger,24,Germany|Ghana,30/06/2028,€15.00m,15000000,https://www.transfermarkt.com/ansgar-knauff/profil/spieler/429874
+Eintracht Frankfurt,24,2026,8,Farès Chaïbi,855015,Attacking Midfield,23,Algeria|France,30/06/2028,€15.00m,15000000,https://www.transfermarkt.com/fares-chaibi/profil/spieler/855015
+Eintracht Frankfurt,24,2026,6,Oscar Højlund,846310,Central Midfield,21,Denmark,30/06/2029,€15.00m,15000000,https://www.transfermarkt.com/oscar-hojlund/profil/spieler/846310
+Eintracht Frankfurt,24,2026,15,Noël Aséko,904974,Defensive Midfield,20,Germany|Equatorial Guinea,30/06/2031,€12.00m,12000000,https://www.transfermarkt.com/noel-aseko/profil/spieler/904974
+Eintracht Frankfurt,24,2026,29,Ayoube Amaimouni-Echghouyab,799993,Right Winger,21,Morocco|Spain,30/06/2031,€10.00m,10000000,https://www.transfermarkt.com/ayoube-amaimouni-echghouyab/profil/spieler/799993
+Eintracht Frankfurt,24,2026,4,Robin Koch,328784,Centre-Back,30,Germany,30/06/2030,€10.00m,10000000,https://www.transfermarkt.com/robin-koch/profil/spieler/328784
+Eintracht Frankfurt,24,2026,11,Younes Ebnoutalib,692368,Centre-Forward,22,Germany|Morocco,30/06/2031,€8.00m,8000000,https://www.transfermarkt.com/younes-ebnoutalib/profil/spieler/692368
+Eintracht Frankfurt,24,2026,40,Kauã Santos,997861,Goalkeeper,23,Brazil,30/06/2030,€7.00m,7000000,https://www.transfermarkt.com/kaua-santos/profil/spieler/997861
+Eintracht Frankfurt,24,2026,26,Keita Kosugi,1146988,Left-Back,20,Japan,30/06/2031,€5.00m,5000000,https://www.transfermarkt.com/keita-kosugi/profil/spieler/1146988
+Eintracht Frankfurt,24,2026,31,Love Arrhov,1184986,Attacking Midfield,18,Sweden,30/06/2028,€5.00m,5000000,https://www.transfermarkt.com/love-arrhov/profil/spieler/1184986
+Eintracht Frankfurt,24,2026,2,Elias Baum,744857,Right-Back,20,Germany,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/elias-baum/profil/spieler/744857
+Eintracht Frankfurt,24,2026,23,Michael Zetterer,196813,Goalkeeper,31,Germany,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/michael-zetterer/profil/spieler/196813
+Eintracht Frankfurt,24,2026,27,Mario Götze,74842,Attacking Midfield,34,Germany,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/mario-gotze/profil/spieler/74842
+Eintracht Frankfurt,24,2026,48,Niels Nkounkou,591193,Left-Back,25,France|Congo,30/06/2028,€2.60m,2600000,https://www.transfermarkt.com/niels-nkounkou/profil/spieler/591193
+Eintracht Frankfurt,24,2026,5,Otávio,1094885,Centre-Back,20,Brazil,30/06/2031,€1.50m,1500000,https://www.transfermarkt.com/otavio/profil/spieler/1094885
+Eintracht Frankfurt,24,2026,,Jessic Ngankam,448177,Centre-Forward,26,Germany|Cameroon,30/06/2028,€700k,700000,https://www.transfermarkt.com/jessic-ngankam/profil/spieler/448177
+Eintracht Frankfurt,24,2026,22,Timothy Chandler,49723,Right-Back,36,United States|Germany,30/06/2027,€350k,350000,https://www.transfermarkt.com/timothy-chandler/profil/spieler/49723
+Eintracht Frankfurt,24,2026,33,Jens Grahl,40034,Goalkeeper,37,Germany,30/06/2027,€200k,200000,https://www.transfermarkt.com/jens-grahl/profil/spieler/40034
+Eintracht Frankfurt,24,2026,39,Amil Siljevic,1079622,Goalkeeper,19,Bosnia-Herzegovina|Germany,30/06/2029,-,,https://www.transfermarkt.com/amil-siljevic/profil/spieler/1079622
+Eintracht Frankfurt,24,2026,35,Malik Pimpong,1259986,Left Winger,18,Denmark,30/06/2031,-,,https://www.transfermarkt.com/malik-pimpong/profil/spieler/1259986
+FC Augsburg,167,2026,5,Chrislain Matsima,569383,Centre-Back,24,France|Congo,30/06/2030,€22.00m,22000000,https://www.transfermarkt.com/chrislain-matsima/profil/spieler/569383
+FC Augsburg,167,2026,40,Noahkai Banks,923945,Centre-Back,19,United States|Germany,30/06/2029,€20.00m,20000000,https://www.transfermarkt.com/noahkai-banks/profil/spieler/923945
+FC Augsburg,167,2026,20,Alexis Claude-Maurice,384593,Attacking Midfield,28,France|Guadeloupe,30/06/2027,€15.00m,15000000,https://www.transfermarkt.com/alexis-claude-maurice/profil/spieler/384593
+FC Augsburg,167,2026,32,Fabian Rieder,507341,Attacking Midfield,24,Switzerland,30/06/2030,€12.00m,12000000,https://www.transfermarkt.com/fabian-rieder/profil/spieler/507341
+FC Augsburg,167,2026,1,Finn Dahmen,251299,Goalkeeper,28,Germany|England,30/06/2027,€12.00m,12000000,https://www.transfermarkt.com/finn-dahmen/profil/spieler/251299
+FC Augsburg,167,2026,36,Mert Kömür,777005,Attacking Midfield,21,Germany|Türkiye,30/06/2029,€12.00m,12000000,https://www.transfermarkt.com/mert-komur/profil/spieler/777005
+FC Augsburg,167,2026,30,Anton Kade,654234,Attacking Midfield,22,Germany,30/06/2029,€10.00m,10000000,https://www.transfermarkt.com/anton-kade/profil/spieler/654234
+FC Augsburg,167,2026,4,Han-Noah Massengo,536508,Central Midfield,25,France|Congo,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/han-noah-massengo/profil/spieler/536508
+FC Augsburg,167,2026,31,Keven Schlotterbeck,413843,Centre-Back,29,Germany,30/06/2027,€6.00m,6000000,https://www.transfermarkt.com/keven-schlotterbeck/profil/spieler/413843
+FC Augsburg,167,2026,17,Kristijan Jakic,374954,Defensive Midfield,29,Croatia,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/kristijan-jakic/profil/spieler/374954
+FC Augsburg,167,2026,16,Hennes Behrens,829838,Left-Back,21,Germany,30/06/2031,€5.00m,5000000,https://www.transfermarkt.com/hennes-behrens/profil/spieler/829838
+FC Augsburg,167,2026,9,Rodrigo Ribeiro,726701,Centre-Forward,21,Portugal,30/06/2031,€4.00m,4000000,https://www.transfermarkt.com/rodrigo-ribeiro/profil/spieler/726701
+FC Augsburg,167,2026,39,Uchenna Ogundu,1309324,Centre-Forward,20,Nigeria,30/06/2031,€4.00m,4000000,https://www.transfermarkt.com/uchenna-ogundu/profil/spieler/1309324
+FC Augsburg,167,2026,19,Robin Fellhauer,264960,Defensive Midfield,28,Germany,30/06/2029,€3.50m,3500000,https://www.transfermarkt.com/robin-fellhauer/profil/spieler/264960
+FC Augsburg,167,2026,2,Calvin Brackelmann,358766,Centre-Back,27,Germany,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/calvin-brackelmann/profil/spieler/358766
+FC Augsburg,167,2026,8,Sima Suso,928265,Central Midfield,21,Germany,30/06/2031,€2.80m,2800000,https://www.transfermarkt.com/sima-suso/profil/spieler/928265
+FC Augsburg,167,2026,27,Marius Wolf,193900,Right-Back,31,Germany,30/06/2027,€2.50m,2500000,https://www.transfermarkt.com/marius-wolf/profil/spieler/193900
+FC Augsburg,167,2026,34,Nathanaël Mbuku,557614,Left Winger,24,DR Congo|France,,€2.00m,2000000,https://www.transfermarkt.com/nathanael-mbuku/profil/spieler/557614
+FC Augsburg,167,2026,22,Nediljko Labrovic,610190,Goalkeeper,26,Croatia,30/06/2029,€2.00m,2000000,https://www.transfermarkt.com/nediljko-labrovic/profil/spieler/610190
+FC Augsburg,167,2026,14,Yannik Keitel,342039,Defensive Midfield,26,Germany,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/yannik-keitel/profil/spieler/342039
+FC Augsburg,167,2026,11,Michael Gregoritsch,120205,Centre-Forward,32,Austria,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/michael-gregoritsch/profil/spieler/120205
+FC Augsburg,167,2026,15,Steve Mounié,238639,Centre-Forward,31,Benin|France,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/steve-mounie/profil/spieler/238639
+FC Augsburg,167,2026,6,Jeffrey Gouweleeuw,106405,Centre-Back,35,Netherlands,30/06/2027,€1.00m,1000000,https://www.transfermarkt.com/jeffrey-gouweleeuw/profil/spieler/106405
+FC Augsburg,167,2026,3,Mads Pedersen,288429,Left-Back,29,Denmark,30/06/2027,€800k,800000,https://www.transfermarkt.com/mads-pedersen/profil/spieler/288429
+FC Augsburg,167,2026,18,Tim Breithaupt,569457,Defensive Midfield,24,Germany,30/06/2028,€800k,800000,https://www.transfermarkt.com/tim-breithaupt/profil/spieler/569457
+FC Augsburg,167,2026,37,Tim Schnitzer,1162968,Defensive Midfield,18,Germany,30/06/2029,€500k,500000,https://www.transfermarkt.com/tim-schnitzer/profil/spieler/1162968
+FC Augsburg,167,2026,24,Thomas Kastanaras,675565,Centre-Forward,23,Germany|Greece,30/06/2027,€300k,300000,https://www.transfermarkt.com/thomas-kastanaras/profil/spieler/675565
+FC Augsburg,167,2026,23,Faik Sakar,1132292,Left Winger,18,Germany|France,30/06/2030,€200k,200000,https://www.transfermarkt.com/faik-sakar/profil/spieler/1132292
+FC Augsburg,167,2026,48,Tom Wisbereit,954082,Goalkeeper,18,Germany,30/06/2030,-,,https://www.transfermarkt.com/tom-wisbereit/profil/spieler/954082
+FC Schalke 04,33,2026,23,Soufiane El-Faouzi,697740,Central Midfield,24,Morocco|Germany,30/06/2030,€9.00m,9000000,https://www.transfermarkt.com/soufiane-el-faouzi/profil/spieler/697740
+FC Schalke 04,33,2026,43,Mertcan Ayhan,969376,Centre-Back,19,Türkiye|Germany,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/mertcan-ayhan/profil/spieler/969376
+FC Schalke 04,33,2026,29,Junior Dina Ebimbe,536482,Right Midfield,25,Cameroon|France,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/junior-dina-ebimbe/profil/spieler/536482
+FC Schalke 04,33,2026,9,Moussa Sylla,460655,Centre-Forward,26,Mali|France,30/06/2028,€5.00m,5000000,https://www.transfermarkt.com/moussa-sylla/profil/spieler/460655
+FC Schalke 04,33,2026,8,Robin Gosens,273132,Left-Back,32,Germany|Netherlands,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/robin-gosens/profil/spieler/273132
+FC Schalke 04,33,2026,24,Adil Aouchiche,569385,Attacking Midfield,24,Algeria|France,30/06/2027,€3.50m,3500000,https://www.transfermarkt.com/adil-aouchiche/profil/spieler/569385
+FC Schalke 04,33,2026,21,Dejan Ljubicic,287188,Defensive Midfield,28,Austria,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/dejan-ljubicic/profil/spieler/287188
+FC Schalke 04,33,2026,20,Junior Adamu,452477,Centre-Forward,25,Austria,30/06/2029,€3.00m,3000000,https://www.transfermarkt.com/junior-adamu/profil/spieler/452477
+FC Schalke 04,33,2026,39,Maximilian Wöber,263361,Centre-Back,28,Austria,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/maximilian-wober/profil/spieler/263361
+FC Schalke 04,33,2026,33,Vitalie Becker,919703,Left-Back,21,Germany|Russia,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/vitalie-becker/profil/spieler/919703
+FC Schalke 04,33,2026,4,Hasan Kuruçay,292812,Centre-Back,28,Türkiye|Denmark,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/hasan-kurucay/profil/spieler/292812
+FC Schalke 04,33,2026,6,Ron Schallenberg,332392,Defensive Midfield,27,Germany,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/ron-schallenberg/profil/spieler/332392
+FC Schalke 04,33,2026,13,Satoshi Tanaka,665618,Defensive Midfield,24,Japan,30/06/2030,€2.00m,2000000,https://www.transfermarkt.com/satoshi-tanaka/profil/spieler/665618
+FC Schalke 04,33,2026,19,Kenan Karaman,119557,Attacking Midfield,32,Türkiye|Germany,30/06/2028,€1.80m,1800000,https://www.transfermarkt.com/kenan-karaman/profil/spieler/119557
+FC Schalke 04,33,2026,25,Nikola Katic,422051,Centre-Back,29,Bosnia-Herzegovina|Croatia,30/06/2028,€1.80m,1800000,https://www.transfermarkt.com/nikola-katic/profil/spieler/422051
+FC Schalke 04,33,2026,5,Timo Becker,282349,Centre-Back,29,Germany,30/06/2029,€1.50m,1500000,https://www.transfermarkt.com/timo-becker/profil/spieler/282349
+FC Schalke 04,33,2026,7,Christian Gomis,357310,Centre-Forward,26,Senegal|Spain,30/06/2029,€1.20m,1200000,https://www.transfermarkt.com/christian-gomis/profil/spieler/357310
+FC Schalke 04,33,2026,37,Max Grüger,920946,Defensive Midfield,21,Germany,30/06/2028,€1.20m,1200000,https://www.transfermarkt.com/max-gruger/profil/spieler/920946
+FC Schalke 04,33,2026,10,Edin Dzeko,28396,Centre-Forward,40,Bosnia-Herzegovina,30/06/2027,€1.00m,1000000,https://www.transfermarkt.com/edin-dzeko/profil/spieler/28396
+FC Schalke 04,33,2026,17,Adrian Gantenbein,410870,Right-Back,25,Switzerland,30/06/2028,€900k,900000,https://www.transfermarkt.com/adrian-gantenbein/profil/spieler/410870
+FC Schalke 04,33,2026,27,Finn Porath,241307,Right Midfield,29,Germany,30/06/2027,€800k,800000,https://www.transfermarkt.com/finn-porath/profil/spieler/241307
+FC Schalke 04,33,2026,1,Loris Karius,85864,Goalkeeper,33,Germany,30/06/2028,€800k,800000,https://www.transfermarkt.com/loris-karius/profil/spieler/85864
+FC Schalke 04,33,2026,11,Bryan Lasme,477109,Centre-Forward,27,France|Cote d'Ivoire,30/06/2027,€600k,600000,https://www.transfermarkt.com/bryan-lasme/profil/spieler/477109
+FC Schalke 04,33,2026,15,Emil Højlund,802560,Centre-Forward,21,Denmark,30/06/2028,€500k,500000,https://www.transfermarkt.com/emil-hojlund/profil/spieler/802560
+FC Schalke 04,33,2026,14,Janik Bachmann,327862,Central Midfield,30,Germany,30/06/2027,€500k,500000,https://www.transfermarkt.com/janik-bachmann/profil/spieler/327862
+FC Schalke 04,33,2026,30,Anton Donkor,280553,Left-Back,28,Germany|Ghana,30/06/2027,€400k,400000,https://www.transfermarkt.com/anton-donkor/profil/spieler/280553
+FC Schalke 04,33,2026,3,Dylan Leonard,1188989,Centre-Back,18,Australia|Scotland,30/06/2030,€400k,400000,https://www.transfermarkt.com/dylan-leonard/profil/spieler/1188989
+FC Schalke 04,33,2026,22,Kevin Müller,43824,Goalkeeper,35,Germany,,€300k,300000,https://www.transfermarkt.com/kevin-muller/profil/spieler/43824
+FC Schalke 04,33,2026,36,Johannes Siebeking,1047294,Goalkeeper,20,Germany,30/06/2029,€125k,125000,https://www.transfermarkt.com/johannes-siebeking/profil/spieler/1047294
+FC Schalke 04,33,2026,38,Luca Vozar,1162413,Defensive Midfield,19,Germany,30/06/2028,-,,https://www.transfermarkt.com/luca-vozar/profil/spieler/1162413
+Hamburger SV,41,2026,6,Albert Sambi Lokonga,381967,Central Midfield,26,Belgium|DR Congo,30/06/2028,€12.00m,12000000,https://www.transfermarkt.com/albert-sambi-lokonga/profil/spieler/381967
+Hamburger SV,41,2026,5,Martin Adeline,814976,Attacking Midfield,22,France|Morocco,30/06/2030,€10.00m,10000000,https://www.transfermarkt.com/martin-adeline/profil/spieler/814976
+Hamburger SV,41,2026,21,Nicolai Remberg,592534,Defensive Midfield,26,Germany,30/06/2028,€9.00m,9000000,https://www.transfermarkt.com/nicolai-remberg/profil/spieler/592534
+Hamburger SV,41,2026,4,Bilal Nadir,659520,Central Midfield,22,Morocco|France,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/bilal-nadir/profil/spieler/659520
+Hamburger SV,41,2026,24,Nicolás Capaldo,649672,Centre-Back,27,Argentina|Italy,30/06/2028,€8.00m,8000000,https://www.transfermarkt.com/nicolas-capaldo/profil/spieler/649672
+Hamburger SV,41,2026,33,Sebastiaan Bornauw,338629,Centre-Back,27,Belgium,30/06/2027,€8.00m,8000000,https://www.transfermarkt.com/sebastiaan-bornauw/profil/spieler/338629
+Hamburger SV,41,2026,11,Albert Grønbaek,503866,Attacking Midfield,25,Denmark,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/albert-gronbaek/profil/spieler/503866
+Hamburger SV,41,2026,38,Alexander Røssing-Lelesiit,1213681,Left Winger,19,Norway,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/alexander-rossing-lelesiit/profil/spieler/1213681
+Hamburger SV,41,2026,28,Miro Muheim,298603,Left-Back,28,Switzerland,30/06/2027,€5.00m,5000000,https://www.transfermarkt.com/miro-muheim/profil/spieler/298603
+Hamburger SV,41,2026,23,Jordan Torunarigha,227110,Centre-Back,29,Nigeria|Germany,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/jordan-torunarigha/profil/spieler/227110
+Hamburger SV,41,2026,22,Kofi Amoako,814950,Defensive Midfield,21,Germany|Ghana,30/06/2030,€4.00m,4000000,https://www.transfermarkt.com/kofi-amoako/profil/spieler/814950
+Hamburger SV,41,2026,19,Otto Stange,1058520,Centre-Forward,19,Germany,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/otto-stange/profil/spieler/1058520
+Hamburger SV,41,2026,14,Rayan Philippe,694507,Right Winger,25,France,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/rayan-philippe/profil/spieler/694507
+Hamburger SV,41,2026,17,Warmed Omari,711996,Centre-Back,26,Comoros|France,30/06/2030,€4.00m,4000000,https://www.transfermarkt.com/warmed-omari/profil/spieler/711996
+Hamburger SV,41,2026,8,Daniel Elfadli,529895,Centre-Back,29,Libya|Germany,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/daniel-elfadli/profil/spieler/529895
+Hamburger SV,41,2026,27,Patson Daka,365172,Centre-Forward,27,Zambia,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/patson-daka/profil/spieler/365172
+Hamburger SV,41,2026,12,Sander Tangvik,549378,Goalkeeper,23,Norway,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/sander-tangvik/profil/spieler/549378
+Hamburger SV,41,2026,7,Jean-Luc Dompé,291222,Left Winger,31,France|Cote d'Ivoire,30/06/2027,€2.50m,2500000,https://www.transfermarkt.com/jean-luc-dompe/profil/spieler/291222
+Hamburger SV,41,2026,29,Emir Sahiti,403177,Right Winger,27,Kosovo|Albania,30/06/2027,€1.70m,1700000,https://www.transfermarkt.com/emir-sahiti/profil/spieler/403177
+Hamburger SV,41,2026,10,Immanuel Pherai,412935,Attacking Midfield,25,Suriname|Netherlands,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/immanuel-pherai/profil/spieler/412935
+Hamburger SV,41,2026,1,Daniel Heuer Fernandes,84993,Goalkeeper,33,Portugal|Germany,30/06/2028,€1.20m,1200000,https://www.transfermarkt.com/daniel-heuer-fernandes/profil/spieler/84993
+Hamburger SV,41,2026,18,Bakery Jatta,415194,Right Midfield,28,The Gambia,30/06/2029,€1.00m,1000000,https://www.transfermarkt.com/bakery-jatta/profil/spieler/415194
+Hamburger SV,41,2026,15,Yussuf Poulsen,157635,Centre-Forward,32,Denmark|Tanzania,30/06/2027,€1.00m,1000000,https://www.transfermarkt.com/yussuf-poulsen/profil/spieler/157635
+Hamburger SV,41,2026,43,Shafiq Nandja,1125079,Centre-Back,19,Germany,,€500k,500000,https://www.transfermarkt.com/shafiq-nandja/profil/spieler/1125079
+Hamburger SV,41,2026,41,Fernando Dickes,1048715,Goalkeeper,18,Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/fernando-dickes/profil/spieler/1048715
+Hamburger SV,41,2026,37,Louis Lemke,1294853,Left-Back,16,Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/louis-lemke/profil/spieler/1294853
+Hamburger SV,41,2026,39,Joel Agyekum,815838,Centre-Back,21,Germany|Ghana,,€150k,150000,https://www.transfermarkt.com/joel-agyekum/profil/spieler/815838
+Hamburger SV,41,2026,40,Elias Lahti,1303450,Goalkeeper,17,Finland,30/06/2028,-,,https://www.transfermarkt.com/elias-lahti/profil/spieler/1303450
+Mainz 05,39,2026,6,Kaishu Sano,643574,Defensive Midfield,25,Japan,30/06/2028,€50.00m,50000000,https://www.transfermarkt.com/kaishu-sano/profil/spieler/643574
+Mainz 05,39,2026,48,Kacper Potulski,1073748,Centre-Back,18,Poland,30/06/2028,€18.00m,18000000,https://www.transfermarkt.com/kacper-potulski/profil/spieler/1073748
+Mainz 05,39,2026,8,Paul Nebel,503160,Attacking Midfield,23,Germany|Ireland,30/06/2027,€18.00m,18000000,https://www.transfermarkt.com/paul-nebel/profil/spieler/503160
+Mainz 05,39,2026,10,Nadiem Amiri,232454,Central Midfield,29,Germany,30/06/2028,€17.00m,17000000,https://www.transfermarkt.com/nadiem-amiri/profil/spieler/232454
+Mainz 05,39,2026,17,Benedict Hollerbach,453870,Centre-Forward,25,Germany,30/06/2029,€8.00m,8000000,https://www.transfermarkt.com/benedict-hollerbach/profil/spieler/453870
+Mainz 05,39,2026,5,Eric Martel,597000,Defensive Midfield,24,Germany,,€8.00m,8000000,https://www.transfermarkt.com/eric-martel/profil/spieler/597000
+Mainz 05,39,2026,19,Anthony Caci,453016,Right-Back,29,France,30/06/2028,€7.00m,7000000,https://www.transfermarkt.com/anthony-caci/profil/spieler/453016
+Mainz 05,39,2026,4,Stefan Posch,223974,Centre-Back,29,Austria,,€6.00m,6000000,https://www.transfermarkt.com/stefan-posch/profil/spieler/223974
+Mainz 05,39,2026,11,Ransford Königsdörffer,470038,Centre-Forward,24,Ghana|Germany,,€5.00m,5000000,https://www.transfermarkt.com/ransford-konigsdorffer/profil/spieler/470038
+Mainz 05,39,2026,9,Phillip Tietz,288340,Centre-Forward,29,Germany,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/phillip-tietz/profil/spieler/288340
+Mainz 05,39,2026,25,Andreas Hanche-Olsen,370683,Centre-Back,29,Norway,30/06/2028,€3.50m,3500000,https://www.transfermarkt.com/andreas-hanche-olsen/profil/spieler/370683
+Mainz 05,39,2026,14,William Bøving,610400,Centre-Forward,23,Denmark,30/06/2029,€3.50m,3500000,https://www.transfermarkt.com/william-boving/profil/spieler/610400
+Mainz 05,39,2026,3,Fabio Gruber,594731,Centre-Back,23,Peru|Germany,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/fabio-gruber/profil/spieler/594731
+Mainz 05,39,2026,13,Hyun-seok Hong,562948,Attacking Midfield,27,"Korea, South",30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/hyun-seok-hong/profil/spieler/562948
+Mainz 05,39,2026,15,Lennard Maloney,392710,Defensive Midfield,26,United States|Germany,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/lennard-maloney/profil/spieler/392710
+Mainz 05,39,2026,27,Robin Zentner,160963,Goalkeeper,31,Germany,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/robin-zentner/profil/spieler/160963
+Mainz 05,39,2026,31,Dominik Kohr,118847,Centre-Back,32,Germany,30/06/2028,€2.00m,2000000,https://www.transfermarkt.com/dominik-kohr/profil/spieler/118847
+Mainz 05,39,2026,7,Jae-sung Lee,314398,Attacking Midfield,34,"Korea, South",,€2.00m,2000000,https://www.transfermarkt.com/jae-sung-lee/profil/spieler/314398
+Mainz 05,39,2026,26,Silas,612826,Right Winger,27,DR Congo,,€2.00m,2000000,https://www.transfermarkt.com/silas/profil/spieler/612826
+Mainz 05,39,2026,24,Sota Kawasaki,733371,Defensive Midfield,25,Japan,,€2.00m,2000000,https://www.transfermarkt.com/sota-kawasaki/profil/spieler/733371
+Mainz 05,39,2026,22,Marco Richter,279009,Attacking Midfield,28,Germany,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/marco-richter/profil/spieler/279009
+Mainz 05,39,2026,2,Phillipp Mwene,127573,Left-Back,32,Austria|Kenya,,€1.50m,1500000,https://www.transfermarkt.com/phillipp-mwene/profil/spieler/127573
+Mainz 05,39,2026,23,Sheraldo Becker,188888,Left Winger,31,Suriname|Netherlands,,€1.50m,1500000,https://www.transfermarkt.com/sheraldo-becker/profil/spieler/188888
+Mainz 05,39,2026,21,Danny da Costa,85906,Centre-Back,33,Germany|Angola,30/06/2027,€1.20m,1200000,https://www.transfermarkt.com/danny-da-costa/profil/spieler/85906
+Mainz 05,39,2026,20,Otto Ruoppi,901877,Attacking Midfield,20,Finland,30/06/2030,€1.00m,1000000,https://www.transfermarkt.com/otto-ruoppi/profil/spieler/901877
+Mainz 05,39,2026,30,Silvan Widmer,168989,Right-Back,33,Switzerland,,€800k,800000,https://www.transfermarkt.com/silvan-widmer/profil/spieler/168989
+Mainz 05,39,2026,16,Stefan Bell,82350,Centre-Back,34,Germany,30/06/2027,€600k,600000,https://www.transfermarkt.com/stefan-bell/profil/spieler/82350
+Mainz 05,39,2026,1,Alexander Schwolow,93763,Goalkeeper,34,Germany,,€450k,450000,https://www.transfermarkt.com/alexander-schwolow/profil/spieler/93763
+Mainz 05,39,2026,40,Maximilian Kinzig,817521,Goalkeeper,22,Germany,,€150k,150000,https://www.transfermarkt.com/maximilian-kinzig/profil/spieler/817521
+Mainz 05,39,2026,39,Alynho Haidara,1392952,Centre-Forward,18,Cote d'Ivoire,,-,,https://www.transfermarkt.com/alynho-haidara/profil/spieler/1392952
+RB Leipzig,23826,2026,23,Castello Lukeba,618472,Centre-Back,23,France|Angola,30/06/2029,€50.00m,50000000,https://www.transfermarkt.com/castello-lukeba/profil/spieler/618472
+RB Leipzig,23826,2026,14,Christoph Baumgartner,324278,Attacking Midfield,27,Austria,30/06/2028,€40.00m,40000000,https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/324278
+RB Leipzig,23826,2026,7,Antonio Nusa,894914,Left Winger,21,Norway|Nigeria,30/06/2029,€32.00m,32000000,https://www.transfermarkt.com/antonio-nusa/profil/spieler/894914
+RB Leipzig,23826,2026,40,Rômulo,957874,Centre-Forward,24,Brazil,30/06/2030,€30.00m,30000000,https://www.transfermarkt.com/romulo/profil/spieler/957874
+RB Leipzig,23826,2026,8,Assan Ouédraogo,897424,Central Midfield,20,Germany|Burkina Faso,30/06/2029,€28.00m,28000000,https://www.transfermarkt.com/assan-ouedraogo/profil/spieler/897424
+RB Leipzig,23826,2026,10,Brajan Gruda,700106,Attacking Midfield,22,Germany|Albania,30/06/2027,€28.00m,28000000,https://www.transfermarkt.com/brajan-gruda/profil/spieler/700106
+RB Leipzig,23826,2026,3,Maxime Estève,842341,Centre-Back,24,France,30/06/2031,€28.00m,28000000,https://www.transfermarkt.com/maxime-esteve/profil/spieler/842341
+RB Leipzig,23826,2026,22,David Raum,318204,Left-Back,28,Germany,30/06/2027,€25.00m,25000000,https://www.transfermarkt.com/david-raum/profil/spieler/318204
+RB Leipzig,23826,2026,13,Nicolas Seiwald,404950,Defensive Midfield,25,Austria,30/06/2028,€25.00m,25000000,https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/404950
+RB Leipzig,23826,2026,48,Arthur Vermeeren,926694,Defensive Midfield,21,Belgium,30/06/2029,€20.00m,20000000,https://www.transfermarkt.com/arthur-vermeeren/profil/spieler/926694
+RB Leipzig,23826,2026,11,Johan Bakayoko,565424,Right Winger,23,Belgium|Cote d'Ivoire,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/johan-bakayoko/profil/spieler/565424
+RB Leipzig,23826,2026,20,Rocco Reitz,467434,Central Midfield,24,Germany,30/06/2031,€20.00m,20000000,https://www.transfermarkt.com/rocco-reitz/profil/spieler/467434
+RB Leipzig,23826,2026,5,El Chadaille Bitshiabu,787912,Centre-Back,21,France|DR Congo,30/06/2029,€18.00m,18000000,https://www.transfermarkt.com/el-chadaille-bitshiabu/profil/spieler/787912
+RB Leipzig,23826,2026,9,Conrad Harder,807386,Centre-Forward,21,Denmark,30/06/2030,€17.00m,17000000,https://www.transfermarkt.com/conrad-harder/profil/spieler/807386
+RB Leipzig,23826,2026,6,Ezechiel Banzuzi,865682,Central Midfield,21,Netherlands|DR Congo,30/06/2030,€16.00m,16000000,https://www.transfermarkt.com/ezechiel-banzuzi/profil/spieler/865682
+RB Leipzig,23826,2026,2,Abdoul Koné,1130445,Centre-Back,21,France|Cote d'Ivoire,30/06/2031,€15.00m,15000000,https://www.transfermarkt.com/abdoul-kone/profil/spieler/1130445
+RB Leipzig,23826,2026,26,Maarten Vandevoordt,486046,Goalkeeper,24,Belgium,30/06/2030,€15.00m,15000000,https://www.transfermarkt.com/maarten-vandevoordt/profil/spieler/486046
+RB Leipzig,23826,2026,17,Ridle Baku,327251,Right-Back,28,Germany|DR Congo,30/06/2027,€12.00m,12000000,https://www.transfermarkt.com/ridle-baku/profil/spieler/327251
+RB Leipzig,23826,2026,33,Andrija Maksimovic,952779,Attacking Midfield,19,Serbia,30/06/2030,€9.00m,9000000,https://www.transfermarkt.com/andrija-maksimovic/profil/spieler/952779
+RB Leipzig,23826,2026,39,Benjamin Henrichs,202591,Right-Back,29,Germany|Ghana,30/06/2028,€7.00m,7000000,https://www.transfermarkt.com/benjamin-henrichs/profil/spieler/202591
+RB Leipzig,23826,2026,35,Max Finkgräfe,810649,Left-Back,22,Germany,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/max-finkgrafe/profil/spieler/810649
+RB Leipzig,23826,2026,18,Suleman Sani,1235583,Left Winger,19,Nigeria,30/06/2031,€5.00m,5000000,https://www.transfermarkt.com/suleman-sani/profil/spieler/1235583
+RB Leipzig,23826,2026,27,Tidiam Gomis,955448,Left Winger,20,France|Senegal,30/06/2029,€5.00m,5000000,https://www.transfermarkt.com/tidiam-gomis/profil/spieler/955448
+RB Leipzig,23826,2026,4,Willi Orbán,93740,Centre-Back,33,Hungary|Germany,30/06/2027,€5.00m,5000000,https://www.transfermarkt.com/willi-orban/profil/spieler/93740
+RB Leipzig,23826,2026,16,Lukas Klostermann,215599,Centre-Back,30,Germany,30/06/2028,€3.50m,3500000,https://www.transfermarkt.com/lukas-klostermann/profil/spieler/215599
+RB Leipzig,23826,2026,21,Ayodele Thomas,763948,Left Winger,19,Netherlands|Nigeria,30/06/2031,€1.00m,1000000,https://www.transfermarkt.com/ayodele-thomas/profil/spieler/763948
+RB Leipzig,23826,2026,1,Ørjan Nyland,73517,Goalkeeper,35,Norway,30/06/2028,€800k,800000,https://www.transfermarkt.com/orjan-nyland/profil/spieler/73517
+RB Leipzig,23826,2026,,Joyeux Masanka Bungi,990146,Left Midfield,19,Belgium,30/06/2027,€400k,400000,https://www.transfermarkt.com/joyeux-masanka-bungi/profil/spieler/990146
+RB Leipzig,23826,2026,47,Viggo Gebel,1074526,Attacking Midfield,18,Germany,30/06/2028,€350k,350000,https://www.transfermarkt.com/viggo-gebel/profil/spieler/1074526
+RB Leipzig,23826,2026,25,Leopold Zingerle,160971,Goalkeeper,32,Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/leopold-zingerle/profil/spieler/160971
+RB Leipzig,23826,2026,37,Benno Kaltefleiter,1279157,Defensive Midfield,18,Germany,30/06/2029,-,,https://www.transfermarkt.com/benno-kaltefleiter/profil/spieler/1279157
+SC Freiburg,60,2026,,Noah Atubolu,526845,Goalkeeper,24,Germany|Nigeria,30/06/2027,€25.00m,25000000,https://www.transfermarkt.com/noah-atubolu/profil/spieler/526845
+SC Freiburg,60,2026,14,Yuito Suzuki,668606,Second Striker,24,Japan,,€24.00m,24000000,https://www.transfermarkt.com/yuito-suzuki/profil/spieler/668606
+SC Freiburg,60,2026,31,Igor Matanovic,605268,Centre-Forward,23,Croatia|Germany,,€22.00m,22000000,https://www.transfermarkt.com/igor-matanovic/profil/spieler/605268
+SC Freiburg,60,2026,43,Bruno Ogbus,863759,Centre-Back,20,Switzerland|Nigeria,,€15.00m,15000000,https://www.transfermarkt.com/bruno-ogbus/profil/spieler/863759
+SC Freiburg,60,2026,1,Mio Backhaus,620295,Goalkeeper,22,Germany|Japan,,€15.00m,15000000,https://www.transfermarkt.com/mio-backhaus/profil/spieler/620295
+SC Freiburg,60,2026,29,Philipp Treu,335993,Right-Back,25,Germany,,€15.00m,15000000,https://www.transfermarkt.com/philipp-treu/profil/spieler/335993
+SC Freiburg,60,2026,6,Patrick Osterhage,443331,Defensive Midfield,26,Germany,,€12.00m,12000000,https://www.transfermarkt.com/patrick-osterhage/profil/spieler/443331
+SC Freiburg,60,2026,42,Keisuke Goto,916623,Centre-Forward,21,Japan,,€10.00m,10000000,https://www.transfermarkt.com/keisuke-goto/profil/spieler/916623
+SC Freiburg,60,2026,8,Maximilian Eggestein,190284,Central Midfield,29,Germany,,€10.00m,10000000,https://www.transfermarkt.com/maximilian-eggestein/profil/spieler/190284
+SC Freiburg,60,2026,19,Niklas Beste,342967,Right Winger,27,Germany,30/06/2030,€10.00m,10000000,https://www.transfermarkt.com/niklas-beste/profil/spieler/342967
+SC Freiburg,60,2026,3,Philipp Lienhart,225657,Centre-Back,30,Austria,,€10.00m,10000000,https://www.transfermarkt.com/philipp-lienhart/profil/spieler/225657
+SC Freiburg,60,2026,22,Cyriaque Irié,1145064,Right Winger,21,Burkina Faso|Cote d'Ivoire,,€8.00m,8000000,https://www.transfermarkt.com/cyriaque-irie/profil/spieler/1145064
+SC Freiburg,60,2026,7,Derry Scherhant,820957,Left Winger,23,Germany,,€7.50m,7500000,https://www.transfermarkt.com/derry-scherhant/profil/spieler/820957
+SC Freiburg,60,2026,27,Berkay Yılmaz,907087,Left-Back,21,Türkiye|Germany,,€7.00m,7000000,https://www.transfermarkt.com/berkay-yilmaz/profil/spieler/907087
+SC Freiburg,60,2026,20,Rihito Yamamoto,432403,Defensive Midfield,24,Japan,,€7.00m,7000000,https://www.transfermarkt.com/rihito-yamamoto/profil/spieler/432403
+SC Freiburg,60,2026,16,Yannik Engelhardt,405670,Defensive Midfield,25,Germany,,€7.00m,7000000,https://www.transfermarkt.com/yannik-engelhardt/profil/spieler/405670
+SC Freiburg,60,2026,33,Jordy Makengo,815078,Left-Back,25,France|DR Congo,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/jordy-makengo/profil/spieler/815078
+SC Freiburg,60,2026,37,Max Rosenfelder,599419,Centre-Back,23,Germany,,€6.00m,6000000,https://www.transfermarkt.com/max-rosenfelder/profil/spieler/599419
+SC Freiburg,60,2026,28,Matthias Ginter,124502,Centre-Back,32,Germany,30/06/2027,€5.00m,5000000,https://www.transfermarkt.com/matthias-ginter/profil/spieler/124502
+SC Freiburg,60,2026,32,Vincenzo Grifo,185077,Left Winger,33,Italy|Germany,,€4.00m,4000000,https://www.transfermarkt.com/vincenzo-grifo/profil/spieler/185077
+SC Freiburg,60,2026,9,Lucas Höler,248999,Centre-Forward,32,Germany,,€3.00m,3000000,https://www.transfermarkt.com/lucas-holer/profil/spieler/248999
+SC Freiburg,60,2026,30,Christian Günter,93707,Left-Back,33,Germany,,€2.00m,2000000,https://www.transfermarkt.com/christian-gunter/profil/spieler/93707
+SC Freiburg,60,2026,23,Florent Muslija,337036,Left Winger,28,Kosovo|Germany,30/06/2028,€1.80m,1800000,https://www.transfermarkt.com/florent-muslija/profil/spieler/337036
+SC Freiburg,60,2026,17,Lukas Kübler,93604,Right-Back,33,Germany,,€1.50m,1500000,https://www.transfermarkt.com/lukas-kubler/profil/spieler/93604
+SC Freiburg,60,2026,21,Florian Müller,284769,Goalkeeper,28,Germany,,€1.20m,1200000,https://www.transfermarkt.com/florian-muller/profil/spieler/284769
+SC Freiburg,60,2026,5,Anthony Jung,58995,Centre-Back,34,Germany|Spain,30/06/2027,€600k,600000,https://www.transfermarkt.com/anthony-jung/profil/spieler/58995
+SC Freiburg,60,2026,24,Jannik Huth,160954,Goalkeeper,32,Germany,,€400k,400000,https://www.transfermarkt.com/jannik-huth/profil/spieler/160954
+SC Freiburg,60,2026,39,Rouven Tarnutzer,1159439,Central Midfield,19,Switzerland|Germany,30/06/2027,€400k,400000,https://www.transfermarkt.com/rouven-tarnutzer/profil/spieler/1159439
+SC Freiburg,60,2026,36,Karl Steinmann,907082,Right-Back,20,Germany,,€150k,150000,https://www.transfermarkt.com/karl-steinmann/profil/spieler/907082
+SC Paderborn,127,2026,5,Santiago Castañeda,1005509,Defensive Midfield,21,United States|Colombia,30/06/2027,€5.00m,5000000,https://www.transfermarkt.com/santiago-castaneda/profil/spieler/1005509
+SC Paderborn,127,2026,38,Deniz Zeitler,1108022,Left Winger,19,Germany|Türkiye,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/deniz-zeitler/profil/spieler/1108022
+SC Paderborn,127,2026,28,Laurin Ulrich,717465,Central Midfield,21,Germany,30/06/2027,€3.50m,3500000,https://www.transfermarkt.com/laurin-ulrich/profil/spieler/717465
+SC Paderborn,127,2026,40,Gabriel Vidovic,604327,Left Winger,22,Croatia|Germany,,€3.00m,3000000,https://www.transfermarkt.com/gabriel-vidovic/profil/spieler/604327
+SC Paderborn,127,2026,17,Laurin Curda,516978,Right Midfield,24,Germany,,€3.00m,3000000,https://www.transfermarkt.com/laurin-curda/profil/spieler/516978
+SC Paderborn,127,2026,22,Mattes Hansen,694132,Centre-Back,22,Germany,,€2.50m,2500000,https://www.transfermarkt.com/mattes-hansen/profil/spieler/694132
+SC Paderborn,127,2026,25,Tjark Scheller,509650,Centre-Back,24,Germany,,€2.50m,2500000,https://www.transfermarkt.com/tjark-scheller/profil/spieler/509650
+SC Paderborn,127,2026,20,Felix Götze,330635,Centre-Back,28,Germany,,€2.00m,2000000,https://www.transfermarkt.com/felix-gotze/profil/spieler/330635
+SC Paderborn,127,2026,15,Nahuel Noll,600942,Goalkeeper,23,Germany|Spain,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/nahuel-noll/profil/spieler/600942
+SC Paderborn,127,2026,10,Kennedy Okpala,1104418,Centre-Forward,21,Germany|Nigeria,,€1.50m,1500000,https://www.transfermarkt.com/kennedy-okpala/profil/spieler/1104418
+SC Paderborn,127,2026,7,Oliver Batista Meier,406614,Attacking Midfield,25,Germany|Brazil,,€1.50m,1500000,https://www.transfermarkt.com/oliver-batista-meier/profil/spieler/406614
+SC Paderborn,127,2026,21,Jano ter Horst,606113,Right Midfield,24,Germany,,€1.20m,1200000,https://www.transfermarkt.com/jano-ter-horst/profil/spieler/606113
+SC Paderborn,127,2026,23,Raphael Obermair,330699,Left Midfield,30,Philippines|Germany,30/06/2027,€1.20m,1200000,https://www.transfermarkt.com/raphael-obermair/profil/spieler/330699
+SC Paderborn,127,2026,33,Marcel Hoffmeier,570152,Centre-Back,27,Germany,30/06/2028,€1.00m,1000000,https://www.transfermarkt.com/marcel-hoffmeier/profil/spieler/570152
+SC Paderborn,127,2026,2,Ruben Müller,907085,Right Winger,20,Germany|Spain,,€1.00m,1000000,https://www.transfermarkt.com/ruben-muller/profil/spieler/907085
+SC Paderborn,127,2026,30,Stefano Marino,829267,Centre-Forward,22,Germany|Italy,,€1.00m,1000000,https://www.transfermarkt.com/stefano-marino/profil/spieler/829267
+SC Paderborn,127,2026,26,Sebastian Klaas,378424,Central Midfield,28,Germany,,€900k,900000,https://www.transfermarkt.com/sebastian-klaas/profil/spieler/378424
+SC Paderborn,127,2026,8,Luka Duric,685484,Central Midfield,23,Bosnia-Herzegovina|Germany,,€800k,800000,https://www.transfermarkt.com/luka-duric/profil/spieler/685484
+SC Paderborn,127,2026,3,Jonah Sticker,698843,Left Midfield,22,Germany,,€750k,750000,https://www.transfermarkt.com/jonah-sticker/profil/spieler/698843
+SC Paderborn,127,2026,27,Steffen Tigges,296879,Centre-Forward,28,Germany,30/06/2027,€700k,700000,https://www.transfermarkt.com/steffen-tigges/profil/spieler/296879
+SC Paderborn,127,2026,6,Tom Baack,331637,Defensive Midfield,27,Germany,,€600k,600000,https://www.transfermarkt.com/tom-baack/profil/spieler/331637
+SC Paderborn,127,2026,1,Markus Schubert,296741,Goalkeeper,28,Germany,30/06/2028,€500k,500000,https://www.transfermarkt.com/markus-schubert/profil/spieler/296741
+SC Paderborn,127,2026,9,Nick Bätzner,443855,Attacking Midfield,26,Germany,30/06/2027,€500k,500000,https://www.transfermarkt.com/nick-batzner/profil/spieler/443855
+SC Paderborn,127,2026,24,Niklas Mohr,949389,Left Midfield,22,Germany,30/06/2028,€500k,500000,https://www.transfermarkt.com/niklas-mohr/profil/spieler/949389
+SC Paderborn,127,2026,44,Timur Gayret,421323,Central Midfield,28,Germany,30/06/2029,€450k,450000,https://www.transfermarkt.com/timur-gayret/profil/spieler/421323
+SC Paderborn,127,2026,29,Clemens Lippmann,1148887,Right Midfield,20,Germany,,€400k,400000,https://www.transfermarkt.com/clemens-lippmann/profil/spieler/1148887
+SC Paderborn,127,2026,4,Nyamekye Awortwie-Grant,521331,Centre-Back,26,Germany|Ghana,,€400k,400000,https://www.transfermarkt.com/nyamekye-awortwie-grant/profil/spieler/521331
+SC Paderborn,127,2026,11,Sven Michel,186988,Right Winger,36,Germany,30/06/2027,€300k,300000,https://www.transfermarkt.com/sven-michel/profil/spieler/186988
+SC Paderborn,127,2026,,Tristan Zobel,798091,Centre-Back,22,Germany,30/06/2028,€225k,225000,https://www.transfermarkt.com/tristan-zobel/profil/spieler/798091
+SC Paderborn,127,2026,19,Albert Millgramm,814986,Left Winger,21,Germany,,€150k,150000,https://www.transfermarkt.com/albert-millgramm/profil/spieler/814986
+SC Paderborn,127,2026,31,Florian Pruhs,930013,Goalkeeper,20,Germany,,€150k,150000,https://www.transfermarkt.com/florian-pruhs/profil/spieler/930013
+SC Paderborn,127,2026,32,Lasse Eickel,1299403,Centre-Forward,18,Germany,30/06/2031,€150k,150000,https://www.transfermarkt.com/lasse-eickel/profil/spieler/1299403
+SV Elversberg,64,2026,40,Francis Onyeka,929943,Attacking Midfield,19,Germany|Nigeria,30/06/2027,€10.00m,10000000,https://www.transfermarkt.com/francis-onyeka/profil/spieler/929943
+SV Elversberg,64,2026,9,Noel Futkeu,675535,Centre-Forward,23,Germany|Cameroon,30/06/2027,€7.50m,7500000,https://www.transfermarkt.com/noel-futkeu/profil/spieler/675535
+SV Elversberg,64,2026,39,Cole Campbell,866579,Right Winger,20,United States|Iceland,30/06/2030,€5.00m,5000000,https://www.transfermarkt.com/cole-campbell/profil/spieler/866579
+SV Elversberg,64,2026,42,David Mokwa,974894,Centre-Forward,22,France|Cameroon,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/david-mokwa/profil/spieler/974894
+SV Elversberg,64,2026,10,Noah Darvich,897480,Attacking Midfield,19,Germany,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/noah-darvich/profil/spieler/897480
+SV Elversberg,64,2026,25,Lukas Petkov,401639,Right Winger,25,Bulgaria|Germany,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/lukas-petkov/profil/spieler/401639
+SV Elversberg,64,2026,7,Maurice Krattenmacher,829316,Left Winger,21,Germany,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/maurice-krattenmacher/profil/spieler/829316
+SV Elversberg,64,2026,21,Lasse Günther,522245,Left-Back,23,Germany,30/06/2030,€2.50m,2500000,https://www.transfermarkt.com/lasse-gunther/profil/spieler/522245
+SV Elversberg,64,2026,19,Lukas Pinckert,448259,Centre-Back,26,Germany,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/lukas-pinckert/profil/spieler/448259
+SV Elversberg,64,2026,8,Lukasz Poreba,532169,Defensive Midfield,26,Poland,30/06/2029,€2.50m,2500000,https://www.transfermarkt.com/lukasz-poreba/profil/spieler/532169
+SV Elversberg,64,2026,20,Nicolas Kristof,349465,Goalkeeper,26,Austria|Germany,30/06/2029,€2.50m,2500000,https://www.transfermarkt.com/nicolas-kristof/profil/spieler/349465
+SV Elversberg,64,2026,26,Luca Sirch,521928,Centre-Back,27,Germany,30/06/2029,€2.20m,2200000,https://www.transfermarkt.com/luca-sirch/profil/spieler/521928
+SV Elversberg,64,2026,29,Tom Zimmerschied,337097,Left Winger,27,Germany,30/06/2029,€1.50m,1500000,https://www.transfermarkt.com/tom-zimmerschied/profil/spieler/337097
+SV Elversberg,64,2026,43,Felix Keidel,815322,Right-Back,23,Germany,30/06/2028,€1.20m,1200000,https://www.transfermarkt.com/felix-keidel/profil/spieler/815322
+SV Elversberg,64,2026,2,Nicholas Mickelson,430034,Left-Back,27,Thailand|Norway,30/06/2027,€1.00m,1000000,https://www.transfermarkt.com/nicholas-mickelson/profil/spieler/430034
+SV Elversberg,64,2026,6,Amara Condé,207580,Defensive Midfield,29,Germany|Guinea,30/06/2028,€900k,900000,https://www.transfermarkt.com/amara-conde/profil/spieler/207580
+SV Elversberg,64,2026,11,Jason Ceka,390661,Right Winger,26,Germany|Albania,30/06/2028,€800k,800000,https://www.transfermarkt.com/jason-ceka/profil/spieler/390661
+SV Elversberg,64,2026,31,Maximilian Rohr,440386,Centre-Back,31,Germany,30/06/2028,€800k,800000,https://www.transfermarkt.com/maximilian-rohr/profil/spieler/440386
+SV Elversberg,64,2026,17,Frederik Schmahl,604756,Central Midfield,23,Germany,30/06/2027,€750k,750000,https://www.transfermarkt.com/frederik-schmahl/profil/spieler/604756
+SV Elversberg,64,2026,30,Jan Gyamerah,192840,Right-Back,31,Ghana|Germany,30/06/2027,€700k,700000,https://www.transfermarkt.com/jan-gyamerah/profil/spieler/192840
+SV Elversberg,64,2026,3,Florian Le Joncour,352332,Centre-Back,31,France,30/06/2027,€500k,500000,https://www.transfermarkt.com/florian-le-joncour/profil/spieler/352332
+SV Elversberg,64,2026,16,Luca Pfeiffer,232463,Centre-Forward,30,Germany,30/06/2028,€500k,500000,https://www.transfermarkt.com/luca-pfeiffer/profil/spieler/232463
+SV Elversberg,64,2026,24,Luca Schnellbacher,229991,Centre-Forward,32,Germany,30/06/2028,€500k,500000,https://www.transfermarkt.com/luca-schnellbacher/profil/spieler/229991
+SV Elversberg,64,2026,15,Raif Adam,910538,Right Winger,20,Germany,30/06/2029,€500k,500000,https://www.transfermarkt.com/raif-adam/profil/spieler/910538
+SV Elversberg,64,2026,27,Filimon Gerezgiher,453307,Left Winger,26,Eritrea|Germany,30/06/2027,€250k,250000,https://www.transfermarkt.com/filimon-gerezgiher/profil/spieler/453307
+SV Elversberg,64,2026,4,Luis Seifert,806007,Centre-Back,22,Germany,30/06/2028,€200k,200000,https://www.transfermarkt.com/luis-seifert/profil/spieler/806007
+SV Elversberg,64,2026,28,Tim Boss,85534,Goalkeeper,33,Germany,30/06/2027,€200k,200000,https://www.transfermarkt.com/tim-boss/profil/spieler/85534
+SV Elversberg,64,2026,1,Frank Lehmann,44536,Goalkeeper,37,Germany,30/06/2027,€100k,100000,https://www.transfermarkt.com/frank-lehmann/profil/spieler/44536
+SV Elversberg,64,2026,12,Elias Etringer,1159486,Goalkeeper,18,Germany,30/06/2029,-,,https://www.transfermarkt.com/elias-etringer/profil/spieler/1159486
+TSG Hoffenheim,533,2026,11,Fisnik Asllani,524290,Centre-Forward,24,Kosovo|Germany,30/06/2029,€35.00m,35000000,https://www.transfermarkt.com/fisnik-asllani/profil/spieler/524290
+TSG Hoffenheim,533,2026,7,Leon Avdullahu,667457,Defensive Midfield,22,Kosovo|Switzerland,30/06/2031,€30.00m,30000000,https://www.transfermarkt.com/leon-avdullahu/profil/spieler/667457
+TSG Hoffenheim,533,2026,17,Nathan De Cat,1105541,Central Midfield,18,Belgium,30/06/2031,€27.00m,27000000,https://www.transfermarkt.com/nathan-de-cat/profil/spieler/1105541
+TSG Hoffenheim,533,2026,21,Albian Hajdari,579459,Centre-Back,23,Kosovo|Switzerland,30/06/2031,€25.00m,25000000,https://www.transfermarkt.com/albian-hajdari/profil/spieler/579459
+TSG Hoffenheim,533,2026,18,Wouter Burger,412953,Defensive Midfield,25,Netherlands,,€20.00m,20000000,https://www.transfermarkt.com/wouter-burger/profil/spieler/412953
+TSG Hoffenheim,533,2026,19,Tim Lemperle,553285,Centre-Forward,24,Germany,30/06/2031,€17.00m,17000000,https://www.transfermarkt.com/tim-lemperle/profil/spieler/553285
+TSG Hoffenheim,533,2026,5,Ozan Kabak,361260,Centre-Back,26,Türkiye|Germany,30/06/2030,€15.00m,15000000,https://www.transfermarkt.com/ozan-kabak/profil/spieler/361260
+TSG Hoffenheim,533,2026,39,Mats Rots,983677,Left-Back,20,Netherlands,30/06/2031,€12.00m,12000000,https://www.transfermarkt.com/mats-rots/profil/spieler/983677
+TSG Hoffenheim,533,2026,8,Patrick Wimmer,533295,Right Winger,25,Austria,30/06/2031,€12.00m,12000000,https://www.transfermarkt.com/patrick-wimmer/profil/spieler/533295
+TSG Hoffenheim,533,2026,10,Adam Hlozek,552057,Centre-Forward,24,Czech Republic,30/06/2029,€10.00m,10000000,https://www.transfermarkt.com/adam-hlozek/profil/spieler/552057
+TSG Hoffenheim,533,2026,32,Cajetan Lenz,1047136,Defensive Midfield,20,Germany|Switzerland,30/06/2031,€10.00m,10000000,https://www.transfermarkt.com/cajetan-lenz/profil/spieler/1047136
+TSG Hoffenheim,533,2026,2,Robin Hranac,620217,Centre-Back,26,Czech Republic,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/robin-hranac/profil/spieler/620217
+TSG Hoffenheim,533,2026,22,Alexander Prass,434116,Left Midfield,25,Austria,30/06/2028,€9.00m,9000000,https://www.transfermarkt.com/alexander-prass/profil/spieler/434116
+TSG Hoffenheim,533,2026,24,Alessandro Vogt,987770,Centre-Forward,21,Switzerland|Italy,30/06/2031,€8.00m,8000000,https://www.transfermarkt.com/alessandro-vogt/profil/spieler/987770
+TSG Hoffenheim,533,2026,14,Adam Daghim,881297,Right Winger,20,Denmark|Palestine,,€7.50m,7500000,https://www.transfermarkt.com/adam-daghim/profil/spieler/881297
+TSG Hoffenheim,533,2026,9,Max Moerstedt,923595,Centre-Forward,20,Germany,30/06/2030,€7.00m,7000000,https://www.transfermarkt.com/max-moerstedt/profil/spieler/923595
+TSG Hoffenheim,533,2026,28,Koki Machida,415035,Centre-Back,28,Japan,30/06/2029,€6.00m,6000000,https://www.transfermarkt.com/koki-machida/profil/spieler/415035
+TSG Hoffenheim,533,2026,15,Valentin Gendrey,569387,Right-Back,26,France|Guadeloupe,30/06/2028,€6.00m,6000000,https://www.transfermarkt.com/valentin-gendrey/profil/spieler/569387
+TSG Hoffenheim,533,2026,35,Arthur Chaves,875332,Centre-Back,25,Brazil,30/06/2029,€5.00m,5000000,https://www.transfermarkt.com/arthur-chaves/profil/spieler/875332
+TSG Hoffenheim,533,2026,20,Bambasé Conté,574193,Attacking Midfield,23,Germany|Guinea,,€4.00m,4000000,https://www.transfermarkt.com/bambase-conte/profil/spieler/574193
+TSG Hoffenheim,533,2026,13,Bernardo,364258,Left-Back,31,Brazil,30/06/2027,€4.00m,4000000,https://www.transfermarkt.com/bernardo/profil/spieler/364258
+TSG Hoffenheim,533,2026,16,Luis Engelns,1116191,Defensive Midfield,19,Germany,,€4.00m,4000000,https://www.transfermarkt.com/luis-engelns/profil/spieler/1116191
+TSG Hoffenheim,533,2026,27,Andrej Kramaric,46580,Second Striker,35,Croatia,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/andrej-kramaric/profil/spieler/46580
+TSG Hoffenheim,533,2026,1,Oliver Baumann,55089,Goalkeeper,36,Germany,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/oliver-baumann/profil/spieler/55089
+TSG Hoffenheim,533,2026,34,Vladimír Coufal,157672,Right-Back,34,Czech Republic,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/vladimir-coufal/profil/spieler/157672
+TSG Hoffenheim,533,2026,4,Sean Dulic,907277,Centre-Back,21,Germany|Bosnia-Herzegovina,30/06/2030,€1.20m,1200000,https://www.transfermarkt.com/sean-dulic/profil/spieler/907277
+TSG Hoffenheim,533,2026,,Dennis Geiger,251309,Central Midfield,28,Germany,30/06/2027,€1.00m,1000000,https://www.transfermarkt.com/dennis-geiger/profil/spieler/251309
+TSG Hoffenheim,533,2026,37,Luca Philipp,432671,Goalkeeper,25,Germany,,€750k,750000,https://www.transfermarkt.com/luca-philipp/profil/spieler/432671
+TSG Hoffenheim,533,2026,36,Lúkas Petersson,718460,Goalkeeper,22,Iceland|Germany,,€600k,600000,https://www.transfermarkt.com/lukas-petersson/profil/spieler/718460
+TSG Hoffenheim,533,2026,29,Natnael Abraha,1075143,Right-Back,18,Germany,,€400k,400000,https://www.transfermarkt.com/natnael-abraha/profil/spieler/1075143
+Union Berlin,89,2026,14,Leopold Querfeld,597432,Centre-Back,22,Austria,,€20.00m,20000000,https://www.transfermarkt.com/leopold-querfeld/profil/spieler/597432
+Union Berlin,89,2026,6,Aljoscha Kemlein,692737,Defensive Midfield,22,Germany,30/06/2029,€12.00m,12000000,https://www.transfermarkt.com/aljoscha-kemlein/profil/spieler/692737
+Union Berlin,89,2026,10,Ilyas Ansah,1035765,Centre-Forward,21,Germany|Ghana,,€12.00m,12000000,https://www.transfermarkt.com/ilyas-ansah/profil/spieler/1035765
+Union Berlin,89,2026,29,Emmanuel Latte Lath,392964,Centre-Forward,27,Cote d'Ivoire|Italy,30/06/2027,€10.00m,10000000,https://www.transfermarkt.com/emmanuel-latte-lath/profil/spieler/392964
+Union Berlin,89,2026,15,Tom Rothe,798043,Left-Back,21,Germany,,€10.00m,10000000,https://www.transfermarkt.com/tom-rothe/profil/spieler/798043
+Union Berlin,89,2026,23,Andrej Ilic,583699,Centre-Forward,26,Serbia,,€9.00m,9000000,https://www.transfermarkt.com/andrej-ilic/profil/spieler/583699
+Union Berlin,89,2026,4,Zeno Van Den Bosch,738774,Centre-Back,23,Belgium,,€6.00m,6000000,https://www.transfermarkt.com/zeno-van-den-bosch/profil/spieler/738774
+Union Berlin,89,2026,13,András Schäfer,454863,Central Midfield,27,Hungary,30/06/2027,€4.50m,4500000,https://www.transfermarkt.com/andras-schafer/profil/spieler/454863
+Union Berlin,89,2026,39,Derrick Köhn,391780,Left-Back,27,Ghana|Germany,30/06/2029,€4.00m,4000000,https://www.transfermarkt.com/derrick-kohn/profil/spieler/391780
+Union Berlin,89,2026,9,Livan Burcu,519872,Left Winger,21,Türkiye|Germany,,€4.00m,4000000,https://www.transfermarkt.com/livan-burcu/profil/spieler/519872
+Union Berlin,89,2026,20,Michel Aebischer,237658,Central Midfield,29,Switzerland,,€4.00m,4000000,https://www.transfermarkt.com/michel-aebischer/profil/spieler/237658
+Union Berlin,89,2026,11,Woo-yeong Jeong,297583,Attacking Midfield,26,"Korea, South",,€3.50m,3500000,https://www.transfermarkt.com/woo-yeong-jeong/profil/spieler/297583
+Union Berlin,89,2026,7,Oliver Burke,341317,Centre-Forward,29,Scotland,30/06/2029,€3.00m,3000000,https://www.transfermarkt.com/oliver-burke/profil/spieler/341317
+Union Berlin,89,2026,1,Frederik Rönnow,107775,Goalkeeper,34,Denmark,,€2.00m,2000000,https://www.transfermarkt.com/frederik-ronnow/profil/spieler/107775
+Union Berlin,89,2026,19,Janik Haberer,177779,Central Midfield,32,Germany,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/janik-haberer/profil/spieler/177779
+Union Berlin,89,2026,18,Josip Juranovic,362977,Right-Back,31,Croatia,,€2.00m,2000000,https://www.transfermarkt.com/josip-juranovic/profil/spieler/362977
+Union Berlin,89,2026,27,Marin Ljubicic,838236,Centre-Forward,24,Croatia,,€2.00m,2000000,https://www.transfermarkt.com/marin-ljubicic/profil/spieler/838236
+Union Berlin,89,2026,8,Rani Khedira,124410,Defensive Midfield,32,Tunisia|Germany,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/rani-khedira/profil/spieler/124410
+Union Berlin,89,2026,24,Robert Skov,270393,Left Midfield,30,Denmark,,€2.00m,2000000,https://www.transfermarkt.com/robert-skov/profil/spieler/270393
+Union Berlin,89,2026,34,Stanley Nsoki,371141,Centre-Back,27,France|DR Congo,,€2.00m,2000000,https://www.transfermarkt.com/stanley-nsoki/profil/spieler/371141
+Union Berlin,89,2026,5,Marvin Friedrich,196231,Centre-Back,30,Germany,,€1.80m,1800000,https://www.transfermarkt.com/marvin-friedrich/profil/spieler/196231
+Union Berlin,89,2026,21,Tim Skarke,287920,Centre-Forward,29,Germany,,€1.50m,1500000,https://www.transfermarkt.com/tim-skarke/profil/spieler/287920
+Union Berlin,89,2026,49,Linus Güther,1378338,Left Winger,16,Germany,30/06/2028,€1.00m,1000000,https://www.transfermarkt.com/linus-guther/profil/spieler/1378338
+Union Berlin,89,2026,41,Oluwaseun Ogbemudia,995520,Centre-Back,20,Germany|Nigeria,30/06/2029,€800k,800000,https://www.transfermarkt.com/oluwaseun-ogbemudia/profil/spieler/995520
+Union Berlin,89,2026,28,Christopher Trimmel,75921,Right-Back,39,Austria,30/06/2027,€600k,600000,https://www.transfermarkt.com/christopher-trimmel/profil/spieler/75921
+Union Berlin,89,2026,31,Matheo Raab,386685,Goalkeeper,27,Germany,,€600k,600000,https://www.transfermarkt.com/matheo-raab/profil/spieler/386685
+Union Berlin,89,2026,25,Carl Klaus,161057,Goalkeeper,32,Germany,,€350k,350000,https://www.transfermarkt.com/carl-klaus/profil/spieler/161057
+Union Berlin,89,2026,3,Andrik Markgraf,1027870,Left-Back,20,Germany,,€300k,300000,https://www.transfermarkt.com/andrik-markgraf/profil/spieler/1027870
+Union Berlin,89,2026,38,Julien Friedrich,1033581,Left Winger,19,Germany,,€125k,125000,https://www.transfermarkt.com/julien-friedrich/profil/spieler/1033581
+Union Berlin,89,2026,32,Mekhi Gray,1162925,Centre-Forward,19,Jamaica|Germany,,-,,https://www.transfermarkt.com/mekhi-gray/profil/spieler/1162925
+Union Berlin,89,2026,44,Tim Blaszczak,1131153,Defensive Midfield,18,Germany,,-,,https://www.transfermarkt.com/tim-blaszczak/profil/spieler/1131153
+VfB Stuttgart,79,2026,6,Angelo Stiller,443710,Defensive Midfield,25,Germany,30/06/2028,€45.00m,45000000,https://www.transfermarkt.com/angelo-stiller/profil/spieler/443710
+VfB Stuttgart,79,2026,18,Jamie Leweling,518505,Right Winger,25,Germany|Ghana,30/06/2029,€40.00m,40000000,https://www.transfermarkt.com/jamie-leweling/profil/spieler/518505
+VfB Stuttgart,79,2026,11,Bilal El Khannouss,654982,Attacking Midfield,22,Morocco|Belgium,30/06/2030,€35.00m,35000000,https://www.transfermarkt.com/bilal-el-khannouss/profil/spieler/654982
+VfB Stuttgart,79,2026,29,Finn Jeltsch,924117,Centre-Back,20,Germany,30/06/2030,€35.00m,35000000,https://www.transfermarkt.com/finn-jeltsch/profil/spieler/924117
+VfB Stuttgart,79,2026,3,Ramon Hendriks,436064,Centre-Back,25,Netherlands,30/06/2028,€25.00m,25000000,https://www.transfermarkt.com/ramon-hendriks/profil/spieler/436064
+VfB Stuttgart,79,2026,26,Deniz Undav,339314,Centre-Forward,30,Germany,30/06/2029,€22.00m,22000000,https://www.transfermarkt.com/deniz-undav/profil/spieler/339314
+VfB Stuttgart,79,2026,9,Ermedin Demirovic,335457,Centre-Forward,28,Bosnia-Herzegovina,30/06/2028,€22.00m,22000000,https://www.transfermarkt.com/ermedin-demirovic/profil/spieler/335457
+VfB Stuttgart,79,2026,30,Chema Andrés,948279,Defensive Midfield,21,Spain,30/06/2030,€20.00m,20000000,https://www.transfermarkt.com/chema-andres/profil/spieler/948279
+VfB Stuttgart,79,2026,7,Maximilian Mittelstädt,282660,Left-Back,29,Germany,30/06/2028,€18.00m,18000000,https://www.transfermarkt.com/maximilian-mittelstadt/profil/spieler/282660
+VfB Stuttgart,79,2026,17,Dzenan Pejcinovic,819636,Centre-Forward,21,Germany|Montenegro,30/06/2031,€15.00m,15000000,https://www.transfermarkt.com/dzenan-pejcinovic/profil/spieler/819636
+VfB Stuttgart,79,2026,24,Jeff Chabot,303219,Centre-Back,28,Germany|France,30/06/2028,€15.00m,15000000,https://www.transfermarkt.com/jeff-chabot/profil/spieler/303219
+VfB Stuttgart,79,2026,8,Tiago Tomás,616344,Right Winger,24,Portugal,30/06/2029,€15.00m,15000000,https://www.transfermarkt.com/tiago-tomas/profil/spieler/616344
+VfB Stuttgart,79,2026,10,Chris Führich,272278,Left Winger,28,Germany,30/06/2028,€12.00m,12000000,https://www.transfermarkt.com/chris-fuhrich/profil/spieler/272278
+VfB Stuttgart,79,2026,27,Badredine Bouanani,707242,Right Winger,21,Algeria|France,30/06/2030,€10.00m,10000000,https://www.transfermarkt.com/badredine-bouanani/profil/spieler/707242
+VfB Stuttgart,79,2026,41,Dennis Seimen,800946,Goalkeeper,20,Germany|Romania,30/06/2029,€10.00m,10000000,https://www.transfermarkt.com/dennis-seimen/profil/spieler/800946
+VfB Stuttgart,79,2026,4,Josha Vagnoman,448258,Right-Back,25,Germany|Cote d'Ivoire,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/josha-vagnoman/profil/spieler/448258
+VfB Stuttgart,79,2026,14,Luca Jaquez,539798,Centre-Back,23,Switzerland|Dominican Republic,30/06/2029,€10.00m,10000000,https://www.transfermarkt.com/luca-jaquez/profil/spieler/539798
+VfB Stuttgart,79,2026,28,Nikolas Nartey,400546,Central Midfield,26,Denmark|Ghana,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/nikolas-nartey/profil/spieler/400546
+VfB Stuttgart,79,2026,22,Lorenz Assignon,711969,Right-Back,26,France|Togo,30/06/2029,€9.00m,9000000,https://www.transfermarkt.com/lorenz-assignon/profil/spieler/711969
+VfB Stuttgart,79,2026,16,Atakan Karazor,232320,Defensive Midfield,29,Türkiye|Germany,30/06/2028,€8.00m,8000000,https://www.transfermarkt.com/atakan-karazor/profil/spieler/232320
+VfB Stuttgart,79,2026,25,Jeremy Arévalo,971663,Centre-Forward,21,Ecuador|Spain,30/06/2031,€7.00m,7000000,https://www.transfermarkt.com/jeremy-arevalo/profil/spieler/971663
+VfB Stuttgart,79,2026,44,Leo Sauer,710886,Left Winger,20,Slovakia,30/06/2031,€7.00m,7000000,https://www.transfermarkt.com/leo-sauer/profil/spieler/710886
+VfB Stuttgart,79,2026,35,Mirza Catovic,1131117,Defensive Midfield,19,Germany|Serbia,30/06/2028,€4.00m,4000000,https://www.transfermarkt.com/mirza-catovic/profil/spieler/1131117
+VfB Stuttgart,79,2026,21,Grischa Prömel,234029,Central Midfield,31,Germany,30/06/2029,€3.50m,3500000,https://www.transfermarkt.com/grischa-promel/profil/spieler/234029
+VfB Stuttgart,79,2026,45,Lazar Jovanovic,897505,Right Winger,19,Serbia,30/06/2029,€3.50m,3500000,https://www.transfermarkt.com/lazar-jovanovic/profil/spieler/897505
+VfB Stuttgart,79,2026,2,Ameen Al-Dakhil,620598,Centre-Back,24,Belgium|Iraq,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/ameen-al-dakhil/profil/spieler/620598
+VfB Stuttgart,79,2026,20,Leonidas Stergiou,507345,Right-Back,24,Switzerland|Greece,30/06/2028,€2.50m,2500000,https://www.transfermarkt.com/leonidas-stergiou/profil/spieler/507345
+VfB Stuttgart,79,2026,23,Dan-Axel Zagadou,344598,Centre-Back,27,France|Cote d'Ivoire,30/06/2027,€2.00m,2000000,https://www.transfermarkt.com/dan-axel-zagadou/profil/spieler/344598
+VfB Stuttgart,79,2026,43,Jarzinho Malanga,1031774,Attacking Midfield,20,Germany,30/06/2028,€1.70m,1700000,https://www.transfermarkt.com/jarzinho-malanga/profil/spieler/1031774
+VfB Stuttgart,79,2026,31,Justin Diehl,720162,Left Winger,21,Germany|Ghana,30/06/2029,€1.20m,1200000,https://www.transfermarkt.com/justin-diehl/profil/spieler/720162
+VfB Stuttgart,79,2026,39,Ertugrul Yigit,1297520,Central Midfield,17,Germany|Türkiye,30/06/2029,€750k,750000,https://www.transfermarkt.com/ertugrul-yigit/profil/spieler/1297520
+VfB Stuttgart,79,2026,1,Fabian Bredlow,187624,Goalkeeper,31,Germany,30/06/2027,€700k,700000,https://www.transfermarkt.com/fabian-bredlow/profil/spieler/187624
+VfB Stuttgart,79,2026,33,Marius Funk,170517,Goalkeeper,30,Germany,30/06/2028,€300k,300000,https://www.transfermarkt.com/marius-funk/profil/spieler/170517
+VfB Stuttgart,79,2026,46,Stefan Drljaca,388067,Goalkeeper,27,Germany|Serbia,30/06/2027,€300k,300000,https://www.transfermarkt.com/stefan-drljaca/profil/spieler/388067
+Werder Bremen,86,2026,6,Jens Stage,289835,Central Midfield,29,Denmark,30/06/2028,€14.00m,14000000,https://www.transfermarkt.com/jens-stage/profil/spieler/289835
+Werder Bremen,86,2026,32,Marco Friedl,156990,Centre-Back,28,Austria,30/06/2028,€10.00m,10000000,https://www.transfermarkt.com/marco-friedl/profil/spieler/156990
+Werder Bremen,86,2026,20,Chuki,926763,Attacking Midfield,22,Spain,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/chuki/profil/spieler/926763
+Werder Bremen,86,2026,7,Samuel Mbangula,654991,Left Winger,22,Belgium|DR Congo,30/06/2030,€8.00m,8000000,https://www.transfermarkt.com/samuel-mbangula/profil/spieler/654991
+Werder Bremen,86,2026,14,Senne Lynen,338668,Defensive Midfield,27,Belgium,,€8.00m,8000000,https://www.transfermarkt.com/senne-lynen/profil/spieler/338668
+Werder Bremen,86,2026,18,Eren Dinkçi,645774,Right Winger,24,Türkiye|Germany,30/06/2027,€6.00m,6000000,https://www.transfermarkt.com/eren-dinkci/profil/spieler/645774
+Werder Bremen,86,2026,11,Justin Njinmah,596153,Right Winger,25,Germany|Nigeria,,€5.00m,5000000,https://www.transfermarkt.com/justin-njinmah/profil/spieler/596153
+Werder Bremen,86,2026,3,Oskar Wójcik,821350,Centre-Back,23,Poland,30/06/2031,€5.00m,5000000,https://www.transfermarkt.com/oskar-wojcik/profil/spieler/821350
+Werder Bremen,86,2026,27,Felix Agu,393512,Left-Back,26,Nigeria|Germany,30/06/2027,€4.50m,4500000,https://www.transfermarkt.com/felix-agu/profil/spieler/393512
+Werder Bremen,86,2026,5,Amos Pieper,334221,Centre-Back,28,Germany,,€4.00m,4000000,https://www.transfermarkt.com/amos-pieper/profil/spieler/334221
+Werder Bremen,86,2026,17,Marco Grüll,391766,Left Winger,28,Austria,,€4.00m,4000000,https://www.transfermarkt.com/marco-grull/profil/spieler/391766
+Werder Bremen,86,2026,24,Patrice Covic,1114155,Attacking Midfield,19,Croatia|Germany,,€4.00m,4000000,https://www.transfermarkt.com/patrice-covic/profil/spieler/1114155
+Werder Bremen,86,2026,10,Niclas Füllkrug,75489,Centre-Forward,33,Germany,30/06/2027,€3.50m,3500000,https://www.transfermarkt.com/niclas-fullkrug/profil/spieler/75489
+Werder Bremen,86,2026,2,Olivier Deman,621802,Left-Back,26,Belgium,30/06/2028,€3.50m,3500000,https://www.transfermarkt.com/olivier-deman/profil/spieler/621802
+Werder Bremen,86,2026,1,Karl Hein,493513,Goalkeeper,24,Estonia,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/karl-hein/profil/spieler/493513
+Werder Bremen,86,2026,9,Keke Topp,701757,Centre-Forward,22,Germany,30/06/2028,€3.00m,3000000,https://www.transfermarkt.com/keke-topp/profil/spieler/701757
+Werder Bremen,86,2026,19,Kenny Quetant,1178695,Centre-Forward,20,France|Haiti,30/06/2030,€3.00m,3000000,https://www.transfermarkt.com/kenny-quetant/profil/spieler/1178695
+Werder Bremen,86,2026,15,Ludovit Reis,490884,Central Midfield,26,Netherlands|Slovakia,30/06/2029,€3.00m,3000000,https://www.transfermarkt.com/ludovit-reis/profil/spieler/490884
+Werder Bremen,86,2026,8,Mitchell Weiser,119211,Right-Back,32,Germany|Algeria,30/06/2027,€3.00m,3000000,https://www.transfermarkt.com/mitchell-weiser/profil/spieler/119211
+Werder Bremen,86,2026,4,Niklas Stark,162434,Centre-Back,31,Germany,,€2.50m,2500000,https://www.transfermarkt.com/niklas-stark/profil/spieler/162434
+Werder Bremen,86,2026,30,Alexander Schlager,186374,Goalkeeper,30,Austria,30/06/2029,€2.00m,2000000,https://www.transfermarkt.com/alexander-schlager/profil/spieler/186374
+Werder Bremen,86,2026,22,Julián Malatini,830108,Centre-Back,25,Argentina,,€2.00m,2000000,https://www.transfermarkt.com/julian-malatini/profil/spieler/830108
+Werder Bremen,86,2026,29,Salim Musah,1042472,Centre-Forward,20,Germany|Ghana,,€2.00m,2000000,https://www.transfermarkt.com/salim-musah/profil/spieler/1042472
+Werder Bremen,86,2026,28,Skelly Alvero,855134,Defensive Midfield,24,France|Angola,30/06/2028,€2.00m,2000000,https://www.transfermarkt.com/skelly-alvero/profil/spieler/855134
+Werder Bremen,86,2026,26,Cedric Itten,243856,Centre-Forward,29,Switzerland,30/06/2029,€1.80m,1800000,https://www.transfermarkt.com/cedric-itten/profil/spieler/243856
+Werder Bremen,86,2026,23,Dariusz Stalmach,826795,Defensive Midfield,20,Poland,,€1.50m,1500000,https://www.transfermarkt.com/dariusz-stalmach/profil/spieler/826795
+Werder Bremen,86,2026,21,Dawid Kownacki,208167,Centre-Forward,29,Poland,30/06/2027,€1.50m,1500000,https://www.transfermarkt.com/dawid-kownacki/profil/spieler/208167
+Werder Bremen,86,2026,33,Mick Schmetgens,1045986,Centre-Back,18,Germany,30/06/2029,€700k,700000,https://www.transfermarkt.com/mick-schmetgens/profil/spieler/1045986
+Werder Bremen,86,2026,25,Markus Kolke,99451,Goalkeeper,36,Germany,,€300k,300000,https://www.transfermarkt.com/markus-kolke/profil/spieler/99451
+Werder Bremen,86,2026,37,Stefan Smarkalev,1025989,Goalkeeper,19,Bulgaria,30/06/2027,€150k,150000,https://www.transfermarkt.com/stefan-smarkalev/profil/spieler/1025989
+Werder Bremen,86,2026,35,Luca Höcker,1078750,Right-Back,19,Germany,30/06/2029,€125k,125000,https://www.transfermarkt.com/luca-hocker/profil/spieler/1078750
+Werder Bremen,86,2026,36,Mats Heitmann,1032924,Centre-Back,20,Germany,,€125k,125000,https://www.transfermarkt.com/mats-heitmann/profil/spieler/1032924
+Werder Bremen,86,2026,38,Paul Erevbenagie,1080555,Right Winger,19,Germany,,€125k,125000,https://www.transfermarkt.com/paul-erevbenagie/profil/spieler/1080555
+Werder Bremen,86,2026,34,Darwin Soylu,1071244,Attacking Midfield,19,Türkiye|Germany,,-,,https://www.transfermarkt.com/darwin-soylu/profil/spieler/1071244
