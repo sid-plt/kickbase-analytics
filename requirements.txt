@@ -4,6 +4,7 @@ ipython==9.16.1
 jupyterlab==4.6.2
 pandas==3.0.5
 pulp==3.3.2
+pytest==9.0.2
 requests==2.34.2
 selenium==4.46.0
 undetected-chromedriver==3.5.5
