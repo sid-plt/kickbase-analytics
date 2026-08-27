@@ -26,9 +26,16 @@ def league_slug(league: str) -> str:
     return slug
 
 
-def selected_lineup_path(league: str, directory: Path = SELECTED_LINEUPS_DIR) -> Path:
+def selected_lineup_path(
+    league: str, directory: Path = SELECTED_LINEUPS_DIR, filename: str | None = None
+) -> Path:
     """Return the canonical JSON location for a league's sole selected lineup."""
-    return Path(directory) / f"{league_slug(league)}.json"
+    if filename is None:
+        filename = f"{league_slug(league)}.json"
+    candidate = Path(str(filename))
+    if candidate.name != str(filename) or candidate.suffix.casefold() != ".json":
+        raise ValueError("Selected-lineup filename must be a JSON filename without directory components.")
+    return Path(directory) / candidate
 
 
 def _json_value(value: Any) -> Any:
@@ -44,7 +51,17 @@ def _json_value(value: Any) -> Any:
     return str(value)
 
 
-def _validated_players(players: Iterable[Mapping[str, Any]]) -> list[dict[str, Any]]:
+def _validated_player_count(player_count: int) -> int:
+    """Validate and return a positive, non-boolean lineup size."""
+    if isinstance(player_count, bool) or not isinstance(player_count, int) or player_count < 1:
+        raise ValueError("Selected-lineup player count must be a positive integer.")
+    return player_count
+
+
+def _validated_players(
+    players: Iterable[Mapping[str, Any]], player_count: int = 11
+) -> list[dict[str, Any]]:
+    player_count = _validated_player_count(player_count)
     normalized = []
     for number, player in enumerate(players, start=1):
         record = {str(key): _json_value(value) for key, value in dict(player).items()}
@@ -52,8 +69,10 @@ def _validated_players(players: Iterable[Mapping[str, Any]]) -> list[dict[str, A
         if missing:
             raise ValueError(f"Player {number} is missing required field(s): {', '.join(missing)}.")
         normalized.append(record)
-    if len(normalized) != 11:
-        raise ValueError(f"A selected lineup must contain exactly 11 players, found {len(normalized)}.")
+    if len(normalized) != player_count:
+        raise ValueError(
+            f"A selected lineup must contain exactly {player_count} players, found {len(normalized)}."
+        )
     ids = [str(player["id"]).strip() for player in normalized]
     if len(ids) != len(set(ids)):
         raise ValueError("A selected lineup cannot contain duplicate player IDs.")
@@ -66,6 +85,7 @@ def make_selected_lineup(
     expected_points: Mapping[str, Any],
     source: str,
     metadata: Mapping[str, Any] | None = None,
+    player_count: int = 11,
 ) -> dict[str, Any]:
     """Build a validated, serializable selected-lineup snapshot."""
     league, source = str(league).strip(), str(source).strip()
@@ -74,20 +94,24 @@ def make_selected_lineup(
     metric = {str(key): _json_value(value) for key, value in dict(expected_points).items()}
     if "value" not in metric:
         raise ValueError("Expected-points metadata must include a 'value'.")
+    player_count = _validated_player_count(player_count)
     return {
         "schema_version": SCHEMA_VERSION,
         "league": league,
         "selected_at": datetime.now(timezone.utc).isoformat(),
         "source": source,
         "expected_points": metric,
-        "players": _validated_players(players),
+        "player_count": player_count,
+        "players": _validated_players(players, player_count),
         "metadata": {str(key): _json_value(value) for key, value in dict(metadata or {}).items()},
     }
 
 
-def load_selected_lineup(league: str, directory: Path = SELECTED_LINEUPS_DIR) -> dict[str, Any] | None:
+def load_selected_lineup(
+    league: str, directory: Path = SELECTED_LINEUPS_DIR, filename: str | None = None
+) -> dict[str, Any] | None:
     """Load a league's selected lineup, or ``None`` if it has not been selected."""
-    path = selected_lineup_path(league, directory)
+    path = selected_lineup_path(league, directory, filename)
     if not path.is_file():
         return None
     try:
@@ -97,22 +121,29 @@ def load_selected_lineup(league: str, directory: Path = SELECTED_LINEUPS_DIR) ->
         raise ValueError(f"Could not read selected lineup {path}: {exc}") from exc
     if not isinstance(snapshot, dict) or str(snapshot.get("league", "")).casefold() != str(league).strip().casefold():
         raise ValueError(f"Selected lineup {path} is malformed or belongs to another league.")
-    _validated_players(snapshot.get("players", []))
+    _validated_players(snapshot.get("players", []), snapshot.get("player_count", 11))
     return snapshot
 
 
-def save_selected_lineup(lineup: Mapping[str, Any], directory: Path = SELECTED_LINEUPS_DIR) -> Path:
+def save_selected_lineup(
+    lineup: Mapping[str, Any], directory: Path = SELECTED_LINEUPS_DIR, filename: str | None = None
+) -> Path:
     """Atomically write a selected-lineup snapshot to its league's sole JSON file."""
     required = ("league", "source", "expected_points", "players")
     missing = [field for field in required if field not in lineup]
     if missing:
         raise ValueError(f"Lineup is missing required field(s): {', '.join(missing)}.")
     snapshot = make_selected_lineup(
-        lineup["league"], lineup["players"], lineup["expected_points"], lineup["source"], lineup.get("metadata")
+        lineup["league"],
+        lineup["players"],
+        lineup["expected_points"],
+        lineup["source"],
+        lineup.get("metadata"),
+        lineup.get("player_count", 11),
     )
     if lineup.get("selected_at"):
         snapshot["selected_at"] = str(lineup["selected_at"])
-    path = selected_lineup_path(snapshot["league"], directory)
+    path = selected_lineup_path(snapshot["league"], directory, filename)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary_path = None
     try:
@@ -144,6 +175,7 @@ def select_lineup_interactively(
     input_func: Callable[[str], str] = input,
     output_func: Callable[[str], None] = print,
     skip_selection_confirmation: bool = False,
+    filename: str | None = None,
 ) -> Path | None:
     """Ask whether to select a lineup and explicitly confirm any replacement."""
     league = str(lineup.get("league", "")).strip()
@@ -154,7 +186,7 @@ def select_lineup_interactively(
     ):
         output_func("Lineup was not selected; the existing selection is unchanged.")
         return None
-    existing = load_selected_lineup(league, directory)
+    existing = load_selected_lineup(league, directory, filename)
     if existing is not None:
         metric = existing.get("expected_points", {}).get("value", "unknown")
         names = ", ".join(str(player.get("name", "?")) for player in existing.get("players", []))
@@ -162,6 +194,6 @@ def select_lineup_interactively(
         if not _yes_no("Replace the current selected lineup? [y/n]: ", input_func, output_func):
             output_func("Existing selected lineup was kept.")
             return None
-    path = save_selected_lineup(lineup, directory)
+    path = save_selected_lineup(lineup, directory, filename)
     output_func(f"Selected lineup saved to: {path}")
     return path

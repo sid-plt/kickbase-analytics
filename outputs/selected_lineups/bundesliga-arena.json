@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "league": "Bundesliga Arena",
+  "selected_at": "2026-08-25T10:59:41.968496+00:00",
+  "source": "manual",
+  "expected_points": {
+    "value": "201.630119",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "player_count": 11,
+  "players": [
+    {
+      "id": "237",
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "market_value": "13565866.0",
+      "market_value_eur": 13565866,
+      "club": "FC Bayern München",
+      "expected_points": "16.507984",
+      "captain": false
+    },
+    {
+      "id": "3543",
+      "name": "Nathaniel Brown",
+      "position": "DEF",
+      "market_value": "29388219.0",
+      "market_value_eur": 29388219,
+      "club": "FC Bayern München",
+      "expected_points": "17.294079",
+      "captain": false
+    },
+    {
+      "id": "2395",
+      "name": "Julian Ryerson",
+      "position": "DEF",
+      "market_value": "26027952.0",
+      "market_value_eur": 26027952,
+      "club": "Borussia Dortmund",
+      "expected_points": "17.286749",
+      "captain": false
+    },
+    {
+      "id": "2141",
+      "name": "Ridle  Baku",
+      "position": "DEF",
+      "market_value": "17851318.0",
+      "market_value_eur": 17851318,
+      "club": "RB Leipzig",
+      "expected_points": "15.459788",
+      "captain": false
+    },
+    {
+      "id": "1639",
+      "name": "Nadiem Amiri",
+      "position": "MID",
+      "market_value": "33735560.0",
+      "market_value_eur": 33735560,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.802807",
+      "captain": true
+    },
+    {
+      "id": "16378",
+      "name": "Konstantinos Karetsas",
+      "position": "MID",
+      "market_value": "24062897.0",
+      "market_value_eur": 24062897,
+      "club": "Borussia Dortmund",
+      "expected_points": "17.098594",
+      "captain": false
+    },
+    {
+      "id": "4596",
+      "name": "Brajan Gruda",
+      "position": "MID",
+      "market_value": "19603467.0",
+      "market_value_eur": 19603467,
+      "club": "RB Leipzig",
+      "expected_points": "15.732484",
+      "captain": false
+    },
+    {
+      "id": "4199",
+      "name": "Aleix García",
+      "position": "MID",
+      "market_value": "38852734.0",
+      "market_value_eur": 38852734,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "15.510918",
+      "captain": false
+    },
+    {
+      "id": "2846",
+      "name": "Malik Tillman",
+      "position": "MID",
+      "market_value": "13303012.0",
+      "market_value_eur": 13303012,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "14.082281",
+      "captain": false
+    },
+    {
+      "id": "2030",
+      "name": "Phillip Tietz",
+      "position": "FOR",
+      "market_value": "13658389.0",
+      "market_value_eur": 13658389,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.802807",
+      "captain": false
+    },
+    {
+      "id": "3304",
+      "name": "Igor Matanović",
+      "position": "FOR",
+      "market_value": "19299092.0",
+      "market_value_eur": 19299092,
+      "club": "SC Freiburg",
+      "expected_points": "13.248821",
+      "captain": false
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260825_121320_+0200",
+    "matchday": 1,
+    "formation": "3-5-2",
+    "budget_override_used": false,
+    "nominal_budget_eur": 250000000,
+    "total_value_eur": 249348506
+  }
+}

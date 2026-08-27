@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "league": "KickbaseKIS Arena",
+  "selected_at": "2026-08-23T16:04:17.164856+00:00",
+  "source": "optimizer_v2_per_match",
+  "expected_points": {
+    "value": "178.538892",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "players": [
+    {
+      "id": "237",
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "market_value": "13389844.0",
+      "market_value_eur": 13389844,
+      "club": "FC Bayern München",
+      "expected_points": "16.719669",
+      "captain": false
+    },
+    {
+      "id": "2395",
+      "name": "Julian Ryerson",
+      "position": "DEF",
+      "market_value": "25926775.0",
+      "market_value_eur": 25926775,
+      "club": "Borussia Dortmund",
+      "expected_points": "17.286749",
+      "captain": false
+    },
+    {
+      "id": "60",
+      "name": "Dominik Kohr",
+      "position": "DEF",
+      "market_value": "10186895.0",
+      "market_value_eur": 10186895,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "17.215913",
+      "captain": false
+    },
+    {
+      "id": "2736",
+      "name": "Ramy Bensebaini",
+      "position": "DEF",
+      "market_value": "21726972.0",
+      "market_value_eur": 21726972,
+      "club": "Borussia Dortmund",
+      "expected_points": "15.993183",
+      "captain": false
+    },
+    {
+      "id": "6209",
+      "name": "Philipp Treu",
+      "position": "DEF",
+      "market_value": "11814328.0",
+      "market_value_eur": 11814328,
+      "club": "SC Freiburg",
+      "expected_points": "11.98638",
+      "captain": false
+    },
+    {
+      "id": "4598",
+      "name": "Josip Juranović",
+      "position": "DEF",
+      "market_value": "6443857.0",
+      "market_value_eur": 6443857,
+      "club": "1. FC Union Berlin",
+      "expected_points": "9.895782",
+      "captain": false
+    },
+    {
+      "id": "4596",
+      "name": "Brajan Gruda",
+      "position": "MID",
+      "market_value": "19090052.0",
+      "market_value_eur": 19090052,
+      "club": "RB Leipzig",
+      "expected_points": "15.513336",
+      "captain": false
+    },
+    {
+      "id": "3209",
+      "name": "Yannik Engelhardt",
+      "position": "MID",
+      "market_value": "10553425.0",
+      "market_value_eur": 10553425,
+      "club": "SC Freiburg",
+      "expected_points": "12.070201",
+      "captain": false
+    },
+    {
+      "id": "11556",
+      "name": "Han-Noah Massengo",
+      "position": "MID",
+      "market_value": "9835144.0",
+      "market_value_eur": 9835144,
+      "club": "FC Augsburg",
+      "expected_points": "11.731293",
+      "captain": false
+    },
+    {
+      "id": "11008",
+      "name": "Ezechiel Banzuzi",
+      "position": "MID",
+      "market_value": "7697909.0",
+      "market_value_eur": 7697909,
+      "club": "RB Leipzig",
+      "expected_points": "10.999312",
+      "captain": false
+    },
+    {
+      "id": "2030",
+      "name": "Phillip Tietz",
+      "position": "FOR",
+      "market_value": "13298909.0",
+      "market_value_eur": 13298909,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.563537",
+      "captain": true
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260823_175739_+0200_sofascore_overall_rating_odds_lineup_20260823_180205_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260823_180205_+0200",
+    "matchday": 1,
+    "formation": "5-4-1"
+  }
+}
