@@ -5,8 +5,12 @@
 > Commit refreshed output files alongside the change that produced them so the
 > data history remains reproducible.
 
-This project collects and derives Bundesliga fixture, odds, team, squad, and
-player data from SofaScore, FotMob, Transfermarkt, KBStats, and Analyst.
+This project supports a repeatable Bundesliga-to-Kickbase decision workflow:
+collect fixtures, odds, team, squad, player, and predicted-lineup data; derive
+comparable signals and expected-points scores; then build and save constrained
+Kickbase squads. Its live sources include SofaScore, FotMob, Transfermarkt,
+KBStats, RotoWire, LigaInsider, Kicker, and manually transcribed Kickbase
+lineups.
 
 ## Project layout
 
@@ -19,7 +23,10 @@ player data from SofaScore, FotMob, Transfermarkt, KBStats, and Analyst.
   high-rated-player analysis, KBStats average-points percentile filtering, and
   KBStats last-five-match-slot analysis.
 - `notebooks/05_predicted_lineups`: live predicted and confirmed lineup
-  collectors.
+  collectors from RotoWire, LigaInsider, and Kicker, plus compatible
+  source-specific outputs.
+- `notebooks/06_score_creation`: score builders that combine source signals
+  into expected-points files for the optimizers.
 - `notebooks/07_squad_optimisation`: optimizer notebooks for Bundesliga Arena,
   KickbaseKIS Arena, All Limits Arena, and Kickbase.insider Arena, plus
   `manually_create_lineup.ipynb` for manual entry.
@@ -30,6 +37,11 @@ player data from SofaScore, FotMob, Transfermarkt, KBStats, and Analyst.
 - `outputs/fotmob`: FotMob match IDs and odds.
 - `outputs/transfermarkt`: squad exports and diagnostic HTML.
 - `outputs/rotowire`: timestamped Bundesliga predicted-lineup snapshots.
+- `outputs/ligainsider`: timestamped Bundesliga predicted-lineup snapshots,
+  including formation slots and candidate alternatives where supplied.
+- `outputs/kicker`: timestamped Bundesliga predicted-lineup snapshots. Each
+  record preserves Kicker’s raw lineup text, formation, coach, bench,
+  unavailable players, and explanation alongside the common home/away schema.
 - `outputs/kickbase`: timestamped predicted-lineup snapshots transcribed from
   user-submitted Kickbase screenshots; player names remain source display names
   and are not resolved to canonical identities.
@@ -80,8 +92,10 @@ python -m pytest
 ```
 
 The existing `.venv` stays at the root because moving a virtual environment can
-invalidate absolute paths stored inside it. The scraping notebooks expect a
-compatible Chrome installation; their current configuration targets Chrome 150.
+invalidate absolute paths stored inside it. The browser-backed scraping notebooks
+expect a compatible Chrome installation; their current configuration targets
+Chrome 150. If Kicker presents a browser-verification page, complete it manually
+in the Chrome window when prompted; the notebook does not attempt to bypass it.
 
 ## Version-control conventions
 
@@ -105,9 +119,12 @@ creating a timestamped history.
    statistics require `outputs/sofascore/reference/bundesliga_teams.json`.
 5. Run the derived notebooks. The high-rated-player notebook automatically uses
    the newest valid timestamped file in `outputs/sofascore/team_form`.
-6. Run `notebooks/05_predicted_lineups/01_rotowire_lineups.ipynb` whenever a
-   fresh RotoWire Bundesliga lineup snapshot is needed.
-7. Create the required expected-points score file in `notebooks/06_score_creation`.
+6. Run the required collectors in `notebooks/05_predicted_lineups`: RotoWire,
+   LigaInsider, Kicker, and/or the source-specific manual Kickbase workflow.
+   Their snapshots share the match/home/away/player envelope while retaining
+   source-specific details.
+7. Create the required expected-points score file in
+   `notebooks/06_score_creation`.
 8. Run an optimizer in `notebooks/07_squad_optimisation`, or run
    `manually_create_lineup.ipynb` to enter a formation, players, and captain
    interactively. A confirmed selection is stored in `outputs/selected_lineups`.
@@ -128,6 +145,9 @@ SofaScore team-reference pipeline when their own inputs are available.
 | Team statistics | Team reference | `outputs/sofascore/team_stats` |
 | Transfermarkt squads | Live Transfermarkt pages | `outputs/transfermarkt/squads` |
 | RotoWire predicted lineups | Live RotoWire Bundesliga lineups page | `outputs/rotowire/predicted_lineups` |
+| LigaInsider predicted lineups | Live LigaInsider team pages | `outputs/ligainsider/predicted_lineups` |
+| Kicker predicted lineups | Live Kicker matchday and fixture pages | `outputs/kicker/predicted_lineups` |
+| Kickbase screenshot lineups | User-submitted screenshots and fixture reference | `outputs/kickbase/predicted_lineups` |
 | KBStats players | Live KBStats API | `outputs/kbstats/players` |
 | Bundesliga snapshot | Team reference and live source data | `outputs/derived/bundesliga_snapshots` |
 | High-rated players | Latest team-form snapshot | `outputs/sofascore/high_rated_players` |
