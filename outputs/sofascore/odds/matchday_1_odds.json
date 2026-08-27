@@ -7,9 +7,9 @@
       {
         "bookmaker": null,
         "bookmaker_source_id": 197255917,
-        "home_win": 1.27,
+        "home_win": 1.29,
         "draw": 6.5,
-        "away_win": 8.5
+        "away_win": 8.0
       }
     ],
     "issues": []
@@ -22,9 +22,9 @@
       {
         "bookmaker": null,
         "bookmaker_source_id": 197255932,
-        "home_win": 2.88,
+        "home_win": 3.0,
         "draw": 3.5,
-        "away_win": 2.35
+        "away_win": 2.25
       }
     ],
     "issues": []
@@ -37,9 +37,9 @@
       {
         "bookmaker": null,
         "bookmaker_source_id": 197255943,
-        "home_win": 2.45,
+        "home_win": 2.4,
         "draw": 3.5,
-        "away_win": 2.63
+        "away_win": 2.7
       }
     ],
     "issues": []

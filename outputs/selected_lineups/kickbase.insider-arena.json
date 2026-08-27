@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "league": "Kickbase.insider Arena",
+  "selected_at": "2026-08-25T10:38:37.097567+00:00",
+  "source": "manual",
+  "expected_points": {
+    "value": "118.351453",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "player_count": 6,
+  "players": [
+    {
+      "id": "72",
+      "name": "Mark Flekken",
+      "position": "GK",
+      "market_value": "15527801.0",
+      "market_value_eur": 15527801,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "14.490463",
+      "captain": false
+    },
+    {
+      "id": "2395",
+      "name": "Julian Ryerson",
+      "position": "DEF",
+      "market_value": "26027952.0",
+      "market_value_eur": 26027952,
+      "club": "Borussia Dortmund",
+      "expected_points": "17.286749",
+      "captain": false
+    },
+    {
+      "id": "1246",
+      "name": "Willi Orban",
+      "position": "DEF",
+      "market_value": "31396500.0",
+      "market_value_eur": 31396500,
+      "club": "RB Leipzig",
+      "expected_points": "16.361783",
+      "captain": false
+    },
+    {
+      "id": "8329",
+      "name": "Michael Olise",
+      "position": "MID",
+      "market_value": "64815120.0",
+      "market_value_eur": 64815120,
+      "club": "FC Bayern München",
+      "expected_points": "18.580415",
+      "captain": true
+    },
+    {
+      "id": "2030",
+      "name": "Phillip Tietz",
+      "position": "FOR",
+      "market_value": "13658389.0",
+      "market_value_eur": 13658389,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.802807",
+      "captain": false
+    },
+    {
+      "id": "3304",
+      "name": "Igor Matanović",
+      "position": "FOR",
+      "market_value": "19299092.0",
+      "market_value_eur": 19299092,
+      "club": "SC Freiburg",
+      "expected_points": "13.248821",
+      "captain": false
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260825_121320_+0200",
+    "matchday": 1,
+    "formation": "2-1-2",
+    "budget_override_used": false,
+    "nominal_budget_eur": 180000000,
+    "total_value_eur": 170724854
+  }
+}

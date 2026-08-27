@@ -20,8 +20,9 @@ player data from SofaScore, FotMob, Transfermarkt, KBStats, and Analyst.
   KBStats last-five-match-slot analysis.
 - `notebooks/05_predicted_lineups`: live predicted and confirmed lineup
   collectors.
-- `notebooks/07_squad_optimisation`: optimizer notebooks for Bundesliga Arena
-  and KickbaseKIS Arena, plus `manually_create_lineup.ipynb` for manual entry.
+- `notebooks/07_squad_optimisation`: optimizer notebooks for Bundesliga Arena,
+  KickbaseKIS Arena, All Limits Arena, and Kickbase.insider Arena, plus
+  `manually_create_lineup.ipynb` for manual entry.
 - `notebooks/tests`: diagnostic notebooks that are not production pipeline steps.
 - `data/reference/kickbase`: curated Kickbase scoring and event-frequency rules.
 - `outputs/sofascore`: SofaScore match IDs, odds, team reference, form, team

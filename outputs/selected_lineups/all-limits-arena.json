@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "league": "All Limits Arena",
+  "selected_at": "2026-08-25T11:08:25.155751+00:00",
+  "source": "optimizer_all_limits_arena",
+  "expected_points": {
+    "value": "171.148234",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "player_count": 11,
+  "players": [
+    {
+      "id": "237",
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "market_value": "13565866.0",
+      "market_value_eur": 13565866,
+      "club": "FC Bayern München",
+      "expected_points": "16.507984",
+      "captain": false
+    },
+    {
+      "id": "2395",
+      "name": "Julian Ryerson",
+      "position": "DEF",
+      "market_value": "26027952.0",
+      "market_value_eur": 26027952,
+      "club": "Borussia Dortmund",
+      "expected_points": "17.286749",
+      "captain": false
+    },
+    {
+      "id": "14917",
+      "name": "Zeno Van den Bosch",
+      "position": "DEF",
+      "market_value": "13456741.0",
+      "market_value_eur": 13456741,
+      "club": "1. FC Union Berlin",
+      "expected_points": "11.138947",
+      "captain": false
+    },
+    {
+      "id": "15589",
+      "name": "Otávio",
+      "position": "DEF",
+      "market_value": "9374748.0",
+      "market_value_eur": 9374748,
+      "club": "Eintracht Frankfurt",
+      "expected_points": "9.632982",
+      "captain": false
+    },
+    {
+      "id": "11008",
+      "name": "Ezechiel Banzuzi",
+      "position": "MID",
+      "market_value": "8349668.0",
+      "market_value_eur": 8349668,
+      "club": "RB Leipzig",
+      "expected_points": "15.312951",
+      "captain": false
+    },
+    {
+      "id": "2846",
+      "name": "Malik Tillman",
+      "position": "MID",
+      "market_value": "13303012.0",
+      "market_value_eur": 13303012,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "14.082281",
+      "captain": false
+    },
+    {
+      "id": "11556",
+      "name": "Han-Noah Massengo",
+      "position": "MID",
+      "market_value": "9899475.0",
+      "market_value_eur": 9899475,
+      "club": "FC Augsburg",
+      "expected_points": "11.946075",
+      "captain": false
+    },
+    {
+      "id": "3124",
+      "name": "Patrick Wimmer",
+      "position": "MID",
+      "market_value": "7364887.0",
+      "market_value_eur": 7364887,
+      "club": "TSG Hoffenheim",
+      "expected_points": "11.405367",
+      "captain": false
+    },
+    {
+      "id": "7219",
+      "name": "Ísak Jóhannesson",
+      "position": "MID",
+      "market_value": "9418752.0",
+      "market_value_eur": 9418752,
+      "club": "1. FC Köln",
+      "expected_points": "10.980463",
+      "captain": false
+    },
+    {
+      "id": "2030",
+      "name": "Phillip Tietz",
+      "position": "FOR",
+      "market_value": "13658389.0",
+      "market_value_eur": 13658389,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.802807",
+      "captain": true
+    },
+    {
+      "id": "3304",
+      "name": "Igor Matanović",
+      "position": "FOR",
+      "market_value": "19299092.0",
+      "market_value_eur": 19299092,
+      "club": "SC Freiburg",
+      "expected_points": "13.248821",
+      "captain": false
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260825_121320_+0200",
+    "matchday": 1,
+    "formation": "3-5-2"
+  }
+}

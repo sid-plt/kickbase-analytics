@@ -897,7 +897,7 @@ def prepare_optimization_data(
 # Manual-only arena, formation, name-resolution, validation, and display helpers.
 from dataclasses import dataclass
 from difflib import SequenceMatcher
-from typing import Iterable
+from typing import Iterable, Mapping
 
 from sofascore_average_rating_score import FUZZY_MATCH_THRESHOLD, MAX_PROMPT_CANDIDATES, normalize_name
 
@@ -908,16 +908,49 @@ class ArenaRules:
     budget_eur: int
     max_players_per_club: int
     max_players_per_match: int = 4
+    squad_size: int = 11
+    formations: Mapping[str, Mapping[str, int]] | None = None
+    selected_lineup_filename: str | None = None
+
+
+INSIDER_ARENA_FORMATIONS = {
+    "2-2-1": {"DEF": 2, "MID": 2, "FOR": 1},
+    "2-1-2": {"DEF": 2, "MID": 1, "FOR": 2},
+    "1-2-2": {"DEF": 1, "MID": 2, "FOR": 2},
+}
 
 
 ARENA_RULES = {
-    "Bundesliga Arena": ArenaRules("Bundesliga Arena", 250_000_000, 3),
-    "KickbaseKIS Arena": ArenaRules("KickbaseKIS Arena", 150_000_000, 2),
+    "Bundesliga Arena": ArenaRules(
+        "Bundesliga Arena", 250_000_000, 3, formations=ALLOWED_FORMATIONS
+    ),
+    "KickbaseKIS Arena": ArenaRules(
+        "KickbaseKIS Arena", 150_000_000, 2, formations=ALLOWED_FORMATIONS
+    ),
+    "All Limits Arena": ArenaRules(
+        "All Limits Arena",
+        150_000_000,
+        1,
+        max_players_per_match=2,
+        formations=ALLOWED_FORMATIONS,
+        selected_lineup_filename="all-limits-arena.json",
+    ),
+    "Kickbase.insider Arena": ArenaRules(
+        "Kickbase.insider Arena",
+        180_000_000,
+        1,
+        max_players_per_match=2,
+        squad_size=6,
+        formations=INSIDER_ARENA_FORMATIONS,
+        selected_lineup_filename="kickbase.insider-arena.json",
+    ),
 }
 ARENA_ALIASES = {
     "bundesligaarena": "Bundesliga Arena",
     "kickbasekisarena": "KickbaseKIS Arena",
     "kickbasekisarena": "KickbaseKIS Arena",
+    "alllimitsarena": "All Limits Arena",
+    "kickbaseinsiderarena": "Kickbase.insider Arena",
 }
 
 
@@ -956,16 +989,17 @@ def normalize_formation(value: object) -> str:
     return re.sub(r"\s+", "", text)
 
 
-def request_formation() -> tuple[str, dict[str, int]]:
-    """Prompt until a project-supported eleven-player formation is entered."""
+def request_formation(arena: ArenaRules) -> tuple[str, dict[str, int]]:
+    """Prompt until a formation valid for the chosen arena is entered."""
+    formations = arena.formations or ALLOWED_FORMATIONS
     while True:
-        answer = normalize_formation(input(f"Formation ({', '.join(ALLOWED_FORMATIONS)}): "))
-        counts = ALLOWED_FORMATIONS.get(answer)
-        if counts is not None and sum(counts.values()) + 1 == 11:
+        answer = normalize_formation(input(f"Formation ({', '.join(formations)}): "))
+        counts = formations.get(answer)
+        if counts is not None and sum(counts.values()) + 1 == arena.squad_size:
             return answer, dict(counts)
         print(
             f"{answer!r} is not a supported formation. "
-            f"Choose one of: {', '.join(ALLOWED_FORMATIONS)}."
+            f"Choose one of: {', '.join(formations)}."
         )
 
 
@@ -1096,15 +1130,19 @@ def validate_manual_lineup(
 ) -> dict[str, object]:
     """Validate every optimizer rule without running the optimizer."""
     checks: list[dict[str, object]] = []
-    expected = {"GK": 1, **ALLOWED_FORMATIONS[formation]}
+    formations = arena.formations or ALLOWED_FORMATIONS
+    expected = {"GK": 1, **formations[formation]}
     actual_positions = prepared.positions.loc[selected_indices].value_counts().to_dict()
-    formation_ok = len(selected_indices) == 11 and all(
+    formation_ok = len(selected_indices) == arena.squad_size and all(
         actual_positions.get(position, 0) == count for position, count in expected.items()
     )
     checks.append({
         "rule": "Formation and squad size",
         "passed": formation_ok,
-        "details": f"actual={actual_positions}; expected={expected}; players={len(selected_indices)}/11",
+        "details": (
+            f"actual={actual_positions}; expected={expected}; "
+            f"players={len(selected_indices)}/{arena.squad_size}"
+        ),
         "budget": False,
     })
     ids = prepared.df.loc[selected_indices, prepared.columns["player_id"]].astype(str).str.strip()
