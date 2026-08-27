@@ -20,6 +20,7 @@ from project_paths import (
     EXPECTED_POINTS_DIR,
     FOTMOB_ODDS_DIR,
     KICKBASE_PREDICTED_LINEUPS_DIR,
+    KICKER_PREDICTED_LINEUPS_DIR,
     LIGAINSIDER_PREDICTED_LINEUPS_DIR,
     ROTOWIRE_PREDICTED_LINEUPS_DIR,
     SOFASCORE_ODDS_DIR,
@@ -67,6 +68,7 @@ OUTPUT_METRIC_COLUMNS = (
     "expected_match_points",
     "ligainsider_starting_chance",
     "kickbase_starting_chance",
+    "kicker_starting_chance",
     "rotowire_starting_chance",
     "questionable_injury_penalty",
     "starting_chance",
@@ -78,7 +80,9 @@ DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY = 0.45
 QUESTIONABLE_INJURY_STATUS = "QUES"
 LIGAINSIDER_FILENAME_RE = re.compile(r"^ligainsider_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
 KICKBASE_FILENAME_RE = re.compile(r"^kickbase_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
+KICKER_FILENAME_RE = re.compile(r"^kicker_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
 ROTOWIRE_FILENAME_RE = re.compile(r"^rotowire_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
+NAME_ONLY_LINEUP_SOURCE_KEYS = frozenset({"kickbase", "kicker"})
 
 
 KB_TEAM_ID_TO_KEY = {
@@ -98,7 +102,12 @@ TEAM_ALIASES = {
     "paderborn": {"SC Paderborn 07", "SC Paderborn", "Paderborn"},
     "dortmund": {"Borussia Dortmund"}, "hamburg": {"Hamburger SV", "Hamburg"},
     "leipzig": {"RB Leipzig"},
-    "gladbach": {"Borussia M'gladbach", "Borussia Mönchengladbach", "Mönchengladbach"},
+    "gladbach": {
+        "Borussia M'gladbach",
+        "Borussia Mönchengladbach",
+        "Bor. Mönchengladbach",
+        "Mönchengladbach",
+    },
     "freiburg": {"SC Freiburg", "Freiburg"}, "bremen": {"SV Werder Bremen", "Werder Bremen"},
     "elversberg": {"SV 07 Elversberg", "SV Elversberg", "Elversberg"},
     "leverkusen": {"Bayer 04 Leverkusen", "Bayer Leverkusen"},
@@ -116,13 +125,12 @@ class LineupSource:
     uses_numeric_player_id: bool = True
 
 
-# Kicker is deliberately registered but inactive until a collector and parser exist.
 # These ranks establish the editable notebook default weights. Active sources
 # are blended only when they cover the relevant team.
 LINEUP_SOURCE_REGISTRY = (
     LineupSource("ligainsider", 4, LIGAINSIDER_PREDICTED_LINEUPS_DIR, LIGAINSIDER_FILENAME_RE),
     LineupSource("kickbase", 3, KICKBASE_PREDICTED_LINEUPS_DIR, KICKBASE_FILENAME_RE, uses_numeric_player_id=False),
-    LineupSource("kicker", 2, None, None, active=False, uses_numeric_player_id=False),
+    LineupSource("kicker", 2, KICKER_PREDICTED_LINEUPS_DIR, KICKER_FILENAME_RE, uses_numeric_player_id=False),
     LineupSource("rotowire", 1, ROTOWIRE_PREDICTED_LINEUPS_DIR, ROTOWIRE_FILENAME_RE),
 )
 LINEUP_SOURCES = tuple(source for source in LINEUP_SOURCE_REGISTRY if source.active)
@@ -535,6 +543,7 @@ def load_lineup_source(
     parsers = {
         "ligainsider": _ligainsider_chances,
         "kickbase": _kickbase_chances,
+        "kicker": _kickbase_chances,
         "rotowire": _rotowire_chances,
     }
     try:
@@ -548,13 +557,18 @@ def load_lineup_source(
             team = match.get(side)
             if not isinstance(team, dict):
                 raise ValueError(f"{source.key} lineup match has no {side} team.")
+            player_list = team.get("players")
+            if not isinstance(player_list, list):
+                raise ValueError(f"{source.key} lineup team has no player list.")
+            if source.key == "kicker" and len(player_list) != 11:
+                raise ValueError(
+                    f"Kicker lineup team {team.get('team_name')!r} has {len(player_list)} starters; "
+                    "expected exactly 11. Rerun the Kicker extraction notebook."
+                )
             key = canonical_team(team.get("team_name"))
             if key in teams:
                 raise ValueError(f"{source.key} lineup contains duplicate team {key}.")
-            player_list = team.get("players")
-            if not isinstance(player_list, list):
-                raise ValueError(f"{source.key} lineup team {key} has no player list.")
-            if source.key in {"ligainsider", "kickbase"}:
+            if source.key in {"ligainsider", *NAME_ONLY_LINEUP_SOURCE_KEYS}:
                 teams[key] = parser(
                     player_list,
                     questionable_injury_starting_chance_penalty,
@@ -753,6 +767,7 @@ def run_score_creation(
     match_point_values: list[float] = []
     ligainsider_starting_chances: list[float] = []
     kickbase_starting_chances: list[float] = []
+    kicker_starting_chances: list[float] = []
     rotowire_starting_chances: list[float] = []
     injury_penalties: list[float] = []
     starting_chances: list[float] = []
@@ -808,7 +823,7 @@ def run_score_creation(
             if chosen is not None:
                 lineup_resolution[(index, source.key)] = (chosen, "exact")
                 continue
-            if source.key == "kickbase":
+            if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
                 override = kickbase_override_by_key.get((team_key, normalized))
                 if override is not None:
                     chosen = candidates.get(normalize_name(override["kickbase_displayed_name"]))
@@ -825,8 +840,9 @@ def run_score_creation(
                 if chosen is not None:
                     lineup_resolution[(index, source.key)] = (chosen, "exact")
                     continue
-                # Kickbase names are display labels only. A non-unique name part
-                # or no name-part match is shown only when it reaches 50% similarity.
+                # Kickbase and Kicker expose display labels rather than reliable
+                # canonical player identities. A non-unique name part or no
+                # name-part match is shown only when it reaches 50% similarity.
                 fuzzy = _fuzzy_candidates(name, candidates)
                 if fuzzy:
                     lineup_prompts.append((fuzzy[0][0], name.casefold(), index, source, fuzzy))
@@ -881,7 +897,7 @@ def run_score_creation(
         chosen, _ = _prompt_candidate(f"{source_key} lineup for {name} ({team_key})", fuzzy)
         if chosen is not None:
             lineup_resolution[(index, source_key)] = (chosen, "prompted")
-            if source_key == "kickbase":
+            if source_key in NAME_ONLY_LINEUP_SOURCE_KEYS:
                 new_kickbase_lineup_overrides.append({"canonical_team": team_key, "kbstats_name": name, "kickbase_displayed_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
             else:
                 new_lineup_overrides.append({"source": source_key, "canonical_team": team_key, "kbstats_name": name, "provider_player_id": chosen["id"], "provider_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
@@ -939,17 +955,19 @@ def run_score_creation(
         match_point_values.append(match_points)
         ligainsider_starting_chances.append(source_chance_by_key["ligainsider"])
         kickbase_starting_chances.append(source_chance_by_key["kickbase"])
+        kicker_starting_chances.append(source_chance_by_key["kicker"])
         rotowire_starting_chances.append(source_chance_by_key["rotowire"])
         injury_penalties.append(injury_penalty)
         starting_chances.append(starting_chance)
         scores.append(score)
-        review_rows.append({"name": name, "team": team_key, "rating_status": rating_status, "lineup_status": "; ".join(lineup_statuses), "rating": rating_value, "expected_match_points": match_points, "ligainsider_starting_chance": source_chance_by_key["ligainsider"], "kickbase_starting_chance": source_chance_by_key["kickbase"], "rotowire_starting_chance": source_chance_by_key["rotowire"], "questionable_injury_penalty": injury_penalty, "starting_chance": starting_chance, "score": score})
+        review_rows.append({"name": name, "team": team_key, "rating_status": rating_status, "lineup_status": "; ".join(lineup_statuses), "rating": rating_value, "expected_match_points": match_points, "ligainsider_starting_chance": source_chance_by_key["ligainsider"], "kickbase_starting_chance": source_chance_by_key["kickbase"], "kicker_starting_chance": source_chance_by_key["kicker"], "rotowire_starting_chance": source_chance_by_key["rotowire"], "questionable_injury_penalty": injury_penalty, "starting_chance": starting_chance, "score": score})
 
     scored = players.copy()
     scored["sofascore_average_rating"] = rating_values
     scored["expected_match_points"] = match_point_values
     scored["ligainsider_starting_chance"] = ligainsider_starting_chances
     scored["kickbase_starting_chance"] = kickbase_starting_chances
+    scored["kicker_starting_chance"] = kicker_starting_chances
     scored["rotowire_starting_chance"] = rotowire_starting_chances
     scored["questionable_injury_penalty"] = injury_penalties
     scored["starting_chance"] = starting_chances

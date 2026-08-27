@@ -1,10 +1,11 @@
-"""Regression checks for the name-only Kickbase lineup snapshot integration."""
+"""Regression checks for the display-name predicted-lineup integrations."""
 
 from __future__ import annotations
 
 import json
 import tempfile
 import unittest
+from dataclasses import replace
 from pathlib import Path
 
 import pandas as pd
@@ -26,6 +27,7 @@ from sofascore_rating_odds_lineup_score import (
     _ligainsider_chances,
     blend_lineup_chances,
     build_kickbase_name_indexes,
+    canonical_team,
     load_lineup_source,
     resolve_kickbase_display_name,
     resolve_lineup_source_weights,
@@ -54,6 +56,9 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         self.assertAlmostEqual(0.45 / denominator, chances["display2"]["chance"])
         self.assertAlmostEqual(0.2025 / denominator, chances["display3"]["chance"])
         self.assertAlmostEqual(1.0, sum(entry["chance"] for entry in chances.values()))
+
+    def test_kicker_abbreviated_gladbach_team_name_is_canonicalized(self) -> None:
+        self.assertEqual("gladbach", canonical_team("Bor. Mönchengladbach"))
 
     def test_geometric_decay_supports_four_or_more_alternatives(self) -> None:
         chances = _kickbase_chances(self._kickbase_slot_players(4))
@@ -95,20 +100,22 @@ class KickbaseLineupScoringTests(unittest.TestCase):
             validate_alternative_starting_chance_decay(1.01)
         self.assertEqual(DEFAULT_LINEUP_SOURCE_WEIGHTS, resolve_lineup_source_weights(None))
         self.assertEqual(
-            {"ligainsider": 4.0, "kickbase": 0.0, "rotowire": 1.0},
+            {"ligainsider": 4.0, "kickbase": 0.0, "kicker": 2.0, "rotowire": 1.0},
             resolve_lineup_source_weights(
-                {"ligainsider": 4, "kickbase": 0, "rotowire": 1}
+                {"ligainsider": 4, "kickbase": 0, "kicker": 2, "rotowire": 1}
             ),
         )
         with self.assertRaises(ValueError):
-            resolve_lineup_source_weights({"ligainsider": 4.0, "kickbase": 3.0})
-        with self.assertRaises(ValueError):
             resolve_lineup_source_weights(
-                {"ligainsider": 0.0, "kickbase": 0.0, "rotowire": 0.0}
+                {"ligainsider": 4.0, "kickbase": 3.0, "rotowire": 1.0}
             )
         with self.assertRaises(ValueError):
             resolve_lineup_source_weights(
-                {"ligainsider": True, "kickbase": 3.0, "rotowire": 1.0}
+                {"ligainsider": 0.0, "kickbase": 0.0, "kicker": 0.0, "rotowire": 0.0}
+            )
+        with self.assertRaises(ValueError):
+            resolve_lineup_source_weights(
+                {"ligainsider": True, "kickbase": 3.0, "kicker": 2.0, "rotowire": 1.0}
             )
 
     def test_configured_weights_blend_only_the_positive_available_sources(self) -> None:
@@ -136,6 +143,34 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         self.assertEqual(set(KB_TEAM_ID_TO_KEY.values()), set(teams))
         self.assertFalse(any(entry["name"].casefold() == "neuzugang" for team in teams.values() for entry in team.values()))
         self.assertTrue(any(entry["chance"] < 1.0 for team in teams.values() for entry in team.values()))
+
+    def test_kicker_snapshot_uses_name_only_slot_chances(self) -> None:
+        source = next(source for source in LINEUP_SOURCE_REGISTRY if source.key == "kicker")
+        players = [
+            {
+                "full_name": None,
+                "displayed_name": f"Kicker Player {slot}",
+                "formation_row": 1,
+                "slot_index": slot,
+                "starting_probability_rank": 1,
+                "injury_status": None,
+            }
+            for slot in range(1, 12)
+        ]
+        document = {
+            "metadata": {"source": "Kicker"},
+            "matches": [
+                {
+                    "home": {"team_name": "Bayern München", "players": players},
+                    "away": {"team_name": "VfB Stuttgart", "players": players},
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            path = Path(temporary_directory) / "kicker_bundesliga_lineups_20260827_120000.json"
+            path.write_text(json.dumps(document), encoding="utf-8")
+            _, teams = load_lineup_source(replace(source, directory=Path(temporary_directory)))
+        self.assertEqual(1.0, teams["bayern"]["kickerplayer1"]["chance"])
 
     def test_kickbase_prompt_candidates_require_fifty_percent_similarity(self) -> None:
         candidates = {
@@ -193,14 +228,15 @@ class KickbaseLineupScoringTests(unittest.TestCase):
             self.assertEqual(list(REFERENCE_COLUMNS), list(restored.columns))
             self.assertEqual("DISPLAY NAME", restored.loc[0, "kickbase_displayed_name"])
 
-    def test_source_ranks_reserve_inactive_kicker(self) -> None:
+    def test_source_ranks_activate_kicker(self) -> None:
         registry = {source.key: source for source in LINEUP_SOURCE_REGISTRY}
         self.assertEqual(4, registry["ligainsider"].rank)
         self.assertEqual(3, registry["kickbase"].rank)
         self.assertEqual(2, registry["kicker"].rank)
-        self.assertFalse(registry["kicker"].active)
+        self.assertTrue(registry["kicker"].active)
         self.assertEqual(1, registry["rotowire"].rank)
         self.assertIn("kickbase_starting_chance", COMMON_OUTPUT_COLUMNS)
+        self.assertIn("kicker_starting_chance", COMMON_OUTPUT_COLUMNS)
 
 
 if __name__ == "__main__":
