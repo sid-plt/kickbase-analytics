@@ -29,6 +29,7 @@ from sofascore_rating_odds_lineup_score import (
     KB_TEAM_ID_TO_KEY,
     LINEUP_OVERRIDE_COLUMNS,
     LINEUP_SOURCES,
+    NAME_ONLY_LINEUP_SOURCE_KEYS,
     KICKBASE_REFERENCE_COLUMNS,
     _fuzzy_candidates,
     _load_kickbase_lineup_overrides,
@@ -91,6 +92,7 @@ COMMON_OUTPUT_COLUMNS = (
     "expected_match_points",
     "ligainsider_starting_chance",
     "kickbase_starting_chance",
+    "kicker_starting_chance",
     "rotowire_starting_chance",
     "questionable_injury_penalty",
     "starting_chance",
@@ -249,7 +251,7 @@ def _resolve_lineups(
             if chosen is not None:
                 resolution[(index, source.key)] = (chosen, "exact")
                 continue
-            if source.key == "kickbase":
+            if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
                 override = kickbase_override_by_key.get((team_key, normalized))
                 if override is not None:
                     chosen = candidates.get(normalize_name(override["kickbase_displayed_name"]))
@@ -306,7 +308,7 @@ def _resolve_lineups(
             resolution[(index, source.key)] = (None, "missing")
             continue
         resolution[(index, source.key)] = (chosen, "prompted")
-        if source.key == "kickbase":
+        if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
             new_kickbase_overrides.append(
                 {
                     "canonical_team": team_key,
@@ -404,6 +406,7 @@ def run_score_creation(
     match_point_values: list[float] = []
     ligainsider_chances: list[float] = []
     kickbase_chances: list[float] = []
+    kicker_chances: list[float] = []
     rotowire_chances: list[float] = []
     injury_penalties: list[float] = []
     starting_chances: list[float] = []
@@ -463,6 +466,7 @@ def run_score_creation(
         match_point_values.append(match_points)
         ligainsider_chances.append(source_chance_by_key["ligainsider"])
         kickbase_chances.append(source_chance_by_key["kickbase"])
+        kicker_chances.append(source_chance_by_key["kicker"])
         rotowire_chances.append(source_chance_by_key["rotowire"])
         injury_penalties.append(injury_penalty)
         starting_chances.append(starting_chance)
@@ -477,6 +481,7 @@ def run_score_creation(
                 "expected_match_points": match_points,
                 "ligainsider_starting_chance": source_chance_by_key["ligainsider"],
                 "kickbase_starting_chance": source_chance_by_key["kickbase"],
+                "kicker_starting_chance": source_chance_by_key["kicker"],
                 "rotowire_starting_chance": source_chance_by_key["rotowire"],
                 "questionable_injury_penalty": injury_penalty,
                 "starting_chance": starting_chance,
@@ -489,6 +494,7 @@ def run_score_creation(
     scored["expected_match_points"] = match_point_values
     scored["ligainsider_starting_chance"] = ligainsider_chances
     scored["kickbase_starting_chance"] = kickbase_chances
+    scored["kicker_starting_chance"] = kicker_chances
     scored["rotowire_starting_chance"] = rotowire_chances
     scored["questionable_injury_penalty"] = injury_penalties
     scored["starting_chance"] = starting_chances

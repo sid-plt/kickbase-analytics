@@ -122,7 +122,9 @@ creating a timestamped history.
 6. Run the required collectors in `notebooks/05_predicted_lineups`: RotoWire,
    LigaInsider, Kicker, and/or the source-specific manual Kickbase workflow.
    Their snapshots share the match/home/away/player envelope while retaining
-   source-specific details.
+   source-specific details. Default lineup-blend weights are LigaInsider 4,
+   Kickbase 3, Kicker 2, and RotoWire 1; only sources covering a team
+   contribute to that team's blend.
 7. Create the required expected-points score file in
    `notebooks/06_score_creation`.
 8. Run an optimizer in `notebooks/07_squad_optimisation`, or run
