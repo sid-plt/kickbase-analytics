@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
   "league": "Kickbase.insider Arena",
-  "selected_at": "2026-08-25T10:38:37.097567+00:00",
-  "source": "manual",
+  "selected_at": "2026-08-27T11:11:59.883409+00:00",
+  "source": "optimizer_insider_arena",
   "expected_points": {
-    "value": "118.351453",
+    "value": "118.132982",
     "label": "Total expected points (captain doubled)",
     "includes_captain_bonus": true
   },
   "player_count": 6,
   "players": [
     {
-      "id": "72",
-      "name": "Mark Flekken",
+      "id": "237",
+      "name": "Manuel Neuer",
       "position": "GK",
-      "market_value": "15527801.0",
-      "market_value_eur": 15527801,
-      "club": "Bayer 04 Leverkusen",
-      "expected_points": "14.490463",
+      "market_value": "13764324.0",
+      "market_value_eur": 13764324,
+      "club": "FC Bayern München",
+      "expected_points": "16.719669",
       "captain": false
     },
     {
       "id": "2395",
       "name": "Julian Ryerson",
       "position": "DEF",
-      "market_value": "26027952.0",
-      "market_value_eur": 26027952,
+      "market_value": "26105247.0",
+      "market_value_eur": 26105247,
       "club": "Borussia Dortmund",
       "expected_points": "17.286749",
       "captain": false
@@ -34,51 +34,48 @@
       "id": "1246",
       "name": "Willi Orban",
       "position": "DEF",
-      "market_value": "31396500.0",
-      "market_value_eur": 31396500,
+      "market_value": "31442247.0",
+      "market_value_eur": 31442247,
       "club": "RB Leipzig",
-      "expected_points": "16.361783",
+      "expected_points": "16.167175",
       "captain": false
     },
     {
-      "id": "8329",
-      "name": "Michael Olise",
+      "id": "1639",
+      "name": "Nadiem Amiri",
       "position": "MID",
-      "market_value": "64815120.0",
-      "market_value_eur": 64815120,
-      "club": "FC Bayern München",
-      "expected_points": "18.580415",
+      "market_value": "33932022.0",
+      "market_value_eur": 33932022,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "19.563537",
       "captain": true
     },
     {
-      "id": "2030",
-      "name": "Phillip Tietz",
-      "position": "FOR",
-      "market_value": "13658389.0",
-      "market_value_eur": 13658389,
-      "club": "1. FSV Mainz 05",
-      "expected_points": "19.802807",
+      "id": "4199",
+      "name": "Aleix García",
+      "position": "MID",
+      "market_value": "38996349.0",
+      "market_value_eur": 38996349,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "15.528023",
       "captain": false
     },
     {
       "id": "3304",
       "name": "Igor Matanović",
       "position": "FOR",
-      "market_value": "19299092.0",
-      "market_value_eur": 19299092,
+      "market_value": "19575194.0",
+      "market_value_eur": 19575194,
       "club": "SC Freiburg",
-      "expected_points": "13.248821",
+      "expected_points": "13.304292",
       "captain": false
     }
   ],
   "metadata": {
-    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv",
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260827_124042_+0200_sofascore_overall_rating_odds_lineup_20260827_124757_+0200.csv",
     "score_method": "sofascore_overall_rating_odds_lineup",
-    "metric_creation_timestamp": "20260825_121320_+0200",
+    "metric_creation_timestamp": "20260827_124757_+0200",
     "matchday": 1,
-    "formation": "2-1-2",
-    "budget_override_used": false,
-    "nominal_budget_eur": 180000000,
-    "total_value_eur": 170724854
+    "formation": "2-2-1"
   }
 }
