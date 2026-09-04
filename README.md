@@ -33,7 +33,7 @@ lineups.
 - `notebooks/tests`: diagnostic notebooks that are not production pipeline steps.
 - `data/reference/kickbase`: curated Kickbase scoring and event-frequency rules.
 - `outputs/sofascore`: SofaScore match IDs, odds, team reference, form, team
-  statistics, and high-rated-player results.
+  statistics, high-rated-player results, and approximate Kickbase-point averages.
 - `outputs/fotmob`: FotMob match IDs and odds.
 - `outputs/transfermarkt`: squad exports and diagnostic HTML.
 - `outputs/rotowire`: timestamped Bundesliga predicted-lineup snapshots.
@@ -153,6 +153,7 @@ SofaScore team-reference pipeline when their own inputs are available.
 | KBStats players | Live KBStats API | `outputs/kbstats/players` |
 | Bundesliga snapshot | Team reference and live source data | `outputs/derived/bundesliga_snapshots` |
 | High-rated players | Latest team-form snapshot | `outputs/sofascore/high_rated_players` |
+| SofaScore Kickbase-point averages | Latest team-form snapshot and live SofaScore match payloads | `outputs/sofascore/player_kickbase_point_averages` |
 | KBStats high-average players | Latest KBStats player snapshot | `outputs/derived/kbstats_high_average_players` |
 | KBStats last-five high-average players | Latest KBStats player snapshot | `outputs/derived/kbstats_last_5_high_average_players` |
 | Squad optimizers | Latest expected-points CSV and matchday matches | Timestamped optimizer CSV and optional selected-lineup JSON |
