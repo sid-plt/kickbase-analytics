@@ -1,0 +1,687 @@
+﻿team_id,team,category,player_id,player_name,position,rating_count,average_rating
+2672,FC Bayern München,overall,978838,Michael Olise,M,2,7.80
+2672,FC Bayern München,overall,259117,Joshua Kimmich,M,3,7.40
+2672,FC Bayern München,overall,798583,Dayot Upamecano,D,1,7.30
+2672,FC Bayern München,overall,1159759,Nathaniel Brown,M,5,7.26
+2672,FC Bayern München,overall,1482457,Felipe Chávez,M,2,7.10
+2672,FC Bayern München,overall,1010231,Jamal Musiala,M,2,7.10
+2672,FC Bayern München,overall,896569,Kim Min-jae,D,5,7.08
+2672,FC Bayern München,overall,883537,Luis Díaz,M,5,7.08
+2672,FC Bayern München,overall,1142251,Aleksandar Pavlović,M,5,7.04
+2672,FC Bayern München,overall,364612,João Palhinha,M,2,7.00
+2672,FC Bayern München,overall,1129935,Tom Bischof,M,3,7.00
+2672,FC Bayern München,overall,227672,Jonathan Tah,D,5,6.94
+2672,FC Bayern München,overall,8959,Manuel Neuer,G,3,6.93
+2672,FC Bayern München,overall,108579,Harry Kane,F,2,6.85
+2672,FC Bayern München,overall,1994978,Cassiano Kiala,D,1,6.80
+2672,FC Bayern München,overall,927407,Josip Stanišić,D,4,6.78
+2672,FC Bayern München,overall,1130647,Jonas Urbig,G,2,6.70
+2672,FC Bayern München,overall,980418,Sacha Boey,D,4,6.70
+2672,FC Bayern München,overall,2361805,Bastian Assomo,F,2,6.65
+2672,FC Bayern München,overall,873106,Hiroki Itō,D,4,6.65
+2672,FC Bayern München,overall,2427970,Bara Sapoko Ndiaye,M,2,6.55
+2672,FC Bayern München,overall,1063767,Ismael Saibari,M,3,6.53
+2672,FC Bayern München,overall,1618538,Guido Della Rovere,M,2,6.45
+2672,FC Bayern München,overall,1976732,Wisdom Mike,M,2,6.45
+2672,FC Bayern München,overall,843665,Alphonso Davies,D,3,6.43
+2672,FC Bayern München,overall,2518029,Filip Pavić,D,2,6.40
+2672,FC Bayern München,overall,1925507,Tim Binder,M,4,6.40
+2672,FC Bayern München,overall,1142248,Arijon Ibrahimović,F,4,6.38
+2672,FC Bayern München,overall,355492,Konrad Laimer,D,4,6.35
+2672,FC Bayern München,overall,2236502,Maycon Cardozo,M,4,6.25
+2672,FC Bayern München,overall,1195752,Vincent Manuba,D,1,6.20
+2672,FC Bayern München,bundesliga,978838,Michael Olise,M,5,8.34
+2672,FC Bayern München,bundesliga,1129935,Tom Bischof,D,2,8.00
+2672,FC Bayern München,bundesliga,259117,Joshua Kimmich,M,4,7.85
+2672,FC Bayern München,bundesliga,108579,Harry Kane,F,5,7.42
+2672,FC Bayern München,bundesliga,798583,Dayot Upamecano,D,2,7.30
+2672,FC Bayern München,bundesliga,1130647,Jonas Urbig,G,5,7.28
+2672,FC Bayern München,bundesliga,184661,Leon Goretzka,M,5,7.26
+2672,FC Bayern München,bundesliga,896569,Kim Min-jae,D,4,7.15
+2672,FC Bayern München,bundesliga,227672,Jonathan Tah,D,4,7.10
+2672,FC Bayern München,bundesliga,1085381,Nicolas Jackson,F,5,7.10
+2672,FC Bayern München,bundesliga,1861975,Lennart Karl,M,2,6.95
+2672,FC Bayern München,bundesliga,883537,Luis Díaz,M,5,6.88
+2672,FC Bayern München,bundesliga,873106,Hiroki Itō,D,4,6.85
+2672,FC Bayern München,bundesliga,843665,Alphonso Davies,D,3,6.83
+2672,FC Bayern München,bundesliga,1010231,Jamal Musiala,M,5,6.78
+2672,FC Bayern München,bundesliga,355492,Konrad Laimer,D,5,6.66
+2672,FC Bayern München,bundesliga,927407,Josip Stanišić,D,5,6.64
+2672,FC Bayern München,bundesliga,2427970,Bara Sapoko Ndiaye,M,3,6.60
+2672,FC Bayern München,bundesliga,1142251,Aleksandar Pavlović,M,2,6.50
+2672,FC Bayern München,bundesliga,246999,Raphaël Guerreiro,D,3,6.40
+2672,FC Bayern München,bundesliga,1584884,Deniz Ofli,D,1,6.30
+2672,FC Bayern München,bundesliga,8959,Manuel Neuer,G,1,6.30
+2677,VfB Stuttgart,overall,1127790,Dženan Pejčinović,F,1,9.50
+2677,VfB Stuttgart,overall,152463,Fabian Bredlow,G,1,9.10
+2677,VfB Stuttgart,overall,983540,Tiago Tomás,M,1,8.10
+2677,VfB Stuttgart,overall,863271,Jeff Chabot,D,1,7.90
+2677,VfB Stuttgart,overall,901882,Angelo Stiller,M,1,7.50
+2677,VfB Stuttgart,overall,1418649,Finn Jeltsch,D,1,7.40
+2677,VfB Stuttgart,overall,906278,Josha Vagnoman,D,1,7.40
+2677,VfB Stuttgart,overall,788949,Maximilian Mittelstädt,D,1,7.30
+2677,VfB Stuttgart,overall,891510,Chris Führich,M,1,6.80
+2677,VfB Stuttgart,overall,794298,Deniz Undav,M,1,6.80
+2677,VfB Stuttgart,overall,253993,Grischa Prömel,M,1,6.80
+2677,VfB Stuttgart,overall,1979970,Ameen Al-Dakhil,D,1,6.70
+2677,VfB Stuttgart,overall,861981,Nikolas Nartey,D,1,6.70
+2677,VfB Stuttgart,overall,1126569,Bilal El Khannouss,M,1,6.60
+2677,VfB Stuttgart,overall,1464641,Chema Andrés,M,1,6.20
+2677,VfB Stuttgart,overall,878081,Ermedin Demirović,F,1,6.10
+2677,VfB Stuttgart,bundesliga,861981,Nikolas Nartey,F,2,7.75
+2677,VfB Stuttgart,bundesliga,891510,Chris Führich,M,5,7.38
+2677,VfB Stuttgart,bundesliga,584722,Alexander Nübel,G,5,7.32
+2677,VfB Stuttgart,bundesliga,901882,Angelo Stiller,M,5,7.30
+2677,VfB Stuttgart,bundesliga,1464641,Chema Andrés,M,4,7.23
+2677,VfB Stuttgart,bundesliga,878081,Ermedin Demirović,F,5,7.10
+2677,VfB Stuttgart,bundesliga,788949,Maximilian Mittelstädt,D,5,7.08
+2677,VfB Stuttgart,bundesliga,863271,Jeff Chabot,D,4,7.03
+2677,VfB Stuttgart,bundesliga,801030,Atakan Karazor,M,2,6.95
+2677,VfB Stuttgart,bundesliga,990201,Jamie Leweling,M,5,6.88
+2677,VfB Stuttgart,bundesliga,794298,Deniz Undav,F,4,6.88
+2677,VfB Stuttgart,bundesliga,1126569,Bilal El Khannouss,M,4,6.83
+2677,VfB Stuttgart,bundesliga,1009334,Lorenz Assignon,D,3,6.77
+2677,VfB Stuttgart,bundesliga,826205,Dan Zagadou,D,1,6.70
+2677,VfB Stuttgart,bundesliga,1127823,Luca Jaquez,D,5,6.56
+2677,VfB Stuttgart,bundesliga,1153265,Badredine Bouanani,F,2,6.55
+2677,VfB Stuttgart,bundesliga,983540,Tiago Tomás,F,5,6.54
+2677,VfB Stuttgart,bundesliga,916943,Ramon Hendriks,D,5,6.44
+2677,VfB Stuttgart,bundesliga,1418649,Finn Jeltsch,D,2,6.00
+2677,VfB Stuttgart,bundesliga,906278,Josha Vagnoman,D,4,5.98
+2671,1. FC Köln,overall,1112327,Ísak Bergmann Jóhannesson,M,1,9.30
+2671,1. FC Köln,overall,930272,Tom Krauß,M,1,7.50
+2671,1. FC Köln,overall,839898,Alessio Castro-Montes,D,1,7.10
+2671,1. FC Köln,overall,921033,Linton Maina,M,1,7.00
+2671,1. FC Köln,overall,844942,Gideon Mensah,D,1,6.90
+2671,1. FC Köln,overall,1402924,Jahmai Simpson-Pusey,D,1,6.80
+2671,1. FC Köln,overall,1010726,Jan Uwe Thielmann,M,1,6.80
+2671,1. FC Köln,overall,827473,Luka Lochoshvili,D,1,6.70
+2671,1. FC Köln,overall,877544,Ragnar Ache,F,1,6.60
+2671,1. FC Köln,overall,591706,Ellyes Skhiri,M,1,6.50
+2671,1. FC Köln,overall,965950,Joel Schmied,D,1,6.50
+2671,1. FC Köln,overall,187185,Marvin Schwäbe,G,1,6.50
+2671,1. FC Köln,overall,1800475,Said El Mala,M,1,6.30
+2671,1. FC Köln,overall,905381,Thijs Dallinga,F,1,6.20
+2671,1. FC Köln,overall,378340,Marius Bülter,M,1,6.10
+2671,1. FC Köln,bundesliga,1800475,Said El Mala,F,5,7.04
+2671,1. FC Köln,bundesliga,319861,Luca Waldschmidt,F,4,7.00
+2671,1. FC Köln,bundesliga,930272,Tom Krauß,M,2,6.95
+2671,1. FC Köln,bundesliga,378340,Marius Bülter,F,5,6.92
+2671,1. FC Köln,bundesliga,988639,Eric Martel,M,4,6.83
+2671,1. FC Köln,bundesliga,187185,Marvin Schwäbe,G,5,6.72
+2671,1. FC Köln,bundesliga,136922,Dominique Heintz,D,1,6.70
+2671,1. FC Köln,bundesliga,1010726,Jan Uwe Thielmann,M,4,6.68
+2671,1. FC Köln,bundesliga,1482457,Felipe Chávez,M,3,6.67
+2671,1. FC Köln,bundesliga,801263,Jakub Kamiński,M,5,6.66
+2671,1. FC Köln,bundesliga,921033,Linton Maina,M,5,6.64
+2671,1. FC Köln,bundesliga,1112327,Ísak Bergmann Jóhannesson,M,4,6.60
+2671,1. FC Köln,bundesliga,963043,Kristoffer Lund,D,5,6.54
+2671,1. FC Köln,bundesliga,78781,Florian Kainz,M,1,6.50
+2671,1. FC Köln,bundesliga,1402924,Jahmai Simpson-Pusey,D,4,6.50
+2671,1. FC Köln,bundesliga,953097,Cenk Özkaçar,D,5,6.48
+2671,1. FC Köln,bundesliga,839898,Alessio Castro-Montes,M,4,6.48
+2671,1. FC Köln,bundesliga,2197599,Youssoupha Niang,F,4,6.48
+2671,1. FC Köln,bundesliga,877544,Ragnar Ache,F,1,6.30
+2671,1. FC Köln,bundesliga,965950,Joel Schmied,D,3,6.20
+2671,1. FC Köln,bundesliga,1020206,Sebastian Sebulonsen,D,5,6.08
+2569,TSG Hoffenheim,overall,1000269,Albian Hajdari,D,3,7.53
+2569,TSG Hoffenheim,overall,916946,Wouter Burger,M,3,7.40
+2569,TSG Hoffenheim,overall,987504,Patrick Wimmer,M,3,7.33
+2569,TSG Hoffenheim,overall,944899,Valentin Gendrey,D,3,7.03
+2569,TSG Hoffenheim,overall,1479460,Alex Honajzer,M,1,7.00
+2569,TSG Hoffenheim,overall,857740,Ozan Kabak,D,2,6.95
+2569,TSG Hoffenheim,overall,1493305,Leon Avdullahu,M,3,6.90
+2569,TSG Hoffenheim,overall,2077300,Cajetan Lenz,M,2,6.70
+2569,TSG Hoffenheim,overall,963801,Adam Hložek,M,3,6.67
+2569,TSG Hoffenheim,overall,138024,Vladimír Coufal,D,3,6.67
+2569,TSG Hoffenheim,overall,1418703,Max Moerstedt,F,3,6.60
+2569,TSG Hoffenheim,overall,1637689,Nathan De Cat,M,3,6.60
+2569,TSG Hoffenheim,overall,943550,Luca Philipp,G,2,6.55
+2569,TSG Hoffenheim,overall,1861981,Natnael Abraha,D,3,6.53
+2569,TSG Hoffenheim,overall,1180758,Adam Daghim,F,3,6.50
+2569,TSG Hoffenheim,overall,40244,Oliver Baumann,G,1,6.50
+2569,TSG Hoffenheim,overall,1387012,Mats Rots,D,3,6.47
+2569,TSG Hoffenheim,overall,1408406,Alessandro Vogt,F,2,6.45
+2569,TSG Hoffenheim,overall,1122806,Arthur Chaves,D,2,6.45
+2569,TSG Hoffenheim,overall,828571,Bernardo,D,2,6.45
+2569,TSG Hoffenheim,overall,790977,Koki Machida,D,1,6.40
+2569,TSG Hoffenheim,overall,1974432,Tristan Spranger,D,2,6.40
+2569,TSG Hoffenheim,overall,1185359,Bambasé Conté,M,3,6.37
+2569,TSG Hoffenheim,overall,957615,Robin Hranáč,D,2,6.10
+2569,TSG Hoffenheim,overall,1014290,Tim Lemperle,F,3,5.97
+2569,TSG Hoffenheim,bundesliga,138024,Vladimír Coufal,D,5,7.30
+2569,TSG Hoffenheim,bundesliga,1493305,Leon Avdullahu,M,5,7.18
+2569,TSG Hoffenheim,bundesliga,1568123,Bazoumana Touré,M,5,7.14
+2569,TSG Hoffenheim,bundesliga,67647,Andrej Kramarić,M,5,7.04
+2569,TSG Hoffenheim,bundesliga,916946,Wouter Burger,M,5,7.04
+2569,TSG Hoffenheim,bundesliga,1000269,Albian Hajdari,D,5,7.00
+2569,TSG Hoffenheim,bundesliga,828571,Bernardo,D,5,6.88
+2569,TSG Hoffenheim,bundesliga,857740,Ozan Kabak,D,5,6.60
+2569,TSG Hoffenheim,bundesliga,1418703,Max Moerstedt,F,3,6.53
+2569,TSG Hoffenheim,bundesliga,1134578,Cole Campbell,F,3,6.47
+2569,TSG Hoffenheim,bundesliga,253993,Grischa Prömel,M,3,6.47
+2569,TSG Hoffenheim,bundesliga,957615,Robin Hranáč,D,3,6.47
+2569,TSG Hoffenheim,bundesliga,963801,Adam Hložek,F,1,6.40
+2569,TSG Hoffenheim,bundesliga,1010117,Fisnik Asllani,M,5,6.36
+2569,TSG Hoffenheim,bundesliga,40244,Oliver Baumann,G,5,6.32
+2569,TSG Hoffenheim,bundesliga,1014290,Tim Lemperle,F,5,6.32
+2569,TSG Hoffenheim,bundesliga,978062,Alexander Prass,D,4,6.30
+2569,TSG Hoffenheim,bundesliga,187423,Kevin Akpoguma,D,1,6.10
+2547,1. FC Union Berlin,overall,1090010,Marin Ljubičić,F,1,8.60
+2547,1. FC Union Berlin,overall,1103765,Zeno Van Den Bosch,D,1,7.80
+2547,1. FC Union Berlin,overall,791642,Josip Juranović,D,1,7.10
+2547,1. FC Union Berlin,overall,877302,András Schäfer,M,1,7.00
+2547,1. FC Union Berlin,overall,1210666,Tom Alexander Rothe,D,1,7.00
+2547,1. FC Union Berlin,overall,1198074,Aljoscha Kemlein,M,1,6.80
+2547,1. FC Union Berlin,overall,48557,Christopher Trimmel,D,1,6.80
+2547,1. FC Union Berlin,overall,1462742,Ilyas Ansah,F,1,6.70
+2547,1. FC Union Berlin,overall,1513469,Livan Burcu,M,1,6.60
+2547,1. FC Union Berlin,overall,842718,Matheo Raab,G,1,6.60
+2547,1. FC Union Berlin,overall,850891,Michel Aebischer,M,1,6.60
+2547,1. FC Union Berlin,overall,927405,Woo-Yeong Jeong,M,1,6.50
+2547,1. FC Union Berlin,overall,149479,Rani Khedira,M,1,6.30
+2547,1. FC Union Berlin,overall,1086547,Leopold Querfeld,D,1,6.10
+2547,1. FC Union Berlin,overall,848074,Emmanuel Latte Lath,F,1,6.00
+2547,1. FC Union Berlin,bundesliga,48557,Christopher Trimmel,D,5,7.80
+2547,1. FC Union Berlin,bundesliga,877302,András Schäfer,M,5,7.30
+2547,1. FC Union Berlin,bundesliga,953767,Andrej Ilić,F,5,7.26
+2547,1. FC Union Berlin,bundesliga,148167,Carl Klaus,G,4,7.23
+2547,1. FC Union Berlin,bundesliga,1086547,Leopold Querfeld,D,2,7.20
+2547,1. FC Union Berlin,bundesliga,855663,Diogo Leite,D,5,7.04
+2547,1. FC Union Berlin,bundesliga,791642,Josip Juranović,D,4,7.00
+2547,1. FC Union Berlin,bundesliga,608362,Oliver Burke,M,5,7.00
+2547,1. FC Union Berlin,bundesliga,927405,Woo-Yeong Jeong,M,2,7.00
+2547,1. FC Union Berlin,bundesliga,830803,Danilho Doekhi,D,5,6.92
+2547,1. FC Union Berlin,bundesliga,1513469,Livan Burcu,M,5,6.90
+2547,1. FC Union Berlin,bundesliga,1198074,Aljoscha Kemlein,M,5,6.86
+2547,1. FC Union Berlin,bundesliga,1210666,Tom Alexander Rothe,D,5,6.84
+2547,1. FC Union Berlin,bundesliga,825740,Alex Král,M,1,6.70
+2547,1. FC Union Berlin,bundesliga,168985,Janik Haberer,M,2,6.70
+2547,1. FC Union Berlin,bundesliga,904991,Stanley Nsoki,D,1,6.70
+2547,1. FC Union Berlin,bundesliga,886737,Derrick Köhn,D,2,6.65
+2547,1. FC Union Berlin,bundesliga,800252,Tim Skarke,M,3,6.63
+2547,1. FC Union Berlin,bundesliga,1462742,Ilyas Ansah,M,5,6.54
+2547,1. FC Union Berlin,bundesliga,137692,Frederik Rønnow,G,2,6.30
+2547,1. FC Union Berlin,bundesliga,149479,Rani Khedira,M,4,6.28
+2674,Eintracht Frankfurt,overall,939830,Jonathan Burkardt,F,2,8.35
+2674,Eintracht Frankfurt,overall,1440948,Can Uzun,M,2,8.05
+2674,Eintracht Frankfurt,overall,1129862,Raphael Onyedika,M,2,7.70
+2674,Eintracht Frankfurt,overall,581302,Robin Koch,D,2,7.55
+2674,Eintracht Frankfurt,overall,66518,Mario Götze,M,1,7.50
+2674,Eintracht Frankfurt,overall,2115909,Otavio,D,2,7.40
+2674,Eintracht Frankfurt,overall,1192318,Farès Chaïbi,M,2,7.35
+2674,Eintracht Frankfurt,overall,1501641,Keita Kosugi,D,2,6.95
+2674,Eintracht Frankfurt,overall,997012,Ansgar Knauff,F,2,6.85
+2674,Eintracht Frankfurt,overall,1886360,Jeremiaha Maluze,M,2,6.75
+2674,Eintracht Frankfurt,overall,1146148,Jean-Mattéo Bahoya,F,1,6.50
+2674,Eintracht Frankfurt,overall,1977245,Love Arrhov,M,2,6.40
+2674,Eintracht Frankfurt,overall,1957761,Malik Pimpong,F,1,6.40
+2674,Eintracht Frankfurt,overall,1898148,Ayoube Amaimouni Echghouyab,M,2,6.35
+2674,Eintracht Frankfurt,overall,1403018,Elias Baum,D,2,6.35
+2674,Eintracht Frankfurt,overall,1474296,Younes Ebnoutalib,F,2,6.25
+2674,Eintracht Frankfurt,overall,1149113,Oscar Højlund,M,1,6.20
+2674,Eintracht Frankfurt,overall,790965,Ritsu Doan,M,1,5.90
+2674,Eintracht Frankfurt,overall,965778,Arthur Theate,D,1,5.80
+2674,Eintracht Frankfurt,overall,1134203,Kauã Santos,G,2,5.40
+2674,Eintracht Frankfurt,bundesliga,1440948,Can Uzun,M,5,7.52
+2674,Eintracht Frankfurt,bundesliga,591706,Ellyes Skhiri,M,5,7.06
+2674,Eintracht Frankfurt,bundesliga,40239,Timothy Chandler,M,1,7.00
+2674,Eintracht Frankfurt,bundesliga,939830,Jonathan Burkardt,F,4,6.98
+2674,Eintracht Frankfurt,bundesliga,1142211,Hugo Larsson,M,3,6.83
+2674,Eintracht Frankfurt,bundesliga,1146148,Jean-Mattéo Bahoya,M,3,6.80
+2674,Eintracht Frankfurt,bundesliga,190161,Michael Zetterer,G,5,6.80
+2674,Eintracht Frankfurt,bundesliga,790965,Ritsu Doan,M,3,6.77
+2674,Eintracht Frankfurt,bundesliga,1192318,Farès Chaïbi,M,4,6.75
+2674,Eintracht Frankfurt,bundesliga,1403018,Elias Baum,D,1,6.70
+2674,Eintracht Frankfurt,bundesliga,1898148,Ayoube Amaimouni Echghouyab,F,4,6.68
+2674,Eintracht Frankfurt,bundesliga,581302,Robin Koch,D,5,6.62
+2674,Eintracht Frankfurt,bundesliga,1149113,Oscar Højlund,M,3,6.57
+2674,Eintracht Frankfurt,bundesliga,997012,Ansgar Knauff,F,5,6.54
+2674,Eintracht Frankfurt,bundesliga,1159759,Nathaniel Brown,D,5,6.54
+2674,Eintracht Frankfurt,bundesliga,999276,Aurèle Amenda,D,5,6.50
+2674,Eintracht Frankfurt,bundesliga,1977245,Love Arrhov,M,1,6.50
+2674,Eintracht Frankfurt,bundesliga,341589,Mahmoud Dahoud,M,2,6.50
+2674,Eintracht Frankfurt,bundesliga,921789,Rasmus Kristensen,D,3,6.47
+2674,Eintracht Frankfurt,bundesliga,954061,Arnaud Kalimuendo,F,5,6.42
+2674,Eintracht Frankfurt,bundesliga,66518,Mario Götze,M,2,6.35
+2674,Eintracht Frankfurt,bundesliga,1474296,Younes Ebnoutalib,F,1,6.30
+2674,Eintracht Frankfurt,bundesliga,965778,Arthur Theate,D,2,6.20
+2556,1. FSV Mainz 05,overall,327755,Nadiem Amiri,M,1,10.00
+2556,1. FSV Mainz 05,overall,822340,Phillip Tietz,F,1,10.00
+2556,1. FSV Mainz 05,overall,152206,Dominik Kohr,D,1,8.80
+2556,1. FSV Mainz 05,overall,846471,Anthony Caci,M,1,8.10
+2556,1. FSV Mainz 05,overall,97926,Danny da Costa,D,1,8.10
+2556,1. FSV Mainz 05,overall,1175898,Otto Ruoppi,M,1,7.90
+2556,1. FSV Mainz 05,overall,1021075,William Bøving,F,1,7.70
+2556,1. FSV Mainz 05,overall,174345,Robin Zentner,G,1,7.60
+2556,1. FSV Mainz 05,overall,1130119,Fabio Gruber,D,1,7.40
+2556,1. FSV Mainz 05,overall,1028307,Kaishu Sano,M,1,7.40
+2556,1. FSV Mainz 05,overall,138126,Phillipp Mwene,M,1,7.20
+2556,1. FSV Mainz 05,overall,1548910,Kacper Potulski,D,1,6.90
+2556,1. FSV Mainz 05,overall,352544,Sheraldo Becker,F,1,6.80
+2556,1. FSV Mainz 05,overall,537552,Jae-sung Lee,M,1,6.70
+2556,1. FSV Mainz 05,overall,1012235,Ransford Yeboah Königsdörffer,F,1,6.70
+2556,1. FSV Mainz 05,overall,157377,Silvan Widmer,D,1,6.40
+2556,1. FSV Mainz 05,bundesliga,327755,Nadiem Amiri,M,5,7.52
+2556,1. FSV Mainz 05,bundesliga,94312,Daniel Batz,G,4,7.38
+2556,1. FSV Mainz 05,bundesliga,138126,Phillipp Mwene,M,5,7.30
+2556,1. FSV Mainz 05,bundesliga,352544,Sheraldo Becker,F,5,7.06
+2556,1. FSV Mainz 05,bundesliga,1548910,Kacper Potulski,D,3,7.03
+2556,1. FSV Mainz 05,bundesliga,157377,Silvan Widmer,M,4,7.03
+2556,1. FSV Mainz 05,bundesliga,1028307,Kaishu Sano,M,5,6.96
+2556,1. FSV Mainz 05,bundesliga,174345,Robin Zentner,G,1,6.90
+2556,1. FSV Mainz 05,bundesliga,822340,Phillip Tietz,F,5,6.88
+2556,1. FSV Mainz 05,bundesliga,355486,Stefan Posch,D,5,6.86
+2556,1. FSV Mainz 05,bundesliga,846471,Anthony Caci,D,5,6.78
+2556,1. FSV Mainz 05,bundesliga,980621,Paul Nebel,M,5,6.70
+2556,1. FSV Mainz 05,bundesliga,97926,Danny da Costa,D,5,6.66
+2556,1. FSV Mainz 05,bundesliga,152206,Dominik Kohr,D,5,6.66
+2556,1. FSV Mainz 05,bundesliga,1152505,Nelson Weiper,F,5,6.60
+2556,1. FSV Mainz 05,bundesliga,1021075,William Bøving,F,2,6.60
+2556,1. FSV Mainz 05,bundesliga,893962,Lennard Maloney,M,3,6.50
+2556,1. FSV Mainz 05,bundesliga,537552,Jae-sung Lee,M,2,6.45
+2556,1. FSV Mainz 05,bundesliga,1005834,Armindo Sieb,F,4,6.35
+2556,1. FSV Mainz 05,bundesliga,1138150,Nikolas Veratschnig,D,2,6.35
+2561,SC Paderborn 07,overall,1199101,Santiago Castañeda,M,1,8.50
+2561,SC Paderborn 07,overall,981788,Laurin Curda,M,1,7.90
+2561,SC Paderborn 07,overall,1083387,Mattes Hansen,D,1,7.60
+2561,SC Paderborn 07,overall,1129940,Gabriel Vidović,F,1,7.30
+2561,SC Paderborn 07,overall,1152342,Jano Ter-Horst,D,1,7.30
+2561,SC Paderborn 07,overall,795006,Markus Schubert,G,1,7.30
+2561,SC Paderborn 07,overall,907685,Oliver Batista Meier,M,1,7.10
+2561,SC Paderborn 07,overall,1152486,Laurin Ulrich,M,1,7.00
+2561,SC Paderborn 07,overall,1137717,Tjark Lasse Scheller,D,1,7.00
+2561,SC Paderborn 07,overall,1167764,Stefano Marino,F,1,6.90
+2561,SC Paderborn 07,overall,1604187,Deniz Zeitler,F,1,6.80
+2561,SC Paderborn 07,overall,1517850,Jonah Sticker,D,1,6.80
+2561,SC Paderborn 07,overall,2020672,Clemens Lippmann,M,1,6.50
+2561,SC Paderborn 07,overall,826884,Steffen Tigges,F,1,6.30
+2561,SC Paderborn 07,overall,820465,Raphael Obermair,M,1,6.20
+2561,SC Paderborn 07,overall,2122582,Albert Millgramm,F,1,6.00
+2561,SC Paderborn 07,bundesliga,1195736,Dennis Seimen,G,2,8.35
+2561,SC Paderborn 07,bundesliga,1128792,Calvin Brackelmann,D,2,7.75
+2561,SC Paderborn 07,bundesliga,981788,Laurin Curda,M,2,7.75
+2561,SC Paderborn 07,bundesliga,2076815,Niklas Mohr,D,1,7.60
+2561,SC Paderborn 07,bundesliga,1199101,Santiago Castañeda,M,2,7.50
+2561,SC Paderborn 07,bundesliga,1083387,Mattes Hansen,D,2,7.45
+2561,SC Paderborn 07,bundesliga,1172815,Mika Baur,M,1,7.10
+2561,SC Paderborn 07,bundesliga,844131,Felix Götze,D,2,7.05
+2561,SC Paderborn 07,bundesliga,1137717,Tjark Lasse Scheller,D,2,6.95
+2561,SC Paderborn 07,bundesliga,989630,Filip Bilbija,F,2,6.80
+2561,SC Paderborn 07,bundesliga,959635,Nick Bätzner,M,2,6.80
+2561,SC Paderborn 07,bundesliga,1517850,Jonah Sticker,M,1,6.60
+2561,SC Paderborn 07,bundesliga,878628,Sebastian Klaas,F,2,6.55
+2561,SC Paderborn 07,bundesliga,1167764,Stefano Marino,F,2,6.50
+2561,SC Paderborn 07,bundesliga,826884,Steffen Tigges,F,2,6.35
+2561,SC Paderborn 07,bundesliga,1864750,Ruben Müller,M,2,6.30
+2561,SC Paderborn 07,bundesliga,246431,Sven Michel,F,2,6.20
+36360,RB Leipzig,overall,136924,Willi Orbán,D,3,7.80
+36360,RB Leipzig,overall,1198075,Brajan Gruda,F,3,7.50
+36360,RB Leipzig,overall,856553,Ridle Baku,D,3,7.37
+36360,RB Leipzig,overall,1155383,Ezechiel Banzuzi,M,3,7.30
+36360,RB Leipzig,overall,856076,David Raum,D,2,7.25
+36360,RB Leipzig,overall,1121923,Antonio Nusa,F,2,7.20
+36360,RB Leipzig,overall,934385,Maarten Vandevoordt,G,3,7.03
+36360,RB Leipzig,overall,976421,Castello Lukeba,D,3,6.97
+36360,RB Leipzig,overall,976575,Nicolas Seiwald,M,3,6.93
+36360,RB Leipzig,overall,1146250,Max Finkgräfe,D,3,6.80
+36360,RB Leipzig,overall,1088896,Johan Bakayoko,M,3,6.70
+36360,RB Leipzig,overall,856739,Lutsharel Geertruida,D,1,6.70
+36360,RB Leipzig,overall,1894870,Sani Suleiman,F,1,6.70
+36360,RB Leipzig,overall,1494826,Conrad Harder,F,3,6.67
+36360,RB Leipzig,overall,1149127,Arthur Vermeeren,M,3,6.60
+36360,RB Leipzig,overall,1586659,Ayodele Thomas,F,1,6.60
+36360,RB Leipzig,overall,1048009,El Chadaille Bitshiabu,D,2,6.60
+36360,RB Leipzig,overall,1117223,Maxime Estève,D,1,6.60
+36360,RB Leipzig,overall,319857,Benjamin Henrichs,D,3,6.57
+36360,RB Leipzig,overall,1426577,Tidiam Gomis,F,3,6.57
+36360,RB Leipzig,overall,1048650,Rocco Reitz,M,2,6.55
+36360,RB Leipzig,overall,838232,Eljif Elmas,M,1,6.50
+36360,RB Leipzig,overall,2269705,Samba Konaté,F,1,6.50
+36360,RB Leipzig,overall,1133743,Rômulo,F,1,6.40
+36360,RB Leipzig,overall,1406171,Andrija Maksimović,M,2,6.30
+36360,RB Leipzig,bundesliga,2087085,Yan Diomande,F,5,7.46
+36360,RB Leipzig,bundesliga,791079,Xaver Schlager,M,3,7.37
+36360,RB Leipzig,bundesliga,1048009,El Chadaille Bitshiabu,D,3,7.33
+36360,RB Leipzig,bundesliga,136924,Willi Orbán,D,4,7.23
+36360,RB Leipzig,bundesliga,319853,Lukas Klostermann,D,1,7.20
+36360,RB Leipzig,bundesliga,856076,David Raum,D,2,7.10
+36360,RB Leipzig,bundesliga,1121923,Antonio Nusa,M,5,6.98
+36360,RB Leipzig,bundesliga,976421,Castello Lukeba,D,3,6.97
+36360,RB Leipzig,bundesliga,1198075,Brajan Gruda,F,5,6.90
+36360,RB Leipzig,bundesliga,1494826,Conrad Harder,F,4,6.85
+36360,RB Leipzig,bundesliga,976575,Nicolas Seiwald,M,4,6.75
+36360,RB Leipzig,bundesliga,856553,Ridle Baku,D,5,6.68
+36360,RB Leipzig,bundesliga,825956,Christoph Baumgartner,M,5,6.66
+36360,RB Leipzig,bundesliga,1088896,Johan Bakayoko,F,2,6.65
+36360,RB Leipzig,bundesliga,934385,Maarten Vandevoordt,G,4,6.53
+36360,RB Leipzig,bundesliga,1418623,Assan Ouédraogo,M,5,6.52
+36360,RB Leipzig,bundesliga,1146250,Max Finkgräfe,D,5,6.50
+36360,RB Leipzig,bundesliga,1133743,Rômulo,F,5,6.46
+36360,RB Leipzig,bundesliga,319857,Benjamin Henrichs,D,3,6.23
+36360,RB Leipzig,bundesliga,1426577,Tidiam Gomis,F,1,6.20
+36360,RB Leipzig,bundesliga,37096,Péter Gulácsi,G,1,6.00
+2527,Borussia M'gladbach,overall,1142210,Hugo Bolin,M,1,9.20
+2527,Borussia M'gladbach,overall,1083382,Lukas Ullrich,D,1,8.20
+2527,Borussia M'gladbach,overall,897334,Daiki Hashioka,D,1,7.90
+2527,Borussia M'gladbach,overall,939880,Philipp Sander,M,1,7.70
+2527,Borussia M'gladbach,overall,583806,Kevin Diks,D,1,7.50
+2527,Borussia M'gladbach,overall,95381,Kevin Stöger,M,1,7.40
+2527,Borussia M'gladbach,overall,876858,Robin Hack,M,1,7.40
+2527,Borussia M'gladbach,overall,790989,Ko Itakura,D,1,7.30
+2527,Borussia M'gladbach,overall,578166,Moritz Nicolas,G,1,7.30
+2527,Borussia M'gladbach,overall,280453,Franck Honorat,M,1,7.20
+2527,Borussia M'gladbach,overall,1823942,Jan Leszczyński,D,1,7.20
+2527,Borussia M'gladbach,overall,1995809,Wael Mohya,M,1,7.20
+2527,Borussia M'gladbach,overall,1009161,Enzo Leopold,M,1,6.70
+2527,Borussia M'gladbach,overall,997178,David Herold,D,1,6.40
+2527,Borussia M'gladbach,overall,925910,Shuto Machino,F,1,6.40
+2527,Borussia M'gladbach,overall,798175,Isac Lidberg,F,1,6.20
+2527,Borussia M'gladbach,bundesliga,578166,Moritz Nicolas,G,5,7.54
+2527,Borussia M'gladbach,bundesliga,1048650,Rocco Reitz,M,4,7.53
+2527,Borussia M'gladbach,bundesliga,282229,Nico Elvedi,D,4,7.33
+2527,Borussia M'gladbach,bundesliga,583806,Kevin Diks,D,4,7.25
+2527,Borussia M'gladbach,bundesliga,95381,Kevin Stöger,M,5,7.06
+2527,Borussia M'gladbach,bundesliga,989056,Giovanni Reyna,M,5,6.94
+2527,Borussia M'gladbach,bundesliga,939880,Philipp Sander,M,5,6.94
+2527,Borussia M'gladbach,bundesliga,1142210,Hugo Bolin,M,4,6.90
+2527,Borussia M'gladbach,bundesliga,876858,Robin Hack,M,3,6.90
+2527,Borussia M'gladbach,bundesliga,1019312,Jens Castrop,M,2,6.85
+2527,Borussia M'gladbach,bundesliga,1002920,Joe Scally,D,5,6.84
+2527,Borussia M'gladbach,bundesliga,280453,Franck Honorat,M,5,6.78
+2527,Borussia M'gladbach,bundesliga,259803,Haris Tabaković,F,4,6.75
+2527,Borussia M'gladbach,bundesliga,990209,Yannick Engelhardt,M,5,6.64
+2527,Borussia M'gladbach,bundesliga,1995809,Wael Mohya,M,3,6.60
+2527,Borussia M'gladbach,bundesliga,1083382,Lukas Ullrich,D,3,6.50
+2527,Borussia M'gladbach,bundesliga,228981,Tim Kleindienst,F,1,6.50
+2527,Borussia M'gladbach,bundesliga,1482433,Alejo Sarco,F,1,6.40
+2527,Borussia M'gladbach,bundesliga,1130067,Fabio Chiarodia,D,4,6.40
+2527,Borussia M'gladbach,bundesliga,1144143,Kota Takai,D,1,6.40
+2527,Borussia M'gladbach,bundesliga,925910,Shuto Machino,F,2,6.40
+2598,SV 07 Elversberg,overall,1414916,Francis Onyeka,M,1,8.90
+2598,SV 07 Elversberg,overall,254133,Luca Schnellbacher,F,1,7.40
+2598,SV 07 Elversberg,overall,846398,Maximilian Rohr,D,1,7.30
+2598,SV 07 Elversberg,overall,1134578,Cole Campbell,M,1,6.90
+2598,SV 07 Elversberg,overall,787816,Florian Yves Le Joncour,D,1,6.80
+2598,SV 07 Elversberg,overall,1131080,Nicolas Kristof,G,1,6.80
+2598,SV 07 Elversberg,overall,942336,Łukasz Poręba,M,1,6.80
+2598,SV 07 Elversberg,overall,964603,Luca Sirch,D,1,6.70
+2598,SV 07 Elversberg,overall,960017,Lukas Petkov,M,1,6.70
+2598,SV 07 Elversberg,overall,900264,Nicholas Mickelson,D,1,6.70
+2598,SV 07 Elversberg,overall,1215028,Felix Keidel,M,1,6.60
+2598,SV 07 Elversberg,overall,254411,Jan Gyamerah,D,1,6.50
+2598,SV 07 Elversberg,overall,1432398,David Mokwa,F,1,6.10
+2598,SV 07 Elversberg,overall,1469995,Noah Darvich,M,1,6.10
+2598,SV 07 Elversberg,overall,997175,Lasse Günther,D,1,5.90
+2681,Bayer 04 Leverkusen,overall,796047,Aleix García,M,2,7.60
+2681,Bayer 04 Leverkusen,overall,978521,Victor Okoh Boniface,F,1,7.60
+2681,Bayer 04 Leverkusen,overall,883262,Edmond Tapsoba,D,2,7.30
+2681,Bayer 04 Leverkusen,overall,96832,Janis Blaswich,G,1,7.20
+2681,Bayer 04 Leverkusen,overall,171919,Mark Flekken,G,1,7.10
+2681,Bayer 04 Leverkusen,overall,920379,Nathan Tella,F,2,7.05
+2681,Bayer 04 Leverkusen,overall,1006489,Loïc Badé,D,2,7.00
+2681,Bayer 04 Leverkusen,overall,2029648,Christian Kofane,F,2,6.95
+2681,Bayer 04 Leverkusen,overall,1407524,Ibrahim Maza,M,2,6.95
+2681,Bayer 04 Leverkusen,overall,975798,Malik Tillman,M,2,6.90
+2681,Bayer 04 Leverkusen,overall,255239,Lucas Vázquez,D,2,6.85
+2681,Bayer 04 Leverkusen,overall,1937795,Axel Tape,D,1,6.80
+2681,Bayer 04 Leverkusen,overall,1003339,Jarell Quansah,D,1,6.80
+2681,Bayer 04 Leverkusen,overall,908716,Miguel Gutiérrez,D,2,6.75
+2681,Bayer 04 Leverkusen,overall,822600,Exequiel Palacios,M,1,6.70
+2681,Bayer 04 Leverkusen,overall,860307,Facundo Medina,D,1,6.70
+2681,Bayer 04 Leverkusen,overall,280609,Patrik Schick,F,2,6.65
+2681,Bayer 04 Leverkusen,overall,1215906,Afonso Moreira,M,2,6.60
+2681,Bayer 04 Leverkusen,overall,1003012,Ezequiel Fernández,M,2,6.60
+2681,Bayer 04 Leverkusen,overall,1173172,Jeanuël Belocian,D,1,6.60
+2681,Bayer 04 Leverkusen,overall,2302524,Kénan Doganay,M,1,6.60
+2681,Bayer 04 Leverkusen,overall,846445,Martin Terrier,F,1,6.40
+2681,Bayer 04 Leverkusen,bundesliga,96832,Janis Blaswich,G,1,8.60
+2681,Bayer 04 Leverkusen,bundesliga,920379,Nathan Tella,F,3,7.97
+2681,Bayer 04 Leverkusen,bundesliga,796047,Aleix García,M,5,7.94
+2681,Bayer 04 Leverkusen,bundesliga,177177,Alejandro Grimaldo,M,5,7.54
+2681,Bayer 04 Leverkusen,bundesliga,280609,Patrik Schick,F,5,7.52
+2681,Bayer 04 Leverkusen,bundesliga,822600,Exequiel Palacios,M,5,7.36
+2681,Bayer 04 Leverkusen,bundesliga,1006489,Loïc Badé,D,2,7.30
+2681,Bayer 04 Leverkusen,bundesliga,883262,Edmond Tapsoba,D,5,7.16
+2681,Bayer 04 Leverkusen,bundesliga,1407524,Ibrahim Maza,F,5,6.96
+2681,Bayer 04 Leverkusen,bundesliga,142390,Jonas Hofmann,M,2,6.95
+2681,Bayer 04 Leverkusen,bundesliga,171919,Mark Flekken,G,4,6.93
+2681,Bayer 04 Leverkusen,bundesliga,1394353,Eliesse Ben Seghir,F,3,6.87
+2681,Bayer 04 Leverkusen,bundesliga,1568522,Montrell Culbreath,M,5,6.82
+2681,Bayer 04 Leverkusen,bundesliga,1174761,Arthur,D,4,6.75
+2681,Bayer 04 Leverkusen,bundesliga,1003012,Ezequiel Fernández,M,2,6.75
+2681,Bayer 04 Leverkusen,bundesliga,255239,Lucas Vázquez,D,2,6.70
+2681,Bayer 04 Leverkusen,bundesliga,168903,Robert Andrich,D,4,6.65
+2681,Bayer 04 Leverkusen,bundesliga,975798,Malik Tillman,F,5,6.64
+2681,Bayer 04 Leverkusen,bundesliga,1003339,Jarell Quansah,D,5,6.62
+2681,Bayer 04 Leverkusen,bundesliga,1119502,Ernest Poku,F,2,6.50
+2681,Bayer 04 Leverkusen,bundesliga,2029648,Christian Kofane,F,2,6.35
+2673,Borussia Dortmund,overall,132607,Patrick Drewes,G,1,7.70
+2673,Borussia Dortmund,overall,800951,Julian Ryerson,M,2,7.35
+2673,Borussia Dortmund,overall,1002007,Giannis Konstantelias,M,1,7.30
+2673,Borussia Dortmund,overall,1468744,Konstantinos Karetsas,F,3,7.27
+2673,Borussia Dortmund,overall,1937830,Jan-Luca Riedl,D,2,7.10
+2673,Borussia Dortmund,overall,1937833,Luca Reggiani,D,4,7.05
+2673,Borussia Dortmund,overall,1021272,Daniel Svensson,M,4,6.95
+2673,Borussia Dortmund,overall,799046,Waldemar Anton,D,2,6.90
+2673,Borussia Dortmund,overall,954076,Fábio Silva,F,5,6.88
+2673,Borussia Dortmund,overall,1861666,Samuele Inacio,F,5,6.86
+2673,Borussia Dortmund,overall,1418620,Almugera Kabar,M,1,6.80
+2673,Borussia Dortmund,overall,556866,Gregor Kobel,G,2,6.80
+2673,Borussia Dortmund,overall,1471049,Joane Gadou,D,5,6.80
+2673,Borussia Dortmund,overall,2048723,Marwan-Omir Mirza,F,1,6.80
+2673,Borussia Dortmund,overall,577726,Ramy Bensebaini,D,3,6.80
+2673,Borussia Dortmund,overall,1134083,Jobe Bellingham,M,5,6.78
+2673,Borussia Dortmund,overall,907463,Felix Nmecha,M,4,6.78
+2673,Borussia Dortmund,overall,133908,Marcel Sabitzer,M,3,6.77
+2673,Borussia Dortmund,overall,2266851,Tom Faust,M,1,6.70
+2673,Borussia Dortmund,overall,2266855,Roméo Ritter,D,2,6.65
+2673,Borussia Dortmund,overall,994556,Carney Chukwuemeka,M,2,6.60
+2673,Borussia Dortmund,overall,1957706,Enzo Duarte,M,2,6.60
+2673,Borussia Dortmund,overall,2245591,Miguel Adje,D,2,6.60
+2673,Borussia Dortmund,overall,328027,Serhou Guirassy,F,5,6.58
+2673,Borussia Dortmund,overall,980628,Maximilian Beier,F,3,6.57
+2673,Borussia Dortmund,overall,138491,Alexander Meyer,G,2,6.55
+2673,Borussia Dortmund,overall,1137131,Filippo Mané,D,3,6.53
+2673,Borussia Dortmund,overall,1649300,Arne Wessels,F,1,6.50
+2673,Borussia Dortmund,overall,850816,Joey Veerman,M,1,6.50
+2673,Borussia Dortmund,overall,2076134,Takato Yamamoto,M,3,6.47
+2673,Borussia Dortmund,overall,990210,Ayman Azhil,M,2,6.45
+2673,Borussia Dortmund,overall,1002813,Yan Couto,D,2,6.40
+2673,Borussia Dortmund,overall,1836843,Justin Lerma,M,1,6.30
+2673,Borussia Dortmund,overall,1937835,Mathis Albert,F,4,6.25
+2673,Borussia Dortmund,overall,1887796,Kauã Prates,D,2,6.10
+2673,Borussia Dortmund,bundesliga,577726,Ramy Bensebaini,D,2,8.20
+2673,Borussia Dortmund,bundesliga,940871,Nico Schlotterbeck,D,5,7.60
+2673,Borussia Dortmund,bundesliga,556866,Gregor Kobel,G,5,7.30
+2673,Borussia Dortmund,bundesliga,799046,Waldemar Anton,D,5,7.14
+2673,Borussia Dortmund,bundesliga,980628,Maximilian Beier,F,5,7.12
+2673,Borussia Dortmund,bundesliga,133908,Marcel Sabitzer,M,4,7.08
+2673,Borussia Dortmund,bundesliga,1861666,Samuele Inacio,F,5,7.04
+2673,Borussia Dortmund,bundesliga,800951,Julian Ryerson,M,5,7.02
+2673,Borussia Dortmund,bundesliga,328027,Serhou Guirassy,F,5,6.98
+2673,Borussia Dortmund,bundesliga,907463,Felix Nmecha,M,2,6.80
+2673,Borussia Dortmund,bundesliga,226978,Julian Brandt,M,5,6.80
+2673,Borussia Dortmund,bundesliga,1002813,Yan Couto,D,2,6.80
+2673,Borussia Dortmund,bundesliga,1021272,Daniel Svensson,M,4,6.78
+2673,Borussia Dortmund,bundesliga,1134083,Jobe Bellingham,M,5,6.76
+2673,Borussia Dortmund,bundesliga,1937833,Luca Reggiani,D,3,6.73
+2673,Borussia Dortmund,bundesliga,940054,Karim Adeyemi,F,2,6.65
+2673,Borussia Dortmund,bundesliga,168937,Niklas Süle,D,1,6.60
+2673,Borussia Dortmund,bundesliga,954076,Fábio Silva,F,5,6.54
+2673,Borussia Dortmund,bundesliga,994556,Carney Chukwuemeka,M,4,6.50
+2673,Borussia Dortmund,bundesliga,795005,Salih Özcan,M,2,6.50
+2676,Hamburger SV,overall,1000263,Albert Grønbæk,F,1,9.40
+2676,Hamburger SV,overall,1995000,Louis Lemke,M,1,8.20
+2676,Hamburger SV,overall,1030355,Sander Tangvik,G,1,7.70
+2676,Hamburger SV,overall,1064305,Nicolai Remberg,M,1,7.40
+2676,Hamburger SV,overall,865057,Patson Daka,F,1,7.20
+2676,Hamburger SV,overall,826167,Sebastiaan Bornauw,D,1,7.20
+2676,Hamburger SV,overall,2204961,Shafiq Nandja,D,1,6.90
+2676,Hamburger SV,overall,973564,Nicolás Capaldo,D,1,6.80
+2676,Hamburger SV,overall,901892,Albert Sambi Lokonga,M,1,6.70
+2676,Hamburger SV,overall,842526,Bakery Jatta,M,1,6.70
+2676,Hamburger SV,overall,1568535,Otto Stange,F,1,6.70
+2676,Hamburger SV,overall,1129527,Bilal Nadir,M,1,6.60
+2676,Hamburger SV,overall,1158529,Martin Adeline,F,1,6.60
+2676,Hamburger SV,overall,991824,Rayan Philippe,F,1,6.40
+2676,Hamburger SV,overall,135264,Yussuf Poulsen,F,1,6.30
+2676,Hamburger SV,bundesliga,1030355,Sander Tangvik,G,1,8.80
+2676,Hamburger SV,bundesliga,904835,Fábio Vieira,F,5,7.60
+2676,Hamburger SV,bundesliga,168987,Robert Glatzel,F,3,7.50
+2676,Hamburger SV,bundesliga,113442,Daniel Fernandes,G,4,7.48
+2676,Hamburger SV,bundesliga,1405212,Luka Vušković,D,3,7.47
+2676,Hamburger SV,bundesliga,1000263,Albert Grønbæk,M,5,7.22
+2676,Hamburger SV,bundesliga,1546267,Fabio Baldé,F,2,7.15
+2676,Hamburger SV,bundesliga,1064305,Nicolai Remberg,M,5,7.02
+2676,Hamburger SV,bundesliga,999030,Warmed Omari,D,5,6.86
+2676,Hamburger SV,bundesliga,901892,Albert Sambi Lokonga,M,4,6.80
+2676,Hamburger SV,bundesliga,973564,Nicolás Capaldo,M,5,6.76
+2676,Hamburger SV,bundesliga,1035752,Giorgi Gocholeishvili,D,2,6.70
+2676,Hamburger SV,bundesliga,1012235,Ransford Yeboah Königsdörffer,F,4,6.68
+2676,Hamburger SV,bundesliga,135264,Yussuf Poulsen,F,3,6.63
+2676,Hamburger SV,bundesliga,945532,Daniel Elfadli,M,1,6.60
+2676,Hamburger SV,bundesliga,1102528,William Mikelbrencis,D,3,6.53
+2676,Hamburger SV,bundesliga,801003,Jordan Torunarigha,D,4,6.50
+2676,Hamburger SV,bundesliga,798303,Miro Muheim,D,2,6.50
+2676,Hamburger SV,bundesliga,1146091,Damion Downs,F,2,6.45
+2676,Hamburger SV,bundesliga,1568535,Otto Stange,F,4,6.45
+2676,Hamburger SV,bundesliga,842526,Bakery Jatta,M,4,6.35
+2676,Hamburger SV,bundesliga,2204961,Shafiq Nandja,D,1,6.30
+2676,Hamburger SV,bundesliga,991824,Rayan Philippe,F,2,6.25
+2676,Hamburger SV,bundesliga,988476,Philip Otele,F,1,4.90
+2538,SC Freiburg,overall,1131002,Derry Scherhant,M,4,7.98
+2538,SC Freiburg,overall,1019321,Igor Matanović,F,4,7.93
+2538,SC Freiburg,overall,142525,Lukas Kübler,D,2,7.45
+2538,SC Freiburg,overall,142259,Matthias Ginter,D,4,7.43
+2538,SC Freiburg,overall,569784,Maximilian Eggestein,M,4,7.40
+2538,SC Freiburg,overall,914755,Patrick Osterhage,M,2,7.25
+2538,SC Freiburg,overall,990209,Yannick Engelhardt,M,3,7.23
+2538,SC Freiburg,overall,1508537,Cyriaque Irié,M,4,7.13
+2538,SC Freiburg,overall,576266,Philipp Lienhart,D,4,7.05
+2538,SC Freiburg,overall,1131339,Jordy Makengo,D,3,6.97
+2538,SC Freiburg,overall,280009,Lucas Höler,F,3,6.93
+2538,SC Freiburg,overall,1131337,Maximilian Rosenfelder,D,3,6.93
+2538,SC Freiburg,overall,1391315,Keisuke Goto,F,4,6.90
+2538,SC Freiburg,overall,979820,Philipp Treu,D,3,6.90
+2538,SC Freiburg,overall,171961,Vincenzo Grifo,M,4,6.78
+2538,SC Freiburg,overall,1596573,Bruno Ogbus,D,2,6.70
+2538,SC Freiburg,overall,142231,Christian Günter,D,3,6.63
+2538,SC Freiburg,overall,1020422,Yuito Suzuki,M,4,6.63
+2538,SC Freiburg,overall,1195724,Berkay Yılmaz,D,1,6.60
+2538,SC Freiburg,overall,842858,Florian Müller,G,1,6.60
+2538,SC Freiburg,overall,836711,Jan-Niklas Beste,M,3,6.60
+2538,SC Freiburg,overall,1083390,Mio Backhaus,G,4,6.60
+2538,SC Freiburg,bundesliga,1518931,Johan Manzambi,M,4,7.48
+2538,SC Freiburg,bundesliga,142259,Matthias Ginter,D,4,7.35
+2538,SC Freiburg,bundesliga,1019321,Igor Matanović,F,5,7.26
+2538,SC Freiburg,bundesliga,576266,Philipp Lienhart,D,5,6.88
+2538,SC Freiburg,bundesliga,171961,Vincenzo Grifo,M,5,6.82
+2538,SC Freiburg,bundesliga,836711,Jan-Niklas Beste,M,5,6.80
+2538,SC Freiburg,bundesliga,569784,Maximilian Eggestein,M,5,6.80
+2538,SC Freiburg,bundesliga,1020422,Yuito Suzuki,M,2,6.80
+2538,SC Freiburg,bundesliga,1508537,Cyriaque Irié,F,1,6.70
+2538,SC Freiburg,bundesliga,1131339,Jordy Makengo,D,3,6.70
+2538,SC Freiburg,bundesliga,103442,Anthony Jung,D,2,6.65
+2538,SC Freiburg,bundesliga,142525,Lukas Kübler,D,5,6.62
+2538,SC Freiburg,bundesliga,1131002,Derry Scherhant,M,5,6.60
+2538,SC Freiburg,bundesliga,280009,Lucas Höler,F,5,6.60
+2538,SC Freiburg,bundesliga,1596573,Bruno Ogbus,D,5,6.58
+2538,SC Freiburg,bundesliga,979820,Philipp Treu,D,3,6.53
+2538,SC Freiburg,bundesliga,980626,Noah Atubolu,G,5,6.52
+2538,SC Freiburg,bundesliga,49639,Nicolas Höfler,M,5,6.50
+2538,SC Freiburg,bundesliga,2217897,Rouven Tarnutzer,M,1,6.50
+2538,SC Freiburg,bundesliga,171927,Maximilian Philipp,F,2,6.35
+2538,SC Freiburg,bundesliga,142231,Christian Günter,D,3,6.03
+2534,SV Werder Bremen,overall,830142,Jens Stage,M,1,8.30
+2534,SV Werder Bremen,overall,893586,Ludovit Reis,M,1,8.00
+2534,SV Werder Bremen,overall,825771,Marco Friedl,D,1,8.00
+2534,SV Werder Bremen,overall,851254,Amos Pieper,D,1,7.70
+2534,SV Werder Bremen,overall,2160258,Paul Erevbenagie,F,1,7.50
+2534,SV Werder Bremen,overall,960114,Olivier Deman,D,1,7.30
+2534,SV Werder Bremen,overall,1568521,Mick Schmetgens,D,1,7.10
+2534,SV Werder Bremen,overall,826171,Senne Lynen,M,1,6.90
+2534,SV Werder Bremen,overall,282073,Alexander Schlager,G,1,6.80
+2534,SV Werder Bremen,overall,815612,Marco Grüll,F,1,6.80
+2534,SV Werder Bremen,overall,1005343,Justin Njinmah,F,1,6.70
+2534,SV Werder Bremen,overall,132645,Niclas Füllkrug,F,1,6.60
+2534,SV Werder Bremen,overall,1864786,Salim Musah,F,1,6.60
+2534,SV Werder Bremen,overall,1100836,Samuel Mbangula,F,1,6.50
+2534,SV Werder Bremen,overall,1137584,Chuki,M,1,6.00
+2534,SV Werder Bremen,overall,352290,Cédric Itten,F,1,6.00
+2534,SV Werder Bremen,bundesliga,1083390,Mio Backhaus,G,5,7.60
+2534,SV Werder Bremen,bundesliga,830127,Romano Schmid,M,5,7.38
+2534,SV Werder Bremen,bundesliga,794962,Maximilian Wöber,D,2,7.25
+2534,SV Werder Bremen,bundesliga,830142,Jens Stage,M,5,7.10
+2534,SV Werder Bremen,bundesliga,960114,Olivier Deman,D,5,6.96
+2534,SV Werder Bremen,bundesliga,851254,Amos Pieper,D,5,6.88
+2534,SV Werder Bremen,bundesliga,826171,Senne Lynen,M,5,6.86
+2534,SV Werder Bremen,bundesliga,815612,Marco Grüll,F,4,6.83
+2534,SV Werder Bremen,bundesliga,1015164,Isaac Schmidt,D,2,6.75
+2534,SV Werder Bremen,bundesliga,229544,Niklas Stark,D,2,6.70
+2534,SV Werder Bremen,bundesliga,916176,Cameron Puertas,M,5,6.62
+2534,SV Werder Bremen,bundesliga,1005343,Justin Njinmah,M,5,6.62
+2534,SV Werder Bremen,bundesliga,1797852,Karim Coulibaly,D,4,6.60
+2534,SV Werder Bremen,bundesliga,111969,Leonardo Bittencourt,M,1,6.60
+2534,SV Werder Bremen,bundesliga,1596105,Patrice Čović,M,1,6.60
+2534,SV Werder Bremen,bundesliga,1100836,Samuel Mbangula,F,4,6.60
+2534,SV Werder Bremen,bundesliga,825771,Marco Friedl,D,3,6.57
+2534,SV Werder Bremen,bundesliga,1864786,Salim Musah,F,3,6.40
+2534,SV Werder Bremen,bundesliga,1154491,Jovan Milošević,F,3,6.37
+2534,SV Werder Bremen,bundesliga,905347,Yukinari Sugawara,D,4,6.00
+2600,FC Augsburg,overall,822564,Finn Dahmen,G,1,7.90
+2600,FC Augsburg,overall,796206,Kristijan Jakić,M,1,7.70
+2600,FC Augsburg,overall,1597260,Noahkai Banks,D,1,7.50
+2600,FC Augsburg,overall,927340,Han-Noah Massengo,M,1,7.40
+2600,FC Augsburg,overall,1129365,Anton Kade,F,1,7.00
+2600,FC Augsburg,overall,963198,Chrislain Matsima,D,1,7.00
+2600,FC Augsburg,overall,1864760,Hennes Behrens,M,1,7.00
+2600,FC Augsburg,overall,891651,Keven Schlotterbeck,D,1,6.90
+2600,FC Augsburg,overall,929620,Fabian Rieder,F,1,6.70
+2600,FC Augsburg,overall,111483,Michael Gregoritsch,F,1,6.70
+2600,FC Augsburg,overall,1215904,Rodrigo Ribeiro,F,1,6.60
+2600,FC Augsburg,overall,877842,Yannik Keitel,M,1,6.60
+2600,FC Augsburg,overall,254119,Marius Wolf,M,1,6.50
+2600,FC Augsburg,overall,860461,Robin Fellhauer,M,1,6.50
+2600,FC Augsburg,bundesliga,929620,Fabian Rieder,M,5,7.52
+2600,FC Augsburg,bundesliga,1129365,Anton Kade,F,5,7.46
+2600,FC Augsburg,bundesliga,822564,Finn Dahmen,G,5,7.44
+2600,FC Augsburg,bundesliga,1597260,Noahkai Banks,D,1,7.40
+2600,FC Augsburg,bundesliga,1122806,Arthur Chaves,D,3,7.20
+2600,FC Augsburg,bundesliga,354878,Dimitrios Giannoulis,M,4,7.05
+2600,FC Augsburg,bundesliga,822877,Alexis Claude-Maurice,M,4,6.88
+2600,FC Augsburg,bundesliga,796206,Kristijan Jakić,M,3,6.87
+2600,FC Augsburg,bundesliga,798926,Cedric Zesiger,D,5,6.84
+2600,FC Augsburg,bundesliga,111483,Michael Gregoritsch,F,4,6.78
+2600,FC Augsburg,bundesliga,927340,Han-Noah Massengo,M,5,6.76
+2600,FC Augsburg,bundesliga,860461,Robin Fellhauer,M,5,6.68
+2600,FC Augsburg,bundesliga,1390682,Mert Kömür,F,4,6.68
+2600,FC Augsburg,bundesliga,146853,Jeffrey Gouweleeuw,D,5,6.64
+2600,FC Augsburg,bundesliga,254119,Marius Wolf,M,5,6.62
+2600,FC Augsburg,bundesliga,963198,Chrislain Matsima,D,4,6.60
+2600,FC Augsburg,bundesliga,891651,Keven Schlotterbeck,D,1,6.60
+2600,FC Augsburg,bundesliga,842188,Elvis Rexhbeçaj,M,1,6.50
+2600,FC Augsburg,bundesliga,1996846,Uchenna Ogundu,F,2,6.45
+2600,FC Augsburg,bundesliga,1215904,Rodrigo Ribeiro,F,5,6.42
+2600,FC Augsburg,bundesliga,877842,Yannik Keitel,M,2,6.40
+2600,FC Augsburg,bundesliga,809219,Mads Pedersen,D,1,6.20
+2530,FC Schalke 04,overall,14990,Edin Džeko,F,2,7.65
+2530,FC Schalke 04,overall,869883,Dejan Ljubičić,F,2,7.20
+2530,FC Schalke 04,overall,861980,Moussa Sylla,F,2,7.20
+2530,FC Schalke 04,overall,1083338,Soufiane El-Faouzi,M,2,7.20
+2530,FC Schalke 04,overall,852096,Hasan Kuruçay,D,2,6.85
+2530,FC Schalke 04,overall,831488,Nikola Katić,D,2,6.85
+2530,FC Schalke 04,overall,1195734,Vitalie Becker,D,2,6.85
+2530,FC Schalke 04,overall,579254,Janik Bachmann,M,1,6.80
+2530,FC Schalke 04,overall,902381,Junior Adamu,F,2,6.80
+2530,FC Schalke 04,overall,981067,Satoshi Tanaka,M,2,6.75
+2530,FC Schalke 04,overall,814735,Timo Becker,D,2,6.75
+2530,FC Schalke 04,overall,2255221,Luca Vozar,M,1,6.70
+2530,FC Schalke 04,overall,174135,Loris Karius,G,2,6.60
+2530,FC Schalke 04,overall,872358,Ron Schallenberg,M,2,6.55
+2530,FC Schalke 04,overall,794962,Maximilian Wöber,D,1,6.50
+2530,FC Schalke 04,overall,377118,Robin Gosens,D,1,6.50
+2530,FC Schalke 04,overall,1113440,Christian Gomis,F,1,6.40
+2530,FC Schalke 04,overall,962877,Adil Aouchiche,M,2,6.30
+2530,FC Schalke 04,overall,904994,Eric Ebimbe,M,1,6.30
+2530,FC Schalke 04,overall,1195798,Mertcan Ayhan,D,2,6.05

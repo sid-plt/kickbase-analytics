@@ -3,81 +3,135 @@
     "match_id": 5881159,
     "home_team": "VfB Stuttgart",
     "away_team": "1. FC Köln",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.45,
+        "draw": 5.2,
+        "away_win": 6.0
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881152,
     "home_team": "Bayer Leverkusen",
     "away_team": "Union Berlin",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.4,
+        "draw": 5.2,
+        "away_win": 6.7
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881153,
     "home_team": "Borussia Mönchengladbach",
     "away_team": "Elversberg",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.87,
+        "draw": 3.9,
+        "away_win": 3.8
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881156,
     "home_team": "Hoffenheim",
     "away_team": "Borussia Dortmund",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 2.9,
+        "draw": 3.8,
+        "away_win": 2.25
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881157,
     "home_team": "Paderborn",
     "away_team": "Freiburg",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 3.7,
+        "draw": 3.6,
+        "away_win": 1.97
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881160,
     "home_team": "Werder Bremen",
     "away_team": "RB Leipzig",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 4.3,
+        "draw": 4.0,
+        "away_win": 1.75
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881158,
     "home_team": "Schalke 04",
     "away_team": "Bayern München",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 15.0,
+        "draw": 9.5,
+        "away_win": 1.14
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881155,
     "home_team": "Hamburger SV",
     "away_team": "Mainz 05",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 2.65,
+        "draw": 3.6,
+        "away_win": 2.5
+      }
+    ],
+    "issues": []
   },
   {
     "match_id": 5881154,
     "home_team": "Eintracht Frankfurt",
     "away_team": "Augsburg",
-    "bookmakers": [],
-    "issues": [
-      "OddsUnavailableError: No full-time 1X2 market is available."
-    ]
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.93,
+        "draw": 3.8,
+        "away_win": 3.7
+      }
+    ],
+    "issues": []
   }
 ]

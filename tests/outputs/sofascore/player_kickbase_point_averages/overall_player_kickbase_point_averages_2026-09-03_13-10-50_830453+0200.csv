@@ -1,0 +1,306 @@
+﻿team_id,team,category,player_id,player_name,position,appearance_count,average_calculated_kickbase_points
+2672,FC Bayern München,overall,978838,Michael Olise,MID,3,193.33
+2672,FC Bayern München,overall,798583,Dayot Upamecano,DEF,2,172.5
+2672,FC Bayern München,overall,883537,Luis Díaz,MID,5,144.0
+2672,FC Bayern München,overall,259117,Joshua Kimmich,MID,3,140.67
+2672,FC Bayern München,overall,1142251,Aleksandar Pavlović,MID,5,135.2
+2672,FC Bayern München,overall,1159759,Nathaniel Brown,MID,5,118.0
+2672,FC Bayern München,overall,1010231,Jamal Musiala,MID,2,95.0
+2672,FC Bayern München,overall,896569,Kim Min-jae,DEF,5,94.6
+2672,FC Bayern München,overall,108579,Harry Kane,FWD,3,86.67
+2672,FC Bayern München,overall,980418,Sacha Boey,DEF,3,77.0
+2672,FC Bayern München,overall,8959,Manuel Neuer,GK,4,71.5
+2672,FC Bayern München,overall,873106,Hiroki Itō,DEF,3,70.33
+2672,FC Bayern München,overall,1063767,Ismael Saibari,MID,4,69.5
+2672,FC Bayern München,overall,1129935,Tom Bischof,MID,4,67.0
+2672,FC Bayern München,overall,227672,Jonathan Tah,DEF,5,64.8
+2672,FC Bayern München,overall,2427970,Bara Sapoko Ndiaye,MID,2,61.0
+2672,FC Bayern München,overall,843665,Alphonso Davies,DEF,4,59.25
+2672,FC Bayern München,overall,927407,Josip Stanišić,DEF,4,58.0
+2672,FC Bayern München,overall,355492,Konrad Laimer,DEF,4,48.0
+2672,FC Bayern München,overall,1861975,Lennart Karl,MID,1,22.0
+2677,VfB Stuttgart,overall,1127790,Dženan Pejčinović,FWD,2,171.5
+2677,VfB Stuttgart,overall,983540,Tiago Tomás,FWD,2,131.5
+2677,VfB Stuttgart,overall,906278,Josha Vagnoman,MID,2,124.5
+2677,VfB Stuttgart,overall,794298,Deniz Undav,FWD,2,115.0
+2677,VfB Stuttgart,overall,863271,Jeff Chabot,DEF,2,114.0
+2677,VfB Stuttgart,overall,788949,Maximilian Mittelstädt,MID,2,106.0
+2677,VfB Stuttgart,overall,152463,Fabian Bredlow,GK,2,104.5
+2677,VfB Stuttgart,overall,901882,Angelo Stiller,MID,2,80.5
+2677,VfB Stuttgart,overall,1418649,Finn Jeltsch,DEF,2,78.0
+2677,VfB Stuttgart,overall,253993,Grischa Prömel,MID,2,69.5
+2677,VfB Stuttgart,overall,916943,Ramon Hendriks,DEF,1,24.0
+2677,VfB Stuttgart,overall,878081,Ermedin Demirović,FWD,2,8.5
+2677,VfB Stuttgart,overall,1126569,Bilal El Khannouss,MID,2,-3.0
+2677,VfB Stuttgart,overall,990201,Jamie Leweling,FWD,1,-13.0
+2677,VfB Stuttgart,overall,962898,Leonidas Stergiou,DEF,1,-13.0
+2671,1. FC Köln,overall,1112327,Ísak Bergmann Jóhannesson,MID,2,194.5
+2671,1. FC Köln,overall,905381,Thijs Dallinga,FWD,2,120.5
+2671,1. FC Köln,overall,1800475,Said El Mala,FWD,2,119.5
+2671,1. FC Köln,overall,187185,Marvin Schwäbe,GK,2,110.5
+2671,1. FC Köln,overall,921033,Linton Maina,MID,2,83.5
+2671,1. FC Köln,overall,930272,Tom Krauß,MID,2,80.0
+2671,1. FC Köln,overall,827473,Luka Lochoshvili,DEF,2,78.5
+2671,1. FC Köln,overall,877544,Ragnar Ache,FWD,2,75.0
+2671,1. FC Köln,overall,844942,Gideon Mensah,DEF,2,66.5
+2671,1. FC Köln,overall,839898,Alessio Castro-Montes,DEF,2,64.5
+2671,1. FC Köln,overall,1010726,Jan Uwe Thielmann,FWD,2,61.0
+2671,1. FC Köln,overall,1402924,Jahmai Simpson-Pusey,DEF,2,59.0
+2671,1. FC Köln,overall,378340,Marius Bülter,FWD,2,38.0
+2671,1. FC Köln,overall,591706,Ellyes Skhiri,MID,2,34.5
+2671,1. FC Köln,overall,1411105,Paul Okon-Engstler,MID,2,31.5
+2671,1. FC Köln,overall,965950,Joel Schmied,DEF,2,23.5
+2569,TSG Hoffenheim,overall,987504,Patrick Wimmer,MID,4,124.75
+2569,TSG Hoffenheim,overall,857740,Ozan Kabak,DEF,3,100.33
+2569,TSG Hoffenheim,overall,963801,Adam Hložek,FWD,4,75.0
+2569,TSG Hoffenheim,overall,916946,Wouter Burger,MID,4,72.25
+2569,TSG Hoffenheim,overall,943550,Luca Philipp,GK,2,68.5
+2569,TSG Hoffenheim,overall,138024,Vladimír Coufal,DEF,4,67.75
+2569,TSG Hoffenheim,overall,1180758,Adam Daghim,MID,4,66.5
+2569,TSG Hoffenheim,overall,1493305,Leon Avdullahu,MID,4,64.5
+2569,TSG Hoffenheim,overall,1000269,Albian Hajdari,DEF,4,62.75
+2569,TSG Hoffenheim,overall,944899,Valentin Gendrey,DEF,3,48.33
+2569,TSG Hoffenheim,overall,1185359,Bambasé Conté,FWD,4,48.25
+2569,TSG Hoffenheim,overall,1387012,Mats Rots,DEF,4,46.5
+2569,TSG Hoffenheim,overall,1637689,Nathan De Cat,MID,4,45.0
+2569,TSG Hoffenheim,overall,1861981,Natnael Abraha,DEF,3,22.67
+2569,TSG Hoffenheim,overall,40244,Oliver Baumann,GK,2,21.5
+2569,TSG Hoffenheim,overall,1014290,Tim Lemperle,FWD,3,16.33
+2569,TSG Hoffenheim,overall,2077300,Cajetan Lenz,MID,2,16.0
+2569,TSG Hoffenheim,overall,1418703,Max Moerstedt,FWD,4,14.0
+2569,TSG Hoffenheim,overall,957615,Robin Hranáč,DEF,3,9.33
+2569,TSG Hoffenheim,overall,828571,Bernardo,DEF,3,7.33
+2569,TSG Hoffenheim,overall,1122806,Arthur Chaves,DEF,2,-2.5
+2569,TSG Hoffenheim,overall,67647,Andrej Kramarić,FWD,1,-3.0
+2547,1. FC Union Berlin,overall,791642,Josip Juranović,DEF,2,162.5
+2547,1. FC Union Berlin,overall,1090010,Marin Ljubičić,FWD,2,154.0
+2547,1. FC Union Berlin,overall,1086547,Leopold Querfeld,DEF,2,151.5
+2547,1. FC Union Berlin,overall,800252,Tim Skarke,MID,1,147.0
+2547,1. FC Union Berlin,overall,1210666,Tom Alexander Rothe,DEF,2,126.5
+2547,1. FC Union Berlin,overall,1103765,Zeno Van Den Bosch,DEF,2,115.0
+2547,1. FC Union Berlin,overall,1198074,Aljoscha Kemlein,MID,2,58.5
+2547,1. FC Union Berlin,overall,149479,Rani Khedira,MID,2,56.5
+2547,1. FC Union Berlin,overall,848074,Emmanuel Latte Lath,FWD,2,50.5
+2547,1. FC Union Berlin,overall,842718,Matheo Raab,GK,2,49.5
+2547,1. FC Union Berlin,overall,877302,András Schäfer,MID,2,45.0
+2547,1. FC Union Berlin,overall,927405,Woo-Yeong Jeong,MID,2,42.5
+2547,1. FC Union Berlin,overall,1513469,Livan Burcu,FWD,2,41.5
+2547,1. FC Union Berlin,overall,168985,Janik Haberer,MID,1,25.0
+2547,1. FC Union Berlin,overall,886737,Derrick Köhn,DEF,1,19.0
+2547,1. FC Union Berlin,overall,850891,Michel Aebischer,MID,2,16.5
+2674,Eintracht Frankfurt,overall,1440948,Can Uzun,MID,3,228.33
+2674,Eintracht Frankfurt,overall,1474296,Younes Ebnoutalib,FWD,3,182.33
+2674,Eintracht Frankfurt,overall,939830,Jonathan Burkardt,FWD,3,164.33
+2674,Eintracht Frankfurt,overall,1501641,Keita Kosugi,DEF,3,140.0
+2674,Eintracht Frankfurt,overall,581302,Robin Koch,DEF,3,112.33
+2674,Eintracht Frankfurt,overall,1403018,Elias Baum,DEF,3,109.67
+2674,Eintracht Frankfurt,overall,1898148,Ayoube Amaimouni Echghouyab,MID,3,103.0
+2674,Eintracht Frankfurt,overall,1129862,Raphael Onyedika,MID,3,72.33
+2674,Eintracht Frankfurt,overall,1192318,Farès Chaïbi,MID,3,71.67
+2674,Eintracht Frankfurt,overall,980626,Noah Atubolu,GK,1,71.0
+2674,Eintracht Frankfurt,overall,2115909,Otavio,DEF,3,56.33
+2674,Eintracht Frankfurt,overall,1134203,Kauã Santos,GK,2,41.5
+2674,Eintracht Frankfurt,overall,997012,Ansgar Knauff,FWD,2,37.0
+2674,Eintracht Frankfurt,overall,1957761,Malik Pimpong,FWD,2,15.0
+2674,Eintracht Frankfurt,overall,1977245,Love Arrhov,MID,3,4.33
+2674,Eintracht Frankfurt,overall,1149113,Oscar Højlund,MID,2,-4.0
+2556,1. FSV Mainz 05,overall,327755,Nadiem Amiri,MID,2,354.0
+2556,1. FSV Mainz 05,overall,822340,Phillip Tietz,FWD,2,267.5
+2556,1. FSV Mainz 05,overall,152206,Dominik Kohr,DEF,2,180.5
+2556,1. FSV Mainz 05,overall,1028307,Kaishu Sano,MID,2,150.0
+2556,1. FSV Mainz 05,overall,138126,Phillipp Mwene,MID,2,142.0
+2556,1. FSV Mainz 05,overall,1130119,Fabio Gruber,DEF,2,140.5
+2556,1. FSV Mainz 05,overall,97926,Danny da Costa,DEF,2,135.0
+2556,1. FSV Mainz 05,overall,537552,Jae-sung Lee,MID,2,131.5
+2556,1. FSV Mainz 05,overall,846471,Anthony Caci,MID,2,131.0
+2556,1. FSV Mainz 05,overall,174345,Robin Zentner,GK,2,119.0
+2556,1. FSV Mainz 05,overall,352544,Sheraldo Becker,FWD,2,100.5
+2556,1. FSV Mainz 05,overall,1012235,Ransford Yeboah Königsdörffer,FWD,2,74.0
+2556,1. FSV Mainz 05,overall,1175898,Otto Ruoppi,MID,2,59.5
+2556,1. FSV Mainz 05,overall,1548910,Kacper Potulski,DEF,2,37.0
+2556,1. FSV Mainz 05,overall,157377,Silvan Widmer,DEF,2,33.0
+2561,SC Paderborn 07,overall,1152342,Jano Ter-Horst,DEF,2,160.0
+2561,SC Paderborn 07,overall,1199101,Santiago Castañeda,MID,2,147.5
+2561,SC Paderborn 07,overall,981788,Laurin Curda,MID,2,129.5
+2561,SC Paderborn 07,overall,1083387,Mattes Hansen,DEF,2,123.0
+2561,SC Paderborn 07,overall,1129940,Gabriel Vidović,FWD,2,116.0
+2561,SC Paderborn 07,overall,1048651,Nahuel Noll,GK,1,107.0
+2561,SC Paderborn 07,overall,1167764,Stefano Marino,FWD,2,98.5
+2561,SC Paderborn 07,overall,1137717,Tjark Lasse Scheller,DEF,2,70.0
+2561,SC Paderborn 07,overall,1152486,Laurin Ulrich,MID,2,66.0
+2561,SC Paderborn 07,overall,820465,Raphael Obermair,MID,2,60.0
+2561,SC Paderborn 07,overall,909485,Marvin Pieringer,FWD,1,55.0
+2561,SC Paderborn 07,overall,826884,Steffen Tigges,FWD,2,35.0
+2561,SC Paderborn 07,overall,1517850,Jonah Sticker,DEF,2,23.0
+2561,SC Paderborn 07,overall,2020672,Clemens Lippmann,MID,2,21.0
+2561,SC Paderborn 07,overall,800448,Tom Baack,MID,1,9.0
+36360,RB Leipzig,overall,1121923,Antonio Nusa,FWD,3,154.67
+36360,RB Leipzig,overall,136924,Willi Orbán,DEF,4,136.25
+36360,RB Leipzig,overall,856553,Ridle Baku,DEF,4,118.5
+36360,RB Leipzig,overall,1155383,Ezechiel Banzuzi,MID,4,109.25
+36360,RB Leipzig,overall,1198075,Brajan Gruda,FWD,4,107.75
+36360,RB Leipzig,overall,1048650,Rocco Reitz,MID,3,94.33
+36360,RB Leipzig,overall,976421,Castello Lukeba,DEF,4,93.0
+36360,RB Leipzig,overall,769333,Christopher Nkunku,FWD,1,83.0
+36360,RB Leipzig,overall,934385,Maarten Vandevoordt,GK,4,81.5
+36360,RB Leipzig,overall,1426577,Tidiam Gomis,FWD,4,77.25
+36360,RB Leipzig,overall,856076,David Raum,DEF,4,77.0
+36360,RB Leipzig,overall,976575,Nicolas Seiwald,MID,4,55.5
+36360,RB Leipzig,overall,1146250,Max Finkgräfe,DEF,3,46.0
+36360,RB Leipzig,overall,1088896,Johan Bakayoko,FWD,4,37.25
+36360,RB Leipzig,overall,319857,Benjamin Henrichs,DEF,4,30.0
+36360,RB Leipzig,overall,1149127,Arthur Vermeeren,MID,4,25.5
+36360,RB Leipzig,overall,1406171,Andrija Maksimović,MID,2,0.5
+2527,Borussia M'gladbach,overall,1142210,Hugo Bolin,MID,2,194.0
+2527,Borussia M'gladbach,overall,897334,Daiki Hashioka,DEF,2,141.0
+2527,Borussia M'gladbach,overall,1083382,Lukas Ullrich,DEF,2,124.5
+2527,Borussia M'gladbach,overall,939880,Philipp Sander,MID,2,123.5
+2527,Borussia M'gladbach,overall,1995809,Wael Mohya,MID,2,117.0
+2527,Borussia M'gladbach,overall,95381,Kevin Stöger,MID,2,98.0
+2527,Borussia M'gladbach,overall,578166,Moritz Nicolas,GK,2,91.0
+2527,Borussia M'gladbach,overall,583806,Kevin Diks,DEF,2,89.0
+2527,Borussia M'gladbach,overall,876858,Robin Hack,MID,2,88.0
+2527,Borussia M'gladbach,overall,280453,Franck Honorat,MID,2,87.5
+2527,Borussia M'gladbach,overall,798175,Isac Lidberg,FWD,2,48.5
+2527,Borussia M'gladbach,overall,790989,Ko Itakura,DEF,2,46.0
+2527,Borussia M'gladbach,overall,997178,David Herold,DEF,2,17.5
+2527,Borussia M'gladbach,overall,1861977,Mathieu Nguefack,MID,1,8.0
+2527,Borussia M'gladbach,overall,1002920,Joe Scally,DEF,1,-15.0
+2527,Borussia M'gladbach,overall,228981,Tim Kleindienst,FWD,1,-27.0
+2598,SV 07 Elversberg,overall,1414916,Francis Onyeka,MID,2,186.0
+2598,SV 07 Elversberg,overall,960017,Lukas Petkov,MID,2,143.5
+2598,SV 07 Elversberg,overall,1134578,Cole Campbell,MID,2,120.5
+2598,SV 07 Elversberg,overall,1215028,Felix Keidel,MID,2,96.0
+2598,SV 07 Elversberg,overall,990105,Lukas Finn Pinckert,DEF,1,91.0
+2598,SV 07 Elversberg,overall,846398,Maximilian Rohr,DEF,2,89.0
+2598,SV 07 Elversberg,overall,254133,Luca Schnellbacher,MID,2,81.0
+2598,SV 07 Elversberg,overall,1131080,Nicolas Kristof,GK,2,81.0
+2598,SV 07 Elversberg,overall,1432398,David Mokwa,FWD,2,79.5
+2598,SV 07 Elversberg,overall,942336,Łukasz Poręba,MID,2,72.5
+2598,SV 07 Elversberg,overall,254411,Jan Gyamerah,DEF,2,60.0
+2598,SV 07 Elversberg,overall,787816,Florian Yves Le Joncour,DEF,2,57.0
+2598,SV 07 Elversberg,overall,997175,Lasse Günther,DEF,2,34.5
+2598,SV 07 Elversberg,overall,964603,Luca Sirch,DEF,2,23.5
+2598,SV 07 Elversberg,overall,1469995,Noah Darvich,MID,2,14.0
+2598,SV 07 Elversberg,overall,1153365,Maurice Krattenmacher,MID,1,11.0
+2681,Bayer 04 Leverkusen,overall,1407524,Ibrahim Maza,MID,3,129.0
+2681,Bayer 04 Leverkusen,overall,280609,Patrik Schick,FWD,3,114.33
+2681,Bayer 04 Leverkusen,overall,796047,Aleix García,MID,3,110.67
+2681,Bayer 04 Leverkusen,overall,2029648,Christian Kofane,FWD,3,100.33
+2681,Bayer 04 Leverkusen,overall,908716,Miguel Gutiérrez,DEF,3,86.67
+2681,Bayer 04 Leverkusen,overall,920379,Nathan Tella,FWD,2,83.0
+2681,Bayer 04 Leverkusen,overall,1215906,Afonso Moreira,MID,3,79.67
+2681,Bayer 04 Leverkusen,overall,978521,Victor Okoh Boniface,FWD,2,72.5
+2681,Bayer 04 Leverkusen,overall,255239,Lucas Vázquez,DEF,3,71.33
+2681,Bayer 04 Leverkusen,overall,883262,Edmond Tapsoba,DEF,3,68.67
+2681,Bayer 04 Leverkusen,overall,1006489,Loïc Badé,DEF,3,68.67
+2681,Bayer 04 Leverkusen,overall,975798,Malik Tillman,MID,3,67.67
+2681,Bayer 04 Leverkusen,overall,1003012,Ezequiel Fernández,MID,3,64.67
+2681,Bayer 04 Leverkusen,overall,171919,Mark Flekken,GK,2,52.0
+2681,Bayer 04 Leverkusen,overall,1003339,Jarell Quansah,DEF,2,46.0
+2681,Bayer 04 Leverkusen,overall,142390,Jonas Hofmann,MID,1,30.0
+2681,Bayer 04 Leverkusen,overall,860307,Facundo Medina,DEF,2,21.5
+2673,Borussia Dortmund,overall,1468744,Konstantinos Karetsas,FWD,4,100.25
+2673,Borussia Dortmund,overall,1002007,Giannis Konstantelias,FWD,2,98.0
+2673,Borussia Dortmund,overall,799046,Waldemar Anton,DEF,3,96.33
+2673,Borussia Dortmund,overall,1021272,Daniel Svensson,DEF,5,93.8
+2673,Borussia Dortmund,overall,800951,Julian Ryerson,MID,3,86.33
+2673,Borussia Dortmund,overall,954076,Fábio Silva,FWD,4,82.0
+2673,Borussia Dortmund,overall,1471049,Joane Gadou,DEF,5,81.6
+2673,Borussia Dortmund,overall,556866,Gregor Kobel,GK,3,73.33
+2673,Borussia Dortmund,overall,1937833,Luca Reggiani,DEF,3,72.0
+2673,Borussia Dortmund,overall,1134083,Jobe Bellingham,MID,5,69.0
+2673,Borussia Dortmund,overall,907463,Felix Nmecha,MID,5,68.8
+2673,Borussia Dortmund,overall,980628,Maximilian Beier,MID,4,66.75
+2673,Borussia Dortmund,overall,328027,Serhou Guirassy,FWD,5,62.2
+2673,Borussia Dortmund,overall,994556,Carney Chukwuemeka,MID,2,56.0
+2673,Borussia Dortmund,overall,1137131,Filippo Mané,DEF,3,54.33
+2673,Borussia Dortmund,overall,577726,Ramy Bensebaini,DEF,3,35.33
+2673,Borussia Dortmund,overall,133908,Marcel Sabitzer,MID,4,30.75
+2673,Borussia Dortmund,overall,1861666,Samuele Inacio,FWD,5,22.0
+2673,Borussia Dortmund,overall,850816,Joey Veerman,MID,2,13.5
+2673,Borussia Dortmund,overall,1937835,Mathis Albert,FWD,3,13.0
+2673,Borussia Dortmund,overall,1887796,Kauã Prates,DEF,3,3.67
+2676,Hamburger SV,overall,1000263,Albert Grønbæk,FWD,2,147.0
+2676,Hamburger SV,overall,1064305,Nicolai Remberg,MID,2,91.0
+2676,Hamburger SV,overall,826167,Sebastiaan Bornauw,DEF,2,75.0
+2676,Hamburger SV,overall,973564,Nicolás Capaldo,DEF,2,65.0
+2676,Hamburger SV,overall,865057,Patson Daka,FWD,2,56.5
+2676,Hamburger SV,overall,842526,Bakery Jatta,MID,2,50.0
+2676,Hamburger SV,overall,901892,Albert Sambi Lokonga,MID,2,46.5
+2676,Hamburger SV,overall,1158529,Martin Adeline,FWD,2,32.0
+2676,Hamburger SV,overall,113442,Daniel Fernandes,GK,1,25.0
+2676,Hamburger SV,overall,1568535,Otto Stange,FWD,2,21.5
+2676,Hamburger SV,overall,1129527,Bilal Nadir,MID,2,9.5
+2676,Hamburger SV,overall,894396,Terem Moffi,FWD,1,1.0
+2676,Hamburger SV,overall,135264,Yussuf Poulsen,FWD,2,0.5
+2676,Hamburger SV,overall,801003,Jordan Torunarigha,DEF,1,-6.0
+2538,SC Freiburg,overall,1019321,Igor Matanović,FWD,5,188.4
+2538,SC Freiburg,overall,142259,Matthias Ginter,DEF,5,184.4
+2538,SC Freiburg,overall,1131002,Derry Scherhant,MID,5,156.2
+2538,SC Freiburg,overall,1020422,Yuito Suzuki,MID,5,126.0
+2538,SC Freiburg,overall,569784,Maximilian Eggestein,MID,5,125.6
+2538,SC Freiburg,overall,914755,Patrick Osterhage,MID,2,114.5
+2538,SC Freiburg,overall,142525,Lukas Kübler,DEF,3,114.0
+2538,SC Freiburg,overall,990209,Yannick Engelhardt,MID,4,106.0
+2538,SC Freiburg,overall,280009,Lucas Höler,FWD,4,100.5
+2538,SC Freiburg,overall,1131339,Jordy Makengo,DEF,4,99.0
+2538,SC Freiburg,overall,1508537,Cyriaque Irié,FWD,5,96.0
+2538,SC Freiburg,overall,836711,Jan-Niklas Beste,MID,4,83.25
+2538,SC Freiburg,overall,171961,Vincenzo Grifo,MID,4,78.25
+2538,SC Freiburg,overall,576266,Philipp Lienhart,DEF,5,77.6
+2538,SC Freiburg,overall,1131337,Maximilian Rosenfelder,DEF,4,76.0
+2538,SC Freiburg,overall,979820,Philipp Treu,DEF,4,67.5
+2538,SC Freiburg,overall,1391315,Keisuke Goto,FWD,5,59.6
+2538,SC Freiburg,overall,1083390,Mio Backhaus,GK,5,54.0
+2538,SC Freiburg,overall,142231,Christian Günter,DEF,3,52.33
+2538,SC Freiburg,overall,1596573,Bruno Ogbus,DEF,2,33.0
+2538,SC Freiburg,overall,1195724,Berkay Yılmaz,DEF,2,28.0
+2534,SV Werder Bremen,overall,1141977,Dariusz Stalmach,MID,1,137.0
+2534,SV Werder Bremen,overall,960114,Olivier Deman,DEF,2,136.5
+2534,SV Werder Bremen,overall,893586,Ludovit Reis,MID,2,116.0
+2534,SV Werder Bremen,overall,851254,Amos Pieper,DEF,2,108.0
+2534,SV Werder Bremen,overall,825771,Marco Friedl,DEF,2,107.5
+2534,SV Werder Bremen,overall,815612,Marco Grüll,FWD,2,92.5
+2534,SV Werder Bremen,overall,132645,Niclas Füllkrug,FWD,2,80.0
+2534,SV Werder Bremen,overall,1568521,Mick Schmetgens,DEF,2,62.0
+2534,SV Werder Bremen,overall,826171,Senne Lynen,MID,2,44.0
+2534,SV Werder Bremen,overall,1137584,Chuki,MID,2,43.5
+2534,SV Werder Bremen,overall,352290,Cédric Itten,FWD,2,41.5
+2534,SV Werder Bremen,overall,1005343,Justin Njinmah,FWD,2,37.5
+2534,SV Werder Bremen,overall,1864786,Salim Musah,FWD,2,15.5
+2534,SV Werder Bremen,overall,991591,Karl Hein,GK,1,0.0
+2534,SV Werder Bremen,overall,1067120,Eren Dinkçi,FWD,1,-11.0
+2600,FC Augsburg,overall,1129365,Anton Kade,FWD,2,225.5
+2600,FC Augsburg,overall,254119,Marius Wolf,MID,2,153.0
+2600,FC Augsburg,overall,111483,Michael Gregoritsch,FWD,2,152.0
+2600,FC Augsburg,overall,822564,Finn Dahmen,GK,2,132.0
+2600,FC Augsburg,overall,963198,Chrislain Matsima,DEF,2,129.5
+2600,FC Augsburg,overall,1597260,Noahkai Banks,DEF,2,128.5
+2600,FC Augsburg,overall,1128792,Calvin Brackelmann,DEF,1,126.0
+2600,FC Augsburg,overall,929620,Fabian Rieder,MID,2,122.5
+2600,FC Augsburg,overall,927340,Han-Noah Massengo,MID,2,111.0
+2600,FC Augsburg,overall,1864760,Hennes Behrens,MID,2,99.5
+2600,FC Augsburg,overall,1215904,Rodrigo Ribeiro,FWD,2,91.5
+2600,FC Augsburg,overall,1019333,Young-woo Seol,DEF,1,72.0
+2600,FC Augsburg,overall,860461,Robin Fellhauer,FWD,2,64.0
+2600,FC Augsburg,overall,1390682,Mert Kömür,MID,2,42.0
+2600,FC Augsburg,overall,877842,Yannik Keitel,MID,2,31.5
+2600,FC Augsburg,overall,146853,Jeffrey Gouweleeuw,DEF,1,22.0
+2530,FC Schalke 04,overall,14990,Edin Džeko,FWD,3,106.67
+2530,FC Schalke 04,overall,861980,Moussa Sylla,FWD,3,79.0
+2530,FC Schalke 04,overall,869883,Dejan Ljubičić,MID,3,69.0
+2530,FC Schalke 04,overall,962877,Adil Aouchiche,FWD,3,62.67
+2530,FC Schalke 04,overall,1083338,Soufiane El-Faouzi,MID,3,58.33
+2530,FC Schalke 04,overall,852096,Hasan Kuruçay,DEF,3,58.0
+2530,FC Schalke 04,overall,174135,Loris Karius,GK,3,47.33
+2530,FC Schalke 04,overall,831488,Nikola Katić,DEF,3,45.33
+2530,FC Schalke 04,overall,902381,Junior Adamu,FWD,3,43.0
+2530,FC Schalke 04,overall,814735,Timo Becker,DEF,3,41.67
+2530,FC Schalke 04,overall,377118,Robin Gosens,DEF,2,27.5
+2530,FC Schalke 04,overall,1195734,Vitalie Becker,MID,3,24.67
+2530,FC Schalke 04,overall,981067,Satoshi Tanaka,MID,2,13.5
+2530,FC Schalke 04,overall,872358,Ron Schallenberg,MID,3,3.33
+2530,FC Schalke 04,overall,904994,Eric Ebimbe,MID,2,-6.0
+2530,FC Schalke 04,overall,1195798,Mertcan Ayhan,DEF,3,-11.33
+2530,FC Schalke 04,overall,794962,Maximilian Wöber,DEF,2,-48.5

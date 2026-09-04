@@ -1,0 +1,642 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transfermarkt Maintenance</title>
+    <style>
+      @font-face {
+        font-display: swap;
+        font-family: "SourceSansPro-VF";
+        font-style: normal;
+        font-weight: normal;
+        src: url("https://tmsi.akamaized.net/fonts/SourceSans3VF-Roman.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "UniviaPro";
+        font-style: normal;
+        font-weight: 450;
+        src: url("https://tmsi.akamaized.net/fonts/UniviaPro-Regular.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "UniviaPro";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://tmsi.akamaized.net/fonts/UniviaPro-Medium.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "UniviaPro";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://tmsi.akamaized.net/fonts/UniviaPro-Bold.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "UniviaPro";
+        font-style: normal;
+        font-weight: 900;
+        src: url("https://tmsi.akamaized.net/fonts/UniviaPro-Black.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "UniviaPro";
+        font-style: normal;
+        font-weight: 950;
+        src: url("https://tmsi.akamaized.net/fonts/UniviaPro-Ultra.woff2")
+          format("woff2");
+      }
+
+      :root {
+        --bg: #f7f8f9;
+        --surface: #ffffff;
+        --border: #f2f3f5;
+        --heading: #00193f;
+        --text: #66758c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "SourceSansPro-VF", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--heading);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        margin-top: 48px;
+        margin-bottom: 24px;
+      }
+
+      main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      footer {
+        width: 100%;
+        margin-top: auto;
+        background-color: var(--heading);
+        color: #fff;
+        padding: 24px 0 32px;
+      }
+
+      .footer-layout {
+        align-items: flex-start;
+        display: flex;
+        margin: 0 auto;
+        max-width: 736px;
+        padding: 0;
+        width: 100%;
+      }
+
+      footer section {
+        flex: 1 0 0;
+        min-width: 0;
+      }
+
+      .footer-layout > section + section {
+        margin-left: 16px;
+      }
+
+      footer section > p + p,
+      footer section > address + p {
+        margin-top: 16px;
+      }
+
+      .footer-layout > section:last-child > section + section {
+        margin-top: 22px;
+      }
+
+      footer h2 {
+        margin: 0 0 8px;
+        font-family: "UniviaPro", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #fff;
+      }
+
+      footer h3 {
+        margin: 3px 0 9px;
+        font-family: "UniviaPro", Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #fff;
+      }
+
+      footer p,
+      footer address {
+        margin: 0;
+        font-family: "SourceSansPro-VF", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: initial;
+        font-variation-settings: "wght" 400;
+        line-height: 18px;
+        color: #fff;
+      }
+
+      footer address {
+        font-style: normal;
+      }
+
+      footer a {
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      footer a:hover,
+      footer a:focus {
+        text-decoration: underline;
+      }
+
+      .content {
+        border-radius: 8px;
+        display: flex;
+        padding: 16px 16px 80px;
+        max-width: 800px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+      }
+
+      .logo {
+        width: 99px;
+        height: 40px;
+        display: block;
+        flex-shrink: 0;
+      }
+
+      .card {
+        width: 100%;
+        padding: 16px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .headline {
+        margin: 0;
+        font-family: "UniviaPro", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        color: var(--heading);
+        align-self: flex-start;
+      }
+
+      .message {
+        margin: 0;
+        font-size: 14px;
+        font-weight: initial;
+        font-variation-settings: "wght" 400;
+        line-height: 22px;
+        color: var(--text);
+        text-wrap: pretty;
+        text-align: left;
+      }
+
+      .message + .message {
+        margin-top: 18px;
+      }
+
+      .message.bold {
+        font-weight: 500;
+        font-family: "UniviaPro", Arial, Helvetica, sans-serif;
+        line-height: 18px;
+        font-size: 13px;
+      }
+
+      hr {
+        margin: 16px 0;
+        height: 1px;
+        color: var(--border);
+        background: var(--border);
+        border: none;
+      }
+
+      .social-buttons {
+        display: flex;
+        gap: 16px;
+        padding: 8px 0;
+      }
+
+      .social-buttons a {
+        border: 1px solid #d9dde3;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 40px;
+        padding: 8px 16px;
+        margin: 0;
+        border-radius: 8px;
+        text-decoration: none;
+      }
+
+      @media (min-width: 769px) {
+        .footer-layout > section:last-child {
+          display: flex;
+          flex-direction: column;
+          gap: 33px;
+          padding-top: 29px;
+        }
+
+        .footer-layout > section:last-child > section + section {
+          margin-top: 0;
+        }
+
+        .footer-layout > section:last-child h3 {
+          margin-top: 0;
+          margin-bottom: 1px;
+        }
+
+        .social-buttons a {
+          transition: border-color 200ms ease;
+        }
+
+        .social-buttons a:hover {
+          border-color: #99a3b2;
+        }
+      }
+
+      .social-buttons a img {
+        width: 20px;
+        height: 24px;
+      }
+
+      @media (max-width: 768px) {
+        .content {
+          padding: 16px 8px 80px 8px;
+        }
+
+        .message {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .footer-layout {
+          padding: 0 24px;
+          flex-direction: column;
+          gap: 16px;
+        }
+
+        .footer-layout > section + section {
+          margin-left: 0;
+        }
+
+        footer section > p + p,
+        footer section > address + p {
+          margin-top: 16px;
+        }
+
+        .footer-layout > section:last-child > section + section {
+          margin-top: 16px;
+        }
+
+        .footer-layout > section:last-child h3 {
+          margin-top: 0;
+          margin-bottom: 4px;
+        }
+
+        footer p,
+        footer address {
+          font-size: 14px;
+          line-height: 22px;
+        }
+
+        .social-buttons {
+          display: grid;
+          grid-template-columns: repeat(3, auto);
+          gap: 16px;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .social-buttons a {
+          width: 52px;
+          height: 48px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="https://tmsi.akamaized.net/head/tm_logo_rebrush.svg" alt="Transfermarkt Logo" height="39" width="96">
+    </header>
+    <main class="page">
+      <section class="content" aria-label="Maintenance message">
+        <article class="card" aria-live="polite">
+          <h1 class="headline" data-lang="en">
+            Transfermarkt is back online
+          </h1>
+          <h1 class="headline" data-lang="de" hidden="">
+            Transfermarkt ist wieder online
+          </h1>
+          <h1 class="headline" data-lang="it" hidden="">
+            Transfermarkt è di nuovo online
+          </h1>
+          <h1 class="headline" data-lang="tr" hidden="">
+            Transfermarkt yeniden erişime açıldı
+          </h1>
+          <h1 class="headline" data-lang="es" hidden="">
+            Transfermarkt vuelve a estar disponible
+          </h1>
+          <div data-lang="en">
+            <p class="message">Dear community,</p>
+            <p class="message">
+              Transfermarkt is available again. However, we are continuing to
+              work on fully restoring and stabilizing some services. During this
+              time, you may still occasionally encounter this error message in
+              certain areas of the platform.
+            </p>
+            <p class="message">
+              Our team continues to work at full speed to resolve the remaining
+              issues and restore full access to our website as usual.
+            </p>
+            <p class="message">
+              Thank you for your patience and understanding. We are happy to
+              welcome you back to Transfermarkt.
+            </p>
+          </div>
+          <div data-lang="de" hidden="">
+            <p class="message">Liebe Community,</p>
+            <p class="message">
+              Transfermarkt ist wieder verfügbar. Wir arbeiten jedoch weiterhin
+              daran, einige Dienste vollständig wiederherzustellen und zu
+              stabilisieren. In dieser Zeit kann es vorkommen, dass euch in
+              einzelnen Bereichen der Plattform vereinzelt noch diese
+              Fehlermeldung angezeigt wird.
+            </p>
+            <p class="message">
+              Unser Team arbeitet weiterhin mit Hochdruck daran, die
+              verbleibenden Probleme zu beheben und euch unsere Website wie
+              gewohnt wieder vollständig zur Verfügung zu stellen.
+            </p>
+            <p class="message">
+              Vielen Dank für eure Geduld und euer Verständnis. Wir freuen uns,
+              euch wieder auf Transfermarkt begrüßen zu können.
+            </p>
+          </div>
+          <div data-lang="it" hidden="">
+            <p class="message">Cara community,</p>
+            <p class="message">
+              Transfermarkt è di nuovo disponibile. Tuttavia, stiamo ancora
+              lavorando per ripristinare completamente e stabilizzare alcuni
+              servizi. Durante questo periodo, in alcune aree della piattaforma
+              potrebbe ancora comparire occasionalmente questo messaggio di
+              errore.
+            </p>
+            <p class="message">
+              Il nostro team continua a lavorare a pieno ritmo per risolvere i
+              problemi rimanenti e rendere nuovamente disponibile il nostro sito
+              web in tutte le sue funzionalità, come di consueto.
+            </p>
+            <p class="message">
+              Grazie per la pazienza e la comprensione. Siamo felici di potervi
+              dare nuovamente il benvenuto su Transfermarkt.
+            </p>
+          </div>
+          <div data-lang="tr" hidden="">
+            <p class="message">Sevgili Transfermarkt topluluğu,</p>
+            <p class="message">
+              Transfermarkt yeniden erişime açıldı. Ancak bazı hizmetleri
+              tamamen geri yüklemek ve stabil hâle getirmek için çalışmalarımız
+              devam ediyor. Bu süre boyunca platformun bazı bölümlerinde zaman
+              zaman bu hata mesajıyla karşılaşabilirsiniz.
+            </p>
+            <p class="message">
+              Ekibimiz, kalan sorunları gidermek ve web sitemizi alıştığınız
+              şekilde yeniden eksiksiz kullanıma sunmak için çalışmalarını
+              aralıksız sürdürüyor.
+            </p>
+            <p class="message">
+              Sabrınız ve anlayışınız için teşekkür ederiz. Sizleri yeniden
+              Transfermarkt’ta görmekten mutluluk duyuyoruz.
+            </p>
+          </div>
+          <div data-lang="es" hidden="">
+            <p class="message">Estimada comunidad:</p>
+            <p class="message">
+              Transfermarkt vuelve a estar disponible. Sin embargo, seguimos
+              trabajando para restablecer por completo y estabilizar algunos
+              servicios. Durante este periodo, es posible que todavía aparezca
+              ocasionalmente este mensaje de error en algunas áreas de la
+              plataforma.
+            </p>
+            <p class="message">
+              Nuestro equipo sigue trabajando a toda máquina para resolver los
+              problemas restantes y volver a poner nuestra web completamente a
+              vuestra disposición, como de costumbre.
+            </p>
+            <p class="message">
+              Muchas gracias por vuestra paciencia y comprensión. Nos alegra
+              daros de nuevo la bienvenida a Transfermarkt.
+            </p>
+          </div>
+          <div class="social-buttons">
+            <a href="https://www.instagram.com/transfermarkt_official/" data-social="instagram" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt Instagram">
+              <img src="https://tmsi.akamaized.net/socialmedia/icons/instagram.svg" alt="Instagram logo" width="24" height="24">
+            </a>
+            <a href="https://www.tiktok.com/@transfermarkt" data-social="tiktok" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt TikTok">
+              <img src="https://tmsi.akamaized.net/socialmedia/icons/tiktok.svg" alt="TikTok logo" width="24" height="24">
+            </a>
+            <a href="https://www.facebook.com/transfermarkt.global/" data-social="facebook" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt Facebook">
+              <img src="https://tmsi.akamaized.net/socialmedia/icons/facebook.svg" alt="Facebook logo" width="24" height="24">
+            </a>
+            <a href="https://whatsapp.com/channel/0029Va6Kevx47XeF0gE99J35" data-social="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt WhatsApp">
+              <img src="https://tmsi.akamaized.net/socialmedia/icons/whatsapp.svg" alt="WhatsApp logo" width="24" height="24">
+            </a>
+            <a href="https://x.com/TMuk_news" data-social="x" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt on X">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="20" height="24" viewBox="0 0 256 256" xml:space="preserve" role="img" aria-label="X logo">
+                <g transform="translate(1.4066 1.4066) scale(2.81 2.81)">
+                  <polygon points="24.89,23.01 57.79,66.99 65.24,66.99 32.34,23.01" style="fill: rgb(0, 0, 0)"></polygon>
+                  <path d="M 0 0 v 90 h 90 V 0 H 0 z M 56.032 70.504 L 41.054 50.477 L 22.516 70.504 h -4.765 L 38.925 47.63 L 17.884 19.496 h 16.217 L 47.895 37.94 l 17.072 -18.444 h 4.765 L 50.024 40.788 l 22.225 29.716 H 56.032 z" style="fill: rgb(0, 0, 0)"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="https://www.threads.com/@transfermarkt_official" data-social="threads" target="_blank" rel="noopener noreferrer" aria-label="Transfermarkt Threads">
+              <img src="https://tmsi.akamaized.net/socialmedia/icons/threads.svg" alt="Threads logo" width="24" height="24">
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-layout">
+        <section>
+          <h2>Transfermarkt GmbH &amp; Co. KG</h2>
+          <address>
+            Wandsbeker Zollstraße 5a<br>22041 Hamburg<br>Tel. (040)
+            6704821-20<br>E-Mail:
+            <a href="mailto:info@transfermarkt.de">info@transfermarkt.de</a>
+          </address>
+          <p>
+            Seat Hamburg, District court Hamburg, HRA 109005<br>VAT ID no..:
+            DE261732872<br>Gleichzeitig Kontaktstelle für Behörden nach Art.
+            11 DSA
+          </p>
+        </section>
+        <section>
+          <section>
+            <h3>Personally liable partner:</h3>
+            <p>
+              Transfermarkt Verwaltungs GmbH,<br>Seat Hamburg, District court
+              Hamburg, HRB 106341
+            </p>
+          </section>
+          <section>
+            <h3>CEO:</h3>
+            <p>
+              Thomas Lintz (responsible for content in the sense of §18 Abs. 2
+              MStV), Simon Torrico
+            </p>
+          </section>
+        </section>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        // TLD -> region. Also matches two-level TLDs (.com.ar etc.).
+        var regionMap = [
+          [".it", "it"],
+          [".tr", "tr"],
+          [".es", "es"],
+          [".ar", "ar"],
+          [".co", "co"],
+          [".mx", "mx"],
+          [".pe", "pe"],
+          [".de", "de"],
+          [".at", "de"],
+          [".ch", "de"],
+        ];
+
+        // Region -> language used for the message content.
+        var langByRegion = {
+          it: "it",
+          tr: "tr",
+          es: "es",
+          ar: "es",
+          co: "es",
+          mx: "es",
+          pe: "es",
+          de: "de",
+        };
+
+        // Per-region social channel URLs. Omitting a channel hides that icon.
+        var social = {
+          en: {
+            instagram: "https://www.instagram.com/transfermarkt_official/",
+            tiktok: "https://www.tiktok.com/@transfermarkt",
+            facebook: "https://www.facebook.com/transfermarkt.global/",
+            whatsapp: "https://whatsapp.com/channel/0029Va6Kevx47XeF0gE99J35",
+            x: "https://x.com/TMuk_news",
+            threads: "https://www.threads.com/@transfermarkt_official",
+          },
+          de: {
+            instagram: "https://www.instagram.com/transfermarkt.de/",
+            tiktok: "https://www.tiktok.com/@transfermarkt.de",
+            facebook: "https://www.facebook.com/transfermarkt/",
+            whatsapp: "https://whatsapp.com/channel/0029Va1GC0s8qIzoRaZeyJ0V",
+            x: "https://x.com/Transfermarkt",
+            threads: "https://www.threads.com/@transfermarkt.de",
+          },
+          it: {
+            instagram: "https://www.instagram.com/transfermarkt.it",
+            facebook: "https://www.facebook.com/transfermarkt.it",
+            whatsapp: "https://whatsapp.com/channel/0029Vag6MBEGehEKudUZOS0N",
+            x: "https://x.com/TMit_news",
+            threads: "https://www.threads.com/@transfermarkt.it",
+          },
+          tr: {
+            instagram: "https://www.instagram.com/transfermarkt.com.tr/",
+            tiktok: "https://www.tiktok.com/@transfermarkt.com.tr?lang=tr",
+            facebook: "https://www.facebook.com/transfermarkt.com.tr",
+            whatsapp: "https://web.whatsapp.com/",
+            x: "https://x.com/TMtr_news",
+            threads: "https://www.threads.com/@transfermarkt.com.tr",
+          },
+          es: {
+            x: "https://x.com/TMes_news",
+            instagram: "https://www.instagram.com/transfermarkt.es/",
+            facebook: "https://www.facebook.com/transfermarkt.es",
+          },
+          ar: {
+            instagram: "https://www.instagram.com/transfermarkt.com.ar/",
+            facebook: "https://www.facebook.com/transfermarkt.com.ar",
+          },
+          mx: {
+            instagram: "https://www.instagram.com/transfermarkt.mx/",
+            facebook: "https://www.facebook.com/Transfermarkt.mx/",
+          },
+          co: {
+            instagram: "https://www.instagram.com/transfermarkt.co/",
+            facebook: "https://www.facebook.com/Transfermarkt.co",
+          },
+          pe: {
+            instagram: "https://www.instagram.com/transfermarkt.pe/",
+            facebook: "https://www.facebook.com/transfermarkt.pe",
+          },
+        };
+
+        var host = window.location.hostname.toLowerCase();
+        var region = "en";
+        for (var i = 0; i < regionMap.length; i++) {
+          if (host.endsWith(regionMap[i][0])) {
+            region = regionMap[i][1];
+            break;
+          }
+        }
+        var lang = langByRegion[region] || "en";
+
+        // Reveal the correct language text block (both start hidden to avoid flash).
+        var langEls = document.querySelectorAll("[data-lang]");
+        for (var j = 0; j < langEls.length; j++) {
+          langEls[j].hidden = langEls[j].getAttribute("data-lang") !== lang;
+        }
+
+        // Apply per-region social channels: set URL, or hide channels the
+        // region does not provide.
+        var socialLinks = document.querySelectorAll(".social-buttons a[data-social]");
+        for (var k = 0; k < socialLinks.length; k++) {
+          var platform = socialLinks[k].getAttribute("data-social");
+          var cfg = (social[region] || {})[platform];
+          if (cfg) {
+            socialLinks[k].setAttribute("href", cfg);
+            socialLinks[k].hidden = false;
+          } else {
+            socialLinks[k].hidden = true;
+          }
+        }
+
+        document.documentElement.lang = lang;
+        console.log("Maintenance page region:", region, "lang:", lang);
+      })();
+    </script>
+  
+
+</body></html>

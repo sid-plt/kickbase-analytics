@@ -1,0 +1,137 @@
+[
+  {
+    "match_id": 16434087,
+    "home_team": "FC Bayern München",
+    "away_team": "VfB Stuttgart",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255917,
+        "home_win": 1.22,
+        "draw": 7.0,
+        "away_win": 10.0
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434022,
+    "home_team": "1. FC Köln",
+    "away_team": "TSG Hoffenheim",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255932,
+        "home_win": 2.88,
+        "draw": 3.75,
+        "away_win": 2.25
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434026,
+    "home_team": "1. FC Union Berlin",
+    "away_team": "Eintracht Frankfurt",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255943,
+        "home_win": 2.6,
+        "draw": 3.6,
+        "away_win": 2.6
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434044,
+    "home_team": "1. FSV Mainz 05",
+    "away_team": "SC Paderborn 07",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255937,
+        "home_win": 1.65,
+        "draw": 4.0,
+        "away_win": 5.0
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434023,
+    "home_team": "RB Leipzig",
+    "away_team": "Borussia M'gladbach",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255940,
+        "home_win": 1.57,
+        "draw": 4.5,
+        "away_win": 5.25
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434020,
+    "home_team": "SV 07 Elversberg",
+    "away_team": "Bayer 04 Leverkusen",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255930,
+        "home_win": 5.0,
+        "draw": 4.5,
+        "away_win": 1.57
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434025,
+    "home_team": "Borussia Dortmund",
+    "away_team": "Hamburger SV",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255923,
+        "home_win": 1.3,
+        "draw": 5.75,
+        "away_win": 9.0
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434029,
+    "home_team": "SC Freiburg",
+    "away_team": "SV Werder Bremen",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255935,
+        "home_win": 1.95,
+        "draw": 3.5,
+        "away_win": 3.9
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 16434039,
+    "home_team": "FC Augsburg",
+    "away_team": "FC Schalke 04",
+    "bookmakers": [
+      {
+        "bookmaker": null,
+        "bookmaker_source_id": 197255920,
+        "home_win": 2.15,
+        "draw": 3.7,
+        "away_win": 3.1
+      }
+    ],
+    "issues": []
+  }
+]

@@ -1,0 +1,3 @@
+Read and follow the complete workflow in `prompt.txt`, located in the same directory as this file.
+
+Execute that workflow in the current workspace; do not merely summarize it. Start by asking me which Bundesliga matchday to process, then continue exactly as the referenced prompt instructs.

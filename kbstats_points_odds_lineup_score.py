@@ -30,15 +30,16 @@ from sofascore_rating_odds_lineup_score import (
     LINEUP_OVERRIDE_COLUMNS,
     LINEUP_SOURCES,
     NAME_ONLY_LINEUP_SOURCE_KEYS,
-    KICKBASE_REFERENCE_COLUMNS,
+    NAME_ONLY_LINEUP_REFERENCE_COLUMNS,
     _fuzzy_candidates,
-    _load_kickbase_lineup_overrides,
+    _load_name_only_lineup_overrides,
     _load_lineup_overrides,
-    _persist_kickbase_lineup_overrides,
+    _persist_name_only_lineup_overrides,
     _persist_lineup_overrides,
     _prompt_candidate,
     build_kickbase_name_indexes,
     blend_lineup_chances,
+    confirm_lineup_source_matchdays,
     load_expected_match_points,
     load_lineup_source,
     request_matchday,
@@ -219,9 +220,9 @@ def _resolve_lineups(
 ]:
     """Resolve only players with a usable metric against lineup providers."""
     overrides = _load_lineup_overrides()
-    kickbase_overrides = _load_kickbase_lineup_overrides()
+    name_only_overrides = _load_name_only_lineup_overrides()
     override_by_key = {row["_key"]: row for _, row in overrides.iterrows()}
-    kickbase_override_by_key = {row["_key"]: row for _, row in kickbase_overrides.iterrows()}
+    name_only_override_by_key = {row["_key"]: row for _, row in name_only_overrides.iterrows()}
     resolution: dict[tuple[int, str], tuple[dict[str, Any] | None, str]] = {}
     prompts: list[tuple[float, str, int, Any, list[tuple[float, dict[str, Any]]]]] = []
     contexts: dict[int, dict[str, Any]] = {}
@@ -252,9 +253,9 @@ def _resolve_lineups(
                 resolution[(index, source.key)] = (chosen, "exact")
                 continue
             if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
-                override = kickbase_override_by_key.get((team_key, normalized))
+                override = name_only_override_by_key.get((source.key, team_key, normalized))
                 if override is not None:
-                    chosen = candidates.get(normalize_name(override["kickbase_displayed_name"]))
+                    chosen = candidates.get(normalize_name(override["displayed_name"]))
                     resolution[(index, source.key)] = (
                         chosen,
                         "override" if chosen is not None else "missing",
@@ -297,7 +298,7 @@ def _resolve_lineups(
                 resolution[(index, source.key)] = (None, "missing")
 
     new_overrides: list[dict[str, Any]] = []
-    new_kickbase_overrides: list[dict[str, Any]] = []
+    new_name_only_overrides: list[dict[str, Any]] = []
     for _, _, index, source, candidates in sorted(
         prompts, key=lambda item: (-item[0], item[1], item[3].key, item[2])
     ):
@@ -309,11 +310,12 @@ def _resolve_lineups(
             continue
         resolution[(index, source.key)] = (chosen, "prompted")
         if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
-            new_kickbase_overrides.append(
+            new_name_only_overrides.append(
                 {
+                    "source": source.key,
                     "canonical_team": team_key,
                     "kbstats_name": name,
-                    "kickbase_displayed_name": chosen["name"],
+                    "displayed_name": chosen["name"],
                     "created_at": datetime.now().astimezone().isoformat(timespec="seconds"),
                 }
             )
@@ -328,7 +330,7 @@ def _resolve_lineups(
                     "created_at": datetime.now().astimezone().isoformat(timespec="seconds"),
                 }
             )
-    return resolution, new_overrides, new_kickbase_overrides
+    return resolution, new_overrides, new_name_only_overrides
 
 
 def run_score_creation(
@@ -374,6 +376,9 @@ def run_score_creation(
         )
         for source in LINEUP_SOURCES
     }
+    lineup_inputs, lineup_source_is_current = confirm_lineup_source_matchdays(
+        matchday, lineup_inputs
+    )
 
     player_teams = pd.to_numeric(players["teamId"], errors="coerce")
     if player_teams.isna().any() or not set(player_teams.astype(int)).issubset(KB_TEAM_ID_TO_KEY):
@@ -398,7 +403,7 @@ def run_score_creation(
             + ", ".join(absent_ids[:10])
         )
     usable_metric_ids = {player_id for player_id, value in metric_by_id.items() if value is not None}
-    lineup_resolution, new_lineup_overrides, new_kickbase_lineup_overrides = _resolve_lineups(
+    lineup_resolution, new_lineup_overrides, new_name_only_lineup_overrides = _resolve_lineups(
         players, team_keys, usable_metric_ids, lineup_inputs
     )
 
@@ -514,13 +519,13 @@ def run_score_creation(
                 ignore_index=True,
             )
         )
-    if new_kickbase_lineup_overrides:
-        existing_kickbase_overrides = _load_kickbase_lineup_overrides()
-        _persist_kickbase_lineup_overrides(
+    if new_name_only_lineup_overrides:
+        existing_name_only_overrides = _load_name_only_lineup_overrides()
+        _persist_name_only_lineup_overrides(
             pd.concat(
                 [
-                    existing_kickbase_overrides.loc[:, list(KICKBASE_REFERENCE_COLUMNS)],
-                    pd.DataFrame(new_kickbase_lineup_overrides),
+                    existing_name_only_overrides.loc[:, list(NAME_ONLY_LINEUP_REFERENCE_COLUMNS)],
+                    pd.DataFrame(new_name_only_lineup_overrides),
                 ],
                 ignore_index=True,
             )
@@ -542,7 +547,11 @@ def run_score_creation(
     print(f"  Matchday: {matchday}; derived metric: {metric_input.name}")
     print(f"  KBStats source CSV: {source_csv_path.name}")
     for source in LINEUP_SOURCES:
-        print(f"  {source.key.title()} (weight {source_weights[source.key]:g}): {lineup_inputs[source.key][0].name}")
+        status = "current" if lineup_source_is_current[source.key] else "previous matchday — excluded"
+        print(
+            f"  {source.key.title()} (weight {source_weights[source.key]:g}; {status}): "
+            f"{lineup_inputs[source.key][0].name}"
+        )
     print(f"  Alternative starting-chance decay: {alternative_starting_chance_decay:.2f}")
     print(f"  Questionable-injury starting-chance penalty: {questionable_injury_starting_chance_penalty:.2f}")
     print(f"  Output: {output_path}")
@@ -557,4 +566,5 @@ def run_score_creation(
         "review": review,
         "metric_input": metric_input,
         "kbstats_input": source_csv_path,
+        "lineup_source_is_current": lineup_source_is_current,
     }

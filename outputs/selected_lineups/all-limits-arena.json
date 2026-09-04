@@ -1,131 +1,131 @@
 {
   "schema_version": 1,
   "league": "All Limits Arena",
-  "selected_at": "2026-08-25T11:08:25.155751+00:00",
+  "selected_at": "2026-09-04T09:14:01.608806+00:00",
   "source": "optimizer_all_limits_arena",
   "expected_points": {
-    "value": "171.148234",
+    "value": "1580.328845",
     "label": "Total expected points (captain doubled)",
     "includes_captain_bonus": true
   },
   "player_count": 11,
   "players": [
     {
-      "id": "237",
-      "name": "Manuel Neuer",
+      "id": "3019",
+      "name": "Noah Atubolu",
       "position": "GK",
-      "market_value": "13565866.0",
-      "market_value_eur": 13565866,
-      "club": "FC Bayern München",
-      "expected_points": "16.507984",
-      "captain": false
-    },
-    {
-      "id": "2395",
-      "name": "Julian Ryerson",
-      "position": "DEF",
-      "market_value": "26027952.0",
-      "market_value_eur": 26027952,
-      "club": "Borussia Dortmund",
-      "expected_points": "17.286749",
-      "captain": false
-    },
-    {
-      "id": "14917",
-      "name": "Zeno Van den Bosch",
-      "position": "DEF",
-      "market_value": "13456741.0",
-      "market_value_eur": 13456741,
-      "club": "1. FC Union Berlin",
-      "expected_points": "11.138947",
-      "captain": false
-    },
-    {
-      "id": "15589",
-      "name": "Otávio",
-      "position": "DEF",
-      "market_value": "9374748.0",
-      "market_value_eur": 9374748,
+      "market_value": "12346370.0",
+      "market_value_eur": 12346370,
       "club": "Eintracht Frankfurt",
-      "expected_points": "9.632982",
+      "expected_points": "129.362942",
+      "captain": false
+    },
+    {
+      "id": "1991",
+      "name": "Dayot Upamecano",
+      "position": "DEF",
+      "market_value": "33398087.0",
+      "market_value_eur": 33398087,
+      "club": "FC Bayern München",
+      "expected_points": "195.244722",
+      "captain": true
+    },
+    {
+      "id": "10115",
+      "name": "Daniel Svensson",
+      "position": "DEF",
+      "market_value": "18060603.0",
+      "market_value_eur": 18060603,
+      "club": "Borussia Dortmund",
+      "expected_points": "106.923971",
+      "captain": false
+    },
+    {
+      "id": "1540",
+      "name": "Danny Da Costa",
+      "position": "DEF",
+      "market_value": "10629521.0",
+      "market_value_eur": 10629521,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "104.159535",
+      "captain": false
+    },
+    {
+      "id": "7283",
+      "name": "Calvin Brackelmann",
+      "position": "DEF",
+      "market_value": "6146301.0",
+      "market_value_eur": 6146301,
+      "club": "FC Augsburg",
+      "expected_points": "72.906866",
+      "captain": false
+    },
+    {
+      "id": "11956",
+      "name": "Ezequiél Fernández",
+      "position": "MID",
+      "market_value": "10727689.0",
+      "market_value_eur": 10727689,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "138.918095",
+      "captain": false
+    },
+    {
+      "id": "13442",
+      "name": "Hugo Bolin",
+      "position": "MID",
+      "market_value": "11456465.0",
+      "market_value_eur": 11456465,
+      "club": "Borussia Mönchengladbach",
+      "expected_points": "134.593093",
       "captain": false
     },
     {
       "id": "11008",
       "name": "Ezechiel Banzuzi",
       "position": "MID",
-      "market_value": "8349668.0",
-      "market_value_eur": 8349668,
+      "market_value": "11245732.0",
+      "market_value_eur": 11245732,
       "club": "RB Leipzig",
-      "expected_points": "15.312951",
+      "expected_points": "127.124956",
       "captain": false
     },
     {
-      "id": "2846",
-      "name": "Malik Tillman",
+      "id": "3209",
+      "name": "Yannik Engelhardt",
       "position": "MID",
-      "market_value": "13303012.0",
-      "market_value_eur": 13303012,
-      "club": "Bayer 04 Leverkusen",
-      "expected_points": "14.082281",
-      "captain": false
-    },
-    {
-      "id": "11556",
-      "name": "Han-Noah Massengo",
-      "position": "MID",
-      "market_value": "9899475.0",
-      "market_value_eur": 9899475,
-      "club": "FC Augsburg",
-      "expected_points": "11.946075",
-      "captain": false
-    },
-    {
-      "id": "3124",
-      "name": "Patrick Wimmer",
-      "position": "MID",
-      "market_value": "7364887.0",
-      "market_value_eur": 7364887,
-      "club": "TSG Hoffenheim",
-      "expected_points": "11.405367",
-      "captain": false
-    },
-    {
-      "id": "7219",
-      "name": "Ísak Jóhannesson",
-      "position": "MID",
-      "market_value": "9418752.0",
-      "market_value_eur": 9418752,
-      "club": "1. FC Köln",
-      "expected_points": "10.980463",
-      "captain": false
-    },
-    {
-      "id": "2030",
-      "name": "Phillip Tietz",
-      "position": "FOR",
-      "market_value": "13658389.0",
-      "market_value_eur": 13658389,
-      "club": "1. FSV Mainz 05",
-      "expected_points": "19.802807",
-      "captain": true
-    },
-    {
-      "id": "3304",
-      "name": "Igor Matanović",
-      "position": "FOR",
-      "market_value": "19299092.0",
-      "market_value_eur": 19299092,
+      "market_value": "11640454.0",
+      "market_value_eur": 11640454,
       "club": "SC Freiburg",
-      "expected_points": "13.248821",
+      "expected_points": "112.308021",
+      "captain": false
+    },
+    {
+      "id": "9605",
+      "name": "Albert Grønbæk",
+      "position": "MID",
+      "market_value": "13039678.0",
+      "market_value_eur": 13039678,
+      "club": "Hamburger SV",
+      "expected_points": "103.169604",
+      "captain": false
+    },
+    {
+      "id": "4296",
+      "name": "Dzenan Pejcinovic",
+      "position": "FOR",
+      "market_value": "10929287.0",
+      "market_value_eur": 10929287,
+      "club": "VfB Stuttgart",
+      "expected_points": "160.372318",
       "captain": false
     }
   ],
   "metadata": {
-    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv",
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260904_104843_+0200_sofascore_overall_rating_odds_lineup_20260904_111301_+0200.csv",
     "score_method": "sofascore_overall_rating_odds_lineup",
-    "metric_creation_timestamp": "20260825_121320_+0200",
-    "matchday": 1,
-    "formation": "3-5-2"
+    "metric_creation_timestamp": "20260904_111301_+0200",
+    "matchday": 2,
+    "formation": "4-5-1"
   }
 }

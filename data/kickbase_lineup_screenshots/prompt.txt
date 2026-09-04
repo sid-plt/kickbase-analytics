@@ -1,0 +1,122 @@
+You are extracting Kickbase “S11 Predictions” screenshots into the project’s
+predicted-lineup JSON format.
+
+Before reading or transcribing any screenshots, ask the user exactly:
+
+"Which Bundesliga matchday should I process?"
+
+Wait for a valid positive integer answer, `N`. The corresponding screenshots
+must be read from `data/kickbase_lineup_screenshots/md<N>/`. If that directory
+does not exist or contains no readable images, say so and stop. Do not guess a
+matchday from timestamps, filenames, the current date, or the displayed
+fixtures.
+
+## Sources and scope
+
+- Treat the screenshots as the sole authority for the predicted players,
+  formation placement, orange uncertainty markers, and named replacement
+  options.
+- Read `outputs/sofascore/match_ids/match_ids_<N>.json` only to obtain the
+  canonical fixture list, club names, home/away sides, and fixture ordering.
+- Process every readable screenshot in the matchday folder. Each screenshot is
+  normally one team. Match each screen to a canonical team using its selected
+  club and fixture crests; do not use a filename as player evidence.
+- Do not browse, infer transfers, resolve abbreviated names, add positions,
+  IDs, URLs, injuries, bench players, or information that is not visible.
+- A missing/grey player portrait is not a missing player: transcribe the
+  displayed name normally.
+
+## How to read a Kickbase S11 screen
+
+The pitch is vertically oriented:
+
+1. The goalkeeper is the lowest player: `formation_row: 1`.
+2. Moving upward, each horizontal line is the next row (`2`, `3`, ...).
+3. Within a row, number players left-to-right using `slot_index`, starting at
+   `1`.
+4. The displayed on-pitch XI are the primary predictions and must have
+   `starting_probability_rank: 1`.
+5. An orange dot attached to a player means that player’s starting place is
+   uncertain. The replacement list beneath the pitch uses `⇄` and gives the
+   competing option(s). Add each competing option after the primary XI with
+   the same `formation_row` and `slot_index` as the incumbent and a
+   `starting_probability_rank` of `2`, `3`, etc. in its shown order.
+6. If the same named alternative competes for more than one starter, keep it
+   only once per team, assigned to the first corresponding replacement slot in
+   top-to-bottom, left-to-right order. Do not duplicate its identity merely to
+   represent multiple possible slots.
+7. If a name, orange dot, or replacement text is unreadable, retain only what
+   can be read. Do not invent the missing value. Mention the ambiguity in the
+   final concise note, but keep the JSON valid.
+
+## Required JSON output
+
+Create one valid UTF-8 JSON file at:
+
+`outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_<YYYYMMDD_HHMMSS>.json`
+
+Use the current local timestamp in the filename and ISO-8601 timestamp in
+`metadata.processed_at`. Return the saved path after successfully writing it.
+The JSON must use this schema and match the conventions of the existing
+LigaInsider, RotoWire, Kicker, and Kickbase lineup outputs:
+
+```json
+{
+  "metadata": {
+    "source": "Kickbase",
+    "source_type": "user-submitted screenshots",
+    "matchday": 0,
+    "player_identity_policy": "displayed_name_only",
+    "captured_at": null,
+    "processed_at": "YYYY-MM-DDTHH:MM:SS+02:00",
+    "screenshot_count": 0,
+    "match_count": 0,
+    "team_count": 0,
+    "primary_player_count": 0,
+    "player_count": 0,
+    "fixture_reference": "outputs/sofascore/match_ids/match_ids_0.json",
+    "transcription_note": "Only text visibly displayed in the submitted Kickbase screenshots is stored for player identity. Repeated replacement candidates are stored once per team."
+  },
+  "matches": [
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "Canonical fixture team name",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": []
+      },
+      "away": {
+        "team_name": "Canonical fixture team name",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": []
+      }
+    }
+  ]
+}
+```
+
+Every player object must contain all of these keys, in this shape:
+
+```json
+{
+  "full_name": null,
+  "displayed_name": "NAME AS SHOWN",
+  "position": null,
+  "injury_status": null,
+  "player_id": null,
+  "player_url": null,
+  "formation_row": 1,
+  "slot_index": 1,
+  "starting_probability_rank": 1
+}
+```
+
+Use the canonical fixture order and include every fixture, even if a screenshot
+for one side is missing. For a missing side, emit its normal team object with
+an empty `players` array. Set `match_time` from the fixture reference when it
+is available; otherwise use the clearly visible Kickbase label. Count only
+unique player objects actually emitted: `primary_player_count` is the number
+with rank `1`, while `player_count` includes alternatives. Do not output prose
+in place of JSON or fabricate an XI to make counts reach eleven.

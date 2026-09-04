@@ -7,6 +7,7 @@ import tempfile
 import unittest
 from dataclasses import replace
 from pathlib import Path
+from unittest.mock import patch
 
 import pandas as pd
 
@@ -28,6 +29,7 @@ from sofascore_rating_odds_lineup_score import (
     blend_lineup_chances,
     build_kickbase_name_indexes,
     canonical_team,
+    confirm_lineup_source_matchdays,
     load_lineup_source,
     resolve_kickbase_display_name,
     resolve_lineup_source_weights,
@@ -124,6 +126,27 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             blend_lineup_chances([])
 
+    def test_previous_matchday_source_is_excluded_after_confirmation(self) -> None:
+        source_inputs = {
+            source.key: (Path(f"{source.key}.json"), {"bayern": {"player": {"chance": 1.0}}})
+            for source in LINEUP_SOURCE_REGISTRY
+        }
+        with patch("builtins.input", side_effect=["a", "p", "accurate", "previous"]):
+            confirmed, source_is_current = confirm_lineup_source_matchdays(2, source_inputs)
+        self.assertEqual(
+            {
+                "ligainsider": True,
+                "kickbase": False,
+                "kicker": True,
+                "rotowire": False,
+            },
+            source_is_current,
+        )
+        self.assertEqual({"bayern"}, set(confirmed["ligainsider"][1]))
+        self.assertEqual({}, confirmed["kickbase"][1])
+        self.assertEqual({"bayern"}, set(confirmed["kicker"][1]))
+        self.assertEqual({}, confirmed["rotowire"][1])
+
     def test_saved_matchday_one_snapshot_has_name_only_primary_starters(self) -> None:
         snapshots = sorted(KICKBASE_PREDICTED_LINEUPS_DIR.glob("kickbase_bundesliga_lineups_*.json"))
         self.assertTrue(snapshots, "expected the saved Kickbase Matchday 1 snapshot")
@@ -218,15 +241,29 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         candidates = {"muster": {"name": "MUSTER", "chance": 1.0}}
         self.assertIsNone(resolve_kickbase_display_name(candidates, players.iloc[0], indexes))
 
-    def test_confirmed_kickbase_mapping_is_team_scoped_and_persisted(self) -> None:
+    def test_confirmed_name_only_mapping_is_provider_scoped_and_persisted(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             path = Path(temporary_directory) / "kickbase_player_name_cross_references.csv"
             frame = load_references(path)
-            frame.loc[len(frame)] = ["bayern", "KBStats Name", "DISPLAY NAME", "2026-08-19T00:00:00+02:00"]
+            frame.loc[len(frame)] = [
+                "kickbase",
+                "bayern",
+                "KBStats Name",
+                "KICKBASE DISPLAY NAME",
+                "2026-08-19T00:00:00+02:00",
+            ]
+            frame.loc[len(frame)] = [
+                "kicker",
+                "bayern",
+                "KBStats Name",
+                "KICKER DISPLAY NAME",
+                "2026-08-19T00:00:00+02:00",
+            ]
             persist_references(frame, path)
             restored = load_references(path)
             self.assertEqual(list(REFERENCE_COLUMNS), list(restored.columns))
-            self.assertEqual("DISPLAY NAME", restored.loc[0, "kickbase_displayed_name"])
+            self.assertEqual("KICKBASE DISPLAY NAME", restored.loc[0, "displayed_name"])
+            self.assertEqual("KICKER DISPLAY NAME", restored.loc[1, "displayed_name"])
 
     def test_source_ranks_activate_kicker(self) -> None:
         registry = {source.key: source for source in LINEUP_SOURCE_REGISTRY}

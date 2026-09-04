@@ -28,7 +28,7 @@ from project_paths import (
     prune_timestamped_outputs,
 )
 from kickbase_player_name_cross_references import (
-    REFERENCE_COLUMNS as KICKBASE_REFERENCE_COLUMNS,
+    REFERENCE_COLUMNS as NAME_ONLY_LINEUP_REFERENCE_COLUMNS,
     load_references as load_kickbase_references,
     persist_references as persist_kickbase_references,
 )
@@ -72,11 +72,14 @@ OUTPUT_METRIC_COLUMNS = (
     "rotowire_starting_chance",
     "questionable_injury_penalty",
     "starting_chance",
+    "score_multiplier",
 )
 # Change this value to alter the provider-level starting-chance reduction
 # applied to a player marked QUES by either predicted-lineup provider.
 DEFAULT_QUESTIONABLE_INJURY_STARTING_CHANCE_PENALTY = 0.15
 DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY = 0.45
+# Kept at 1.0 by default so callers must explicitly opt into a fitted scale.
+DEFAULT_SCORE_MULTIPLIER = 1.0
 QUESTIONABLE_INJURY_STATUS = "QUES"
 LIGAINSIDER_FILENAME_RE = re.compile(r"^ligainsider_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
 KICKBASE_FILENAME_RE = re.compile(r"^kickbase_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
@@ -525,6 +528,7 @@ def load_lineup_source(
     source: LineupSource,
     questionable_injury_starting_chance_penalty: float = 0.0,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
+    path: Path | None = None,
 ) -> tuple[Path, dict[str, dict[str, dict[str, Any]]]]:
     if (
         not math.isfinite(questionable_injury_starting_chance_penalty)
@@ -534,7 +538,9 @@ def load_lineup_source(
     alternative_starting_chance_decay = validate_alternative_starting_chance_decay(
         alternative_starting_chance_decay
     )
-    path = _select_latest_lineup_path(source)
+    path = _select_latest_lineup_path(source) if path is None else Path(path)
+    if not path.is_file():
+        raise FileNotFoundError(f"{source.key} lineup snapshot does not exist: {path}")
     document = _load_json(path, f"{source.key} lineup")
     matches = document.get("matches") if isinstance(document, dict) else None
     if not isinstance(matches, list) or not matches:
@@ -579,6 +585,40 @@ def load_lineup_source(
     return path, teams
 
 
+def confirm_lineup_source_matchdays(
+    matchday: int,
+    lineup_inputs: Mapping[str, tuple[Path, dict[str, dict[str, dict[str, Any]]]]],
+) -> tuple[
+    dict[str, tuple[Path, dict[str, dict[str, dict[str, Any]]]]],
+    dict[str, bool],
+]:
+    """Confirm each snapshot is current and exclude any previous-matchday data.
+
+    A stale prediction should not be treated as a zero-chance prediction: its
+    teams are removed before the remaining current sources are blended.
+    """
+    accepted_inputs: dict[str, tuple[Path, dict[str, dict[str, dict[str, Any]]]]] = {}
+    source_is_current: dict[str, bool] = {}
+    for source in LINEUP_SOURCES:
+        path, teams = lineup_inputs[source.key]
+        while True:
+            answer = input(
+                f"Is the {source.key.title()} predicted lineup snapshot "
+                f"({path.name}) accurate for matchday {matchday}, or from the "
+                "previous matchday? [a]ccurate/[p]revious: "
+            ).strip().casefold()
+            if answer in {"a", "accurate", "y", "yes", "current"}:
+                accepted_inputs[source.key] = (path, teams)
+                source_is_current[source.key] = True
+                break
+            if answer in {"p", "previous", "n", "no", "stale"}:
+                accepted_inputs[source.key] = (path, {})
+                source_is_current[source.key] = False
+                break
+            print("Enter 'a' for accurate/current data or 'p' for previous-matchday data.")
+    return accepted_inputs, source_is_current
+
+
 def _load_lineup_overrides() -> pd.DataFrame:
     references = load_references(LINEUP_OVERRIDE_PATH)
     frame = references.loc[
@@ -609,21 +649,21 @@ def _persist_lineup_overrides(frame: pd.DataFrame) -> None:
     )
 
 
-def _load_kickbase_lineup_overrides() -> pd.DataFrame:
+def _load_name_only_lineup_overrides() -> pd.DataFrame:
     frame = load_kickbase_references()
     if frame.empty:
         return frame
     frame = frame.copy()
     frame["_key"] = frame.apply(
-        lambda row: (row["canonical_team"], normalize_name(row["kbstats_name"])), axis=1
+        lambda row: (row["source"], row["canonical_team"], normalize_name(row["kbstats_name"])), axis=1
     )
     if frame["_key"].duplicated().any():
-        raise ValueError("Kickbase lineup overrides contain duplicate team/KBStats mappings.")
+        raise ValueError("Name-only lineup overrides contain duplicate source/team/KBStats mappings.")
     return frame
 
 
-def _persist_kickbase_lineup_overrides(frame: pd.DataFrame) -> None:
-    persist_kickbase_references(frame.loc[:, list(KICKBASE_REFERENCE_COLUMNS)])
+def _persist_name_only_lineup_overrides(frame: pd.DataFrame) -> None:
+    persist_kickbase_references(frame.loc[:, list(NAME_ONLY_LINEUP_REFERENCE_COLUMNS)])
 
 
 def _prompt_candidate(label: str, candidates: list[tuple[float, dict[str, Any]]]) -> tuple[dict[str, Any] | None, float | None]:
@@ -715,6 +755,7 @@ def run_score_creation(
     questionable_injury_starting_chance_penalty: float = DEFAULT_QUESTIONABLE_INJURY_STARTING_CHANCE_PENALTY,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
     lineup_source_weights: Mapping[str, float] | None = None,
+    score_multiplier: float = DEFAULT_SCORE_MULTIPLIER,
 ) -> dict[str, Any]:
     if category not in {"bundesliga", "overall"}:
         raise ValueError("category must be 'bundesliga' or 'overall'.")
@@ -724,6 +765,8 @@ def run_score_creation(
         alternative_starting_chance_decay
     )
     source_weights = resolve_lineup_source_weights(lineup_source_weights)
+    if not math.isfinite(score_multiplier) or score_multiplier < 0:
+        raise ValueError("Score multiplier must be a finite value greater than or equal to 0.")
     if (
         not math.isfinite(questionable_injury_starting_chance_penalty)
         or not 0.0 <= questionable_injury_starting_chance_penalty <= 1.0
@@ -743,8 +786,11 @@ def run_score_creation(
         )
         for source in LINEUP_SOURCES
     }
+    lineup_inputs, lineup_source_is_current = confirm_lineup_source_matchdays(
+        matchday, lineup_inputs
+    )
     lineup_overrides = _load_lineup_overrides()
-    kickbase_lineup_overrides = _load_kickbase_lineup_overrides()
+    name_only_lineup_overrides = _load_name_only_lineup_overrides()
     rating_overrides = load_rating_overrides()
 
     player_teams = pd.to_numeric(players["teamId"], errors="coerce")
@@ -757,12 +803,12 @@ def run_score_creation(
     rating_by_name, rating_by_id = _rating_candidate_maps(ratings)
     rating_override_by_name = {row["_normalized_name"]: row for _, row in rating_overrides.iterrows()}
     lineup_override_by_key = {row["_key"]: row for _, row in lineup_overrides.iterrows()}
-    kickbase_override_by_key = {
-        row["_key"]: row for _, row in kickbase_lineup_overrides.iterrows()
+    name_only_override_by_key = {
+        row["_key"]: row for _, row in name_only_lineup_overrides.iterrows()
     }
     new_rating_overrides: list[dict[str, Any]] = []
     new_lineup_overrides: list[dict[str, Any]] = []
-    new_kickbase_lineup_overrides: list[dict[str, Any]] = []
+    new_name_only_lineup_overrides: list[dict[str, Any]] = []
     rating_values: list[float] = []
     match_point_values: list[float] = []
     ligainsider_starting_chances: list[float] = []
@@ -824,9 +870,9 @@ def run_score_creation(
                 lineup_resolution[(index, source.key)] = (chosen, "exact")
                 continue
             if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
-                override = kickbase_override_by_key.get((team_key, normalized))
+                override = name_only_override_by_key.get((source.key, team_key, normalized))
                 if override is not None:
-                    chosen = candidates.get(normalize_name(override["kickbase_displayed_name"]))
+                    chosen = candidates.get(normalize_name(override["displayed_name"]))
                     lineup_resolution[(index, source.key)] = (
                         chosen,
                         "override" if chosen is not None else "missing",
@@ -898,7 +944,7 @@ def run_score_creation(
         if chosen is not None:
             lineup_resolution[(index, source_key)] = (chosen, "prompted")
             if source_key in NAME_ONLY_LINEUP_SOURCE_KEYS:
-                new_kickbase_lineup_overrides.append({"canonical_team": team_key, "kbstats_name": name, "kickbase_displayed_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+                new_name_only_lineup_overrides.append({"source": source_key, "canonical_team": team_key, "kbstats_name": name, "displayed_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
             else:
                 new_lineup_overrides.append({"source": source_key, "canonical_team": team_key, "kbstats_name": name, "provider_player_id": chosen["id"], "provider_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
         else:
@@ -950,7 +996,7 @@ def run_score_creation(
         rating_value = 0.0 if rating is None else float(rating["rating"])
         match_points = float(expected_points[team_key])
         # Keep the score scale safely within the optimizer's exact integerization range.
-        score = round(rating_value * match_points * starting_chance, 6)
+        score = round(score_multiplier * rating_value * match_points * starting_chance, 6)
         rating_values.append(rating_value)
         match_point_values.append(match_points)
         ligainsider_starting_chances.append(source_chance_by_key["ligainsider"])
@@ -960,7 +1006,7 @@ def run_score_creation(
         injury_penalties.append(injury_penalty)
         starting_chances.append(starting_chance)
         scores.append(score)
-        review_rows.append({"name": name, "team": team_key, "rating_status": rating_status, "lineup_status": "; ".join(lineup_statuses), "rating": rating_value, "expected_match_points": match_points, "ligainsider_starting_chance": source_chance_by_key["ligainsider"], "kickbase_starting_chance": source_chance_by_key["kickbase"], "kicker_starting_chance": source_chance_by_key["kicker"], "rotowire_starting_chance": source_chance_by_key["rotowire"], "questionable_injury_penalty": injury_penalty, "starting_chance": starting_chance, "score": score})
+        review_rows.append({"name": name, "team": team_key, "rating_status": rating_status, "lineup_status": "; ".join(lineup_statuses), "rating": rating_value, "expected_match_points": match_points, "ligainsider_starting_chance": source_chance_by_key["ligainsider"], "kickbase_starting_chance": source_chance_by_key["kickbase"], "kicker_starting_chance": source_chance_by_key["kicker"], "rotowire_starting_chance": source_chance_by_key["rotowire"], "questionable_injury_penalty": injury_penalty, "starting_chance": starting_chance, "score_multiplier": score_multiplier, "score": score})
 
     scored = players.copy()
     scored["sofascore_average_rating"] = rating_values
@@ -971,14 +1017,15 @@ def run_score_creation(
     scored["rotowire_starting_chance"] = rotowire_starting_chances
     scored["questionable_injury_penalty"] = injury_penalties
     scored["starting_chance"] = starting_chances
+    scored["score_multiplier"] = score_multiplier
     scored["score"] = scores
     validate_scored_players(players, scored, additional_columns=OUTPUT_METRIC_COLUMNS)
     if new_rating_overrides:
         persist_rating_overrides(pd.concat([rating_overrides.loc[:, list(RATING_OVERRIDE_COLUMNS)], pd.DataFrame(new_rating_overrides)], ignore_index=True))
     if new_lineup_overrides:
         _persist_lineup_overrides(pd.concat([lineup_overrides.loc[:, list(LINEUP_OVERRIDE_COLUMNS)], pd.DataFrame(new_lineup_overrides)], ignore_index=True))
-    if new_kickbase_lineup_overrides:
-        _persist_kickbase_lineup_overrides(pd.concat([kickbase_lineup_overrides.loc[:, list(KICKBASE_REFERENCE_COLUMNS)], pd.DataFrame(new_kickbase_lineup_overrides)], ignore_index=True))
+    if new_name_only_lineup_overrides:
+        _persist_name_only_lineup_overrides(pd.concat([name_only_lineup_overrides.loc[:, list(NAME_ONLY_LINEUP_REFERENCE_COLUMNS)], pd.DataFrame(new_name_only_lineup_overrides)], ignore_index=True))
 
     created_timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%z")
     output_path = ensure_directory(EXPECTED_POINTS_DIR) / f"expected_points_{kbstats_input.timestamp_text}_sofascore_{category}_rating_odds_lineup_{created_timestamp}.csv"
@@ -990,15 +1037,26 @@ def run_score_creation(
     print("Input summary")
     print(f"  Matchday: {matchday}; ratings: {ratings_input.path.name}")
     for source in LINEUP_SOURCES:
-        print(f"  {source.key.title()} (weight {source_weights[source.key]:g}): {lineup_inputs[source.key][0].name}")
+        status = "current" if lineup_source_is_current[source.key] else "previous matchday — excluded"
+        print(
+            f"  {source.key.title()} (weight {source_weights[source.key]:g}; {status}): "
+            f"{lineup_inputs[source.key][0].name}"
+        )
     print(f"  Alternative starting-chance decay: {alternative_starting_chance_decay:.2f}")
     print(
         "  Questionable-injury starting-chance penalty: "
         f"{questionable_injury_starting_chance_penalty:.2f}"
     )
+    print(f"  Score multiplier: {score_multiplier:.4f}")
     print(f"  Output: {output_path}")
     print("\nTeam odds and expected match points")
     display(odds_table)
     print("\nPlayer score review (non-positive or non-exact ratings)")
     display(review.loc[(review["score"].le(0)) | (review["rating_status"].ne("exact"))])
-    return {"output_path": output_path, "scored_players": scored, "odds": odds_table, "review": review}
+    return {
+        "output_path": output_path,
+        "scored_players": scored,
+        "odds": odds_table,
+        "review": review,
+        "lineup_source_is_current": lineup_source_is_current,
+    }
