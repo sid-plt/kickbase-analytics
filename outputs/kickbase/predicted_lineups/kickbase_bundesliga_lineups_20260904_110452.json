@@ -1,0 +1,2856 @@
+{
+  "metadata": {
+    "source": "Kickbase",
+    "source_type": "user-submitted screenshots",
+    "matchday": 2,
+    "player_identity_policy": "displayed_name_only",
+    "captured_at": null,
+    "processed_at": "2026-09-04T11:04:52+02:00",
+    "screenshot_count": 18,
+    "match_count": 9,
+    "team_count": 18,
+    "primary_player_count": 197,
+    "player_count": 244,
+    "fixture_reference": "outputs/sofascore/match_ids/match_ids_2.json",
+    "transcription_note": "Only text visibly displayed in the submitted Kickbase screenshots is stored for player identity. Repeated replacement candidates are stored once per team."
+  },
+  "matches": [
+    {
+      "match_time": "FR 20:30",
+      "home": {
+        "team_name": "VfB Stuttgart",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "BREDLOW",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MITTELSTÄDT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CHABOT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "JELTSCH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "VAGNOMAN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "STILLER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PRÖMEL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LEWELING",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "UNDAV",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TIAGO TOMÁS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DEMIROVIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Hendriks",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Führich",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Pejcinovic",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "1. FC Köln",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "SCHWÄBE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MENSAH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LOCHOSHVILI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SIMPSON-PUSEY",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CASTRO-MONTES",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SKHIRI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KRAUSS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MAINA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "JÓHANNESSON",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "THIELMANN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ACHE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Okon-Engstler",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Moore",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "Bayer 04 Leverkusen",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "FLEKKEN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GUTIÉRREZ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MEDINA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TAPSOBA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "QUANSAH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GARCÍA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "FERNÁNDEZ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MOREIRA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TILLMAN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MAZA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SCHICK",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Badé",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Doué",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Vázquez",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Diaby",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "1. FC Union Berlin",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "RAAB",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ROTHE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "VAN DEN BOSCH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "QUERFELD",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "JURANOVIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KEMLEIN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KHEDIRA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BURCU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "AEBISCHER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LATTE LATH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LJUBICIC",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Uduokhai",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Schäfer",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Jeong",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Skarke",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "Borussia M'gladbach",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "NICOLAS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ULLRICH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DIKS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ITAKURA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SCALLY",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "STÖGER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SANDER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HACK",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BOLIN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HONORAT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KLEINDIENST",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Herold",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Leszczynski",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Mohya",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV 07 Elversberg",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "KRISTOF",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GÜNTHER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PINCKERT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ROHR",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GYAMERAH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "POREBA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KEIDEL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CAMPBELL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+          "displayed_name": "ONYEKA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PETKOV",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MOKWA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "SC Paderborn 07",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "NOLL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HANSEN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SCHELLER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TER HORST",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "OBERMAIR",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CURDA CASTAÑEDA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ULRICH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "VIDOVIC",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MARINO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PIERINGER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Batista Meier",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Philippe",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SC Freiburg",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "BACKHAUS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MAKENGO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LIENHART",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GINTER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TREU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ENGELHARDT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "EGGESTEIN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SCHERHANT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SUZUKI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BESTE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MATANOVIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Günter",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Rosenfelder",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Grifo",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "SV Werder Bremen",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "HEIN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DEMAN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "FRIEDL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PIEPER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ARTHUR",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LYNEN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "REIS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CHUKI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GRÜLL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "FÜLLKRUG",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DINKÇI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Schmetgens",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Stalmach",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "RB Leipzig",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "VANDEVOORDT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "RAUM",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CASTELLO JR.",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ORBÁN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BAKU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SEIWALD",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BANZUZI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "REITZ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "NUSA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "NKUNKU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GRUDA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Gomis",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 15:30",
+      "home": {
+        "team_name": "TSG Hoffenheim",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "BAUMANN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HAJDARI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HRANÁČ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KABAK",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "COUFAL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BURGER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "AVDULLAHU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DAGHIM",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LEMPERLE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "HLOŽEK",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DE CAT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Bernardo",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Rots",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 3
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Moerstedt",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Wimmer",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Conté",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 4,
+            "starting_probability_rank": 3
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Borussia Dortmund",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "KOBEL",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BENSEBAINI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ANTON",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GADOU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SVENSSON",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "NMECHA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BELLINGHAM",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "RYERSON",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BEIER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GUIRASSY",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KARETSAS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Sabitzer",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Mane",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 3
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SA 18:30",
+      "home": {
+        "team_name": "FC Schalke 04",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "KARIUS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KURUÇAY",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KATIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "AYHAN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GOSENS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "EL FAOUZI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TANAKA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LJUBIČIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "AOUCHICHE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SYLLA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ADAMU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "T. Becker",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "V. Becker",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Ebimbe",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "FC Bayern München",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "NEUER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DAVIES",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TAH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "UPAMECANO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LAIMER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "PAVLOVIĆ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KIMMICH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DÍAZ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SAIBARI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "OLISE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KANE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Brown",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Minjae",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Stanišić",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Karl",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SO 15:30",
+      "home": {
+        "team_name": "Hamburger SV",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "HEUER FERNANDES",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TORUNARIGHA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BORNAUW",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CAPALDO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LEMKE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SAMBI LOKONGA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "REMBERG",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "EL OUAHDI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GRØNBÆK",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DAKA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "VIEIRA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Møller Wolfe",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Jatta",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Adeline",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Stange",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 3
+          }
+        ]
+      },
+      "away": {
+        "team_name": "1. FSV Mainz 05",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "ZENTNER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "POTULSKI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GRUBER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DA COSTA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MWENE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CACI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "LEE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "SANO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "AMIRI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BECKER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "TIETZ",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Posch",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_time": "SO 17:30",
+      "home": {
+        "team_name": "Eintracht Frankfurt",
+        "side": "home",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "ATUBOLU",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KOSUGI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MALUZE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KOCH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BAUM",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "ONYEDIKA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "CHAÏBI",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "UZUN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "DOAN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "EBNOUTALIB",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BURKARDT",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Brassier",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Götze",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Amaimouni",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "FC Augsburg",
+        "side": "away",
+        "lineup_status": "Predicted Lineup",
+        "players": [
+          {
+            "full_name": null,
+            "displayed_name": "DAHMEN",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 1,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BANKS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GOUWELEEUW",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MATSIMA",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "BEHRENS",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "RIEDER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "MASSENGO",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 3,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "WOLF",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 3,
+            "slot_index": 4,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "FELLHAUER",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "KADE",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 4,
+            "slot_index": 2,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "GREGORITSCH",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 5,
+            "slot_index": 1,
+            "starting_probability_rank": 1
+          },
+          {
+            "full_name": null,
+            "displayed_name": "Brackelmann",
+            "position": null,
+            "injury_status": null,
+            "player_id": null,
+            "player_url": null,
+            "formation_row": 2,
+            "slot_index": 2,
+            "starting_probability_rank": 2
+          }
+        ]
+      }
+    }
+  ]
+}

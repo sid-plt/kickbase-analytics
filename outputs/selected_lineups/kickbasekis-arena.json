@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "league": "KickbaseKIS Arena",
+  "selected_at": "2026-09-04T09:14:41.442692+00:00",
+  "source": "optimizer_v2_per_match",
+  "expected_points": {
+    "value": "1760.603128",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "player_count": 11,
+  "players": [
+    {
+      "id": "237",
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "market_value": "14552983.0",
+      "market_value_eur": 14552983,
+      "club": "FC Bayern München",
+      "expected_points": "176.21454",
+      "captain": false
+    },
+    {
+      "id": "1991",
+      "name": "Dayot Upamecano",
+      "position": "DEF",
+      "market_value": "33398087.0",
+      "market_value_eur": 33398087,
+      "club": "FC Bayern München",
+      "expected_points": "195.244722",
+      "captain": true
+    },
+    {
+      "id": "2199",
+      "name": "Josha Vagnoman",
+      "position": "DEF",
+      "market_value": "8301622.0",
+      "market_value_eur": 8301622,
+      "club": "VfB Stuttgart",
+      "expected_points": "149.136041",
+      "captain": false
+    },
+    {
+      "id": "14241",
+      "name": "Facundo Medina",
+      "position": "DEF",
+      "market_value": "8559759.0",
+      "market_value_eur": 8559759,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "117.212691",
+      "captain": false
+    },
+    {
+      "id": "11956",
+      "name": "Ezequiél Fernández",
+      "position": "MID",
+      "market_value": "10727689.0",
+      "market_value_eur": 10727689,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "138.918095",
+      "captain": false
+    },
+    {
+      "id": "13442",
+      "name": "Hugo Bolin",
+      "position": "MID",
+      "market_value": "11456465.0",
+      "market_value_eur": 11456465,
+      "club": "Borussia Mönchengladbach",
+      "expected_points": "134.593093",
+      "captain": false
+    },
+    {
+      "id": "11008",
+      "name": "Ezechiel Banzuzi",
+      "position": "MID",
+      "market_value": "11245732.0",
+      "market_value_eur": 11245732,
+      "club": "RB Leipzig",
+      "expected_points": "127.124956",
+      "captain": false
+    },
+    {
+      "id": "6319",
+      "name": "Franck Honorat",
+      "position": "MID",
+      "market_value": "9095848.0",
+      "market_value_eur": 9095848,
+      "club": "Borussia Mönchengladbach",
+      "expected_points": "118.709436",
+      "captain": false
+    },
+    {
+      "id": "4296",
+      "name": "Dzenan Pejcinovic",
+      "position": "FOR",
+      "market_value": "10929287.0",
+      "market_value_eur": 10929287,
+      "club": "VfB Stuttgart",
+      "expected_points": "160.372318",
+      "captain": false
+    },
+    {
+      "id": "3304",
+      "name": "Igor Matanović",
+      "position": "FOR",
+      "market_value": "20829723.0",
+      "market_value_eur": 20829723,
+      "club": "SC Freiburg",
+      "expected_points": "132.184117",
+      "captain": false
+    },
+    {
+      "id": "10113",
+      "name": "Tidiam Gomis",
+      "position": "FOR",
+      "market_value": "8176061.0",
+      "market_value_eur": 8176061,
+      "club": "RB Leipzig",
+      "expected_points": "115.648397",
+      "captain": false
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260904_104843_+0200_sofascore_overall_rating_odds_lineup_20260904_111301_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260904_111301_+0200",
+    "matchday": 2,
+    "formation": "3-4-3"
+  }
+}

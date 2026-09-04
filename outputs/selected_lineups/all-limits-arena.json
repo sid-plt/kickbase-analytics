@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "league": "All Limits Arena",
+  "selected_at": "2026-09-04T09:14:01.608806+00:00",
+  "source": "optimizer_all_limits_arena",
+  "expected_points": {
+    "value": "1580.328845",
+    "label": "Total expected points (captain doubled)",
+    "includes_captain_bonus": true
+  },
+  "player_count": 11,
+  "players": [
+    {
+      "id": "3019",
+      "name": "Noah Atubolu",
+      "position": "GK",
+      "market_value": "12346370.0",
+      "market_value_eur": 12346370,
+      "club": "Eintracht Frankfurt",
+      "expected_points": "129.362942",
+      "captain": false
+    },
+    {
+      "id": "1991",
+      "name": "Dayot Upamecano",
+      "position": "DEF",
+      "market_value": "33398087.0",
+      "market_value_eur": 33398087,
+      "club": "FC Bayern München",
+      "expected_points": "195.244722",
+      "captain": true
+    },
+    {
+      "id": "10115",
+      "name": "Daniel Svensson",
+      "position": "DEF",
+      "market_value": "18060603.0",
+      "market_value_eur": 18060603,
+      "club": "Borussia Dortmund",
+      "expected_points": "106.923971",
+      "captain": false
+    },
+    {
+      "id": "1540",
+      "name": "Danny Da Costa",
+      "position": "DEF",
+      "market_value": "10629521.0",
+      "market_value_eur": 10629521,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "104.159535",
+      "captain": false
+    },
+    {
+      "id": "7283",
+      "name": "Calvin Brackelmann",
+      "position": "DEF",
+      "market_value": "6146301.0",
+      "market_value_eur": 6146301,
+      "club": "FC Augsburg",
+      "expected_points": "72.906866",
+      "captain": false
+    },
+    {
+      "id": "11956",
+      "name": "Ezequiél Fernández",
+      "position": "MID",
+      "market_value": "10727689.0",
+      "market_value_eur": 10727689,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "138.918095",
+      "captain": false
+    },
+    {
+      "id": "13442",
+      "name": "Hugo Bolin",
+      "position": "MID",
+      "market_value": "11456465.0",
+      "market_value_eur": 11456465,
+      "club": "Borussia Mönchengladbach",
+      "expected_points": "134.593093",
+      "captain": false
+    },
+    {
+      "id": "11008",
+      "name": "Ezechiel Banzuzi",
+      "position": "MID",
+      "market_value": "11245732.0",
+      "market_value_eur": 11245732,
+      "club": "RB Leipzig",
+      "expected_points": "127.124956",
+      "captain": false
+    },
+    {
+      "id": "3209",
+      "name": "Yannik Engelhardt",
+      "position": "MID",
+      "market_value": "11640454.0",
+      "market_value_eur": 11640454,
+      "club": "SC Freiburg",
+      "expected_points": "112.308021",
+      "captain": false
+    },
+    {
+      "id": "9605",
+      "name": "Albert Grønbæk",
+      "position": "MID",
+      "market_value": "13039678.0",
+      "market_value_eur": 13039678,
+      "club": "Hamburger SV",
+      "expected_points": "103.169604",
+      "captain": false
+    },
+    {
+      "id": "4296",
+      "name": "Dzenan Pejcinovic",
+      "position": "FOR",
+      "market_value": "10929287.0",
+      "market_value_eur": 10929287,
+      "club": "VfB Stuttgart",
+      "expected_points": "160.372318",
+      "captain": false
+    }
+  ],
+  "metadata": {
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260904_104843_+0200_sofascore_overall_rating_odds_lineup_20260904_111301_+0200.csv",
+    "score_method": "sofascore_overall_rating_odds_lineup",
+    "metric_creation_timestamp": "20260904_111301_+0200",
+    "matchday": 2,
+    "formation": "4-5-1"
+  }
+}
