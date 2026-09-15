@@ -246,7 +246,7 @@ def _latest_history(value: Any) -> tuple[bool, float] | None:
 
 
 def build_outcomes(players: pd.DataFrame, baseline: pd.DataFrame) -> pd.DataFrame:
-    """Derive one-matchday outcomes, preferring a compatible cumulative baseline."""
+    """Derive one-matchday outcomes, using history for revised point totals."""
     current = players.copy()
     current["player_id"] = _finite_column(current, "id", "KBStats snapshot").astype(int)
     current["games_played"] = _cumulative_column(current, "gamesPlayed", "KBStats snapshot")
@@ -277,15 +277,24 @@ def build_outcomes(players: pd.DataFrame, baseline: pd.DataFrame) -> pd.DataFram
             if played_delta not in (0, 1) or start_delta not in (0, 1) or start_delta > played_delta:
                 raise ValueError(f"Invalid matchday count delta for player ID {int(row['player_id'])}.")
             actual_points = row["total_points"] - row["baseline_points"]
+            status = "baseline"
             if history is not None and abs(actual_points - history[1]) > 1e-9:
-                raise ValueError(f"History and cumulative points disagree for player ID {int(row['player_id'])}.")
+                # Earlier matches can be rescored after the baseline was saved.
+                # Only reconcile points when history confirms the appearance
+                # delta; otherwise the snapshots may cover different matches.
+                if history[0] != bool(played_delta):
+                    raise ValueError(f"History and cumulative appearances disagree for player ID {int(row['player_id'])}.")
+                actual_points = history[1]
+                status = "history_points"
             minutes_played = (
                 (row["total_playtime_seconds"] - row["baseline_playtime_seconds"]) / 60.0
                 if has_playtime_baseline else None
             )
             if minutes_played is not None and not played_delta and abs(minutes_played) > 1e-9:
-                raise ValueError(f"Playing-time and appearance counts disagree for player ID {int(row['player_id'])}.")
-            status = "baseline"
+                if history is None or history[0]:
+                    raise ValueError(f"Playing-time and appearance counts disagree for player ID {int(row['player_id'])}.")
+                minutes_played = 0.0
+                status = "history_nonappearance"
             played, started = bool(played_delta), bool(start_delta)
         else:
             if history is None:

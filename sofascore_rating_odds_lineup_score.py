@@ -8,7 +8,8 @@ import re
 import unicodedata
 import warnings
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
+from decimal import Decimal, ROUND_HALF_UP
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Mapping
@@ -24,6 +25,7 @@ from project_paths import (
     LIGAINSIDER_PREDICTED_LINEUPS_DIR,
     ROTOWIRE_PREDICTED_LINEUPS_DIR,
     SOFASCORE_ODDS_DIR,
+    SOFASCORE_TEAM_FORM_DIR,
     ensure_directory,
     prune_timestamped_outputs,
 )
@@ -80,6 +82,7 @@ DEFAULT_QUESTIONABLE_INJURY_STARTING_CHANCE_PENALTY = 0.15
 DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY = 0.45
 # Kept at 1.0 by default so callers must explicitly opt into a fitted scale.
 DEFAULT_SCORE_MULTIPLIER = 1.0
+OVERALL_RECENCY_WEIGHTS = (28, 24, 20, 16, 12)  # Newest team match first.
 QUESTIONABLE_INJURY_STATUS = "QUES"
 LIGAINSIDER_FILENAME_RE = re.compile(r"^ligainsider_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
 KICKBASE_FILENAME_RE = re.compile(r"^kickbase_bundesliga_lineups_(?P<timestamp>\d{8}_\d{6})\.json$")
@@ -486,7 +489,13 @@ def _kickbase_chances(
     questionable_injury_starting_chance_penalty: float = 0.0,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
 ) -> dict[str, dict[str, Any]]:
-    """Return name-only Kickbase chances using geometric slot normalization."""
+    """Return Kickbase chances calculated independently for every pitch slot.
+
+    An unchallenged rank-one player is certain to start. Where Kickbase lists
+    alternatives for a slot, the geometric rank weights are normalized only
+    within that slot. A player named for several slots combines those
+    independent opportunities with noisy-OR pooling, capped at one.
+    """
     alternative_starting_chance_decay = validate_alternative_starting_chance_decay(
         alternative_starting_chance_decay
     )
@@ -502,6 +511,80 @@ def _kickbase_chances(
             raise ValueError(f"Kickbase player {name!r} has invalid slot/rank data.") from exc
         if rank < 1:
             raise ValueError(f"Kickbase player {name!r} has invalid rank {rank}.")
+        slots.setdefault(slot, []).append(
+            {"name": name, "rank": rank, "questionable": _is_questionable(player)}
+        )
+
+    if not slots:
+        return {}
+    if not any(item["rank"] == 1 for alternatives in slots.values() for item in alternatives):
+        raise ValueError("Kickbase lineup has players but no rank-one starters.")
+    candidates: dict[str, dict[str, Any]] = {}
+    for alternatives in slots.values():
+        ordered = sorted(alternatives, key=lambda item: item["rank"])
+        if len(ordered) == 1:
+            # No competing player is visible, so the displayed starter is
+            # certain. Do not let uncertainty in another position affect it.
+            slot_chances = [1.0]
+        else:
+            slot_chances = _slot_chances(
+                ordered,
+                questionable_injury_starting_chance_penalty,
+                alternative_starting_chance_decay,
+            )
+        for item, chance in zip(ordered, slot_chances, strict=True):
+            key = normalize_name(item["name"])
+            candidate = candidates.setdefault(
+                key,
+                {"name": item["name"], "slot_chances": [], "questionable": False},
+            )
+            candidate["slot_chances"].append(chance)
+            candidate["questionable"] = bool(candidate["questionable"] or item["questionable"])
+
+    return {
+        key: {
+            "name": item["name"],
+            "chance": 1.0 - math.prod(1.0 - chance for chance in item["slot_chances"]),
+            "questionable": bool(item["questionable"]),
+        }
+        for key, item in candidates.items()
+    }
+
+
+def _kicker_chances(
+    players: list[Any],
+    questionable_injury_starting_chance_penalty: float = 0.0,
+    alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
+) -> dict[str, dict[str, Any]]:
+    """Return Kicker's name-only chances using its existing slot normalization."""
+    return _kickbase_slot_chances(
+        players,
+        questionable_injury_starting_chance_penalty,
+        alternative_starting_chance_decay,
+    )
+
+
+def _kickbase_slot_chances(
+    players: list[Any],
+    questionable_injury_starting_chance_penalty: float,
+    alternative_starting_chance_decay: float,
+) -> dict[str, dict[str, Any]]:
+    """Keep Kicker's legacy display-name parser separate from Kickbase."""
+    alternative_starting_chance_decay = validate_alternative_starting_chance_decay(
+        alternative_starting_chance_decay
+    )
+    slots: dict[tuple[int, int], list[dict[str, Any]]] = {}
+    for player in players:
+        name = _kickbase_player_name(player)
+        if name is None:
+            continue
+        try:
+            slot = (int(player["formation_row"]), int(player["slot_index"]))
+            rank = int(player["starting_probability_rank"])
+        except (KeyError, TypeError, ValueError) as exc:
+            raise ValueError(f"Kicker player {name!r} has invalid slot/rank data.") from exc
+        if rank < 1:
+            raise ValueError(f"Kicker player {name!r} has invalid rank {rank}.")
         slots.setdefault(slot, []).append(
             {"name": name, "rank": rank, "questionable": _is_questionable(player)}
         )
@@ -522,6 +605,29 @@ def _kickbase_chances(
             entry["chance"] = min(1.0, entry["chance"] + chance)
             entry["questionable"] = bool(entry["questionable"] or item["questionable"])
     return chances
+
+
+
+def _add_kicker_identity_candidates(
+    candidates: dict[str, dict[str, Any]], team: dict[str, Any],
+) -> None:
+    """Add URL name hints to existing starter candidates only."""
+    for player in team["players"]:
+        name = _kickbase_player_name(player) or player.get("name")
+        if not isinstance(name, str) or not name.strip():
+            continue
+        entry = candidates.get(normalize_name(name))
+        if entry is None:
+            continue
+        # URL slugs are hints for the review prompt, never automatic identities.
+        url = player.get("player_url") or ""
+        slug_match = re.search(r"/([^/]+)/spieler(?:/|$)", url)
+        if slug_match:
+            parts = [part for part in slug_match.group(1).split("-") if not part.isdigit()]
+            entry["matching_names"] = [
+                " ".join(parts),
+                " ".join(parts[-1:] + parts[:-1]),
+            ]
 
 
 def load_lineup_source(
@@ -549,7 +655,7 @@ def load_lineup_source(
     parsers = {
         "ligainsider": _ligainsider_chances,
         "kickbase": _kickbase_chances,
-        "kicker": _kickbase_chances,
+        "kicker": _kicker_chances,
         "rotowire": _rotowire_chances,
     }
     try:
@@ -582,6 +688,8 @@ def load_lineup_source(
                 )
             else:
                 teams[key] = parser(player_list, questionable_injury_starting_chance_penalty)
+            if source.key == "kicker":
+                _add_kicker_identity_candidates(teams[key], team)
     return path, teams
 
 
@@ -691,7 +799,11 @@ def _fuzzy_candidates(
     threshold: float = FUZZY_MATCH_THRESHOLD,
 ) -> list[tuple[float, dict[str, Any]]]:
     normalized = normalize_name(name)
-    matches = [(SequenceMatcher(None, normalized, key).ratio(), value) for key, value in candidates.items()]
+    matches = [
+        (max(SequenceMatcher(None, normalized, alias).ratio() for alias in
+             [key, *(normalize_name(hint) for hint in value.get("matching_names", []))]), value)
+        for key, value in candidates.items()
+    ]
     return sorted(
         (item for item in matches if item[0] >= threshold),
         key=lambda item: (-item[0], item[1]["name"].casefold(), str(item[1].get("id", ""))),
@@ -725,7 +837,9 @@ def resolve_kickbase_display_name(
 
     The provider label is first compared with ``lastName`` and then
     ``firstName``. A shared first or last name is intentionally unresolved so
-    the notebook prompt remains the only way to confirm that identity.
+    a persisted cross reference or notebook confirmation must resolve it.
+    Uniqueness spans both name fields: one player's first name can be another
+    player's surname.
     """
     for part_key, column in (("last", "lastName"), ("first", "firstName")):
         value = player.get(column)
@@ -733,9 +847,39 @@ def resolve_kickbase_display_name(
             continue
         normalized = normalize_name(value)
         chosen = candidates.get(normalized)
-        if chosen is not None and len(team_name_index.get(part_key, {}).get(normalized, set())) == 1:
+        owners = (
+            team_name_index.get("first", {}).get(normalized, set())
+            | team_name_index.get("last", {}).get(normalized, set())
+        )
+        if chosen is not None and len(owners) == 1:
             return chosen
     return None
+
+
+def resolve_name_only_lineup_match(
+    candidates: dict[str, dict[str, Any]],
+    kbstats_name: str,
+    player: dict[str, Any],
+    team_name_index: dict[str, dict[str, set[int]]],
+    override_displayed_name: str | None = None,
+) -> tuple[dict[str, Any] | None, str | None]:
+    """Resolve a display-only lineup name before considering fuzzy candidates.
+
+    A live normalized name match is more trustworthy than a persisted alias:
+    aliases can become stale or contain a transcription typo. The caller uses
+    fuzzy matching only when this function cannot identify a candidate.
+    """
+    chosen = candidates.get(normalize_name(kbstats_name))
+    if chosen is not None:
+        return chosen, "exact"
+    chosen = resolve_kickbase_display_name(candidates, player, team_name_index)
+    if chosen is not None:
+        return chosen, "normalized"
+    if isinstance(override_displayed_name, str) and override_displayed_name.strip():
+        chosen = candidates.get(normalize_name(override_displayed_name))
+        if chosen is not None:
+            return chosen, "override"
+    return None, None
 
 
 def _rating_candidate_maps(ratings: pd.DataFrame) -> tuple[dict[str, dict[str, Any]], dict[int, dict[str, Any]]]:
@@ -748,6 +892,84 @@ def _rating_candidate_maps(ratings: pd.DataFrame) -> tuple[dict[str, dict[str, A
             raise ValueError(f"SofaScore ratings have ambiguous player name {entry['name']!r}.")
         by_name[key], by_id[entry["id"]] = entry, entry
     return by_name, by_id
+
+
+def _rating_match_chronology(match: dict[str, Any]) -> datetime:
+    timestamp = match.get("timestamp")
+    if isinstance(timestamp, (int, float)) and not isinstance(timestamp, bool) and math.isfinite(timestamp):
+        try:
+            return datetime.fromtimestamp(timestamp, tz=timezone.utc)
+        except (ValueError, OverflowError, OSError):
+            pass
+    value = match.get("date")
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError("Match has no usable timestamp or date.")
+    parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=datetime.now().astimezone().tzinfo)
+    return parsed.astimezone(timezone.utc)
+
+
+def load_score_ratings(path: Path, category: str) -> pd.DataFrame:
+    """Use team-slot recency weights only for the overall odds/lineup method."""
+    ratings = load_category_ratings(path, category)
+    if category != "overall":
+        return ratings
+    json_path = path.with_suffix(".json")
+    try:
+        document = json.loads(json_path.read_text(encoding="utf-8-sig"))
+        source_name = document["source_file"]
+        if not isinstance(source_name, str) or Path(source_name).name != source_name:
+            raise ValueError("source_file must be a team-form filename.")
+        snapshot = json.loads((SOFASCORE_TEAM_FORM_DIR / source_name).read_text(encoding="utf-8-sig"))
+        if not isinstance(snapshot, dict) or not snapshot:
+            raise ValueError("Team-form snapshot must be a non-empty object.")
+        if not all(str(key).isdigit() for key in snapshot):
+            if len(snapshot) != 1:
+                raise ValueError("Invalid timestamp-wrapped team-form snapshot.")
+            snapshot = next(iter(snapshot.values()))
+        weighted = {}
+        for team_id, team in document["teams"].items():
+            matches = snapshot[team_id]["overall_matches"]
+            if not isinstance(matches, list) or not 1 <= len(matches) <= 5:
+                raise ValueError(f"Team {team_id} needs one to five overall matches.")
+            ids = [match["match_id"] for match in matches]
+            if any(type(match_id) is not int or match_id <= 0 for match_id in ids) or len(set(ids)) != len(ids):
+                raise ValueError(f"Team {team_id} has invalid or duplicate match IDs.")
+            ordered = sorted(matches, key=lambda match: (_rating_match_chronology(match), match["match_id"]), reverse=True)
+            weights = {match["match_id"]: Decimal(weight) for match, weight in zip(ordered, OVERALL_RECENCY_WEIGHTS)}
+            for player in team["overall"]["players"]:
+                player_id = player["player_id"]
+                trail = player["ratings"]
+                if type(player_id) is not int or player_id <= 0 or player_id in weighted:
+                    raise ValueError("Invalid or duplicate overall player ID.")
+                if not isinstance(trail, list) or not trail or len(trail) != player["rating_count"]:
+                    raise ValueError(f"Player {player_id} has an inconsistent rating trail.")
+                numerator, denominator = Decimal(0), Decimal(0)
+                seen = set()
+                for record in trail:
+                    match_id, rating = record["match_id"], record["rating"]
+                    if type(match_id) is not int or match_id not in weights or match_id in seen:
+                        raise ValueError(f"Player {player_id} has an unknown or duplicate rated match.")
+                    if isinstance(rating, bool) or not isinstance(rating, (int, float)) or not math.isfinite(rating) or not 0 <= rating <= 10:
+                        raise ValueError(f"Player {player_id} has an invalid rating.")
+                    seen.add(match_id)
+                    numerator += Decimal(str(rating)) * weights[match_id]
+                    denominator += weights[match_id]
+                weighted[player_id] = (team_id, player, float((numerator / denominator).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)))
+        if set(weighted) != set(ratings["player_id"]):
+            raise ValueError("Overall player IDs differ between ratings CSV and JSON.")
+        values = []
+        for _, row in ratings.iterrows():
+            team_id, player, value = weighted[int(row["player_id"])]
+            if (int(row["team_id"]) != int(team_id) or row["player_name"] != player["player_name"]
+                    or row["rating_count"] != player["rating_count"] or row["average_rating"] != player["average_rating"]):
+                raise ValueError(f"CSV and JSON disagree for player {row['player_id']}.")
+            values.append(value)
+        ratings["average_rating"] = values
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+        raise ValueError(f"Cannot apply overall recency weighting using {json_path}: {exc}") from exc
+    return ratings
 
 
 def run_score_creation(
@@ -776,7 +998,7 @@ def run_score_creation(
     kbstats_input = select_latest_kbstats_csv()
     ratings_input = select_latest_ratings_csv()
     players = load_kbstats_players(kbstats_input.path)
-    ratings = load_category_ratings(ratings_input.path, category)
+    ratings = load_score_ratings(ratings_input.path, category)
     expected_points, odds_table = load_expected_match_points(matchday)
     lineup_inputs = {
         source.key: load_lineup_source(
@@ -832,33 +1054,11 @@ def run_score_creation(
         }
     kickbase_name_indexes = build_kickbase_name_indexes(players, team_keys)
 
-    # Collect uncertain matches from every provider into one review queue.  This
-    # keeps a strong lineup match from being hidden behind a long list of much
-    # weaker rating matches.
-    rating_resolution: dict[int, tuple[dict[str, Any] | None, str]] = {}
-    rating_prompts: list[tuple[float, str, int, list[tuple[float, dict[str, Any]]]]] = []
-    for index, context in player_contexts.items():
-        name, normalized = context["name"], context["normalized"]
-        rating = rating_by_name.get(normalized)
-        if rating is not None:
-            rating_resolution[index] = (rating, "exact")
-        elif normalized in rating_override_by_name:
-            rating = rating_by_id.get(int(rating_override_by_name[normalized]["sofascore_player_id"]))
-            rating_resolution[index] = (rating, "override" if rating is not None else "missing_rating")
-        else:
-            fuzzy = _fuzzy_candidates(name, rating_by_name)
-            if fuzzy:
-                rating_prompts.append((fuzzy[0][0], name.casefold(), index, fuzzy))
-            else:
-                rating_resolution[index] = (None, "missing_rating")
-
+    # Resolve every lineup before looking up ratings. A player can be a valid
+    # starter even when no SofaScore rating is available for scoring them.
     lineup_resolution: dict[tuple[int, str], tuple[dict[str, Any] | None, str]] = {}
     lineup_prompts: list[tuple[float, str, int, LineupSource, list[tuple[float, dict[str, Any]]]]] = []
     for index, context in player_contexts.items():
-        # A player with no exact/overridden rating and no rating candidate can
-        # never receive a score, so there is no value in reviewing their lineup.
-        if index in rating_resolution and rating_resolution[index][0] is None:
-            continue
         name, normalized, team_key = context["name"], context["normalized"], context["team_key"]
         for source in LINEUP_SOURCES:
             _, source_teams = lineup_inputs[source.key]
@@ -871,20 +1071,16 @@ def run_score_creation(
                 continue
             if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
                 override = name_only_override_by_key.get((source.key, team_key, normalized))
-                if override is not None:
-                    chosen = candidates.get(normalize_name(override["displayed_name"]))
-                    lineup_resolution[(index, source.key)] = (
-                        chosen,
-                        "override" if chosen is not None else "missing",
-                    )
-                    continue
-                chosen = resolve_kickbase_display_name(
+                override_displayed_name = None if override is None else override["displayed_name"]
+                chosen, status = resolve_name_only_lineup_match(
                     candidates,
+                    name,
                     {"firstName": context["first_name"], "lastName": context["last_name"]},
                     kickbase_name_indexes.get(team_key, {"first": {}, "last": {}}),
+                    override_displayed_name,
                 )
                 if chosen is not None:
-                    lineup_resolution[(index, source.key)] = (chosen, "exact")
+                    lineup_resolution[(index, source.key)] = (chosen, status or "exact")
                     continue
                 # Kickbase and Kicker expose display labels rather than reliable
                 # canonical player identities. A non-unique name part or no
@@ -913,42 +1109,53 @@ def run_score_creation(
             else:
                 lineup_resolution[(index, source.key)] = (None, "missing")
 
-    # Sort every uncertain match by its best similarity, independent of source.
-    # The remaining fields are only deterministic tie breakers.
-    review_prompts: list[tuple[float, str, str, int, LineupSource | None, list[tuple[float, dict[str, Any]]]]] = []
-    review_prompts.extend(
-        (similarity, name_key, "sofascore", index, None, fuzzy)
-        for similarity, name_key, index, fuzzy in rating_prompts
-    )
-    review_prompts.extend(
-        (similarity, name_key, source.key, index, source, fuzzy)
-        for similarity, name_key, index, source, fuzzy in lineup_prompts
-    )
-    for _, _, source_key, index, source, fuzzy in sorted(
-        review_prompts,
-        key=lambda item: (-item[0], item[1], item[2], item[3]),
+    # Resolve uncertain lineups before asking about ratings, preserving lineup
+    # evidence even when a player cannot ultimately receive a points score.
+    for _, _, index, source, fuzzy in sorted(
+        lineup_prompts,
+        key=lambda item: (-item[0], item[1], item[3].key, item[2]),
     ):
         context = player_contexts[index]
         name = context["name"]
-        if source is None:
-            chosen, _ = _prompt_candidate(f"SofaScore rating for {name}", fuzzy)
-            if chosen is not None:
-                rating_resolution[index] = (chosen, "prompted")
-                new_rating_overrides.append({"kbstats_name": name, "sofascore_player_id": chosen["id"], "sofascore_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+        team_key = context["team_key"]
+        chosen, _ = _prompt_candidate(f"{source.key} lineup for {name} ({team_key})", fuzzy)
+        if chosen is not None:
+            lineup_resolution[(index, source.key)] = (chosen, "prompted")
+            if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
+                new_name_only_lineup_overrides.append({"source": source.key, "canonical_team": team_key, "kbstats_name": name, "displayed_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+            else:
+                new_lineup_overrides.append({"source": source.key, "canonical_team": team_key, "kbstats_name": name, "provider_player_id": chosen["id"], "provider_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+        else:
+            lineup_resolution[(index, source.key)] = (None, "missing")
+
+    rating_resolution: dict[int, tuple[dict[str, Any] | None, str]] = {}
+    rating_prompts: list[tuple[float, str, int, list[tuple[float, dict[str, Any]]]]] = []
+    for index, context in player_contexts.items():
+        name, normalized = context["name"], context["normalized"]
+        rating = rating_by_name.get(normalized)
+        if rating is not None:
+            rating_resolution[index] = (rating, "exact")
+        elif normalized in rating_override_by_name:
+            rating = rating_by_id.get(int(rating_override_by_name[normalized]["sofascore_player_id"]))
+            rating_resolution[index] = (rating, "override" if rating is not None else "missing_rating")
+        else:
+            fuzzy = _fuzzy_candidates(name, rating_by_name)
+            if fuzzy:
+                rating_prompts.append((fuzzy[0][0], name.casefold(), index, fuzzy))
             else:
                 rating_resolution[index] = (None, "missing_rating")
-            continue
 
-        team_key = context["team_key"]
-        chosen, _ = _prompt_candidate(f"{source_key} lineup for {name} ({team_key})", fuzzy)
+    for _, _, index, fuzzy in sorted(
+        rating_prompts,
+        key=lambda item: (-item[0], item[1], item[2]),
+    ):
+        name = player_contexts[index]["name"]
+        chosen, _ = _prompt_candidate(f"SofaScore rating for {name}", fuzzy)
         if chosen is not None:
-            lineup_resolution[(index, source_key)] = (chosen, "prompted")
-            if source_key in NAME_ONLY_LINEUP_SOURCE_KEYS:
-                new_name_only_lineup_overrides.append({"source": source_key, "canonical_team": team_key, "kbstats_name": name, "displayed_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
-            else:
-                new_lineup_overrides.append({"source": source_key, "canonical_team": team_key, "kbstats_name": name, "provider_player_id": chosen["id"], "provider_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+            rating_resolution[index] = (chosen, "prompted")
+            new_rating_overrides.append({"kbstats_name": name, "sofascore_player_id": chosen["id"], "sofascore_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
         else:
-            lineup_resolution[(index, source_key)] = (None, "missing")
+            rating_resolution[index] = (None, "missing_rating")
 
     for index, player in players.iterrows():
         context = player_contexts[int(index)]
@@ -959,40 +1166,33 @@ def run_score_creation(
         source_chance_by_key = {source.key: 0.0 for source in LINEUP_SOURCES}
         is_questionable = False
         lineup_statuses: list[str] = []
-        if rating is None:
-            starting_chance = 0.0
-            lineup_statuses.append("not_evaluated_missing_rating")
-        else:
-            for source in LINEUP_SOURCES:
-                _, source_teams = lineup_inputs[source.key]
-                candidates = source_teams.get(team_key)
-                if candidates is None:
-                    continue
-                try:
-                    chosen, status = lineup_resolution[(int(index), source.key)]
-                except KeyError as exc:
-                    raise RuntimeError(
-                        f"No resolved lineup match exists for {name!r} from {source.key}."
-                    ) from exc
-                source_chance = 0.0 if chosen is None else float(chosen["chance"])
-                source_weight = source_weights[source.key]
-                if source_weight > 0:
-                    source_chances.append((source_weight, source_chance))
-                source_chance_by_key[source.key] = source_chance
-                is_questionable = is_questionable or bool(
-                    chosen is not None and chosen.get("questionable", False)
-                )
-                lineup_statuses.append(f"{source.key}:{status}")
+        for source in LINEUP_SOURCES:
+            _, source_teams = lineup_inputs[source.key]
+            candidates = source_teams.get(team_key)
+            if candidates is None:
+                continue
             try:
-                blended_starting_chance = blend_lineup_chances(source_chances)
-            except ValueError as exc:
-                raise ValueError(f"No positive-weight lineup source covers team {team_key}.") from exc
-            injury_penalty = (
-                questionable_injury_starting_chance_penalty if is_questionable else 0.0
+                chosen, status = lineup_resolution[(int(index), source.key)]
+            except KeyError as exc:
+                raise RuntimeError(
+                    f"No resolved lineup match exists for {name!r} from {source.key}."
+                ) from exc
+            source_chance = 0.0 if chosen is None else float(chosen["chance"])
+            source_weight = source_weights[source.key]
+            if source_weight > 0:
+                source_chances.append((source_weight, source_chance))
+            source_chance_by_key[source.key] = source_chance
+            is_questionable = is_questionable or bool(
+                chosen is not None and chosen.get("questionable", False)
             )
-            starting_chance = blended_starting_chance
-        if rating is None:
-            injury_penalty = 0.0
+            lineup_statuses.append(f"{source.key}:{status}")
+        try:
+            starting_chance = blend_lineup_chances(source_chances)
+        except ValueError as exc:
+            raise ValueError(f"No positive-weight lineup source covers team {team_key}.") from exc
+        injury_penalty = (
+            questionable_injury_starting_chance_penalty if is_questionable else 0.0
+        )
         rating_value = 0.0 if rating is None else float(rating["rating"])
         match_points = float(expected_points[team_key])
         # Keep the score scale safely within the optimizer's exact integerization range.
@@ -1036,6 +1236,8 @@ def run_score_creation(
     review = pd.DataFrame(review_rows)
     print("Input summary")
     print(f"  Matchday: {matchday}; ratings: {ratings_input.path.name}")
+    if category == "overall":
+        print("  Rating recency weights (newest to oldest): 28/24/20/16/12; missing ratings excluded and weights normalized.")
     for source in LINEUP_SOURCES:
         status = "current" if lineup_source_is_current[source.key] else "previous matchday — excluded"
         print(

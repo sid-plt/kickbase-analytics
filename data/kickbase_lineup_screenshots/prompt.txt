@@ -41,10 +41,11 @@ The pitch is vertically oriented:
    competing option(s). Add each competing option after the primary XI with
    the same `formation_row` and `slot_index` as the incumbent and a
    `starting_probability_rank` of `2`, `3`, etc. in its shown order.
-6. If the same named alternative competes for more than one starter, keep it
-   only once per team, assigned to the first corresponding replacement slot in
-   top-to-bottom, left-to-right order. Do not duplicate its identity merely to
-   represent multiple possible slots.
+6. If the same named alternative competes for more than one starter, emit that
+   displayed name once for every corresponding replacement slot. Each emitted
+   player object keeps that incumbent's `formation_row`, `slot_index`, and
+   shown replacement rank; do not deduplicate a candidate merely because its
+   displayed name repeats.
 7. If a name, orange dot, or replacement text is unreadable, retain only what
    can be read. Do not invent the missing value. Mention the ambiguity in the
    final concise note, but keep the JSON valid.
@@ -75,7 +76,7 @@ LigaInsider, RotoWire, Kicker, and Kickbase lineup outputs:
     "primary_player_count": 0,
     "player_count": 0,
     "fixture_reference": "outputs/sofascore/match_ids/match_ids_0.json",
-    "transcription_note": "Only text visibly displayed in the submitted Kickbase screenshots is stored for player identity. Repeated replacement candidates are stored once per team."
+    "transcription_note": "Only text visibly displayed in the submitted Kickbase screenshots is stored for player identity. Repeated replacement candidates are stored for every visible competing slot."
   },
   "matches": [
     {
@@ -116,7 +117,27 @@ Every player object must contain all of these keys, in this shape:
 Use the canonical fixture order and include every fixture, even if a screenshot
 for one side is missing. For a missing side, emit its normal team object with
 an empty `players` array. Set `match_time` from the fixture reference when it
-is available; otherwise use the clearly visible Kickbase label. Count only
-unique player objects actually emitted: `primary_player_count` is the number
-with rank `1`, while `player_count` includes alternatives. Do not output prose
-in place of JSON or fabricate an XI to make counts reach eleven.
+is available; otherwise use the clearly visible Kickbase label.
+`primary_player_count` is the number of emitted player objects with rank `1`;
+`player_count` is the total number of emitted player objects, including every
+alternative occurrence. Do not output prose in place of JSON or fabricate an
+XI to make counts reach eleven.
+
+## Mandatory semantic audit
+
+After writing the JSON, parse it again and inspect it thoroughly before
+returning the saved path. Verify and fix all resolvable semantic errors:
+
+- JSON validity, required keys and value types, local filename/timestamp,
+  metadata matchday/reference/counts, and player-count totals.
+- Exact canonical fixture order, team names, home/away sides, match times, and
+  empty player arrays only for screenshot sides that are actually missing.
+- Every player name and orange-marker/replacement decision against its readable
+  screenshot; retain only visible source text and no inferred identity data.
+- Formation rows and left-to-right slots, rank-one primary starters, contiguous
+  alternative ranks per slot, and every repeated named alternative retained at
+  each visible competing slot.
+
+Correct any issue found, write the corrected JSON, and repeat this audit until
+it passes. Mention only source text that remains genuinely unreadable in the
+final concise note.

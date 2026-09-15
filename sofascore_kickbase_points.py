@@ -19,6 +19,8 @@ import re
 import warnings
 from typing import Any, Iterable
 
+from chrome_runtime import detect_chrome_major_version
+
 DIRECT = "direct"
 DERIVED = "derived"
 PROXY = "proxy"
@@ -525,9 +527,15 @@ def create_browser(headless: bool = False) -> Any:
     if headless:
         options.add_argument("--headless=new")
     try:
-        # Omit ``version_main``: undetected-chromedriver then matches the local
-        # Chrome installation itself, including after Chrome updates.
-        driver = uc.Chrome(options=options, use_subprocess=True)
+        # Match the driver to the same installed Chrome executable we launch.
+        chrome_executable_path = uc.find_chrome_executable()
+        chrome_major_version = detect_chrome_major_version(chrome_executable_path)
+        driver = uc.Chrome(
+            options=options,
+            browser_executable_path=chrome_executable_path,
+            version_main=chrome_major_version,
+            use_subprocess=True,
+        )
     except Exception as exc:
         raise RuntimeError(f"Could not start undetected Chrome: {type(exc).__name__}: {exc}") from exc
     driver.set_page_load_timeout(30)
