@@ -1,81 +1,83 @@
 {
   "schema_version": 1,
   "league": "Kickbase.insider Arena",
-  "selected_at": "2026-09-04T09:14:21.392738+00:00",
+  "selected_at": "2026-09-11T08:20:16.225016+00:00",
   "source": "optimizer_insider_arena",
   "expected_points": {
-    "value": "1118.782929",
+    "value": "1218.50915",
     "label": "Total expected points (captain doubled)",
     "includes_captain_bonus": true
   },
   "player_count": 6,
   "players": [
     {
-      "id": "2237",
-      "name": "Fabian Bredlow",
+      "id": "1873",
+      "name": "Gregor Kobel",
       "position": "GK",
-      "market_value": "12223174.0",
-      "market_value_eur": 12223174,
-      "club": "VfB Stuttgart",
-      "expected_points": "172.630075",
+      "market_value": "20339560.0",
+      "market_value_eur": 20339560,
+      "club": "Borussia Dortmund",
+      "expected_points": "176.376494",
       "captain": false
     },
     {
-      "id": "1991",
-      "name": "Dayot Upamecano",
+      "id": "3759",
+      "name": "Miguel Gutiérrez",
       "position": "DEF",
-      "market_value": "33398087.0",
-      "market_value_eur": 33398087,
+      "market_value": "22938817.0",
+      "market_value_eur": 22938817,
+      "club": "Bayer 04 Leverkusen",
+      "expected_points": "139.088386",
+      "captain": false
+    },
+    {
+      "id": "8329",
+      "name": "Michael Olise",
+      "position": "MID",
+      "market_value": "65065938.0",
+      "market_value_eur": 65065938,
       "club": "FC Bayern München",
-      "expected_points": "195.244722",
+      "expected_points": "217.379541",
       "captain": true
     },
     {
-      "id": "2141",
-      "name": "Ridle  Baku",
-      "position": "DEF",
-      "market_value": "19653208.0",
-      "market_value_eur": 19653208,
+      "id": "9507",
+      "name": "Antonio Nusa",
+      "position": "MID",
+      "market_value": "27181846.0",
+      "market_value_eur": 27181846,
       "club": "RB Leipzig",
-      "expected_points": "133.834329",
-      "captain": false
-    },
-    {
-      "id": "4199",
-      "name": "Aleix García",
-      "position": "MID",
-      "market_value": "39179941.0",
-      "market_value_eur": 39179941,
-      "club": "Bayer 04 Leverkusen",
-      "expected_points": "155.051871",
-      "captain": false
-    },
-    {
-      "id": "13442",
-      "name": "Hugo Bolin",
-      "position": "MID",
-      "market_value": "11456465.0",
-      "market_value_eur": 11456465,
-      "club": "Borussia Mönchengladbach",
-      "expected_points": "134.593093",
+      "expected_points": "160.886678",
       "captain": false
     },
     {
       "id": "3304",
       "name": "Igor Matanović",
       "position": "FOR",
-      "market_value": "20829723.0",
-      "market_value_eur": 20829723,
+      "market_value": "22245370.0",
+      "market_value_eur": 22245370,
       "club": "SC Freiburg",
-      "expected_points": "132.184117",
+      "expected_points": "162.25504",
+      "captain": false
+    },
+    {
+      "id": "2030",
+      "name": "Phillip Tietz",
+      "position": "FOR",
+      "market_value": "15871451.0",
+      "market_value_eur": 15871451,
+      "club": "1. FSV Mainz 05",
+      "expected_points": "145.14347",
       "captain": false
     }
   ],
   "metadata": {
-    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260904_104843_+0200_sofascore_overall_rating_odds_lineup_20260904_111301_+0200.csv",
+    "score_input_file": "C:\\kickbase project\\outputs\\expected_points\\expected_points_20260911_094008_+0200_sofascore_overall_rating_odds_lineup_20260911_101239_+0200.csv",
     "score_method": "sofascore_overall_rating_odds_lineup",
-    "metric_creation_timestamp": "20260904_111301_+0200",
-    "matchday": 2,
-    "formation": "2-2-1"
+    "metric_creation_timestamp": "20260911_101239_+0200",
+    "matchday": 3,
+    "formation": "1-2-2",
+    "budget_scenario": "Base budget",
+    "budget_eur": 180000000
   }
 }

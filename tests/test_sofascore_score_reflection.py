@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 import pandas as pd
+import pytest
 
 from sofascore_score_reflection import (
     BASELINE_COLUMNS,
@@ -46,6 +47,45 @@ def test_first_run_uses_history_and_zeroes_nonappearance():
     assert outcome["actual_points"] == 0
     assert bool(outcome["played"]) is False
     assert bool(outcome["started"]) is False
+
+
+def test_outcomes_use_history_points_when_previous_match_was_rescored(tmp_path):
+    before = _players(games=1, starts=1, points=330, playtime_seconds=5767, history='[]')
+    baseline = baseline_from_snapshot(before, datetime.now(timezone.utc), tmp_path / "before.csv")
+    current = _players(
+        games=2, starts=2, points=557, playtime_seconds=11508,
+        history='[{"hasPlayed": true, "points": 254}, {"hasPlayed": true, "points": 303}]',
+    )
+
+    outcome = build_outcomes(current, baseline).iloc[0]
+
+    assert outcome["actual_points"] == 254
+    assert bool(outcome["played"]) is True
+    assert bool(outcome["started"]) is True
+    assert outcome["minutes_played"] == pytest.approx(5741 / 60)
+    assert outcome["outcome_status"] == "history_points"
+
+
+def test_point_fallback_rejects_incompatible_appearance_history(tmp_path):
+    current = _players(games=1, starts=1, points=330, history='[{"hasPlayed": true, "points": 330}]')
+    baseline = baseline_from_snapshot(current, datetime.now(timezone.utc), tmp_path / "before.csv")
+
+    with pytest.raises(ValueError, match="History and cumulative appearances disagree"):
+        build_outcomes(current, baseline)
+
+
+def test_nonappearance_ignores_corrections_to_previous_match_minutes(tmp_path):
+    before = _players(games=1, starts=0, points=5, playtime_seconds=609, history='[]')
+    baseline = baseline_from_snapshot(before, datetime.now(timezone.utc), tmp_path / "before.csv")
+    current = _players(games=1, starts=0, points=-1, playtime_seconds=611,
+                       history='[{"hasPlayed": false, "points": null}]')
+
+    outcome = build_outcomes(current, baseline).iloc[0]
+
+    assert outcome["actual_points"] == 0
+    assert outcome["minutes_played"] == 0
+    assert not outcome["played"]
+    assert outcome["outcome_status"] == "history_nonappearance"
 
 
 def test_prediction_normalization_starts_at_zero_even_with_negative_actual_points():

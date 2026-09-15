@@ -43,7 +43,7 @@ from sofascore_rating_odds_lineup_score import (
     load_expected_match_points,
     load_lineup_source,
     request_matchday,
-    resolve_kickbase_display_name,
+    resolve_name_only_lineup_match,
     resolve_lineup_source_weights,
     validate_alternative_starting_chance_decay,
 )
@@ -254,20 +254,16 @@ def _resolve_lineups(
                 continue
             if source.key in NAME_ONLY_LINEUP_SOURCE_KEYS:
                 override = name_only_override_by_key.get((source.key, team_key, normalized))
-                if override is not None:
-                    chosen = candidates.get(normalize_name(override["displayed_name"]))
-                    resolution[(index, source.key)] = (
-                        chosen,
-                        "override" if chosen is not None else "missing",
-                    )
-                    continue
-                chosen = resolve_kickbase_display_name(
+                override_displayed_name = None if override is None else override["displayed_name"]
+                chosen, status = resolve_name_only_lineup_match(
                     candidates,
+                    name,
                     {"firstName": context["first_name"], "lastName": context["last_name"]},
                     kickbase_name_indexes.get(team_key, {"first": {}, "last": {}}),
+                    override_displayed_name,
                 )
                 if chosen is not None:
-                    resolution[(index, source.key)] = (chosen, "exact")
+                    resolution[(index, source.key)] = (chosen, status or "exact")
                     continue
                 fuzzy = _fuzzy_candidates(name, candidates)
                 if fuzzy:

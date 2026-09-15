@@ -1,0 +1,20 @@
+Save the Kickbase lineup screenshots attached to this message into this local
+workspace for later JSON transcription. Do not extract player data, analyze
+the screenshots, create JSON, browse the web, or describe a proposed workflow.
+
+The Bundesliga matchday is: **<PASTE_MATCHDAY_NUMBER_HERE>**
+
+Complete this task now:
+
+1. Validate that the supplied matchday is a positive integer, `N`.
+2. Create `data/kickbase_lineup_screenshots/md<N>/` if it does not exist.
+3. Save every attached Kickbase lineup screenshot into that directory in its
+   original image format. Do not overwrite an existing screenshot: choose a
+   new deterministic filename such as `screenshot_01.png`, incrementing the
+   number as needed.
+4. Verify every saved file exists, is non-empty, and is a readable image.
+5. Return the local directory path and the exact filenames saved.
+
+If the matchday is invalid or no readable screenshots were supplied, explain
+the issue and stop without creating unrelated files. The saved images will be
+processed later by `data/kickbase_lineup_screenshots/prompt.txt`.

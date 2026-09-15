@@ -16,7 +16,7 @@ from kickbase_player_name_cross_references import (
     load_references,
     persist_references,
 )
-from kbstats_points_odds_lineup_score import COMMON_OUTPUT_COLUMNS
+from kbstats_points_odds_lineup_score import COMMON_OUTPUT_COLUMNS, _resolve_lineups
 from project_paths import KICKBASE_PREDICTED_LINEUPS_DIR
 from sofascore_rating_odds_lineup_score import (
     KB_TEAM_ID_TO_KEY,
@@ -24,7 +24,9 @@ from sofascore_rating_odds_lineup_score import (
     DEFAULT_LINEUP_SOURCE_WEIGHTS,
     LINEUP_SOURCE_REGISTRY,
     _fuzzy_candidates,
+    _add_kicker_identity_candidates,
     _kickbase_chances,
+    _kicker_chances,
     _ligainsider_chances,
     blend_lineup_chances,
     build_kickbase_name_indexes,
@@ -32,12 +34,50 @@ from sofascore_rating_odds_lineup_score import (
     confirm_lineup_source_matchdays,
     load_lineup_source,
     resolve_kickbase_display_name,
+    resolve_name_only_lineup_match,
     resolve_lineup_source_weights,
     validate_alternative_starting_chance_decay,
 )
 
 
 class KickbaseLineupScoringTests(unittest.TestCase):
+    def test_cross_reference_resolves_first_name_surname_collision(self) -> None:
+        players = pd.DataFrame([
+            {"firstName": "Moritz", "lastName": "Nicolas"},
+            {"firstName": "Nicolas", "lastName": "Kühn"},
+        ])
+        indexes = build_kickbase_name_indexes(players, pd.Series(["gladbach", "gladbach"]))["gladbach"]
+        candidate = {"name": "NICOLAS", "chance": 1.0}
+        candidates = {"nicolas": candidate}
+        for source in ("kickbase", "kicker"):
+            with self.subTest(source=source):
+                self.assertIsNone(resolve_kickbase_display_name(candidates, players.iloc[0], indexes))
+                self.assertIsNone(resolve_kickbase_display_name(candidates, players.iloc[1], indexes))
+                chosen, status = resolve_name_only_lineup_match(
+                    candidates, "Moritz Nicolas", players.iloc[0], indexes, "Nicolas"
+                )
+                self.assertIs(chosen, candidate)
+                self.assertEqual(status, "override")
+                chosen, _ = resolve_name_only_lineup_match(
+                    candidates, "Nicolas Kühn", players.iloc[1], indexes
+                )
+                self.assertIsNone(chosen)
+
+    def test_kicker_starter_abbreviation_uses_url_without_adding_bench(self) -> None:
+        kim = {"displayed_name": "M.-J. Kim", "player_url":
+               "https://www.kicker.de/min-jae-kim/spieler/bundesliga/2026-27/fc-bayern-muenchen",
+               "formation_row": 2, "slot_index": 2, "starting_probability_rank": 1}
+        candidates = _kicker_chances([kim])
+        team = {"players": [kim], "kicker_details": {
+            "bench": {"players": [{"displayed_name": "Bench Player"}]},
+            "unavailable": {"players": [{"name": "Absent"}]}}}
+        original_keys = set(candidates)
+        _add_kicker_identity_candidates(candidates, team)
+        self.assertEqual(set(candidates), original_keys)
+        offered = _fuzzy_candidates("Kim Minjae", candidates)
+        self.assertEqual(offered[0][1]["name"], "M.-J. Kim")
+        self.assertEqual(offered[0][1]["chance"], 1.0)
+
     @staticmethod
     def _kickbase_slot_players(count: int, questionable_rank: int | None = None) -> list[dict[str, object]]:
         return [
@@ -51,19 +91,58 @@ class KickbaseLineupScoringTests(unittest.TestCase):
             for rank in range(1, count + 1)
         ]
 
-    def test_geometric_decay_normalizes_three_kickbase_alternatives(self) -> None:
-        chances = _kickbase_chances(self._kickbase_slot_players(3))
-        denominator = 1.0 + 0.45 + 0.2025
-        self.assertAlmostEqual(1.0 / denominator, chances["display1"]["chance"])
-        self.assertAlmostEqual(0.45 / denominator, chances["display2"]["chance"])
-        self.assertAlmostEqual(0.2025 / denominator, chances["display3"]["chance"])
-        self.assertAlmostEqual(1.0, sum(entry["chance"] for entry in chances.values()))
+    @staticmethod
+    def _kickbase_team_players() -> list[dict[str, object]]:
+        return [
+            {
+                "displayed_name": f"STARTER {slot}",
+                "formation_row": 1,
+                "slot_index": slot,
+                "starting_probability_rank": 1,
+                "injury_status": None,
+            }
+            for slot in range(1, 12)
+        ]
+
+    def test_repeated_kickbase_alternative_has_more_evidence_than_single_alternative(self) -> None:
+        players = self._kickbase_team_players() + [
+            {"displayed_name": "SINGLE", "formation_row": 1, "slot_index": 1, "starting_probability_rank": 2, "injury_status": None},
+            {"displayed_name": "REPEATED", "formation_row": 1, "slot_index": 2, "starting_probability_rank": 2, "injury_status": None},
+            {"displayed_name": "REPEATED", "formation_row": 1, "slot_index": 3, "starting_probability_rank": 2, "injury_status": None},
+        ]
+        chances = _kickbase_chances(players)
+        self.assertGreater(chances["repeated"]["chance"], chances["single"]["chance"])
+        self.assertLess(chances["repeated"]["chance"], chances["starter1"]["chance"])
+        self.assertEqual(1.0, chances["starter4"]["chance"])
+
+    def test_kickbase_snapshot_parser_keeps_repeated_alternative_evidence(self) -> None:
+        source = next(source for source in LINEUP_SOURCE_REGISTRY if source.key == "kickbase")
+        players = self._kickbase_team_players() + [
+            {"displayed_name": "REPEATED", "formation_row": 1, "slot_index": 1, "starting_probability_rank": 2, "injury_status": None},
+            {"displayed_name": "REPEATED", "formation_row": 1, "slot_index": 2, "starting_probability_rank": 2, "injury_status": None},
+        ]
+        document = {
+            "metadata": {"source": "Kickbase"},
+            "matches": [
+                {
+                    "home": {"team_name": "Bayern München", "players": players},
+                    "away": {"team_name": "VfB Stuttgart", "players": players},
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            path = Path(temporary_directory) / "kickbase_bundesliga_lineups_20260904_120000.json"
+            path.write_text(json.dumps(document), encoding="utf-8")
+            _, teams = load_lineup_source(replace(source, directory=Path(temporary_directory)))
+        self.assertIn("repeated", teams["bayern"])
+        self.assertGreater(teams["bayern"]["repeated"]["chance"], 0.45)
+        self.assertEqual(1.0, teams["bayern"]["starter3"]["chance"])
 
     def test_kicker_abbreviated_gladbach_team_name_is_canonicalized(self) -> None:
         self.assertEqual("gladbach", canonical_team("Bor. Mönchengladbach"))
 
-    def test_geometric_decay_supports_four_or_more_alternatives(self) -> None:
-        chances = _kickbase_chances(self._kickbase_slot_players(4))
+    def test_kicker_keeps_geometric_slot_normalization(self) -> None:
+        chances = _kicker_chances(self._kickbase_slot_players(4))
         denominator = sum(0.45 ** exponent for exponent in range(4))
         self.assertAlmostEqual(0.45 ** 3 / denominator, chances["display4"]["chance"])
         self.assertAlmostEqual(1.0, sum(entry["chance"] for entry in chances.values()))
@@ -84,16 +163,37 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         denominator = 1.0 + 0.45 + 0.2025
         self.assertAlmostEqual(0.45 / denominator, chances["player2"]["chance"])
 
-    def test_questionable_penalty_stays_after_geometric_base_chances(self) -> None:
-        chances = _kickbase_chances(
-            self._kickbase_slot_players(2, questionable_rank=1),
+    def test_primary_kickbase_player_stays_primary_when_repeated_as_an_alternative(self) -> None:
+        players = self._kickbase_team_players() + [
+            {"displayed_name": "STARTER 1", "formation_row": 1, "slot_index": 2, "starting_probability_rank": 2, "injury_status": None},
+            {"displayed_name": "ALTERNATIVE", "formation_row": 1, "slot_index": 3, "starting_probability_rank": 2, "injury_status": None},
+        ]
+        chances = _kickbase_chances(players)
+        self.assertGreater(chances["starter1"]["chance"], chances["alternative"]["chance"])
+        self.assertEqual(1.0, chances["starter1"]["chance"])
+        self.assertLess(chances["starter2"]["chance"], 1.0)
+
+    def test_kickbase_unchallenged_starter_remains_certain(self) -> None:
+        players = self._kickbase_team_players() + [
+            {"displayed_name": "ALTERNATIVE", "formation_row": 1, "slot_index": 2, "starting_probability_rank": 2, "injury_status": None},
+        ]
+        chances = _kickbase_chances(players)
+        self.assertEqual(1.0, chances["starter1"]["chance"])
+        self.assertAlmostEqual(1.0 / 1.45, chances["starter2"]["chance"])
+        self.assertAlmostEqual(0.45 / 1.45, chances["alternative"]["chance"])
+
+    def test_kickbase_questionable_alternative_keeps_penalty_interface(self) -> None:
+        baseline_players = self._kickbase_team_players() + [
+            {"displayed_name": "ALTERNATIVE", "formation_row": 1, "slot_index": 1, "starting_probability_rank": 2, "injury_status": None},
+        ]
+        questionable_players = [dict(player) for player in baseline_players]
+        questionable_players[-1]["injury_status"] = "QUES"
+        baseline = _kickbase_chances(baseline_players)["alternative"]["chance"]
+        penalized = _kickbase_chances(
+            questionable_players,
             questionable_injury_starting_chance_penalty=0.15,
-        )
-        initial_first = 1.0 / 1.45
-        initial_second = 0.45 / 1.45
-        remaining_total = initial_first - 0.15 + initial_second
-        self.assertAlmostEqual((initial_first - 0.15) / remaining_total, chances["display1"]["chance"])
-        self.assertAlmostEqual(initial_second / remaining_total, chances["display2"]["chance"])
+        )["alternative"]["chance"]
+        self.assertLess(penalized, baseline)
 
     def test_decay_and_source_weight_validation(self) -> None:
         self.assertEqual(0.45, DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY)
@@ -240,6 +340,68 @@ class KickbaseLineupScoringTests(unittest.TestCase):
         indexes = build_kickbase_name_indexes(players, team_keys)["bayern"]
         candidates = {"muster": {"name": "MUSTER", "chance": 1.0}}
         self.assertIsNone(resolve_kickbase_display_name(candidates, players.iloc[0], indexes))
+
+    def test_normalized_kickbase_name_beats_a_stale_override_before_fuzzy_matching(self) -> None:
+        players = pd.DataFrame([{"firstName": "Josha", "lastName": "Vagnoman"}])
+        team_keys = pd.Series(["stuttgart"])
+        indexes = build_kickbase_name_indexes(players, team_keys)["stuttgart"]
+        candidates = {"vagnoman": {"name": "VAGNOMAN", "chance": 1.0}}
+        chosen, status = resolve_name_only_lineup_match(
+            candidates,
+            "Josha Vagnoman",
+            players.iloc[0],
+            indexes,
+            override_displayed_name="VAGNONAM",
+        )
+        self.assertEqual("VAGNOMAN", chosen["name"])
+        self.assertEqual("normalized", status)
+
+    def test_kbstats_lineup_resolution_prefers_current_name_over_stale_override(self) -> None:
+        players = pd.DataFrame(
+            [
+                {
+                    "id": "42",
+                    "name": "Josha Vagnoman",
+                    "firstName": "Josha",
+                    "lastName": "Vagnoman",
+                }
+            ]
+        )
+        team_keys = pd.Series(["stuttgart"])
+        lineup_inputs = {
+            source.key: (Path(f"{source.key}.json"), {})
+            for source in LINEUP_SOURCE_REGISTRY
+        }
+        lineup_inputs["kickbase"] = (
+            Path("kickbase.json"),
+            {
+                "stuttgart": {
+                    "vagnoman": {"name": "VAGNOMAN", "chance": 1.0},
+                    "vagnonam": {"name": "VAGNONAM", "chance": 0.5},
+                }
+            },
+        )
+        override = pd.DataFrame(
+            [
+                {
+                    "source": "kickbase",
+                    "canonical_team": "stuttgart",
+                    "kbstats_name": "Josha Vagnoman",
+                    "displayed_name": "VAGNONAM",
+                    "_key": ("kickbase", "stuttgart", "joshavagnoman"),
+                }
+            ]
+        )
+        empty = pd.DataFrame()
+        with patch("kbstats_points_odds_lineup_score._load_lineup_overrides", return_value=empty), patch(
+            "kbstats_points_odds_lineup_score._load_name_only_lineup_overrides", return_value=override
+        ):
+            resolution, _, _ = _resolve_lineups(
+                players, team_keys, {"42"}, lineup_inputs
+            )
+        chosen, status = resolution[(0, "kickbase")]
+        self.assertEqual("VAGNOMAN", chosen["name"])
+        self.assertEqual("normalized", status)
 
     def test_confirmed_name_only_mapping_is_provider_scoped_and_persisted(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
