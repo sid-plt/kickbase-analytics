@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-17T11:39:33.952949+02:00",
+  "category": "overall",
+  "source_file": "form.json",
+  "points_source_file": "points.json",
+  "points_generated_at": "2026-09-16T12:00:00Z",
+  "eligibility": {},
+  "exclusions": {
+    "source": 2,
+    "invalid_points_or_minutes": 0,
+    "below_10_minutes": 0,
+    "included": 2
+  },
+  "fallback_flags": [],
+  "group_counts": {
+    "10–25 min": 0,
+    "25–50 min": 0,
+    "50–75 min": 0,
+    "75+ min": 2
+  },
+  "ranking_policy": {
+    "method": "average ranks normalized by observed minimum/maximum ranks",
+    "points": "GK: valid calibrated total when available, event-derived fallback; outfield: event-derived points",
+    "groups": [
+      "[10,25)",
+      "[25,50)",
+      "[50,75)",
+      "[75,infinity)"
+    ],
+    "rating_formula": "3.5 + 6.5 * percentile / 100",
+    "rounding": "half-up, one decimal",
+    "degenerate_percentile": 50,
+    "degenerate_rating": 6.8
+  },
+  "teams": {
+    "1": {
+      "team": "Team",
+      "overall": {
+        "players": [
+          {
+            "player_id": 1,
+            "player_name": "Player",
+            "position": "M",
+            "rating_count": 2,
+            "average_rating": 7.3,
+            "ratings": [
+              {
+                "match_id": 3,
+                "opponent": "Opponent",
+                "minutes_played": 90,
+                "points": 0,
+                "group": "75+ min",
+                "percentile": 0.0,
+                "rating": 3.5
+              },
+              {
+                "match_id": 1,
+                "opponent": "Opponent",
+                "minutes_played": 90,
+                "points": 100,
+                "group": "75+ min",
+                "percentile": 100.0,
+                "rating": 10.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "averaging_policy": {
+    "method": "team-match recency weighted mean",
+    "newest_first_weights": [
+      28,
+      24,
+      20,
+      16,
+      12
+    ],
+    "missing_appearances": "omit and renormalize without shifting team match slots",
+    "rounding": "half-up, one decimal"
+  }
+}

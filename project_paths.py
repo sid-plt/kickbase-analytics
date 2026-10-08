@@ -12,6 +12,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 
 DATA_DIR = PROJECT_ROOT / "data"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
+DERIVED_KICKBASE_PERCENTILE_RATINGS_DIR = OUTPUTS_DIR / "derived" / "sofascore_kickbase_percentile_ratings"
 
 KICKBASE_REFERENCE_DIR = DATA_DIR / "reference" / "kickbase"
 

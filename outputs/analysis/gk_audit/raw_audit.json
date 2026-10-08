@@ -1,0 +1,155 @@
+[
+  {
+    "player": "Gregor Kobel",
+    "statistics": {
+      "totalPass": 35,
+      "accuratePass": 24,
+      "totalLongBalls": 17,
+      "accurateLongBalls": 6,
+      "goalAssist": 0,
+      "accurateOwnHalfPasses": 21,
+      "totalOwnHalfPasses": 25,
+      "accurateOppositionHalfPasses": 3,
+      "totalOppositionHalfPasses": 10,
+      "ballRecovery": 8,
+      "minutesPlayed": 90,
+      "touches": 40,
+      "rating": 6.6,
+      "possessionLostCtrl": 11,
+      "expectedAssists": 0.00140209,
+      "totalBallCarriesDistance": 46.550471035055,
+      "ballCarriesCount": 8,
+      "totalProgression": 6.9677326240279,
+      "progressiveBallCarriesCount": 0,
+      "ratingVersions": {
+        "original": 6.6,
+        "alternative": 6.7
+      },
+      "totalShots": 0,
+      "passValueNormalized": 0.08,
+      "dribbleValueNormalized": -0.04,
+      "defensiveValueNormalized": 0.16,
+      "statisticsType": {
+        "sportSlug": "football",
+        "statisticsType": "player"
+      }
+    },
+    "saved_shots": 0,
+    "saved_shot_zones": {},
+    "old_score": 95,
+    "new_sweeper_points": 0,
+    "event_score": 95,
+    "kbstats": 98,
+    "estimate": {
+      "status": "estimated",
+      "model_id": "gk_residual_md1_md2_2026_v1",
+      "points": 6,
+      "estimated_total": 101,
+      "confidence": "proxy",
+      "features": {
+        "minutes_90": 1.0,
+        "credited_saves": 0,
+        "high_claims": 0,
+        "punches": 0
+      },
+      "legacy_residual_allowance": 6,
+      "already_mapped_points": 0,
+      "interpretation": "Net residual estimate, not an observed Kickbase action"
+    },
+    "observed_saved_shot_fields": []
+  },
+  {
+    "player": "Nahuel Noll",
+    "statistics": {
+      "totalPass": 52,
+      "accuratePass": 35,
+      "totalLongBalls": 31,
+      "accurateLongBalls": 14,
+      "goalAssist": 0,
+      "accurateOwnHalfPasses": 25,
+      "totalOwnHalfPasses": 28,
+      "accurateOppositionHalfPasses": 10,
+      "totalOppositionHalfPasses": 24,
+      "aerialWon": 1,
+      "duelWon": 1,
+      "totalClearance": 4,
+      "ballRecovery": 5,
+      "savedShotsFromInsideTheBox": 4,
+      "saves": 5,
+      "punches": 3,
+      "totalKeeperSweeper": 2,
+      "accurateKeeperSweeper": 2,
+      "minutesPlayed": 90,
+      "touches": 65,
+      "rating": 7.8,
+      "possessionLostCtrl": 17,
+      "expectedAssists": 0.00921857,
+      "totalBallCarriesDistance": 174.15875653648,
+      "ballCarriesCount": 25,
+      "totalProgression": 83.221729343706,
+      "progressiveBallCarriesCount": 0,
+      "keeperSaveValue": 1.4506,
+      "ratingVersions": {
+        "original": 7.8,
+        "alternative": 7.4
+      },
+      "totalShots": 0,
+      "goalsPrevented": -0.0569,
+      "passValueNormalized": 0.25,
+      "dribbleValueNormalized": 0.04,
+      "defensiveValueNormalized": -0.39,
+      "goalkeeperValueNormalized": 0.68,
+      "statisticsType": {
+        "sportSlug": "football",
+        "statisticsType": "player"
+      }
+    },
+    "saved_shots": 5,
+    "saved_shot_zones": {
+      "penalty": 4,
+      "outside": 1
+    },
+    "old_score": 75,
+    "new_sweeper_points": 20,
+    "event_score": 95,
+    "kbstats": 158,
+    "estimate": {
+      "status": "estimated",
+      "model_id": "gk_residual_md1_md2_2026_v1",
+      "points": 34,
+      "estimated_total": 129,
+      "confidence": "proxy",
+      "features": {
+        "minutes_90": 1.0,
+        "credited_saves": 5,
+        "high_claims": 0,
+        "punches": 3
+      },
+      "legacy_residual_allowance": 54,
+      "already_mapped_points": 20,
+      "interpretation": "Net residual estimate, not an observed Kickbase action"
+    },
+    "observed_saved_shot_fields": [
+      "blockCoordinates",
+      "bodyPart",
+      "draw",
+      "goalMouthCoordinates",
+      "goalMouthLocation",
+      "goalkeeper",
+      "id",
+      "incidentType",
+      "isHome",
+      "periodTimeSeconds",
+      "player",
+      "playerCoordinates",
+      "reversedPeriodTime",
+      "reversedPeriodTimeSeconds",
+      "shotType",
+      "situation",
+      "time",
+      "timeSeconds",
+      "xg",
+      "xgot"
+    ]
+  }
+]

@@ -100,6 +100,7 @@ def _local_date_from_name(path: Path) -> date:
 def select_reflection_inputs(
     expected_retrieval_date: str | date | None = None,
     kbstats_retrieval_date: str | date | None = None,
+    expected_filename_pattern: re.Pattern[str] = EXPECTED_RE,
 ) -> ReflectionInputs:
     """Choose a valid score/outcome pair for optional local retrieval dates.
 
@@ -109,12 +110,12 @@ def select_reflection_inputs(
     """
     expected_date = _retrieval_date(expected_retrieval_date, "Expected-points retrieval date")
     kbstats_date = _retrieval_date(kbstats_retrieval_date, "KBStats retrieval date")
-    expected = sorted((path for path in EXPECTED_POINTS_DIR.glob("*.csv") if EXPECTED_RE.fullmatch(path.name)), key=_last_timestamp_from_name)
+    expected = sorted((path for path in EXPECTED_POINTS_DIR.glob("*.csv") if expected_filename_pattern.fullmatch(path.name)), key=_last_timestamp_from_name)
     if expected_date is not None:
         expected = [path for path in expected if _local_date_from_name(path) == expected_date]
     if not expected:
         date_detail = f" for {expected_date.isoformat()}" if expected_date is not None else ""
-        raise FileNotFoundError(f"No SofaScore overall rating/odds/lineup expected-points CSV was found{date_detail}.")
+        raise FileNotFoundError(f"No matching expected-points CSV was found{date_detail}.")
     expected_path = expected[-1]
     expected_created_at = _last_timestamp_from_name(expected_path)
     expected_timestamp_text = re.findall(r"\d{8}_\d{6}_[+-]\d{4}", expected_path.stem)[-1]

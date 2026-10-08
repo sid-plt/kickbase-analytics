@@ -1,0 +1,2300 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Clemens Lippmann",
+        "firstName": "Clemens",
+        "lastName": "Lippmann",
+        "slug": "clemens-lippmann",
+        "shortName": "C. Lippmann",
+        "position": "M",
+        "jerseyNumber": "29",
+        "userCount": 33,
+        "gender": "M",
+        "sofascoreId": "8rsh98",
+        "id": 2020672,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كليمنس ليبمان",
+            "ru": "Клеменс Липпманн"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ليبمان",
+            "ru": "К. Липпманн"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 22.9,
+        "y": 64.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.5,
+        "z": 8.3
+      },
+      "xg": 0.028294021263719,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8381134,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5577,
+      "draw": {
+        "start": {
+          "x": 64.6,
+          "y": 22.9
+        },
+        "end": {
+          "x": 36.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.5,
+          "y": 91.7
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 723,
+      "periodTimeSeconds": 177
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 11675,
+        "gender": "M",
+        "sofascoreId": "66nmch",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 45,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 10.1
+      },
+      "xg": 0.070207014679909,
+      "xgot": 0.86659270524979,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8381079,
+      "time": 89,
+      "timeSeconds": 5288,
+      "draw": {
+        "start": {
+          "x": 45,
+          "y": 10.4
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 89.9
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 112,
+      "periodTimeSeconds": 2588
+    },
+    {
+      "player": {
+        "name": "Marcel Sabitzer",
+        "firstName": "Marcel",
+        "lastName": "Sabitzer",
+        "slug": "marcel-sabitzer",
+        "shortName": "M. Sabitzer",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 10818,
+        "gender": "M",
+        "sofascoreId": "gjzuqi",
+        "id": 133908,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيل سابيتزر",
+            "bn": "মার্সেল সাবিৎজার",
+            "hi": "मार्सेल सबिट्ज़र",
+            "ru": "Марсель Забитцер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سابيتزر",
+            "bn": "এম. সাবিৎজার",
+            "hi": "एम. सबिट्ज़र",
+            "ru": "М. Забитцер"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "post",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 15.7,
+        "y": 51.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 38.6
+      },
+      "xg": 0.19766916334629,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380877,
+      "time": 84,
+      "timeSeconds": 5029,
+      "draw": {
+        "start": {
+          "x": 51.9,
+          "y": 15.7
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 61.4
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 371,
+      "periodTimeSeconds": 2329
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 11675,
+        "gender": "M",
+        "sofascoreId": "66nmch",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 65.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 19.6
+      },
+      "xg": 0.11832649260759,
+      "xgot": 0.14047689735889,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380827,
+      "time": 80,
+      "timeSeconds": 4793,
+      "draw": {
+        "start": {
+          "x": 65.8,
+          "y": 10.5
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 80.4
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 607,
+      "periodTimeSeconds": 2093
+    },
+    {
+      "player": {
+        "name": "Serhou Guirassy",
+        "firstName": "Serhou",
+        "lastName": "Guirassy",
+        "slug": "serhou-guirassy",
+        "shortName": "S. Guirassy",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 60597,
+        "gender": "M",
+        "sofascoreId": "ix8nfe",
+        "id": 328027,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرو غيراسي",
+            "bn": "সেরহাউ গুইরাসি",
+            "hi": "सेरहो गुइरासी",
+            "ru": "Серху Гирасси"
+          },
+          "shortNameTranslation": {
+            "ar": "س. غيراسي",
+            "bn": "এস. গুইরাসি",
+            "hi": "एस. गुइरासी",
+            "ru": "С. Гирасси"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 38.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 10.1
+      },
+      "blockCoordinates": {
+        "x": 5.3,
+        "y": 43.7,
+        "z": 0
+      },
+      "xg": 0.43157559633255,
+      "xgot": 0.25063416361809,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380811,
+      "time": 80,
+      "timeSeconds": 4750,
+      "draw": {
+        "start": {
+          "x": 38.2,
+          "y": 12.2
+        },
+        "block": {
+          "x": 43.7,
+          "y": 5.3
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 89.9
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 650,
+      "periodTimeSeconds": 2050
+    },
+    {
+      "player": {
+        "name": "Santiago Castañeda",
+        "firstName": "Santiago Castaneda",
+        "lastName": "",
+        "slug": "castaneda-santiago",
+        "shortName": "S. Castaneda",
+        "position": "M",
+        "jerseyNumber": "5",
+        "userCount": 371,
+        "gender": "M",
+        "sofascoreId": "km5xhy",
+        "id": 1199101,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاستانييدا، سانتياغو",
+            "ru": "Сантьяго Кастанеда"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاستانييدا",
+            "ru": "С. Кастанеда"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 32.2,
+        "y": 28.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 79.2
+      },
+      "xg": 0.015353715978563,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8380681,
+      "time": 71,
+      "timeSeconds": 4235,
+      "draw": {
+        "start": {
+          "x": 28.4,
+          "y": 32.2
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 20.8
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1165,
+      "periodTimeSeconds": 1535
+    },
+    {
+      "player": {
+        "name": "Serhou Guirassy",
+        "firstName": "Serhou",
+        "lastName": "Guirassy",
+        "slug": "serhou-guirassy",
+        "shortName": "S. Guirassy",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 60597,
+        "gender": "M",
+        "sofascoreId": "ix8nfe",
+        "id": 328027,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرو غيراسي",
+            "bn": "সেরহাউ গুইরাসি",
+            "hi": "सेरहो गुइरासी",
+            "ru": "Серху Гирасси"
+          },
+          "shortNameTranslation": {
+            "ar": "س. غيراسي",
+            "bn": "এস. গুইরাসি",
+            "hi": "एस. गुइरासी",
+            "ru": "С. Гирасси"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 24.1
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.29271456599236,
+      "xgot": 0.40978303551674,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380568,
+      "time": 62,
+      "timeSeconds": 3713,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 10.2
+        },
+        "block": {
+          "x": 53.1,
+          "y": 0.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 75.9
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1687,
+      "periodTimeSeconds": 1013
+    },
+    {
+      "player": {
+        "name": "Jobe Bellingham",
+        "firstName": "Jobe Bellingham",
+        "slug": "jobe-bellingham",
+        "shortName": "J. Bellingham",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 46649,
+        "gender": "M",
+        "sofascoreId": "jvts3d",
+        "id": 1134083,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوب بيلينغهام",
+            "bn": "জোবে বেলিংহাম",
+            "hi": "जोब बेलिंगहैम",
+            "ru": "Джоб Беллингем"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلينغهام",
+            "bn": "জে. বেলিংহাম",
+            "hi": "जे. बेलिंगहैम",
+            "ru": "Д. Беллингем"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 47,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 67.2,
+        "z": 12.5
+      },
+      "xg": 0.053018771111965,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380525,
+      "time": 59,
+      "timeSeconds": 3526,
+      "draw": {
+        "start": {
+          "x": 47,
+          "y": 10.4
+        },
+        "end": {
+          "x": 32.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 32.8,
+          "y": 87.5
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1874,
+      "periodTimeSeconds": 826
+    },
+    {
+      "player": {
+        "name": "Ethan Nwaneri",
+        "slug": "ethan-nwaneri",
+        "shortName": "E. Nwaneri",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 31685,
+        "gender": "M",
+        "sofascoreId": "fpkpr2",
+        "id": 1401702,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيثان نوانيري",
+            "bn": "ইথান নওয়ানেরি",
+            "hi": "एथन नवानेरी",
+            "ru": "Итан Нванери"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نوانيري",
+            "bn": "ই. নওয়ানেরি",
+            "hi": "ई. नवानेरी",
+            "ru": "И. Нванери"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 60.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.16338530182838,
+      "xgot": 0.17876932024956,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380518,
+      "time": 59,
+      "timeSeconds": 3490,
+      "draw": {
+        "start": {
+          "x": 60.7,
+          "y": 9.4
+        },
+        "block": {
+          "x": 52,
+          "y": 1.9
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 89.2
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1910,
+      "periodTimeSeconds": 790
+    },
+    {
+      "player": {
+        "name": "Mattes Hansen",
+        "firstName": "Mattes Hansen",
+        "lastName": "",
+        "slug": "mattes-hansen",
+        "shortName": "M. Hansen",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 108,
+        "gender": "M",
+        "sofascoreId": "iwmxni",
+        "id": 1083387,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيس هانسن",
+            "ru": "Маттес Хансен"
+          },
+          "shortNameTranslation": {
+            "ar": "م. هانسن",
+            "ru": "М. Хансен"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 29.1,
+        "y": 25.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.2,
+        "y": 37.7,
+        "z": 0
+      },
+      "xg": 0.0095237186178565,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8380485,
+      "time": 57,
+      "timeSeconds": 3370,
+      "draw": {
+        "start": {
+          "x": 25.6,
+          "y": 29.1
+        },
+        "block": {
+          "x": 37.7,
+          "y": 16.2
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 81
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2030,
+      "periodTimeSeconds": 670
+    },
+    {
+      "player": {
+        "name": "Jobe Bellingham",
+        "firstName": "Jobe Bellingham",
+        "slug": "jobe-bellingham",
+        "shortName": "J. Bellingham",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 46649,
+        "gender": "M",
+        "sofascoreId": "jvts3d",
+        "id": 1134083,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوب بيلينغهام",
+            "bn": "জোবে বেলিংহাম",
+            "hi": "जोब बेलिंगहैम",
+            "ru": "Джоб Беллингем"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بيلينغهام",
+            "bn": "জে. বেলিংহাম",
+            "hi": "जे. बेलिंगहैम",
+            "ru": "Д. Беллингем"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20.6,
+        "y": 61.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.8,
+        "y": 56.1,
+        "z": 0
+      },
+      "xg": 0.023849794641137,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380394,
+      "time": 52,
+      "timeSeconds": 3113,
+      "draw": {
+        "start": {
+          "x": 61.5,
+          "y": 20.6
+        },
+        "block": {
+          "x": 56.1,
+          "y": 11.8
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2287,
+      "periodTimeSeconds": 413
+    },
+    {
+      "player": {
+        "name": "Fábio Silva",
+        "firstName": "Fabio",
+        "lastName": "Silva",
+        "slug": "fabio-silva",
+        "shortName": "F. Silva",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 6446,
+        "gender": "M",
+        "sofascoreId": "hiig4b",
+        "id": 954076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيو سيلفا",
+            "bn": "ফ্যাবিও সিলভা",
+            "hi": "फैबियो सिल्वा",
+            "ru": "Фабио Силва"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. سيلفا",
+            "bn": "এফ. সিলভা",
+            "hi": "एफ. सिल्वा",
+            "ru": "Ф. Силва"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.5,
+        "y": 52.9,
+        "z": 0
+      },
+      "xg": 0.082575865089893,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380390,
+      "time": 52,
+      "timeSeconds": 3110,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 9.5
+        },
+        "block": {
+          "x": 52.9,
+          "y": 7.5
+        },
+        "end": {
+          "x": 49.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.5,
+          "y": 81
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2290,
+      "periodTimeSeconds": 410
+    },
+    {
+      "player": {
+        "name": "Serhou Guirassy",
+        "firstName": "Serhou",
+        "lastName": "Guirassy",
+        "slug": "serhou-guirassy",
+        "shortName": "S. Guirassy",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 60597,
+        "gender": "M",
+        "sofascoreId": "ix8nfe",
+        "id": 328027,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرو غيراسي",
+            "bn": "সেরহাউ গুইরাসি",
+            "hi": "सेरहो गुइरासी",
+            "ru": "Серху Гирасси"
+          },
+          "shortNameTranslation": {
+            "ar": "س. غيراسي",
+            "bn": "এস. গুইরাসি",
+            "hi": "एस. गुइरासी",
+            "ru": "С. Гирасси"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 49.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 16.5
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.13927136361599,
+      "xgot": 0.73928833007812,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8380376,
+      "time": 52,
+      "timeSeconds": 3069,
+      "draw": {
+        "start": {
+          "x": 49.5,
+          "y": 7
+        },
+        "block": {
+          "x": 51.6,
+          "y": 1
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 83.5
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2331,
+      "periodTimeSeconds": 369
+    },
+    {
+      "player": {
+        "name": "Laurin Ulrich",
+        "firstName": "Laurin Ulrich",
+        "lastName": "",
+        "slug": "laurin-ulrich",
+        "shortName": "L. Ulrich",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 835,
+        "gender": "M",
+        "sofascoreId": "fpysyf",
+        "id": 1152486,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكست جين اتپ فاينلز ا2",
+            "bn": "লরিন উলরিচ",
+            "hi": "लॉरिन उलरिच",
+            "ru": "Лаурин Ульрих"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أولريش",
+            "bn": "এল. উলরি",
+            "hi": "एल. उलरिच",
+            "ru": "Л. Ульрих"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.8,
+        "y": 44,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.4,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.027319125831127,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8380347,
+      "time": 50,
+      "timeSeconds": 2954,
+      "draw": {
+        "start": {
+          "x": 44,
+          "y": 27.8
+        },
+        "block": {
+          "x": 48,
+          "y": 14.4
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 81
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2446,
+      "periodTimeSeconds": 254
+    },
+    {
+      "player": {
+        "name": "Ethan Nwaneri",
+        "slug": "ethan-nwaneri",
+        "shortName": "E. Nwaneri",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 31685,
+        "gender": "M",
+        "sofascoreId": "fpkpr2",
+        "id": 1401702,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيثان نوانيري",
+            "bn": "ইথান নওয়ানেরি",
+            "hi": "एथन नवानेरी",
+            "ru": "Итан Нванери"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نوانيري",
+            "bn": "ই. নওয়ানেরি",
+            "hi": "ई. नवानेरी",
+            "ru": "И. Нванери"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 19.2,
+        "y": 58.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.019156191498041,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8379507,
+      "time": 41,
+      "timeSeconds": 2431,
+      "draw": {
+        "start": {
+          "x": 58.1,
+          "y": 19.2
+        },
+        "block": {
+          "x": 53.8,
+          "y": 11
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 269,
+      "periodTimeSeconds": 2431
+    },
+    {
+      "player": {
+        "name": "Raphael Obermair",
+        "firstName": "Raphael",
+        "lastName": "Obermair",
+        "slug": "raphael-obermair",
+        "shortName": "R. Obermair",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 169,
+        "gender": "M",
+        "sofascoreId": "ke7haj",
+        "id": 820465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافائيل أوبيرماير",
+            "ru": "Рафаэль Обермаир"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أوبيرماير",
+            "ru": "Р. Обермаир"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 23.4,
+        "y": 46,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.2,
+        "z": 86.1
+      },
+      "xg": 0.020129479467869,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8379459,
+      "time": 38,
+      "timeSeconds": 2252,
+      "draw": {
+        "start": {
+          "x": 46,
+          "y": 23.4
+        },
+        "end": {
+          "x": 39.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.8,
+          "y": 13.9
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 448,
+      "periodTimeSeconds": 2252
+    },
+    {
+      "player": {
+        "name": "Laurin Curda",
+        "slug": "laurin-curda",
+        "shortName": "L. Curda",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 251,
+        "gender": "M",
+        "sofascoreId": "hii6fd",
+        "id": 981788,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورين كورد",
+            "ru": "Лаурин Курда"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كورد",
+            "ru": "Л. Курда"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.4,
+        "y": 63.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.2,
+        "z": 31.9
+      },
+      "xg": 0.1858996450901,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8379209,
+      "time": 18,
+      "timeSeconds": 1068,
+      "draw": {
+        "start": {
+          "x": 63.8,
+          "y": 6.4
+        },
+        "end": {
+          "x": 56.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.8,
+          "y": 68.1
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1632,
+      "periodTimeSeconds": 1068
+    },
+    {
+      "player": {
+        "name": "Santiago Castañeda",
+        "firstName": "Santiago Castaneda",
+        "lastName": "",
+        "slug": "castaneda-santiago",
+        "shortName": "S. Castaneda",
+        "position": "M",
+        "jerseyNumber": "5",
+        "userCount": 371,
+        "gender": "M",
+        "sofascoreId": "km5xhy",
+        "id": 1199101,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاستانييدا، سانتياغو",
+            "ru": "Сантьяго Кастанеда"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاستانييدا",
+            "ru": "С. Кастанеда"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.6,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 7.1,
+        "z": 5.6
+      },
+      "blockCoordinates": {
+        "x": 5.3,
+        "y": 69.9,
+        "z": 0
+      },
+      "xg": 0.032667405903339,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8379207,
+      "time": 18,
+      "timeSeconds": 1066,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 7.6
+        },
+        "block": {
+          "x": 69.9,
+          "y": 5.3
+        },
+        "end": {
+          "x": 92.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 92.9,
+          "y": 94.4
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1634,
+      "periodTimeSeconds": 1066
+    },
+    {
+      "player": {
+        "name": "Waldemar Anton",
+        "firstName": "Waldemar",
+        "lastName": "Anton",
+        "slug": "waldemar-anton",
+        "shortName": "W. Anton",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 3164,
+        "gender": "M",
+        "sofascoreId": "ftx8sb",
+        "id": 799046,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالديمار أنطون",
+            "bn": "ওয়াল্ডেমার অ্যান্টন",
+            "hi": "वाल्डेमर एंटोन",
+            "ru": "Вальдемар Антон"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. أنطون",
+            "bn": "ডব্লিউ. অ্যান্টন",
+            "hi": "डब्लू. एंटोन",
+            "ru": "В. Антон"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 64,
+        "z": 83.3
+      },
+      "xg": 0.018906146287918,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8379184,
+      "time": 16,
+      "timeSeconds": 950,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 26
+        },
+        "end": {
+          "x": 36,
+          "y": 0
+        },
+        "goal": {
+          "x": 36,
+          "y": 16.7
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1750,
+      "periodTimeSeconds": 950
+    },
+    {
+      "player": {
+        "name": "Joey Veerman",
+        "firstName": "Joey",
+        "lastName": "Veerman",
+        "slug": "joey-veerman",
+        "shortName": "J. Veerman",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 5044,
+        "gender": "M",
+        "sofascoreId": "8iptaw",
+        "id": 850816,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوي فيرمان",
+            "bn": "জোই বীরম্যান",
+            "hi": "जॉय वीरमैन",
+            "ru": "Джоуи Веерман"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. فيرمان",
+            "bn": "জে. বীরম্যান",
+            "hi": "जे. वीरमैन",
+            "ru": "Д. Веерман"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 61.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.049025528132915,
+      "xgot": 0.17830541729927,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8379186,
+      "time": 16,
+      "timeSeconds": 945,
+      "draw": {
+        "start": {
+          "x": 61.3,
+          "y": 18.2
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 84.8
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1755,
+      "periodTimeSeconds": 945
+    },
+    {
+      "player": {
+        "name": "Stefano Marino",
+        "firstName": "Stefano",
+        "lastName": "Marino",
+        "slug": "stefano-marino",
+        "shortName": "S. Marino",
+        "position": "F",
+        "jerseyNumber": "30",
+        "userCount": 133,
+        "gender": "M",
+        "sofascoreId": "g8smj2",
+        "id": 1167764,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي لوتشينكو",
+            "ru": "Стефано Марино"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لوتشينكو",
+            "ru": "С. Марино"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.4,
+        "z": 84.7
+      },
+      "xg": 0.043684020638466,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8379139,
+      "time": 15,
+      "timeSeconds": 847,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 9.9
+        },
+        "end": {
+          "x": 53.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.6,
+          "y": 15.3
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1853,
+      "periodTimeSeconds": 847
+    },
+    {
+      "player": {
+        "name": "Tjark Lasse Scheller",
+        "firstName": "Tjark Lasse",
+        "lastName": "Scheller",
+        "slug": "tjark-lasse-scheller",
+        "shortName": "T. L. Scheller",
+        "position": "D",
+        "jerseyNumber": "25",
+        "userCount": 93,
+        "gender": "M",
+        "sofascoreId": "cemjyd",
+        "id": 1137717,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيارك لاسه شيلر",
+            "ru": "Тьярк Лассе Шеллер"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. شيلر",
+            "ru": "Т. Шеллер"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 82.4,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 5.5,
+        "y": 41.3,
+        "z": 0
+      },
+      "xg": 0.083964847028255,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8379028,
+      "time": 13,
+      "timeSeconds": 730,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 7.9
+        },
+        "block": {
+          "x": 41.3,
+          "y": 5.5
+        },
+        "end": {
+          "x": 17.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 17.6,
+          "y": 95.8
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1970,
+      "periodTimeSeconds": 730
+    },
+    {
+      "player": {
+        "name": "Fábio Silva",
+        "firstName": "Fabio",
+        "lastName": "Silva",
+        "slug": "fabio-silva",
+        "shortName": "F. Silva",
+        "position": "F",
+        "jerseyNumber": "21",
+        "userCount": 6446,
+        "gender": "M",
+        "sofascoreId": "hiig4b",
+        "id": 954076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فابيو سيلفا",
+            "bn": "ফ্যাবিও সিলভা",
+            "hi": "फैबियो सिल्वा",
+            "ru": "Фабио Силва"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. سيلفا",
+            "bn": "এফ. সিলভা",
+            "hi": "एफ. सिल्वा",
+            "ru": "Ф. Силва"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 62.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 0.6
+      },
+      "xg": 0.10075272619724,
+      "xgot": 0.17922203242779,
+      "goalkeeper": {
+        "name": "Nahuel Noll",
+        "slug": "nahuel-noll",
+        "shortName": "N. Noll",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 252,
+        "gender": "M",
+        "sofascoreId": "vutzz9",
+        "id": 1048651,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناهيل نول",
+            "bn": "নাহুয়েল নোল",
+            "hi": "नाहुएल नोल",
+            "ru": "Нахуэль Ноль"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. نول",
+            "bn": "এন. নোল",
+            "hi": "एन. नोल",
+            "ru": "Н. Ноль"
+          }
+        }
+      },
+      "id": 8378973,
+      "time": 5,
+      "timeSeconds": 244,
+      "draw": {
+        "start": {
+          "x": 62.5,
+          "y": 12
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 99.4
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2456,
+      "periodTimeSeconds": 244
+    },
+    {
+      "player": {
+        "name": "Stefano Marino",
+        "firstName": "Stefano",
+        "lastName": "Marino",
+        "slug": "stefano-marino",
+        "shortName": "S. Marino",
+        "position": "F",
+        "jerseyNumber": "30",
+        "userCount": 133,
+        "gender": "M",
+        "sofascoreId": "g8smj2",
+        "id": 1167764,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي لوتشينكو",
+            "ru": "Стефано Марино"
+          },
+          "shortNameTranslation": {
+            "ar": "س. لوتشينكو",
+            "ru": "С. Марино"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 33.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.2,
+        "z": 22.2
+      },
+      "xg": 0.043857332319021,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Gregor Kobel",
+        "firstName": "Gregor",
+        "lastName": "Kobel",
+        "slug": "gregor-kobel",
+        "shortName": "G. Kobel",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 11320,
+        "gender": "M",
+        "sofascoreId": "r2h7pm",
+        "id": 556866,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غريغور كوبل",
+            "bn": "গ্রেগর কোবেল",
+            "hi": "ग्रेगर कोबेल",
+            "ru": "Грегор Кобель"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. كوبل",
+            "bn": "জি. কোবেল",
+            "hi": "जी. कोबेल",
+            "ru": "Г. Кобель"
+          }
+        }
+      },
+      "id": 8378745,
+      "time": 3,
+      "timeSeconds": 156,
+      "draw": {
+        "start": {
+          "x": 33.8,
+          "y": 9.5
+        },
+        "end": {
+          "x": 39.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.8,
+          "y": 77.8
+        }
+      },
+      "incidentType": "shot",
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2544,
+      "periodTimeSeconds": 156
+    }
+  ]
+}

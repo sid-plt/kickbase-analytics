@@ -1,0 +1,1 @@
+{"generated_at": "2026-09-16T12:00:00Z", "source_file": "form.json", "teams": {"1": {"team": "Team", "overall": {"players": [{"player_id": 1, "player_name": "Player", "position": "M", "match_calculations": [{"match_id": 1, "minutes_played": 90, "calculated_kickbase_points": 10}, {"match_id": 3, "minutes_played": 90, "calculated_kickbase_points": 10}]}]}}}}

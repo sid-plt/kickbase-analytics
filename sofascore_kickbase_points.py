@@ -20,6 +20,7 @@ import warnings
 from typing import Any, Iterable
 
 from chrome_runtime import detect_chrome_major_version
+from goalkeeper_kickbase_calibration import points_for_averages
 
 DIRECT = "direct"
 DERIVED = "derived"
@@ -28,6 +29,33 @@ CONDITIONAL = "conditional"
 
 WOODWORK_SHOT_TYPES = {"post", "crossbar", "left-post", "right-post", "leftPost", "rightPost"}
 POSITION_CODES = {"G": "GK", "GK": "GK", "D": "DEF", "DEF": "DEF", "M": "MID", "MID": "MID", "F": "FWD", "FWD": "FWD"}
+
+# Explicit, uncalibrated spatial priors; identical across competitions/players.
+PITCH_LENGTH_M = 105.0
+PITCH_WIDTH_M = 68.0
+ZONE_PRIORS = {
+    'defensive_event_inside_box': (16.5 * 40.32) / (PITCH_LENGTH_M * PITCH_WIDTH_M / 2),
+    'opposition_half_pass_final_third': 2 / 3,
+    'foul_won_own_half': 1 / 2,
+    'foul_won_opposition_half_not_final_third': 1 / 6,
+    'foul_won_final_third': 1 / 3,
+}
+
+
+def coordinate_zone(coordinates: Any) -> str | None:
+    """Shared shotmap geometry; unknown is distinct from outside the box."""
+    if not isinstance(coordinates, dict):
+        return None
+    x, y = coordinates.get('x'), coordinates.get('y')
+    if not all(finite_number(v) and 0 <= v <= 100 for v in (x, y)):
+        return None
+    depth = float(x) * PITCH_LENGTH_M / 100
+    width = abs(float(y) - 50) * PITCH_WIDTH_M / 100
+    if depth <= 5.5 and width <= 9.16:
+        return 'six_yard'
+    if depth <= 16.5 and width <= 20.16:
+        return 'penalty'
+    return 'outside'
 
 
 class KickbaseApproximationError(ValueError):
@@ -137,16 +165,33 @@ class PlayerLedger:
             "confidence": confidence,
         })
 
+    def add_expected(self, metric_id: str, count: int, alternatives: list[tuple[float, int]],
+                     sofascore_metric: str) -> None:
+        if count <= 0:
+            return
+        mean = sum((Decimal(str(probability)) * points for probability, points in alternatives), Decimal(0))
+        self.awards.append(dict(metric_id=metric_id, count=count, points_per_action=float(mean),
+            points=int((count * mean).quantize(Decimal('1'), rounding=ROUND_HALF_UP)),
+            source='lineups+zone_prior', sofascore_metric=sofascore_metric, confidence=PROXY,
+            zone_estimation=dict(assumption='uniform location within conditioning area',
+                                 alternatives=[dict(probability=p, points=v) for p, v in alternatives])))
+
     def document(self) -> dict[str, Any]:
-        return {
+        document = {
             "player_id": self.profile["player_id"],
             "player_name": self.profile["player_name"],
             "position": self.profile.get("position"),
             "team_id": self.profile["team_id"],
             "team_side": self.profile["side"],
             "calculated_kickbase_points": self.total,
+            "minutes_played": self.profile.get("minutes_played", 0),
             "awards": self.awards,
         }
+        if self.profile.get("position") == "GK":
+            # Retain zero/missing distinctions and newly exposed fields for
+            # future audits instead of reconstructing everything from awards.
+            document["goalkeeper_statistics"] = dict(self.profile["statistics"])
+        return document
 
 
 def validate_payloads(lineups: Any, incidents: Any, shotmap: Any) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]]]:
@@ -210,7 +255,29 @@ def player_active(interval: tuple[int, int | None] | None, at_seconds: int) -> b
     return interval is not None and interval[0] <= at_seconds and (interval[1] is None or at_seconds < interval[1])
 
 
-def score_from_match(match: dict[str, Any], lineups: dict[str, Any], incidents_document: dict[str, Any], shotmap_document: dict[str, Any], catalog: MetricCatalog) -> dict[str, Any]:
+def team_block_values(shots: Iterable[dict[str, Any]], catalog: MetricCatalog) -> dict[str, dict[str, Any]]:
+    """Estimate defending-side block values on a normalized 105 x 68 m pitch."""
+    variants = catalog.metrics['shot_blocked']['scoring']['variants']
+    values = {v['location']: int(v['points']) for v in variants}
+    outside = values['outside the penalty area']
+    penalty = values['inside the penalty area, using the more specific 6-yard-box rule where applicable']
+    six_yard = values['inside the 6-yard box']
+    samples = {'home': [], 'away': []}
+    for shot in shots:
+        if not isinstance(shot, dict) or shot.get('shotType') != 'block' or not isinstance(shot.get('isHome'), bool):
+            continue
+        zone = coordinate_zone(shot.get('blockCoordinates'))
+        if zone is None:
+            continue
+        # Shotmap attacks toward x=0 for either side; coordinates are percentages.
+        points = {'six_yard': six_yard, 'penalty': penalty, 'outside': outside}[zone]
+        samples['away' if shot['isHome'] else 'home'].append(points)
+    return {side: dict(sample_count=len(points), point_sum=sum(points),
+                       points_per_action=sum(points) / len(points) if points else outside,
+                       fallback=not points) for side, points in samples.items()}
+
+
+def score_from_match(match: dict[str, Any], lineups: dict[str, Any], incidents_document: dict[str, Any], shotmap_document: dict[str, Any], catalog: MetricCatalog, *, goalkeeper_model: dict[str, Any] | None = None) -> dict[str, Any]:
     """Score a fully fetched match and return an export-ready calculation."""
     lineups, incidents, shots = validate_payloads(lineups, incidents_document, shotmap_document)
     profiles = profiles_from_lineups(lineups)
@@ -237,24 +304,51 @@ def score_from_match(match: dict[str, Any], lineups: dict[str, Any], incidents_d
     # Player statistics: direct mappings first, then documented proxies.
     direct_stats = {
         "penalty_won": "penaltyWon", "big_chance_created": "bigChanceCreated", "goal_line_clearance": "clearanceOffLine",
-        "box_shot_saved": "savedShotsFromInsideTheBox", "ball_intercepted": "interceptionWon", "punched_ball": "punches",
+        "ball_intercepted": "interceptionWon", "punched_ball": "punches",
         "contest_won": "wonContest", "tackle_won": "wonTackle", "cross": "accurateCross", "aerial_won": "aerialWon",
         "accurate_long_ball": "accurateLongBalls", "aerial_lost": "aerialLost", "foul": "fouls",
         "challenge_lost": "challengeLost", "offside": "totalOffside", "big_chance_missed": "bigChanceMissed",
         "mistake_before_shot": "errorLeadToAShot", "mistake_before_goal": "errorLeadToAGoal", "penalty_conceded": "penaltyConceded",
     }
     proxy_stats = {
-        "shot_blocked": ("outfielderBlock", 5), "cross_intercepted": ("goodHighClaim", None),
-        "shot_assist": ("keyPass", None), "cleared_outside_box": ("totalClearance", None),
-        "forward_zone_pass": ("accurateOppositionHalfPasses", None), "interception_outside_box": ("interceptionWon", None),
-        "fouled_opponent_half": ("wasFouled", None), "overrun": ("unsuccessfulTouch", None),
+        "cross_intercepted": ("goodHighClaim", None),
+        "shot_assist": ("keyPass", None), "overrun": ("unsuccessfulTouch", None),
         "possession_lost": ("possessionLostCtrl", None),
     }
+    block_values = team_block_values(shots, catalog)
     for identifier in appearances:
         for metric_id, stat_name in direct_stats.items():
             award_stat(identifier, metric_id, stat_name)
         for metric_id, (stat_name, fixed_points) in proxy_stats.items():
             award_stat(identifier, metric_id, stat_name, PROXY, fixed_points)
+        stats = profiles[identifier]['statistics']
+        inside = ZONE_PRIORS['defensive_event_inside_box']
+        for metric, stat, inside_metric, outside_metric in [
+            ('clearance_zone_estimate', 'totalClearance', 'cleared_in_box', 'cleared_outside_box'),
+            ('interception_zone_estimate', 'interceptionWon', 'interception_in_box', 'interception_outside_box')]:
+            ledgers[identifier].add_expected(metric, integer_count(stats.get(stat)),
+                [(inside, catalog.points(inside_metric)), (1-inside, catalog.points(outside_metric))],
+                f'statistics.{stat}; uniform defending-half location')
+        final_third = ZONE_PRIORS['opposition_half_pass_final_third']
+        ledgers[identifier].add_expected('pass_zone_estimate', integer_count(stats.get('accurateOppositionHalfPasses')),
+            [(final_third, catalog.points('pass_final_third')), (1-final_third, catalog.points('forward_zone_pass'))],
+            'statistics.accurateOppositionHalfPasses; uniform endpoint in opposition half; exclusive zones')
+        ledgers[identifier].add_expected('foul_won_zone_estimate', integer_count(stats.get('wasFouled')),
+            [(ZONE_PRIORS['foul_won_own_half'], 0),
+             (ZONE_PRIORS['foul_won_opposition_half_not_final_third'], catalog.points('fouled_opponent_half')),
+             (ZONE_PRIORS['foul_won_final_third'], catalog.points('fouled_last_third'))],
+            'statistics.wasFouled; uniform whole-pitch location; exclusive zones')
+        count = integer_count(profiles[identifier]['statistics'].get('outfielderBlock'))
+        if count:
+            estimate = block_values[profiles[identifier]['side']]
+            mean = (Decimal(estimate['point_sum']) / Decimal(estimate['sample_count'])
+                    if estimate['sample_count'] else Decimal(str(estimate['points_per_action'])))
+            ledgers[identifier].awards.append(dict(
+                metric_id='shot_blocked', count=count, points_per_action=float(mean),
+                points=int((count * mean).quantize(Decimal('1'), rounding=ROUND_HALF_UP)),
+                source='lineups+shotmap', confidence=PROXY,
+                sofascore_metric='statistics.outfielderBlock * defending-team mean blockCoordinates value',
+                block_estimation=estimate.copy()))
 
     # Lineup participation and time-based points.
     for identifier in appearances:
@@ -356,6 +450,19 @@ def score_from_match(match: dict[str, Any], lineups: dict[str, Any], incidents_d
     else:
         final_scores = None
 
+    # Aggregate keeper save counts take precedence, avoiding duplicate shotmap awards.
+    for identifier in appearances:
+        if profiles[identifier]['position'] != 'GK':
+            continue
+        # Observed in the supplied MD3 Noll payload. Use successful actions,
+        # never totalKeeperSweeper (which also includes unsuccessful attempts).
+        # Provider classifications can differ, so retain the proxy label.
+        award_stat(identifier, 'keeper_sweeper', 'accurateKeeperSweeper', PROXY)
+        for metric, stat in [('box_shot_saved', 'savedShotsFromInsideTheBox'),
+                             ('distance_shot_saved', 'savedShotsFromOutsideTheBox'),
+                             ('big_chance_saved', 'bigChanceSaved')]:
+            award_stat(identifier, metric, stat, CONDITIONAL)
+
     # Shot-map awards that cannot be read from aggregate player statistics.
     for shot in shots:
         if not isinstance(shot, dict):
@@ -372,25 +479,38 @@ def score_from_match(match: dict[str, Any], lineups: dict[str, Any], incidents_d
             award(shooter, metric_id, 1, "shotmap", f"shotType=miss; goalMouthLocation={mouth or 'unknown'}", PROXY)
         if shot_type in {item.casefold() for item in WOODWORK_SHOT_TYPES}:
             award(shooter, "post_label_crossbar", 1, "shotmap", f"shotType={shot_type}", CONDITIONAL)
-        coordinates = shot.get("playerCoordinates")
-        inside_box = isinstance(coordinates, dict) and finite_number(coordinates.get("x")) and finite_number(coordinates.get("y")) and float(coordinates["x"]) <= 16.5 and 29.65 <= float(coordinates["y"]) <= 70.35
-        if shot_type == "goal" and inside_box is False:
+        zone = coordinate_zone(shot.get('playerCoordinates'))
+        if shot_type == "goal" and zone == 'outside':
             award(shooter, "long_range_bonus", 1, "shotmap", "shotType=goal outside penalty-area coordinate", PROXY)
-        if shot_type == "save" and inside_box is False:
-            award(player_id(shot.get("goalkeeper")), "distance_shot_saved", 1, "shotmap", "shotType=save outside penalty-area coordinate", PROXY)
+        keeper = player_id(shot.get('goalkeeper'))
+        if shot_type == 'save' and keeper in ledgers and profiles[keeper]['position'] == 'GK':
+            stats = profiles[keeper]['statistics']
+            if zone is not None:
+                metric, stat = (('distance_shot_saved', 'savedShotsFromOutsideTheBox') if zone == 'outside'
+                                else ('box_shot_saved', 'savedShotsFromInsideTheBox'))
+                if not finite_number(stats.get(stat)):
+                    award(keeper, metric, 1, 'shotmap', 'save location; aggregate unavailable', PROXY)
+            if shot.get('bigChance') is True and not finite_number(stats.get('bigChanceSaved')):
+                award(keeper, 'big_chance_saved', 1, 'shotmap', 'shotType=save; bigChance=true', CONDITIONAL)
 
+    players = [ledgers[identifier].document() for identifier in sorted(ledgers, key=lambda item: (profiles[item]["side"], profiles[item]["player_name"].casefold(), item))]
+    if goalkeeper_model is not None:
+        from goalkeeper_kickbase_calibration import estimate_for_match
+        for player in players:
+            if player["position"] == "GK":
+                player["goalkeeper_residual_estimate"] = estimate_for_match(player, match, scoring_policy(), goalkeeper_model)
     return {
         "match_id": match.get("match_id"),
         "home_team_id": match.get("home_team_id"),
         "away_team_id": match.get("away_team_id"),
         "final_score": final_scores,
-        "players": [ledgers[identifier].document() for identifier in sorted(ledgers, key=lambda item: (profiles[item]["side"], profiles[item]["player_name"].casefold(), item))],
+        "players": players,
     }
 
 
 UNSUPPORTED_METRICS = [
     "secondary_assist", "own_goal_forced", "deflected_assist", "deadly_pass", "rebound_assist", "woodwork_assist",
-    "dive_save", "last_man_tackle", "challenged_collection", "keeper_sweeper", "dive_catch", "standing_saved",
+    "dive_save", "last_man_tackle", "challenged_collection", "dive_catch", "standing_saved",
     "unchallenged_collection", "corner_won", "cross_blocked", "accurate_throw", "cross_block_possession",
     "cross_not_claimed", "incorrect_throw_in",
 ]
@@ -398,6 +518,19 @@ UNSUPPORTED_METRICS = [
 
 def scoring_policy() -> dict[str, Any]:
     return {
+        'zone_priors': dict(ZONE_PRIORS),
+        'zone_assumptions': 'Uncalibrated uniform spatial priors: defensive events in own half, pass endpoints in opposition half, fouls won across whole pitch. Zone alternatives are exclusive. Interception base award remains additive.',
+        'zone_rounding': 'Half-up integer per player/event-family subtotal, not per action',
+        'goalkeeper_saves': 'Prefer explicit inside/outside aggregate counts; use valid shot coordinates only when corresponding count is missing. Big-chance bonus requires explicit bigChanceSaved or bigChance=true on a saved shot; never inferred from xG.',
+        'goalkeeper_sweeper': 'accurateKeeperSweeper only; +10 per successful action; provider classification proxy; never totalKeeperSweeper.',
+        "shot_blocked": {
+            "method": "player block count multiplied by defending-team mean shotmap block value",
+            "coordinates": "0-100 normalized, goal at x=0, assumed pitch 105 x 68 metres",
+            "rules": "location values from kickbase_metrics.json",
+            "missing_coordinates": "excluded from mean; no valid team samples falls back to outside-box value",
+            "rounding": "player block subtotal rounded half-up to integer, mean not rounded first",
+            "confidence": PROXY,
+        },
         "big_chance_created_points": 15,
         "ignored_metric_ids": ["big_chance_zero", *UNSUPPORTED_METRICS],
         "woodwork_group": {"metric_ids": ["post_label_crossbar", "left_post", "right_post"], "awarded_as": "post_label_crossbar", "points": 10},
@@ -413,6 +546,7 @@ MATCHDAY_ONE_MINIMUM_APPEARANCES = 1
 EARLY_SEASON_MAX_MATCHDAY = 3
 EARLY_SEASON_MINIMUM_APPEARANCES = 2
 MINIMUM_APPEARANCES = 3
+LATEST_MATCH_MINUTES_EXCEPTION = 45
 
 
 def parse_team_form_filename_timestamp(path: Path) -> datetime:
@@ -502,17 +636,30 @@ def eligibility_metadata(matchday: int) -> dict[str, Any]:
         "minimum_appearances": MATCHDAY_ONE_MINIMUM_APPEARANCES if matchday == 1 else EARLY_SEASON_MINIMUM_APPEARANCES if matchday <= EARLY_SEASON_MAX_MATCHDAY else MINIMUM_APPEARANCES,
         "latest_match_exception": 1 < matchday <= EARLY_SEASON_MAX_MATCHDAY,
         "latest_two_matches_exception": matchday > EARLY_SEASON_MAX_MATCHDAY,
+        "latest_match_minutes_exception": (
+            dict(enabled=True, minimum_minutes=LATEST_MATCH_MINUTES_EXCEPTION)
+            if matchday > EARLY_SEASON_MAX_MATCHDAY else dict(enabled=False, minimum_minutes=None)
+        ),
+        "goalkeeper_appearance_exception": "One appearance in the sampled last five matches.",
     }
 
 
-def qualifies_for_average(appearance_match_ids: set[int], ordered_match_ids: list[int], matchday: int) -> bool:
+def qualifies_for_average(appearance_match_ids: set[int], ordered_match_ids: list[int], matchday: int,
+                          latest_match_minutes: int | None = None,
+                          position: str | None = None) -> bool:
     count = len(appearance_match_ids)
+    if position in {"GK", "G"} and count >= 1:
+        return True
     if matchday == 1:
         return count >= MATCHDAY_ONE_MINIMUM_APPEARANCES
     if matchday <= EARLY_SEASON_MAX_MATCHDAY:
         return count >= EARLY_SEASON_MINIMUM_APPEARANCES or bool(ordered_match_ids) and ordered_match_ids[-1] in appearance_match_ids
     latest_two = set(ordered_match_ids[-2:]) if len(ordered_match_ids) >= 2 else set()
-    return count >= MINIMUM_APPEARANCES or bool(latest_two) and latest_two.issubset(appearance_match_ids)
+    return (
+        count >= MINIMUM_APPEARANCES
+        or bool(latest_two) and latest_two.issubset(appearance_match_ids)
+        or latest_match_minutes is not None and latest_match_minutes >= LATEST_MATCH_MINUTES_EXCEPTION
+    )
 
 
 def create_browser(headless: bool = False) -> Any:
@@ -585,7 +732,7 @@ def cached_match_payloads(driver: Any, match_id: int, cache: dict[int, dict[str,
     return result
 
 
-def evaluate_overall_team(driver: Any, team_id: int, team_name: str, matches: list[dict[str, Any]], matchday: int, catalog: MetricCatalog, payload_cache: dict[int, dict[str, Any]], calculation_cache: dict[int, dict[str, Any]], counters: Counter[str], failures: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def evaluate_overall_team(driver: Any, team_id: int, team_name: str, matches: list[dict[str, Any]], matchday: int, catalog: MetricCatalog, payload_cache: dict[int, dict[str, Any]], calculation_cache: dict[int, dict[str, Any]], counters: Counter[str], failures: list[dict[str, Any]], *, goalkeeper_model: dict[str, Any] | None = None) -> list[dict[str, Any]]:
     ordered = sorted(matches, key=lambda item: (match_datetime(item), item["match_id"]))
     ordered_ids = [match["match_id"] for match in ordered]
     buckets: dict[int, dict[str, Any]] = {}
@@ -597,7 +744,7 @@ def evaluate_overall_team(driver: Any, team_id: int, team_name: str, matches: li
             continue
         try:
             if match_id not in calculation_cache:
-                calculation_cache[match_id] = score_from_match(match, cached["payloads"]["lineups"], cached["payloads"]["incidents"], cached["payloads"]["shotmap"], catalog)
+                calculation_cache[match_id] = score_from_match(match, cached["payloads"]["lineups"], cached["payloads"]["incidents"], cached["payloads"]["shotmap"], catalog, goalkeeper_model=goalkeeper_model)
             calculation = calculation_cache[match_id]
         except Exception as exc:
             failures.append({"match_id": match_id, "team_id": team_id, "team": team_name, "category": "overall", "error": f"{type(exc).__name__}: {exc}"})
@@ -608,14 +755,23 @@ def evaluate_overall_team(driver: Any, team_id: int, team_name: str, matches: li
             bucket = buckets.setdefault(player["player_id"], {"player_name": player["player_name"], "position": player.get("position"), "calculations": [], "match_ids": set()})
             bucket["player_name"] = player["player_name"] or bucket["player_name"]
             bucket["position"] = player.get("position") or bucket["position"]
-            bucket["calculations"].append({"match_id": match_id, "calculated_kickbase_points": player["calculated_kickbase_points"], "awards": player["awards"]})
+            entry = {"match_id": match_id, "calculated_kickbase_points": player["calculated_kickbase_points"], "minutes_played": player["minutes_played"], "awards": player["awards"]}
+            for key in ("goalkeeper_statistics", "goalkeeper_residual_estimate"):
+                if key in player:
+                    entry[key] = player[key]
+            bucket["calculations"].append(entry)
             bucket["match_ids"].add(match_id)
     results = []
     for identifier, bucket in buckets.items():
-        if not qualifies_for_average(bucket["match_ids"], ordered_ids, matchday):
+        latest_id = ordered_ids[-1] if ordered_ids else None
+        latest_match_minutes = next(
+            (item["minutes_played"] for item in bucket["calculations"] if item["match_id"] == latest_id),
+            None,
+        )
+        if not qualifies_for_average(bucket["match_ids"], ordered_ids, matchday, latest_match_minutes, bucket["position"]):
             continue
         count = len(bucket["calculations"])
-        average = sum(Decimal(str(item["calculated_kickbase_points"])) for item in bucket["calculations"]) / Decimal(count)
+        average = sum(Decimal(str(points_for_averages(item, bucket["position"]))) for item in bucket["calculations"]) / Decimal(count)
         results.append({
             "player_id": identifier,
             "player_name": bucket["player_name"],
@@ -635,6 +791,7 @@ def export_overall_results(output_directory: Path, source_path: Path, matchday: 
     csv_path = output_directory / f"overall_player_kickbase_point_averages_{stamp}.csv"
     document = {
         "generated_at": created.isoformat(timespec="seconds"), "source_file": source_path.name, "category": "overall",
+        "averaging_points_policy": "Goalkeepers: valid calibrated estimated_total when available, otherwise event-derived points. Outfield: event-derived points.",
         "eligibility": eligibility_metadata(matchday), "scoring_policy": scoring_policy(),
         "source_url_templates": {"lineups": LINEUPS_URL_TEMPLATE, "incidents": INCIDENTS_URL_TEMPLATE, "shotmap": SHOTMAP_URL_TEMPLATE},
         "teams": team_results, "failed_matches": failures,
@@ -663,7 +820,7 @@ def validate_scoring_contract(catalog: MetricCatalog) -> None:
         raise KickbaseApproximationError("Configured big-chance or woodwork points do not match the selected policy.")
 
 
-def run_notebook_workflow(headless: bool = False) -> tuple[Path, Path]:
+def run_notebook_workflow(headless: bool = False, *, include_goalkeeper_estimates: bool = True) -> tuple[Path, Path]:
     """Interactive entry point used by the derived-analysis notebook."""
     from project_paths import KICKBASE_REFERENCE_DIR, SOFASCORE_PLAYER_KICKBASE_POINT_AVERAGES_DIR, SOFASCORE_TEAM_FORM_DIR
     matchday = prompt_bundesliga_matchday()
@@ -671,6 +828,10 @@ def run_notebook_workflow(headless: bool = False) -> tuple[Path, Path]:
     teams = load_team_form_snapshot(source_path)
     catalog = MetricCatalog.from_document(json.loads((KICKBASE_REFERENCE_DIR / "kickbase_metrics.json").read_text(encoding="utf-8")))
     validate_scoring_contract(catalog)
+    from goalkeeper_kickbase_calibration import load_model
+    goalkeeper_model = load_model() if include_goalkeeper_estimates else None
+    if goalkeeper_model is not None:
+        print("Goalkeeper averages use calibrated totals when available, otherwise event scores; raw match awards remain separate.")
     print(f"Using team-form input: {source_path.name}")
     print(f"Loaded {len(teams)} teams; evaluating overall matches only.")
     driver = None
@@ -683,7 +844,7 @@ def run_notebook_workflow(headless: bool = False) -> tuple[Path, Path]:
         team_results = {}
         for number, (team_id, team) in enumerate(teams.items(), start=1):
             print(f"[{number}/{len(teams)}] {team['team']} (team_id={team_id})")
-            players = evaluate_overall_team(driver, team_id, team["team"], team["overall_matches"], matchday, catalog, payload_cache, calculation_cache, counters, failures)
+            players = evaluate_overall_team(driver, team_id, team["team"], team["overall_matches"], matchday, catalog, payload_cache, calculation_cache, counters, failures, goalkeeper_model=goalkeeper_model)
             team_results[str(team_id)] = {"team": team["team"], "overall": {"players": players}}
         json_path, csv_path = export_overall_results(SOFASCORE_PLAYER_KICKBASE_POINT_AVERAGES_DIR, source_path, matchday, teams, team_results, failures)
         print(f"Unique match IDs: {len(payload_cache)}")
