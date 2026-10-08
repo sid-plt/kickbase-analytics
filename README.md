@@ -60,6 +60,31 @@ lineups.
 Generated JSON, CSV, and debug HTML must be written through `project_paths.py`;
 do not write generated files beside a notebook or into the project root.
 
+## Derived Kickbase points per 90 minutes score
+
+Run `notebooks/04_derived_analysis/09_sofascore_kickbase_point_averages.ipynb`
+to produce derived match points with `minutes_played`, then run
+`notebooks/06_score_creation/sofascore_kickbase_points_per_minute_odds_lineup_score.ipynb`.
+Older derived exports without minutes must be regenerated; the referenced
+team-form snapshot is also required. Existing appearance eligibility is retained.
+
+Historical points per 90 minutes = 90 × weighted points / weighted minutes.
+The score is weighted points per 90 minutes × expected match points × starting
+chance, with multiplier 1. Points and minutes use team-match weights
+28/24/20/16/12 from newest to oldest, without shifting missing appearances.
+Only appearances of **at least 10 minutes** contribute points and minutes;
+shorter appearances are excluded and negative points are preserved. Missing usable
+history produces zero score with a review reason.
+
+Goalkeepers use fixed expected match points of 4/3 (about 1.33), assuming equal
+win/draw/loss probabilities, and alternative decay 0.20
+through the existing provider normalization and injury handling. Outfield decay
+remains 0.45. LigaInsider/Kickbase/Kicker/RotoWire weights are 4/3/2/1, with the
+same source freshness confirmations and player-name matching as the rating
+workflow. Settings are editable in the notebook. CSVs in `outputs/expected_points`
+use the distinct `sofascore_kickbase_points_per_90_odds_lineup` filename label,
+preserve optimizer columns, and include the metric and individual source chances.
+
 ## Timestamped output retention
 
 Timestamped output exporters invoke the shared cleanup in `project_paths.py`. The

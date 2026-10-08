@@ -41,6 +41,8 @@ from sofascore_rating_odds_lineup_score import (
     blend_lineup_chances,
     confirm_lineup_source_matchdays,
     load_expected_match_points,
+    is_goalkeeper,
+    player_expected_match_points,
     load_lineup_source,
     request_matchday,
     resolve_name_only_lineup_match,
@@ -334,6 +336,7 @@ def run_score_creation(
     questionable_injury_starting_chance_penalty: float = DEFAULT_QUESTIONABLE_INJURY_STARTING_CHANCE_PENALTY,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
     lineup_source_weights: Mapping[str, float] | None = None,
+    goalkeeper_alternative_starting_chance_decay: float = 0.60,
 ) -> dict[str, Any]:
     """Score the latest qualified KBStats metric against odds and lineups."""
     try:
@@ -369,6 +372,7 @@ def run_score_creation(
             source,
             questionable_injury_starting_chance_penalty,
             alternative_starting_chance_decay,
+            goalkeeper_alternative_starting_chance_decay=goalkeeper_alternative_starting_chance_decay,
         )
         for source in LINEUP_SOURCES
     }
@@ -444,6 +448,8 @@ def run_score_creation(
                         f"No resolved lineup match exists for {name!r} from {source.key}."
                     ) from exc
                 chance = 0.0 if chosen is None else float(chosen["chance"])
+                if chosen is not None and is_goalkeeper(player):
+                    chance = float(chosen.get("goalkeeper_chance", chance))
                 source_weight = source_weights[source.key]
                 if source_weight > 0:
                     source_chances.append((source_weight, chance))
@@ -461,7 +467,7 @@ def run_score_creation(
             )
             starting_chance = blended_chance
 
-        match_points = float(expected_points[team_key])
+        match_points = player_expected_match_points(float(expected_points[team_key]), is_goalkeeper(player))
         score = round(metric_value * match_points * starting_chance, 6)
         metric_values.append(metric_value)
         match_point_values.append(match_points)

@@ -635,7 +635,12 @@ def load_lineup_source(
     questionable_injury_starting_chance_penalty: float = 0.0,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
     path: Path | None = None,
+    goalkeeper_alternative_starting_chance_decay: float | None = None,
 ) -> tuple[Path, dict[str, dict[str, dict[str, Any]]]]:
+    if goalkeeper_alternative_starting_chance_decay is not None:
+        goalkeeper_alternative_starting_chance_decay = validate_alternative_starting_chance_decay(
+            goalkeeper_alternative_starting_chance_decay
+        )
     if (
         not math.isfinite(questionable_injury_starting_chance_penalty)
         or not 0.0 <= questionable_injury_starting_chance_penalty <= 1.0
@@ -688,6 +693,17 @@ def load_lineup_source(
                 )
             else:
                 teams[key] = parser(player_list, questionable_injury_starting_chance_penalty)
+            # Keep both allocations until canonical player positions are resolved.
+            # Parsers normalize independently by slot, so outfield allocations
+            # remain unchanged when a goalkeeper selects the alternate allocation.
+            if goalkeeper_alternative_starting_chance_decay is not None:
+                goalkeeper_candidates = (
+                    parser(player_list, questionable_injury_starting_chance_penalty,
+                           goalkeeper_alternative_starting_chance_decay)
+                    if source.key != "rotowire" else teams[key]
+                )
+                for name, candidate in teams[key].items():
+                    candidate["goalkeeper_chance"] = goalkeeper_candidates[name]["chance"]
             if source.key == "kicker":
                 _add_kicker_identity_candidates(teams[key], team)
     return path, teams
@@ -887,6 +903,9 @@ def _rating_candidate_maps(ratings: pd.DataFrame) -> tuple[dict[str, dict[str, A
     by_id: dict[int, dict[str, Any]] = {}
     for _, row in ratings.iterrows():
         entry = {"name": str(row["player_name"]), "id": int(row["player_id"]), "rating": float(row["average_rating"])}
+        for field in ("position", "history_status"):
+            if field in ratings.columns:
+                entry[field] = row[field]
         key = normalize_name(entry["name"])
         if key in by_name:
             raise ValueError(f"SofaScore ratings have ambiguous player name {entry['name']!r}.")
@@ -972,12 +991,44 @@ def load_score_ratings(path: Path, category: str) -> pd.DataFrame:
     return ratings
 
 
+@dataclass(frozen=True)
+class ScoreMetricInput:
+    """An alternate historical metric using the shared SofaScore identity flow.
+
+    Values use player_id/player_name/average_rating as the internal matching
+    interface; column and label describe the actual exported metric.
+    """
+
+    path: Path
+    values: pd.DataFrame
+    column: str
+    label: str
+    output_label: str
+
+
+def is_goalkeeper(player: Mapping[str, Any], metric: Mapping[str, Any] | None = None) -> bool:
+    position = str(player.get("position", "")).strip().upper()
+    if position in {"1", "1.0", "G", "GK"}:
+        return True
+    if position in {"2", "2.0", "3", "3.0", "4", "4.0", "D", "DEF", "M", "MID", "F", "FWD"}:
+        return False
+    return metric is not None and str(metric.get("position", "")).upper() in {"G", "GK"}
+
+
+def player_expected_match_points(value: float, goalkeeper: bool) -> float:
+    """Compress goalkeeper odds from 0–3 to 1.1–1.7; retain outfield odds."""
+    return 1.1 + value * (0.6 / 3) if goalkeeper else value
+
+
 def run_score_creation(
     category: str,
     questionable_injury_starting_chance_penalty: float = DEFAULT_QUESTIONABLE_INJURY_STARTING_CHANCE_PENALTY,
     alternative_starting_chance_decay: float = DEFAULT_ALTERNATIVE_STARTING_CHANCE_DECAY,
     lineup_source_weights: Mapping[str, float] | None = None,
     score_multiplier: float = DEFAULT_SCORE_MULTIPLIER,
+    *,
+    metric_input: ScoreMetricInput | None = None,
+    goalkeeper_alternative_starting_chance_decay: float | None = 0.60,
 ) -> dict[str, Any]:
     if category not in {"bundesliga", "overall"}:
         raise ValueError("category must be 'bundesliga' or 'overall'.")
@@ -994,17 +1045,23 @@ def run_score_creation(
         or not 0.0 <= questionable_injury_starting_chance_penalty <= 1.0
     ):
         raise ValueError("Questionable-injury starting-chance penalty must be a finite value from 0 to 1.")
+    metric_column = "sofascore_average_rating" if metric_input is None else metric_input.column
+    metric_label = "SofaScore rating" if metric_input is None else metric_input.label
+    output_label = f"sofascore_{category}_rating_odds_lineup" if metric_input is None else metric_input.output_label
+    metric_columns = (metric_column, *OUTPUT_METRIC_COLUMNS[1:])
     matchday = request_matchday()
     kbstats_input = select_latest_kbstats_csv()
-    ratings_input = select_latest_ratings_csv()
+    ratings_input = select_latest_ratings_csv() if metric_input is None else metric_input
     players = load_kbstats_players(kbstats_input.path)
-    ratings = load_score_ratings(ratings_input.path, category)
+    ratings = load_score_ratings(ratings_input.path, category) if metric_input is None else metric_input.values
     expected_points, odds_table = load_expected_match_points(matchday)
     lineup_inputs = {
         source.key: load_lineup_source(
             source,
             questionable_injury_starting_chance_penalty,
             alternative_starting_chance_decay,
+            **({"goalkeeper_alternative_starting_chance_decay": goalkeeper_alternative_starting_chance_decay}
+               if goalkeeper_alternative_starting_chance_decay is not None else {}),
         )
         for source in LINEUP_SOURCES
     }
@@ -1150,7 +1207,7 @@ def run_score_creation(
         key=lambda item: (-item[0], item[1], item[2]),
     ):
         name = player_contexts[index]["name"]
-        chosen, _ = _prompt_candidate(f"SofaScore rating for {name}", fuzzy)
+        chosen, _ = _prompt_candidate(f"{metric_label} for {name}", fuzzy)
         if chosen is not None:
             rating_resolution[index] = (chosen, "prompted")
             new_rating_overrides.append({"kbstats_name": name, "sofascore_player_id": chosen["id"], "sofascore_player_name": chosen["name"], "created_at": datetime.now().astimezone().isoformat(timespec="seconds")})
@@ -1161,6 +1218,12 @@ def run_score_creation(
         context = player_contexts[int(index)]
         name, normalized, team_key = context["name"], context["normalized"], context["team_key"]
         rating, rating_status = rating_resolution[int(index)]
+        goalkeeper = is_goalkeeper(player, rating)
+        if metric_input is not None:
+            if rating is None:
+                rating_status = "missing_history"
+            elif rating.get("history_status") != "usable":
+                rating_status = str(rating.get("history_status", "missing_history"))
 
         source_chances: list[tuple[float, float]] = []
         source_chance_by_key = {source.key: 0.0 for source in LINEUP_SOURCES}
@@ -1178,6 +1241,8 @@ def run_score_creation(
                     f"No resolved lineup match exists for {name!r} from {source.key}."
                 ) from exc
             source_chance = 0.0 if chosen is None else float(chosen["chance"])
+            if goalkeeper and chosen is not None:
+                source_chance = float(chosen.get("goalkeeper_chance", source_chance))
             source_weight = source_weights[source.key]
             if source_weight > 0:
                 source_chances.append((source_weight, source_chance))
@@ -1194,7 +1259,7 @@ def run_score_creation(
             questionable_injury_starting_chance_penalty if is_questionable else 0.0
         )
         rating_value = 0.0 if rating is None else float(rating["rating"])
-        match_points = float(expected_points[team_key])
+        match_points = player_expected_match_points(float(expected_points[team_key]), goalkeeper)
         # Keep the score scale safely within the optimizer's exact integerization range.
         score = round(score_multiplier * rating_value * match_points * starting_chance, 6)
         rating_values.append(rating_value)
@@ -1209,7 +1274,7 @@ def run_score_creation(
         review_rows.append({"name": name, "team": team_key, "rating_status": rating_status, "lineup_status": "; ".join(lineup_statuses), "rating": rating_value, "expected_match_points": match_points, "ligainsider_starting_chance": source_chance_by_key["ligainsider"], "kickbase_starting_chance": source_chance_by_key["kickbase"], "kicker_starting_chance": source_chance_by_key["kicker"], "rotowire_starting_chance": source_chance_by_key["rotowire"], "questionable_injury_penalty": injury_penalty, "starting_chance": starting_chance, "score_multiplier": score_multiplier, "score": score})
 
     scored = players.copy()
-    scored["sofascore_average_rating"] = rating_values
+    scored[metric_column] = rating_values
     scored["expected_match_points"] = match_point_values
     scored["ligainsider_starting_chance"] = ligainsider_starting_chances
     scored["kickbase_starting_chance"] = kickbase_starting_chances
@@ -1219,7 +1284,7 @@ def run_score_creation(
     scored["starting_chance"] = starting_chances
     scored["score_multiplier"] = score_multiplier
     scored["score"] = scores
-    validate_scored_players(players, scored, additional_columns=OUTPUT_METRIC_COLUMNS)
+    validate_scored_players(players, scored, additional_columns=metric_columns)
     if new_rating_overrides:
         persist_rating_overrides(pd.concat([rating_overrides.loc[:, list(RATING_OVERRIDE_COLUMNS)], pd.DataFrame(new_rating_overrides)], ignore_index=True))
     if new_lineup_overrides:
@@ -1228,15 +1293,17 @@ def run_score_creation(
         _persist_name_only_lineup_overrides(pd.concat([name_only_lineup_overrides.loc[:, list(NAME_ONLY_LINEUP_REFERENCE_COLUMNS)], pd.DataFrame(new_name_only_lineup_overrides)], ignore_index=True))
 
     created_timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S_%z")
-    output_path = ensure_directory(EXPECTED_POINTS_DIR) / f"expected_points_{kbstats_input.timestamp_text}_sofascore_{category}_rating_odds_lineup_{created_timestamp}.csv"
+    output_path = ensure_directory(EXPECTED_POINTS_DIR) / f"expected_points_{kbstats_input.timestamp_text}_{output_label}_{created_timestamp}.csv"
     if output_path.exists():
         raise FileExistsError(f"Refusing to overwrite existing score CSV: {output_path}")
     scored.to_csv(output_path, index=False, encoding="utf-8-sig")
     prune_timestamped_outputs()
     review = pd.DataFrame(review_rows)
+    if metric_input is not None:
+        review = review.rename(columns={"rating": metric_column, "rating_status": "metric_status"})
     print("Input summary")
-    print(f"  Matchday: {matchday}; ratings: {ratings_input.path.name}")
-    if category == "overall":
+    print(f"  Matchday: {matchday}; {metric_label}: {ratings_input.path.name}")
+    if category == "overall" and metric_input is None:
         print("  Rating recency weights (newest to oldest): 28/24/20/16/12; missing ratings excluded and weights normalized.")
     for source in LINEUP_SOURCES:
         status = "current" if lineup_source_is_current[source.key] else "previous matchday — excluded"
@@ -1253,8 +1320,9 @@ def run_score_creation(
     print(f"  Output: {output_path}")
     print("\nTeam odds and expected match points")
     display(odds_table)
-    print("\nPlayer score review (non-positive or non-exact ratings)")
-    display(review.loc[(review["score"].le(0)) | (review["rating_status"].ne("exact"))])
+    print("\nPlayer score review (non-positive or non-exact historical metric)")
+    status_column = "rating_status" if metric_input is None else "metric_status"
+    display(review.loc[(review["score"].le(0)) | (review[status_column].ne("exact"))])
     return {
         "output_path": output_path,
         "scored_players": scored,

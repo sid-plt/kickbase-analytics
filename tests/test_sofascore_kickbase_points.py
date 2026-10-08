@@ -1,10 +1,42 @@
 import json
 from pathlib import Path
 
-from sofascore_kickbase_points import MetricCatalog, score_from_match, scoring_policy
+from sofascore_kickbase_points import MetricCatalog, score_from_match, scoring_policy, team_block_values
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_team_block_locations_sides_and_missing_data():
+    shots = [dict(shotType='block', isHome=False, blockCoordinates=dict(x=x, y=y))
+             for x, y in [(4, 50), (10, 50), (20, 50), (4, 90)]]
+    shots += [dict(shotType='block', isHome=True, blockCoordinates=dict(x=4, y=50)),
+              dict(shotType='block', isHome=False),
+              dict(shotType='block', isHome=False, blockCoordinates=dict(x=float('nan'), y=50)),
+              dict(shotType='save', isHome=False, blockCoordinates=dict(x=4, y=50))]
+    result = team_block_values(shots, catalog())
+    assert result['home']['points_per_action'] == 8.75
+    assert result['home']['sample_count'] == 4
+    assert result['away']['points_per_action'] == 15
+    assert team_block_values([], catalog())['home']['points_per_action'] == 5
+    assert team_block_values([], catalog())['home']['fallback'] is True
+
+
+def test_block_subtotal_uses_fractional_mean_and_half_up_rounding():
+    lineups = {'home': {'players': [dict(player=dict(id=1, name='Defender'), teamId=10,
+               position='D', substitute=False, statistics=dict(minutesPlayed=90, outfielderBlock=2))]},
+               'away': {'players': []}}
+    shots = [dict(shotType='block', isHome=False, blockCoordinates=dict(x=x, y=50))
+             for x in (4, 10, 20, 20)]
+    def run(shotmap):
+        return score_from_match(dict(match_id=1, home_team_id=10, away_team_id=20),
+                                lineups, {'incidents': []}, {'shotmap': shotmap}, catalog())['players'][0]
+    player = run(shots)
+    block = next(a for a in player['awards'] if a['metric_id'] == 'shot_blocked')
+    assert block['points_per_action'] == 8.75
+    assert block['points'] == 18  # 2 * 8.75 = 17.5, half-up
+    assert block['confidence'] == 'proxy'
+    assert award_points(run([]), 'shot_blocked') == 10
 
 
 def catalog() -> MetricCatalog:
