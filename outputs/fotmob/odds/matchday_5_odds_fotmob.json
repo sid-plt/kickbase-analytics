@@ -22,9 +22,9 @@
       {
         "bookmaker": "Tipico",
         "bookmaker_source_id": 171,
-        "home_win": 11.0,
-        "draw": 9.0,
-        "away_win": 1.18
+        "home_win": 12.0,
+        "draw": 9.5,
+        "away_win": 1.16
       }
     ],
     "issues": []
@@ -112,9 +112,9 @@
       {
         "bookmaker": "Tipico",
         "bookmaker_source_id": 171,
-        "home_win": 1.97,
-        "draw": 4.1,
-        "away_win": 3.3
+        "home_win": 2.05,
+        "draw": 3.9,
+        "away_win": 3.2
       }
     ],
     "issues": []
@@ -128,8 +128,8 @@
         "bookmaker": "Tipico",
         "bookmaker_source_id": 171,
         "home_win": 1.62,
-        "draw": 4.2,
-        "away_win": 5.0
+        "draw": 4.0,
+        "away_win": 5.3
       }
     ],
     "issues": []

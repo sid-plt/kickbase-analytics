@@ -3,7 +3,7 @@
   "fixtures": [
     {
       "fixture_url": "https://www.kicker.de/dortmund-gegen-bremen-2026-bundesliga-5226845/aufstellung",
-      "schedule_row_text": "Borussia Dortmund Dortmund Fr. 20:30 Werder Bremen Bremen Vorschau"
+      "schedule_row_text": "Borussia Dortmund Dortmund 20:30 heute Werder Bremen Bremen Vorschau"
     },
     {
       "fixture_url": "https://www.kicker.de/hoffenheim-gegen-hsv-2026-bundesliga-5226847/aufstellung",
@@ -38,13 +38,13 @@
       "schedule_row_text": "SC Freiburg Freiburg So. 17:30 FC Schalke 04 Schalke Vorschau"
     }
   ],
-  "schedule_saved_at": 1791465632.6432307,
+  "schedule_saved_at": 1791554862.5008378,
   "matches": {
     "https://www.kicker.de/dortmund-gegen-bremen-2026-bundesliga-5226845/aufstellung": {
-      "saved_at": 1791465638.0267887,
-      "captured_at": "2026-10-08T15:20:38+02:00",
+      "saved_at": 1791554867.813616,
+      "captured_at": "2026-10-09T16:07:47+02:00",
       "match": {
-        "match_time": "Fr. 20:30",
+        "match_time": "Borussia Dortmund Dortmund 20:30 heute Werder Bremen Bremen Vorschau",
         "home": {
           "team_name": "Borussia Dortmund",
           "side": "home",
@@ -85,22 +85,22 @@
             },
             {
               "full_name": null,
-              "displayed_name": "Bensebaini",
+              "displayed_name": "N. Schlotterbeck",
               "position": null,
               "injury_status": null,
               "player_id": null,
-              "player_url": "https://www.kicker.de/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund",
+              "player_url": "https://www.kicker.de/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund",
               "formation_row": 2,
               "slot_index": 3,
               "starting_probability_rank": 1
             },
             {
               "full_name": null,
-              "displayed_name": "Ryerson",
+              "displayed_name": "Beier",
               "position": null,
               "injury_status": null,
               "player_id": null,
-              "player_url": "https://www.kicker.de/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund",
+              "player_url": "https://www.kicker.de/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund",
               "formation_row": 3,
               "slot_index": 1,
               "starting_probability_rank": 1
@@ -129,11 +129,11 @@
             },
             {
               "full_name": null,
-              "displayed_name": "Beier",
+              "displayed_name": "Svensson",
               "position": null,
               "injury_status": null,
               "player_id": null,
-              "player_url": "https://www.kicker.de/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund",
+              "player_url": "https://www.kicker.de/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund",
               "formation_row": 3,
               "slot_index": 4,
               "starting_probability_rank": 1
@@ -174,12 +174,12 @@
           ],
           "kicker_details": {
             "lineup_index": 1,
-            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 2x\"/><img alt=\"Borussia Dortmund\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png\"/></picture><strong>Dortmund</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/gregor-kobel/spieler/bundesliga/2026-27/borussia-dortmund\">Kobel</a> - <a href=\"/joane-gadou-2/spieler/bundesliga/2026-27/borussia-dortmund\">Gadou</a>, <a href=\"/waldemar-anton/spieler/bundesliga/2026-27/borussia-dortmund\">Anton</a>, <a href=\"/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund\">Bensebaini</a> - <a href=\"/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund\">Ryerson</a>, <a href=\"/joey-veerman/spieler/bundesliga/2026-27/borussia-dortmund\">J. Veerman</a>, <a href=\"/felix-nmecha/spieler/bundesliga/2026-27/borussia-dortmund\">F. Nmecha</a>, <a href=\"/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund\">Beier</a> - <a href=\"/ethan-nwaneri/spieler/bundesliga/2026-27/borussia-dortmund\">Nwaneri</a>, <a href=\"/fabio-silva/spieler/bundesliga/2026-27/borussia-dortmund\">Fabio Silva</a> - <a href=\"/serhou-guirassy/spieler/bundesliga/2026-27/borussia-dortmund\">Guirassy</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/niko-kovac/trainer/bundesliga/2026-27/borussia-dortmund\">Kovac</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/alexander-meyer-2/spieler/bundesliga/2026-27/borussia-dortmund\">A. Meyer</a>, <a href=\"/kau-prates/spieler/bundesliga/2026-27/borussia-dortmund\">Kaua Prates</a>, <a href=\"/luca-reggiani/spieler/bundesliga/2026-27/borussia-dortmund\">Reggiani</a>, <a href=\"/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund\">N. Schlotterbeck</a>, <a href=\"/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund\">Svensson</a>, <a href=\"/jobe-bellingham/spieler/bundesliga/2026-27/borussia-dortmund\">Bellingham</a>, <a href=\"/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund\">Chukwuemeka</a>, <a href=\"/konstantinos-karetsas/spieler/bundesliga/2026-27/borussia-dortmund\">Karetsas</a>, <a href=\"/marcel-sabitzer/spieler/bundesliga/2026-27/borussia-dortmund\">Sabitzer</a>, <a href=\"/mathis-albert/spieler/bundesliga/2026-27/borussia-dortmund\">Albert</a>, <a href=\"/samuele-inacio/spieler/bundesliga/2026-27/borussia-dortmund\">Inacio</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/emre-can/spieler/bundesliga/2026-27/borussia-dortmund\">Can</a> (Kreuzbandriss), <a href=\"/enzo-duarte/spieler/bundesliga/2026-27/borussia-dortmund\">dos Santos</a> (nicht berücksichtigt), <a href=\"/patrick-drewes/spieler/bundesliga/2026-27/borussia-dortmund\">Drewes</a> (nicht berücksichtigt), <a href=\"/mussa-kaba/spieler/bundesliga/2026-27/borussia-dortmund\">Kaba</a> (nicht berücksichtigt), <a href=\"/giannis-konstantelias/spieler/bundesliga/2026-27/borussia-dortmund\">Konstantelias</a> (Kreuzbandriss), <a href=\"/justin-lerma/spieler/bundesliga/2026-27/borussia-dortmund\">Lerma</a> (Muskelverletzung), <a href=\"/filippo-calixte-mane/spieler/bundesliga/2026-27/borussia-dortmund\">Mane</a> (Muskelverletzung), <a href=\"/silas-ostrzinski/spieler/bundesliga/2026-27/borussia-dortmund\">Ostrzinski</a> (nicht berücksichtigt)</p>\n</div>",
+            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png 2x\"/><img alt=\"Borussia Dortmund\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/17_20150212741.png\"/></picture><strong>Dortmund</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/gregor-kobel/spieler/bundesliga/2026-27/borussia-dortmund\">Kobel</a> - <a href=\"/joane-gadou-2/spieler/bundesliga/2026-27/borussia-dortmund\">Gadou</a>, <a href=\"/waldemar-anton/spieler/bundesliga/2026-27/borussia-dortmund\">Anton</a>, <a href=\"/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund\">N. Schlotterbeck</a> - <a href=\"/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund\">Beier</a>, <a href=\"/joey-veerman/spieler/bundesliga/2026-27/borussia-dortmund\">J. Veerman</a>, <a href=\"/felix-nmecha/spieler/bundesliga/2026-27/borussia-dortmund\">F. Nmecha</a>, <a href=\"/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund\">Svensson</a> - <a href=\"/ethan-nwaneri/spieler/bundesliga/2026-27/borussia-dortmund\">Nwaneri</a>, <a href=\"/fabio-silva/spieler/bundesliga/2026-27/borussia-dortmund\">Fabio Silva</a> - <a href=\"/serhou-guirassy/spieler/bundesliga/2026-27/borussia-dortmund\">Guirassy</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/niko-kovac/trainer/bundesliga/2026-27/borussia-dortmund\">Kovac</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/alexander-meyer-2/spieler/bundesliga/2026-27/borussia-dortmund\">A. Meyer</a>, <a href=\"/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund\">Bensebaini</a>, <a href=\"/kau-prates/spieler/bundesliga/2026-27/borussia-dortmund\">Kaua Prates</a>, <a href=\"/luca-reggiani/spieler/bundesliga/2026-27/borussia-dortmund\">Reggiani</a>, <a href=\"/jobe-bellingham/spieler/bundesliga/2026-27/borussia-dortmund\">Bellingham</a>, <a href=\"/konstantinos-karetsas/spieler/bundesliga/2026-27/borussia-dortmund\">Karetsas</a>, <a href=\"/marcel-sabitzer/spieler/bundesliga/2026-27/borussia-dortmund\">Sabitzer</a>, <a href=\"/mathis-albert/spieler/bundesliga/2026-27/borussia-dortmund\">Albert</a>, <a href=\"/samuele-inacio/spieler/bundesliga/2026-27/borussia-dortmund\">Inacio</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/emre-can/spieler/bundesliga/2026-27/borussia-dortmund\">Can</a> (Kreuzbandriss), <a href=\"/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund\">Chukwuemeka</a> (muskuläre Probleme), <a href=\"/enzo-duarte/spieler/bundesliga/2026-27/borussia-dortmund\">dos Santos</a> (nicht berücksichtigt), <a href=\"/patrick-drewes/spieler/bundesliga/2026-27/borussia-dortmund\">Drewes</a> (nicht berücksichtigt), <a href=\"/mussa-kaba/spieler/bundesliga/2026-27/borussia-dortmund\">Kaba</a> (nicht berücksichtigt), <a href=\"/giannis-konstantelias/spieler/bundesliga/2026-27/borussia-dortmund\">Konstantelias</a> (Kreuzbandriss), <a href=\"/justin-lerma/spieler/bundesliga/2026-27/borussia-dortmund\">Lerma</a> (Muskelverletzung), <a href=\"/filippo-calixte-mane/spieler/bundesliga/2026-27/borussia-dortmund\">Mane</a> (Muskelverletzung), <a href=\"/silas-ostrzinski/spieler/bundesliga/2026-27/borussia-dortmund\">Ostrzinski</a> (nicht berücksichtigt), <a href=\"/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund\">Ryerson</a> (Rippenverletzung)</p>\n</div>",
             "paragraphs": [
               {
                 "index": 1,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/gregor-kobel/spieler/bundesliga/2026-27/borussia-dortmund\">Kobel</a> - <a href=\"/joane-gadou-2/spieler/bundesliga/2026-27/borussia-dortmund\">Gadou</a>, <a href=\"/waldemar-anton/spieler/bundesliga/2026-27/borussia-dortmund\">Anton</a>, <a href=\"/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund\">Bensebaini</a> - <a href=\"/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund\">Ryerson</a>, <a href=\"/joey-veerman/spieler/bundesliga/2026-27/borussia-dortmund\">J. Veerman</a>, <a href=\"/felix-nmecha/spieler/bundesliga/2026-27/borussia-dortmund\">F. Nmecha</a>, <a href=\"/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund\">Beier</a> - <a href=\"/ethan-nwaneri/spieler/bundesliga/2026-27/borussia-dortmund\">Nwaneri</a>, <a href=\"/fabio-silva/spieler/bundesliga/2026-27/borussia-dortmund\">Fabio Silva</a> - <a href=\"/serhou-guirassy/spieler/bundesliga/2026-27/borussia-dortmund\">Guirassy</a></p>",
-                "text": "Voraussichtliche Aufstellung Kobel - Gadou , Anton , Bensebaini - Ryerson , J. Veerman , F. Nmecha , Beier - Nwaneri , Fabio Silva - Guirassy"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/gregor-kobel/spieler/bundesliga/2026-27/borussia-dortmund\">Kobel</a> - <a href=\"/joane-gadou-2/spieler/bundesliga/2026-27/borussia-dortmund\">Gadou</a>, <a href=\"/waldemar-anton/spieler/bundesliga/2026-27/borussia-dortmund\">Anton</a>, <a href=\"/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund\">N. Schlotterbeck</a> - <a href=\"/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund\">Beier</a>, <a href=\"/joey-veerman/spieler/bundesliga/2026-27/borussia-dortmund\">J. Veerman</a>, <a href=\"/felix-nmecha/spieler/bundesliga/2026-27/borussia-dortmund\">F. Nmecha</a>, <a href=\"/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund\">Svensson</a> - <a href=\"/ethan-nwaneri/spieler/bundesliga/2026-27/borussia-dortmund\">Nwaneri</a>, <a href=\"/fabio-silva/spieler/bundesliga/2026-27/borussia-dortmund\">Fabio Silva</a> - <a href=\"/serhou-guirassy/spieler/bundesliga/2026-27/borussia-dortmund\">Guirassy</a></p>",
+                "text": "Voraussichtliche Aufstellung Kobel - Gadou , Anton , N. Schlotterbeck - Beier , J. Veerman , F. Nmecha , Svensson - Nwaneri , Fabio Silva - Guirassy"
               },
               {
                 "index": 2,
@@ -188,17 +188,17 @@
               },
               {
                 "index": 3,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/alexander-meyer-2/spieler/bundesliga/2026-27/borussia-dortmund\">A. Meyer</a>, <a href=\"/kau-prates/spieler/bundesliga/2026-27/borussia-dortmund\">Kaua Prates</a>, <a href=\"/luca-reggiani/spieler/bundesliga/2026-27/borussia-dortmund\">Reggiani</a>, <a href=\"/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund\">N. Schlotterbeck</a>, <a href=\"/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund\">Svensson</a>, <a href=\"/jobe-bellingham/spieler/bundesliga/2026-27/borussia-dortmund\">Bellingham</a>, <a href=\"/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund\">Chukwuemeka</a>, <a href=\"/konstantinos-karetsas/spieler/bundesliga/2026-27/borussia-dortmund\">Karetsas</a>, <a href=\"/marcel-sabitzer/spieler/bundesliga/2026-27/borussia-dortmund\">Sabitzer</a>, <a href=\"/mathis-albert/spieler/bundesliga/2026-27/borussia-dortmund\">Albert</a>, <a href=\"/samuele-inacio/spieler/bundesliga/2026-27/borussia-dortmund\">Inacio</a></p>",
-                "text": "Reservebank A. Meyer , Kaua Prates , Reggiani , N. Schlotterbeck , Svensson , Bellingham , Chukwuemeka , Karetsas , Sabitzer , Albert , Inacio"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/alexander-meyer-2/spieler/bundesliga/2026-27/borussia-dortmund\">A. Meyer</a>, <a href=\"/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund\">Bensebaini</a>, <a href=\"/kau-prates/spieler/bundesliga/2026-27/borussia-dortmund\">Kaua Prates</a>, <a href=\"/luca-reggiani/spieler/bundesliga/2026-27/borussia-dortmund\">Reggiani</a>, <a href=\"/jobe-bellingham/spieler/bundesliga/2026-27/borussia-dortmund\">Bellingham</a>, <a href=\"/konstantinos-karetsas/spieler/bundesliga/2026-27/borussia-dortmund\">Karetsas</a>, <a href=\"/marcel-sabitzer/spieler/bundesliga/2026-27/borussia-dortmund\">Sabitzer</a>, <a href=\"/mathis-albert/spieler/bundesliga/2026-27/borussia-dortmund\">Albert</a>, <a href=\"/samuele-inacio/spieler/bundesliga/2026-27/borussia-dortmund\">Inacio</a></p>",
+                "text": "Reservebank A. Meyer , Bensebaini , Kaua Prates , Reggiani , Bellingham , Karetsas , Sabitzer , Albert , Inacio"
               },
               {
                 "index": 4,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/emre-can/spieler/bundesliga/2026-27/borussia-dortmund\">Can</a> (Kreuzbandriss), <a href=\"/enzo-duarte/spieler/bundesliga/2026-27/borussia-dortmund\">dos Santos</a> (nicht berücksichtigt), <a href=\"/patrick-drewes/spieler/bundesliga/2026-27/borussia-dortmund\">Drewes</a> (nicht berücksichtigt), <a href=\"/mussa-kaba/spieler/bundesliga/2026-27/borussia-dortmund\">Kaba</a> (nicht berücksichtigt), <a href=\"/giannis-konstantelias/spieler/bundesliga/2026-27/borussia-dortmund\">Konstantelias</a> (Kreuzbandriss), <a href=\"/justin-lerma/spieler/bundesliga/2026-27/borussia-dortmund\">Lerma</a> (Muskelverletzung), <a href=\"/filippo-calixte-mane/spieler/bundesliga/2026-27/borussia-dortmund\">Mane</a> (Muskelverletzung), <a href=\"/silas-ostrzinski/spieler/bundesliga/2026-27/borussia-dortmund\">Ostrzinski</a> (nicht berücksichtigt)</p>",
-                "text": "Es fehlen Can (Kreuzbandriss), dos Santos (nicht berücksichtigt), Drewes (nicht berücksichtigt), Kaba (nicht berücksichtigt), Konstantelias (Kreuzbandriss), Lerma (Muskelverletzung), Mane (Muskelverletzung), Ostrzinski (nicht berücksichtigt)"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/emre-can/spieler/bundesliga/2026-27/borussia-dortmund\">Can</a> (Kreuzbandriss), <a href=\"/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund\">Chukwuemeka</a> (muskuläre Probleme), <a href=\"/enzo-duarte/spieler/bundesliga/2026-27/borussia-dortmund\">dos Santos</a> (nicht berücksichtigt), <a href=\"/patrick-drewes/spieler/bundesliga/2026-27/borussia-dortmund\">Drewes</a> (nicht berücksichtigt), <a href=\"/mussa-kaba/spieler/bundesliga/2026-27/borussia-dortmund\">Kaba</a> (nicht berücksichtigt), <a href=\"/giannis-konstantelias/spieler/bundesliga/2026-27/borussia-dortmund\">Konstantelias</a> (Kreuzbandriss), <a href=\"/justin-lerma/spieler/bundesliga/2026-27/borussia-dortmund\">Lerma</a> (Muskelverletzung), <a href=\"/filippo-calixte-mane/spieler/bundesliga/2026-27/borussia-dortmund\">Mane</a> (Muskelverletzung), <a href=\"/silas-ostrzinski/spieler/bundesliga/2026-27/borussia-dortmund\">Ostrzinski</a> (nicht berücksichtigt), <a href=\"/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund\">Ryerson</a> (Rippenverletzung)</p>",
+                "text": "Es fehlen Can (Kreuzbandriss), Chukwuemeka (muskuläre Probleme), dos Santos (nicht berücksichtigt), Drewes (nicht berücksichtigt), Kaba (nicht berücksichtigt), Konstantelias (Kreuzbandriss), Lerma (Muskelverletzung), Mane (Muskelverletzung), Ostrzinski (nicht berücksichtigt), Ryerson (Rippenverletzung)"
               }
             ],
             "starting_xi": {
-              "raw_text": "Voraussichtliche Aufstellung Kobel - Gadou , Anton , Bensebaini - Ryerson , J. Veerman , F. Nmecha , Beier - Nwaneri , Fabio Silva - Guirassy",
+              "raw_text": "Voraussichtliche Aufstellung Kobel - Gadou , Anton , N. Schlotterbeck - Beier , J. Veerman , F. Nmecha , Svensson - Nwaneri , Fabio Silva - Guirassy",
               "formation": "3-4-2-1",
               "formation_lines": [
                 3,
@@ -249,22 +249,22 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Bensebaini",
+                  "displayed_name": "N. Schlotterbeck",
                   "position": null,
                   "injury_status": null,
                   "player_id": null,
-                  "player_url": "https://www.kicker.de/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund",
+                  "player_url": "https://www.kicker.de/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund",
                   "formation_row": 2,
                   "slot_index": 3,
                   "starting_probability_rank": 1
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Ryerson",
+                  "displayed_name": "Beier",
                   "position": null,
                   "injury_status": null,
                   "player_id": null,
-                  "player_url": "https://www.kicker.de/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund",
+                  "player_url": "https://www.kicker.de/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund",
                   "formation_row": 3,
                   "slot_index": 1,
                   "starting_probability_rank": 1
@@ -293,11 +293,11 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Beier",
+                  "displayed_name": "Svensson",
                   "position": null,
                   "injury_status": null,
                   "player_id": null,
-                  "player_url": "https://www.kicker.de/maximilian-beier/spieler/bundesliga/2026-27/borussia-dortmund",
+                  "player_url": "https://www.kicker.de/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund",
                   "formation_row": 3,
                   "slot_index": 4,
                   "starting_probability_rank": 1
@@ -343,7 +343,7 @@
               "coach_url": "https://www.kicker.de/niko-kovac/trainer/bundesliga/2026-27/borussia-dortmund"
             },
             "bench": {
-              "raw_text": "Reservebank A. Meyer , Kaua Prates , Reggiani , N. Schlotterbeck , Svensson , Bellingham , Chukwuemeka , Karetsas , Sabitzer , Albert , Inacio",
+              "raw_text": "Reservebank A. Meyer , Bensebaini , Kaua Prates , Reggiani , Bellingham , Karetsas , Sabitzer , Albert , Inacio",
               "players": [
                 {
                   "full_name": null,
@@ -352,6 +352,17 @@
                   "injury_status": null,
                   "player_id": null,
                   "player_url": "https://www.kicker.de/alexander-meyer-2/spieler/bundesliga/2026-27/borussia-dortmund",
+                  "formation_row": null,
+                  "slot_index": null,
+                  "starting_probability_rank": 1
+                },
+                {
+                  "full_name": null,
+                  "displayed_name": "Bensebaini",
+                  "position": null,
+                  "injury_status": null,
+                  "player_id": null,
+                  "player_url": "https://www.kicker.de/ramy-bensebaini/spieler/bundesliga/2026-27/borussia-dortmund",
                   "formation_row": null,
                   "slot_index": null,
                   "starting_probability_rank": 1
@@ -380,44 +391,11 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "N. Schlotterbeck",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/nico-schlotterbeck/spieler/bundesliga/2026-27/borussia-dortmund",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
-                  "displayed_name": "Svensson",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/daniel-svensson/spieler/bundesliga/2026-27/borussia-dortmund",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
                   "displayed_name": "Bellingham",
                   "position": null,
                   "injury_status": null,
                   "player_id": null,
                   "player_url": "https://www.kicker.de/jobe-bellingham/spieler/bundesliga/2026-27/borussia-dortmund",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
-                  "displayed_name": "Chukwuemeka",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund",
                   "formation_row": null,
                   "slot_index": null,
                   "starting_probability_rank": 1
@@ -469,13 +447,19 @@
               ]
             },
             "unavailable": {
-              "raw_text": "Es fehlen Can (Kreuzbandriss), dos Santos (nicht berücksichtigt), Drewes (nicht berücksichtigt), Kaba (nicht berücksichtigt), Konstantelias (Kreuzbandriss), Lerma (Muskelverletzung), Mane (Muskelverletzung), Ostrzinski (nicht berücksichtigt)",
+              "raw_text": "Es fehlen Can (Kreuzbandriss), Chukwuemeka (muskuläre Probleme), dos Santos (nicht berücksichtigt), Drewes (nicht berücksichtigt), Kaba (nicht berücksichtigt), Konstantelias (Kreuzbandriss), Lerma (Muskelverletzung), Mane (Muskelverletzung), Ostrzinski (nicht berücksichtigt), Ryerson (Rippenverletzung)",
               "players": [
                 {
                   "raw_text": "Can(Kreuzbandriss),",
                   "name": "Can",
                   "reason": "Kreuzbandriss",
                   "player_url": "https://www.kicker.de/emre-can/spieler/bundesliga/2026-27/borussia-dortmund"
+                },
+                {
+                  "raw_text": "Chukwuemeka(muskuläre Probleme),",
+                  "name": "Chukwuemeka",
+                  "reason": "muskuläre Probleme",
+                  "player_url": "https://www.kicker.de/carney-chukwuemeka/spieler/bundesliga/2026-27/borussia-dortmund"
                 },
                 {
                   "raw_text": "dos Santos(nicht berücksichtigt),",
@@ -514,10 +498,16 @@
                   "player_url": "https://www.kicker.de/filippo-calixte-mane/spieler/bundesliga/2026-27/borussia-dortmund"
                 },
                 {
-                  "raw_text": "Ostrzinski(nicht berücksichtigt)",
+                  "raw_text": "Ostrzinski(nicht berücksichtigt),",
                   "name": "Ostrzinski",
                   "reason": "nicht berücksichtigt",
                   "player_url": "https://www.kicker.de/silas-ostrzinski/spieler/bundesliga/2026-27/borussia-dortmund"
+                },
+                {
+                  "raw_text": "Ryerson(Rippenverletzung)",
+                  "name": "Ryerson",
+                  "reason": "Rippenverletzung",
+                  "player_url": "https://www.kicker.de/julian-ryerson/spieler/bundesliga/2026-27/borussia-dortmund"
                 }
               ]
             }
@@ -1006,12 +996,12 @@
         },
         "kicker_details": {
           "fixture_url": "https://www.kicker.de/dortmund-gegen-bremen-2026-bundesliga-5226845/aufstellung",
-          "schedule_row_text": "Borussia Dortmund Dortmund Fr. 20:30 Werder Bremen Bremen Vorschau",
+          "schedule_row_text": "Borussia Dortmund Dortmund 20:30 heute Werder Bremen Bremen Vorschau",
           "lineup_block_count": 2,
           "explanations": [
             {
-              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Der BVB kommt mit einigen Fragezeichen aus der Pause: Offen, für wie viel es bei Schlotterbeck (Außenbandverletzung im Sprunggelenk), Ryerson (Schlag auf die Rippen), Chukwuemeka (muskuläre Probleme), Svensson und Karetsas (beide krank) reicht.</p>",
-              "text": "Zum Spiel Der BVB kommt mit einigen Fragezeichen aus der Pause: Offen, für wie viel es bei Schlotterbeck (Außenbandverletzung im Sprunggelenk), Ryerson (Schlag auf die Rippen), Chukwuemeka (muskuläre Probleme), Svensson und Karetsas (beide krank) reicht."
+              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Der BVB kommt mit einigen Fragezeichen aus der Pause: Offen, für wie viel es bei Schlotterbeck (Außenbandverletzung im Sprunggelenk), Svensson und Karetsas (beide krank) reicht, Bensebaini wäre entsprechend sowohl für Schlotterbeck als auch Svensson eine Alternative.</p>",
+              "text": "Zum Spiel Der BVB kommt mit einigen Fragezeichen aus der Pause: Offen, für wie viel es bei Schlotterbeck (Außenbandverletzung im Sprunggelenk), Svensson und Karetsas (beide krank) reicht, Bensebaini wäre entsprechend sowohl für Schlotterbeck als auch Svensson eine Alternative."
             },
             {
               "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Der mit einer Oberschenkelprellung von der Nationalmannschaft zurückgekehrte Hein soll Donnerstag ins Training einsteigen – andernfalls stünde Schlager bereit. Ein Weiser-Startelfeinsatz kommt noch zu früh.</p>",
@@ -1022,8 +1012,8 @@
       }
     },
     "https://www.kicker.de/hoffenheim-gegen-hsv-2026-bundesliga-5226847/aufstellung": {
-      "saved_at": 1791465643.3716931,
-      "captured_at": "2026-10-08T15:20:43+02:00",
+      "saved_at": 1791554873.2592008,
+      "captured_at": "2026-10-09T16:07:53+02:00",
       "match": {
         "match_time": "Sa. 15:30",
         "home": {
@@ -1949,8 +1939,8 @@
       }
     },
     "https://www.kicker.de/augsburg-gegen-bayern-2026-bundesliga-5226849/aufstellung": {
-      "saved_at": 1791465648.9085505,
-      "captured_at": "2026-10-08T15:20:48+02:00",
+      "saved_at": 1791554878.4414911,
+      "captured_at": "2026-10-09T16:07:58+02:00",
       "match": {
         "match_time": "Sa. 15:30",
         "home": {
@@ -2863,8 +2853,8 @@
       }
     },
     "https://www.kicker.de/mainz-gegen-leverkusen-2026-bundesliga-5226850/aufstellung": {
-      "saved_at": 1791465654.7652118,
-      "captured_at": "2026-10-08T15:20:54+02:00",
+      "saved_at": 1791554883.8063016,
+      "captured_at": "2026-10-09T16:08:03+02:00",
       "match": {
         "match_time": "Sa. 15:30",
         "home": {
@@ -3456,7 +3446,7 @@
           ],
           "kicker_details": {
             "lineup_index": 2,
-            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline kick__lineup-text__headline--team-2-m\">\n<div>\n<picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 2x\"/><img alt=\"Bayer 04 Leverkusen\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png\"/></picture><strong>Leverkusen</strong>\n</div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/mark-flekken/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Flekken</a> - <a href=\"/jarell-quansah/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Quansah</a>, <a href=\"/edmond-tapsoba/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tapsoba</a>, <a href=\"/facundo-medina/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Medina</a>, <a href=\"/miguel-gutierrez-3/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Miguel</a> - <a href=\"/ignacio-fernandez-2/spieler/bundesliga/2026-27/bayer-04-leverkusen\">E. Fernandez</a>, <a href=\"/aleix-garcia/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Aleix Garcia</a> - <a href=\"/moussa-diaby/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Diaby</a>, <a href=\"/ibrahim-maza/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Maza</a>, <a href=\"/afonso-moreira/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Moreira</a> - <a href=\"/patrik-schick/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Schick</a></p>\n<p>\n<strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/carles-martinez/trainer/bundesliga/2026-27/bayer-04-leverkusen\">Martinez</a>\n</p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/janis-blaswich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Blaswich</a>, <a href=\"/niklas-lomb/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Lomb</a>, <a href=\"/loic-bade/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Badé</a>, <a href=\"/tim-oermann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Oermann</a>, <a href=\"/lucas-vazquez/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Vazquez</a>, <a href=\"/robert-andrich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Andrich</a>, <a href=\"/jonas-hofmann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Hofmann</a>, <a href=\"/malik-tillman/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tillman</a>, <a href=\"/ben-seghir/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Ben Seghir</a>, <a href=\"/victor-boniface/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Boniface</a>, <a href=\"/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Kofane</a>, <a href=\"/nathan-tella/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tella</a>, <a href=\"/martin-terrier/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Terrier</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/montrell-culbreath/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Culbreath</a> (Aufbautraining nach Fußverletzung), <a href=\"/guela-doue/spieler/bundesliga/2026-27/bayer-04-leverkusen\">G. Doué</a> (Muskelverletzung in der Wade), <a href=\"/kennet-eichhorn/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Eichhorn</a> (Stoffwechselstörung)</p>\n</div>",
+            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline kick__lineup-text__headline--team-2-m\">\n<div>\n<picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png 2x\"/><img alt=\"Bayer 04 Leverkusen\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2019/fussball/vereine/xxl/9_20181114991.png\"/></picture><strong>Leverkusen</strong>\n</div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/mark-flekken/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Flekken</a> - <a href=\"/jarell-quansah/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Quansah</a>, <a href=\"/edmond-tapsoba/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tapsoba</a>, <a href=\"/facundo-medina/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Medina</a>, <a href=\"/miguel-gutierrez-3/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Miguel</a> - <a href=\"/ignacio-fernandez-2/spieler/bundesliga/2026-27/bayer-04-leverkusen\">E. Fernandez</a>, <a href=\"/aleix-garcia/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Aleix Garcia</a> - <a href=\"/moussa-diaby/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Diaby</a>, <a href=\"/ibrahim-maza/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Maza</a>, <a href=\"/afonso-moreira/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Moreira</a> - <a href=\"/patrik-schick/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Schick</a></p>\n<p>\n<strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/carles-martinez/trainer/bundesliga/2026-27/bayer-04-leverkusen\">Martinez</a>\n</p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/janis-blaswich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Blaswich</a>, <a href=\"/niklas-lomb/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Lomb</a>, <a href=\"/loic-bade/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Badé</a>, <a href=\"/tim-oermann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Oermann</a>, <a href=\"/lucas-vazquez/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Vazquez</a>, <a href=\"/robert-andrich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Andrich</a>, <a href=\"/jonas-hofmann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Hofmann</a>, <a href=\"/malik-tillman/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tillman</a>, <a href=\"/ben-seghir/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Ben Seghir</a>, <a href=\"/victor-boniface/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Boniface</a>, <a href=\"/nathan-tella/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tella</a>, <a href=\"/martin-terrier/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Terrier</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/montrell-culbreath/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Culbreath</a> (Aufbautraining nach Fußverletzung), <a href=\"/guela-doue/spieler/bundesliga/2026-27/bayer-04-leverkusen\">G. Doué</a> (Muskelverletzung in der Wade), <a href=\"/kennet-eichhorn/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Eichhorn</a> (Stoffwechselstörung), <a href=\"/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Kofane</a> (Muskelverletzung im Oberschenkel)</p>\n</div>",
             "paragraphs": [
               {
                 "index": 1,
@@ -3470,13 +3460,13 @@
               },
               {
                 "index": 3,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/janis-blaswich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Blaswich</a>, <a href=\"/niklas-lomb/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Lomb</a>, <a href=\"/loic-bade/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Badé</a>, <a href=\"/tim-oermann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Oermann</a>, <a href=\"/lucas-vazquez/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Vazquez</a>, <a href=\"/robert-andrich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Andrich</a>, <a href=\"/jonas-hofmann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Hofmann</a>, <a href=\"/malik-tillman/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tillman</a>, <a href=\"/ben-seghir/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Ben Seghir</a>, <a href=\"/victor-boniface/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Boniface</a>, <a href=\"/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Kofane</a>, <a href=\"/nathan-tella/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tella</a>, <a href=\"/martin-terrier/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Terrier</a></p>",
-                "text": "Reservebank Blaswich , Lomb , Badé , Oermann , Vazquez , Andrich , Hofmann , Tillman , Ben Seghir , Boniface , Kofane , Tella , Terrier"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/janis-blaswich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Blaswich</a>, <a href=\"/niklas-lomb/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Lomb</a>, <a href=\"/loic-bade/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Badé</a>, <a href=\"/tim-oermann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Oermann</a>, <a href=\"/lucas-vazquez/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Vazquez</a>, <a href=\"/robert-andrich/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Andrich</a>, <a href=\"/jonas-hofmann/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Hofmann</a>, <a href=\"/malik-tillman/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tillman</a>, <a href=\"/ben-seghir/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Ben Seghir</a>, <a href=\"/victor-boniface/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Boniface</a>, <a href=\"/nathan-tella/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Tella</a>, <a href=\"/martin-terrier/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Terrier</a></p>",
+                "text": "Reservebank Blaswich , Lomb , Badé , Oermann , Vazquez , Andrich , Hofmann , Tillman , Ben Seghir , Boniface , Tella , Terrier"
               },
               {
                 "index": 4,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/montrell-culbreath/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Culbreath</a> (Aufbautraining nach Fußverletzung), <a href=\"/guela-doue/spieler/bundesliga/2026-27/bayer-04-leverkusen\">G. Doué</a> (Muskelverletzung in der Wade), <a href=\"/kennet-eichhorn/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Eichhorn</a> (Stoffwechselstörung)</p>",
-                "text": "Es fehlen Culbreath (Aufbautraining nach Fußverletzung), G. Doué (Muskelverletzung in der Wade), Eichhorn (Stoffwechselstörung)"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/montrell-culbreath/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Culbreath</a> (Aufbautraining nach Fußverletzung), <a href=\"/guela-doue/spieler/bundesliga/2026-27/bayer-04-leverkusen\">G. Doué</a> (Muskelverletzung in der Wade), <a href=\"/kennet-eichhorn/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Eichhorn</a> (Stoffwechselstörung), <a href=\"/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen\">Kofane</a> (Muskelverletzung im Oberschenkel)</p>",
+                "text": "Es fehlen Culbreath (Aufbautraining nach Fußverletzung), G. Doué (Muskelverletzung in der Wade), Eichhorn (Stoffwechselstörung), Kofane (Muskelverletzung im Oberschenkel)"
               }
             ],
             "starting_xi": {
@@ -3625,7 +3615,7 @@
               "coach_url": "https://www.kicker.de/carles-martinez/trainer/bundesliga/2026-27/bayer-04-leverkusen"
             },
             "bench": {
-              "raw_text": "Reservebank Blaswich , Lomb , Badé , Oermann , Vazquez , Andrich , Hofmann , Tillman , Ben Seghir , Boniface , Kofane , Tella , Terrier",
+              "raw_text": "Reservebank Blaswich , Lomb , Badé , Oermann , Vazquez , Andrich , Hofmann , Tillman , Ben Seghir , Boniface , Tella , Terrier",
               "players": [
                 {
                   "full_name": null,
@@ -3739,17 +3729,6 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Kofane",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
                   "displayed_name": "Tella",
                   "position": null,
                   "injury_status": null,
@@ -3773,7 +3752,7 @@
               ]
             },
             "unavailable": {
-              "raw_text": "Es fehlen Culbreath (Aufbautraining nach Fußverletzung), G. Doué (Muskelverletzung in der Wade), Eichhorn (Stoffwechselstörung)",
+              "raw_text": "Es fehlen Culbreath (Aufbautraining nach Fußverletzung), G. Doué (Muskelverletzung in der Wade), Eichhorn (Stoffwechselstörung), Kofane (Muskelverletzung im Oberschenkel)",
               "players": [
                 {
                   "raw_text": "Culbreath(Aufbautraining nach Fußverletzung),",
@@ -3788,10 +3767,16 @@
                   "player_url": "https://www.kicker.de/guela-doue/spieler/bundesliga/2026-27/bayer-04-leverkusen"
                 },
                 {
-                  "raw_text": "Eichhorn(Stoffwechselstörung)",
+                  "raw_text": "Eichhorn(Stoffwechselstörung),",
                   "name": "Eichhorn",
                   "reason": "Stoffwechselstörung",
                   "player_url": "https://www.kicker.de/kennet-eichhorn/spieler/bundesliga/2026-27/bayer-04-leverkusen"
+                },
+                {
+                  "raw_text": "Kofane(Muskelverletzung im Oberschenkel)",
+                  "name": "Kofane",
+                  "reason": "Muskelverletzung im Oberschenkel",
+                  "player_url": "https://www.kicker.de/christian-michel-kofane/spieler/bundesliga/2026-27/bayer-04-leverkusen"
                 }
               ]
             }
@@ -3807,16 +3792,16 @@
               "text": "Zum Spiel Im halbrechten Mittelfeld könnte Martel beginnen an Stelle des zuletzt formschwachen Lee und des gerade erst nach zweimonatiger Verletzungspause zurückgekehrten Nebel."
             },
             {
-              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Vieles spricht für die Elf aus dem Leipzig-Spiel. Mögliche Ausnahmen: Andrich könnte statt Fernandez beginnen, der nach Länderspiel-Reise wohl nur das Abschlusstraining bestreiten wird. Tella ist die Alternative zu Moreira, Kofane die zu Schick.</p>",
-              "text": "Zum Spiel Vieles spricht für die Elf aus dem Leipzig-Spiel. Mögliche Ausnahmen: Andrich könnte statt Fernandez beginnen, der nach Länderspiel-Reise wohl nur das Abschlusstraining bestreiten wird. Tella ist die Alternative zu Moreira, Kofane die zu Schick."
+              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Vieles spricht für die Elf aus dem Leipzig-Spiel. Mögliche Ausnahmen: Andrich könnte statt Fernandez beginnen, der nach Länderspiel-Reise wohl nur das Abschlusstraining bestreiten wird. Tella ist die Alternative zu Moreira.</p>",
+              "text": "Zum Spiel Vieles spricht für die Elf aus dem Leipzig-Spiel. Mögliche Ausnahmen: Andrich könnte statt Fernandez beginnen, der nach Länderspiel-Reise wohl nur das Abschlusstraining bestreiten wird. Tella ist die Alternative zu Moreira."
             }
           ]
         }
       }
     },
     "https://www.kicker.de/union-gegen-elversberg-2026-bundesliga-5226851/aufstellung": {
-      "saved_at": 1791465661.4683745,
-      "captured_at": "2026-10-08T15:21:01+02:00",
+      "saved_at": 1791554889.1468642,
+      "captured_at": "2026-10-09T16:08:09+02:00",
       "match": {
         "match_time": "Sa. 15:30",
         "home": {
@@ -4780,8 +4765,8 @@
       }
     },
     "https://www.kicker.de/paderborn-gegen-stuttgart-2026-bundesliga-5226853/aufstellung": {
-      "saved_at": 1791465667.546607,
-      "captured_at": "2026-10-08T15:21:07+02:00",
+      "saved_at": 1791554894.3667276,
+      "captured_at": "2026-10-09T16:08:14+02:00",
       "match": {
         "match_time": "Sa. 15:30",
         "home": {
@@ -4913,7 +4898,7 @@
           ],
           "kicker_details": {
             "lineup_index": 1,
-            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 2x\"/><img alt=\"SC Paderborn 07\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png\"/></picture><strong>Paderborn</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/nahuel-noll/spieler/bundesliga/2026-27/sc-paderborn-07\">Noll</a> - <a href=\"/jano-ter-horst/spieler/bundesliga/2026-27/sc-paderborn-07\">ter Horst</a>, <a href=\"/tjark-scheller/spieler/bundesliga/2026-27/sc-paderborn-07\">Scheller</a>, <a href=\"/mattes-hansen/spieler/bundesliga/2026-27/sc-paderborn-07\">Hansen</a> - <a href=\"/laurin-curda/spieler/bundesliga/2026-27/sc-paderborn-07\">Curda</a>, <a href=\"/santiago-castaneda/spieler/bundesliga/2026-27/sc-paderborn-07\">Castaneda</a>, <a href=\"/raphael-obermair/spieler/bundesliga/2026-27/sc-paderborn-07\">Obermair</a> - <a href=\"/laurin-ulrich/spieler/bundesliga/2026-27/sc-paderborn-07\">Ulrich</a>, <a href=\"/gabriel-vidovic/spieler/bundesliga/2026-27/sc-paderborn-07\">Vidovic</a> - <a href=\"/marvin-pieringer/spieler/bundesliga/2026-27/sc-paderborn-07\">Pieringer</a>, <a href=\"/stefano-marino/spieler/bundesliga/2026-27/sc-paderborn-07\">Marino</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/ralf-kettemann/trainer/bundesliga/2026-27/sc-paderborn-07\">Kettemann</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/markus-schubert/spieler/bundesliga/2026-27/sc-paderborn-07\">Schubert</a>, <a href=\"/felix-goetze/spieler/bundesliga/2026-27/sc-paderborn-07\">Götze</a>, <a href=\"/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07\">M. Hoffmeier</a>, <a href=\"/clemens-lippmann/spieler/bundesliga/2026-27/sc-paderborn-07\">Lippmann</a>, <a href=\"/niklas-mohr-2/spieler/bundesliga/2026-27/sc-paderborn-07\">Mohr</a>, <a href=\"/ruben-mueller/spieler/bundesliga/2026-27/sc-paderborn-07\">Müller</a>, <a href=\"/jonah-benedict-sticker/spieler/bundesliga/2026-27/sc-paderborn-07\">Sticker</a>, <a href=\"/tom-baack/spieler/bundesliga/2026-27/sc-paderborn-07\">Baack</a>, <a href=\"/luka-djuric/spieler/bundesliga/2026-27/sc-paderborn-07\">Duric</a>, <a href=\"/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07\">Klaas</a>, <a href=\"/oliver-batista-meier/spieler/bundesliga/2026-27/sc-paderborn-07\">Batista Meier</a>, <a href=\"/sven-michel/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Michel</a>, <a href=\"/rayan-philippe/spieler/bundesliga/2026-27/sc-paderborn-07\">Philippe</a>, <a href=\"/steffen-tigges/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Tigges</a>, <a href=\"/deniz-zeitler/spieler/bundesliga/2026-27/sc-paderborn-07\">Zeitler</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/nyamekye-awortwie-grant/spieler/bundesliga/2026-27/sc-paderborn-07\">Awortwie-Grant</a> (Aufbautraining nach Knieverletzung), <a href=\"/lasse-eickel/spieler/bundesliga/2026-27/sc-paderborn-07\">Eickel</a> (nicht berücksichtigt), <a href=\"/timur-gayret/spieler/bundesliga/2026-27/sc-paderborn-07\">Gayret</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/albert-frank-millgramm/spieler/bundesliga/2026-27/sc-paderborn-07\">A. Millgramm</a> (nicht berücksichtigt), <a href=\"/florian-pruhs/spieler/bundesliga/2026-27/sc-paderborn-07\">Pruhs</a> (nicht berücksichtigt), <a href=\"/tristan-zobel/spieler/bundesliga/2026-27/sc-paderborn-07\">Zobel</a> (nicht berücksichtigt)</p>\n</div>",
+            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png 2x\"/><img alt=\"SC Paderborn 07\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2018/fussball/vereine/xxl/109_20180329773.png\"/></picture><strong>Paderborn</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/nahuel-noll/spieler/bundesliga/2026-27/sc-paderborn-07\">Noll</a> - <a href=\"/jano-ter-horst/spieler/bundesliga/2026-27/sc-paderborn-07\">ter Horst</a>, <a href=\"/tjark-scheller/spieler/bundesliga/2026-27/sc-paderborn-07\">Scheller</a>, <a href=\"/mattes-hansen/spieler/bundesliga/2026-27/sc-paderborn-07\">Hansen</a> - <a href=\"/laurin-curda/spieler/bundesliga/2026-27/sc-paderborn-07\">Curda</a>, <a href=\"/santiago-castaneda/spieler/bundesliga/2026-27/sc-paderborn-07\">Castaneda</a>, <a href=\"/raphael-obermair/spieler/bundesliga/2026-27/sc-paderborn-07\">Obermair</a> - <a href=\"/laurin-ulrich/spieler/bundesliga/2026-27/sc-paderborn-07\">Ulrich</a>, <a href=\"/gabriel-vidovic/spieler/bundesliga/2026-27/sc-paderborn-07\">Vidovic</a> - <a href=\"/marvin-pieringer/spieler/bundesliga/2026-27/sc-paderborn-07\">Pieringer</a>, <a href=\"/stefano-marino/spieler/bundesliga/2026-27/sc-paderborn-07\">Marino</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/ralf-kettemann/trainer/bundesliga/2026-27/sc-paderborn-07\">Kettemann</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/markus-schubert/spieler/bundesliga/2026-27/sc-paderborn-07\">Schubert</a>, <a href=\"/felix-goetze/spieler/bundesliga/2026-27/sc-paderborn-07\">Götze</a>, <a href=\"/clemens-lippmann/spieler/bundesliga/2026-27/sc-paderborn-07\">Lippmann</a>, <a href=\"/niklas-mohr-2/spieler/bundesliga/2026-27/sc-paderborn-07\">Mohr</a>, <a href=\"/ruben-mueller/spieler/bundesliga/2026-27/sc-paderborn-07\">Müller</a>, <a href=\"/jonah-benedict-sticker/spieler/bundesliga/2026-27/sc-paderborn-07\">Sticker</a>, <a href=\"/tom-baack/spieler/bundesliga/2026-27/sc-paderborn-07\">Baack</a>, <a href=\"/luka-djuric/spieler/bundesliga/2026-27/sc-paderborn-07\">Duric</a>, <a href=\"/oliver-batista-meier/spieler/bundesliga/2026-27/sc-paderborn-07\">Batista Meier</a>, <a href=\"/sven-michel/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Michel</a>, <a href=\"/rayan-philippe/spieler/bundesliga/2026-27/sc-paderborn-07\">Philippe</a>, <a href=\"/steffen-tigges/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Tigges</a>, <a href=\"/deniz-zeitler/spieler/bundesliga/2026-27/sc-paderborn-07\">Zeitler</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/nyamekye-awortwie-grant/spieler/bundesliga/2026-27/sc-paderborn-07\">Awortwie-Grant</a> (Aufbautraining nach Knieverletzung), <a href=\"/lasse-eickel/spieler/bundesliga/2026-27/sc-paderborn-07\">Eickel</a> (nicht berücksichtigt), <a href=\"/timur-gayret/spieler/bundesliga/2026-27/sc-paderborn-07\">Gayret</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07\">M. Hoffmeier</a> (Aufbautraining), <a href=\"/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07\">Klaas</a> (Oberschenkelprobleme), <a href=\"/albert-frank-millgramm/spieler/bundesliga/2026-27/sc-paderborn-07\">A. Millgramm</a> (nicht berücksichtigt), <a href=\"/florian-pruhs/spieler/bundesliga/2026-27/sc-paderborn-07\">Pruhs</a> (nicht berücksichtigt), <a href=\"/tristan-zobel/spieler/bundesliga/2026-27/sc-paderborn-07\">Zobel</a> (nicht berücksichtigt)</p>\n</div>",
             "paragraphs": [
               {
                 "index": 1,
@@ -4927,13 +4912,13 @@
               },
               {
                 "index": 3,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/markus-schubert/spieler/bundesliga/2026-27/sc-paderborn-07\">Schubert</a>, <a href=\"/felix-goetze/spieler/bundesliga/2026-27/sc-paderborn-07\">Götze</a>, <a href=\"/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07\">M. Hoffmeier</a>, <a href=\"/clemens-lippmann/spieler/bundesliga/2026-27/sc-paderborn-07\">Lippmann</a>, <a href=\"/niklas-mohr-2/spieler/bundesliga/2026-27/sc-paderborn-07\">Mohr</a>, <a href=\"/ruben-mueller/spieler/bundesliga/2026-27/sc-paderborn-07\">Müller</a>, <a href=\"/jonah-benedict-sticker/spieler/bundesliga/2026-27/sc-paderborn-07\">Sticker</a>, <a href=\"/tom-baack/spieler/bundesliga/2026-27/sc-paderborn-07\">Baack</a>, <a href=\"/luka-djuric/spieler/bundesliga/2026-27/sc-paderborn-07\">Duric</a>, <a href=\"/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07\">Klaas</a>, <a href=\"/oliver-batista-meier/spieler/bundesliga/2026-27/sc-paderborn-07\">Batista Meier</a>, <a href=\"/sven-michel/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Michel</a>, <a href=\"/rayan-philippe/spieler/bundesliga/2026-27/sc-paderborn-07\">Philippe</a>, <a href=\"/steffen-tigges/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Tigges</a>, <a href=\"/deniz-zeitler/spieler/bundesliga/2026-27/sc-paderborn-07\">Zeitler</a></p>",
-                "text": "Reservebank Schubert , Götze , M. Hoffmeier , Lippmann , Mohr , Müller , Sticker , Baack , Duric , Klaas , Batista Meier , S. Michel , Philippe , S. Tigges , Zeitler"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/markus-schubert/spieler/bundesliga/2026-27/sc-paderborn-07\">Schubert</a>, <a href=\"/felix-goetze/spieler/bundesliga/2026-27/sc-paderborn-07\">Götze</a>, <a href=\"/clemens-lippmann/spieler/bundesliga/2026-27/sc-paderborn-07\">Lippmann</a>, <a href=\"/niklas-mohr-2/spieler/bundesliga/2026-27/sc-paderborn-07\">Mohr</a>, <a href=\"/ruben-mueller/spieler/bundesliga/2026-27/sc-paderborn-07\">Müller</a>, <a href=\"/jonah-benedict-sticker/spieler/bundesliga/2026-27/sc-paderborn-07\">Sticker</a>, <a href=\"/tom-baack/spieler/bundesliga/2026-27/sc-paderborn-07\">Baack</a>, <a href=\"/luka-djuric/spieler/bundesliga/2026-27/sc-paderborn-07\">Duric</a>, <a href=\"/oliver-batista-meier/spieler/bundesliga/2026-27/sc-paderborn-07\">Batista Meier</a>, <a href=\"/sven-michel/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Michel</a>, <a href=\"/rayan-philippe/spieler/bundesliga/2026-27/sc-paderborn-07\">Philippe</a>, <a href=\"/steffen-tigges/spieler/bundesliga/2026-27/sc-paderborn-07\">S. Tigges</a>, <a href=\"/deniz-zeitler/spieler/bundesliga/2026-27/sc-paderborn-07\">Zeitler</a></p>",
+                "text": "Reservebank Schubert , Götze , Lippmann , Mohr , Müller , Sticker , Baack , Duric , Batista Meier , S. Michel , Philippe , S. Tigges , Zeitler"
               },
               {
                 "index": 4,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/nyamekye-awortwie-grant/spieler/bundesliga/2026-27/sc-paderborn-07\">Awortwie-Grant</a> (Aufbautraining nach Knieverletzung), <a href=\"/lasse-eickel/spieler/bundesliga/2026-27/sc-paderborn-07\">Eickel</a> (nicht berücksichtigt), <a href=\"/timur-gayret/spieler/bundesliga/2026-27/sc-paderborn-07\">Gayret</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/albert-frank-millgramm/spieler/bundesliga/2026-27/sc-paderborn-07\">A. Millgramm</a> (nicht berücksichtigt), <a href=\"/florian-pruhs/spieler/bundesliga/2026-27/sc-paderborn-07\">Pruhs</a> (nicht berücksichtigt), <a href=\"/tristan-zobel/spieler/bundesliga/2026-27/sc-paderborn-07\">Zobel</a> (nicht berücksichtigt)</p>",
-                "text": "Es fehlen Awortwie-Grant (Aufbautraining nach Knieverletzung), Eickel (nicht berücksichtigt), Gayret (Aufbautraining nach Kreuzbandriss), A. Millgramm (nicht berücksichtigt), Pruhs (nicht berücksichtigt), Zobel (nicht berücksichtigt)"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/nyamekye-awortwie-grant/spieler/bundesliga/2026-27/sc-paderborn-07\">Awortwie-Grant</a> (Aufbautraining nach Knieverletzung), <a href=\"/lasse-eickel/spieler/bundesliga/2026-27/sc-paderborn-07\">Eickel</a> (nicht berücksichtigt), <a href=\"/timur-gayret/spieler/bundesliga/2026-27/sc-paderborn-07\">Gayret</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07\">M. Hoffmeier</a> (Aufbautraining), <a href=\"/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07\">Klaas</a> (Oberschenkelprobleme), <a href=\"/albert-frank-millgramm/spieler/bundesliga/2026-27/sc-paderborn-07\">A. Millgramm</a> (nicht berücksichtigt), <a href=\"/florian-pruhs/spieler/bundesliga/2026-27/sc-paderborn-07\">Pruhs</a> (nicht berücksichtigt), <a href=\"/tristan-zobel/spieler/bundesliga/2026-27/sc-paderborn-07\">Zobel</a> (nicht berücksichtigt)</p>",
+                "text": "Es fehlen Awortwie-Grant (Aufbautraining nach Knieverletzung), Eickel (nicht berücksichtigt), Gayret (Aufbautraining nach Kreuzbandriss), M. Hoffmeier (Aufbautraining), Klaas (Oberschenkelprobleme), A. Millgramm (nicht berücksichtigt), Pruhs (nicht berücksichtigt), Zobel (nicht berücksichtigt)"
               }
             ],
             "starting_xi": {
@@ -5082,7 +5067,7 @@
               "coach_url": "https://www.kicker.de/ralf-kettemann/trainer/bundesliga/2026-27/sc-paderborn-07"
             },
             "bench": {
-              "raw_text": "Reservebank Schubert , Götze , M. Hoffmeier , Lippmann , Mohr , Müller , Sticker , Baack , Duric , Klaas , Batista Meier , S. Michel , Philippe , S. Tigges , Zeitler",
+              "raw_text": "Reservebank Schubert , Götze , Lippmann , Mohr , Müller , Sticker , Baack , Duric , Batista Meier , S. Michel , Philippe , S. Tigges , Zeitler",
               "players": [
                 {
                   "full_name": null,
@@ -5102,17 +5087,6 @@
                   "injury_status": null,
                   "player_id": null,
                   "player_url": "https://www.kicker.de/felix-goetze/spieler/bundesliga/2026-27/sc-paderborn-07",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
-                  "displayed_name": "M. Hoffmeier",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07",
                   "formation_row": null,
                   "slot_index": null,
                   "starting_probability_rank": 1
@@ -5185,17 +5159,6 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Klaas",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
                   "displayed_name": "Batista Meier",
                   "position": null,
                   "injury_status": null,
@@ -5252,7 +5215,7 @@
               ]
             },
             "unavailable": {
-              "raw_text": "Es fehlen Awortwie-Grant (Aufbautraining nach Knieverletzung), Eickel (nicht berücksichtigt), Gayret (Aufbautraining nach Kreuzbandriss), A. Millgramm (nicht berücksichtigt), Pruhs (nicht berücksichtigt), Zobel (nicht berücksichtigt)",
+              "raw_text": "Es fehlen Awortwie-Grant (Aufbautraining nach Knieverletzung), Eickel (nicht berücksichtigt), Gayret (Aufbautraining nach Kreuzbandriss), M. Hoffmeier (Aufbautraining), Klaas (Oberschenkelprobleme), A. Millgramm (nicht berücksichtigt), Pruhs (nicht berücksichtigt), Zobel (nicht berücksichtigt)",
               "players": [
                 {
                   "raw_text": "Awortwie-Grant(Aufbautraining nach Knieverletzung),",
@@ -5271,6 +5234,18 @@
                   "name": "Gayret",
                   "reason": "Aufbautraining nach Kreuzbandriss",
                   "player_url": "https://www.kicker.de/timur-gayret/spieler/bundesliga/2026-27/sc-paderborn-07"
+                },
+                {
+                  "raw_text": "M. Hoffmeier(Aufbautraining),",
+                  "name": "M. Hoffmeier",
+                  "reason": "Aufbautraining",
+                  "player_url": "https://www.kicker.de/marcel-hoffmeier/spieler/bundesliga/2026-27/sc-paderborn-07"
+                },
+                {
+                  "raw_text": "Klaas(Oberschenkelprobleme),",
+                  "name": "Klaas",
+                  "reason": "Oberschenkelprobleme",
+                  "player_url": "https://www.kicker.de/sebastian-klaas/spieler/bundesliga/2026-27/sc-paderborn-07"
                 },
                 {
                   "raw_text": "A. Millgramm(nicht berücksichtigt),",
@@ -5791,8 +5766,8 @@
       }
     },
     "https://www.kicker.de/leipzig-gegen-frankfurt-2026-bundesliga-5226846/aufstellung": {
-      "saved_at": 1791465673.9871619,
-      "captured_at": "2026-10-08T15:21:13+02:00",
+      "saved_at": 1791554899.5959826,
+      "captured_at": "2026-10-09T16:08:19+02:00",
       "match": {
         "match_time": "Sa. 18:30",
         "home": {
@@ -6744,8 +6719,8 @@
       }
     },
     "https://www.kicker.de/koeln-gegen-mgladbach-2026-bundesliga-5226852/aufstellung": {
-      "saved_at": 1791465679.9346554,
-      "captured_at": "2026-10-08T15:21:19+02:00",
+      "saved_at": 1791554905.1969738,
+      "captured_at": "2026-10-09T16:08:25+02:00",
       "match": {
         "match_time": "So. 15:30",
         "home": {
@@ -6877,7 +6852,7 @@
           ],
           "kicker_details": {
             "lineup_index": 1,
-            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 2x\"/><img alt=\"1. FC Köln\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png\"/></picture><strong>Köln</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/marvin-schwaebe/spieler/bundesliga/2026-27/1-fc-koeln\">Schwäbe</a> - <a href=\"/sebastian-sebulonsen/spieler/bundesliga/2026-27/1-fc-koeln\">Sebulonsen</a>, <a href=\"/jahmai-simpson-pusey/spieler/bundesliga/2026-27/1-fc-koeln\">Simpson-Pusey</a>, <a href=\"/luka-lochoshvili/spieler/bundesliga/2026-27/1-fc-koeln\">Lochoshvili</a>, <a href=\"/gideon-mensah/spieler/bundesliga/2026-27/1-fc-koeln\">Mensah</a> - <a href=\"/ellyes-skhiri/spieler/bundesliga/2026-27/1-fc-koeln\">Skhiri</a>, <a href=\"/tom-krauss/spieler/bundesliga/2026-27/1-fc-koeln\">Krauß</a> - <a href=\"/linton-maina/spieler/bundesliga/2026-27/1-fc-koeln\">Maina</a>, <a href=\"/mikey-moore/spieler/bundesliga/2026-27/1-fc-koeln\">Moore</a>, <a href=\"/said-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">S. El Mala</a> - <a href=\"/marius-buelter/spieler/bundesliga/2026-27/1-fc-koeln\">Bülter</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/rene-wagner/trainer/bundesliga/2026-27/1-fc-koeln\">Wagner</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/ron-robert-zieler/spieler/bundesliga/2026-27/1-fc-koeln\">Zieler</a>, <a href=\"/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln\">Castro-Montes</a>, <a href=\"/joel-schmied/spieler/bundesliga/2026-27/1-fc-koeln\">Schmied</a>, <a href=\"/borna-sosa/spieler/bundesliga/2026-27/1-fc-koeln\">Sosa</a>, <a href=\"/rav-van-den-berg/spieler/bundesliga/2026-27/1-fc-koeln\">van den Berg</a>, <a href=\"/reigan-heskey/spieler/bundesliga/2026-27/1-fc-koeln\">Heskey</a>, <a href=\"/isak-bergmann-johannesson/spieler/bundesliga/2026-27/1-fc-koeln\">Johannesson</a>, <a href=\"/paul-okon-engstler/spieler/bundesliga/2026-27/1-fc-koeln\">Okon-Engstler</a>, <a href=\"/jan-thielmann/spieler/bundesliga/2026-27/1-fc-koeln\">Thielmann</a>, <a href=\"/imad-rondic/spieler/bundesliga/2026-27/1-fc-koeln\">Rondic</a>, <a href=\"/luca-waldschmidt/spieler/bundesliga/2026-27/1-fc-koeln\">Waldschmidt</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/ragnar-ache/spieler/bundesliga/2026-27/1-fc-koeln\">Ache</a> (Muskelverletzung), <a href=\"/thijs-dallinga/spieler/bundesliga/2026-27/1-fc-koeln\">Dallinga</a> (Kreuzbandriss), <a href=\"/malek-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">M. El Mala</a> (bei der U 21), <a href=\"/timo-huebers/spieler/bundesliga/2026-27/1-fc-koeln\">Hübers</a> (Aufbautraining nach Knieverletzung), <a href=\"/martin-james/spieler/bundesliga/2026-27/1-fc-koeln\">James</a> (nicht berücksichtigt), <a href=\"/matthias-koebbing/spieler/bundesliga/2026-27/1-fc-koeln\">Köbbing</a> (nicht berücksichtigt), <a href=\"/gil-neves/spieler/bundesliga/2026-27/1-fc-koeln\">Neves</a> (bei der U 21)</p>\n</div>",
+            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png 2x\"/><img alt=\"1. FC Köln\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2009/fussball/vereine/xxl/16_20211110549.png\"/></picture><strong>Köln</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/marvin-schwaebe/spieler/bundesliga/2026-27/1-fc-koeln\">Schwäbe</a> - <a href=\"/sebastian-sebulonsen/spieler/bundesliga/2026-27/1-fc-koeln\">Sebulonsen</a>, <a href=\"/jahmai-simpson-pusey/spieler/bundesliga/2026-27/1-fc-koeln\">Simpson-Pusey</a>, <a href=\"/luka-lochoshvili/spieler/bundesliga/2026-27/1-fc-koeln\">Lochoshvili</a>, <a href=\"/gideon-mensah/spieler/bundesliga/2026-27/1-fc-koeln\">Mensah</a> - <a href=\"/ellyes-skhiri/spieler/bundesliga/2026-27/1-fc-koeln\">Skhiri</a>, <a href=\"/tom-krauss/spieler/bundesliga/2026-27/1-fc-koeln\">Krauß</a> - <a href=\"/linton-maina/spieler/bundesliga/2026-27/1-fc-koeln\">Maina</a>, <a href=\"/mikey-moore/spieler/bundesliga/2026-27/1-fc-koeln\">Moore</a>, <a href=\"/said-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">S. El Mala</a> - <a href=\"/marius-buelter/spieler/bundesliga/2026-27/1-fc-koeln\">Bülter</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/rene-wagner/trainer/bundesliga/2026-27/1-fc-koeln\">Wagner</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/ron-robert-zieler/spieler/bundesliga/2026-27/1-fc-koeln\">Zieler</a>, <a href=\"/joel-schmied/spieler/bundesliga/2026-27/1-fc-koeln\">Schmied</a>, <a href=\"/borna-sosa/spieler/bundesliga/2026-27/1-fc-koeln\">Sosa</a>, <a href=\"/rav-van-den-berg/spieler/bundesliga/2026-27/1-fc-koeln\">van den Berg</a>, <a href=\"/reigan-heskey/spieler/bundesliga/2026-27/1-fc-koeln\">Heskey</a>, <a href=\"/isak-bergmann-johannesson/spieler/bundesliga/2026-27/1-fc-koeln\">Johannesson</a>, <a href=\"/paul-okon-engstler/spieler/bundesliga/2026-27/1-fc-koeln\">Okon-Engstler</a>, <a href=\"/jan-thielmann/spieler/bundesliga/2026-27/1-fc-koeln\">Thielmann</a>, <a href=\"/imad-rondic/spieler/bundesliga/2026-27/1-fc-koeln\">Rondic</a>, <a href=\"/luca-waldschmidt/spieler/bundesliga/2026-27/1-fc-koeln\">Waldschmidt</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/ragnar-ache/spieler/bundesliga/2026-27/1-fc-koeln\">Ache</a> (Muskelverletzung), <a href=\"/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln\">Castro-Montes</a> (Muskelverletzung im Oberschenkel), <a href=\"/thijs-dallinga/spieler/bundesliga/2026-27/1-fc-koeln\">Dallinga</a> (Kreuzbandriss), <a href=\"/malek-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">M. El Mala</a> (bei der U 21), <a href=\"/timo-huebers/spieler/bundesliga/2026-27/1-fc-koeln\">Hübers</a> (Aufbautraining nach Knieverletzung), <a href=\"/martin-james/spieler/bundesliga/2026-27/1-fc-koeln\">James</a> (nicht berücksichtigt), <a href=\"/matthias-koebbing/spieler/bundesliga/2026-27/1-fc-koeln\">Köbbing</a> (nicht berücksichtigt), <a href=\"/gil-neves/spieler/bundesliga/2026-27/1-fc-koeln\">Neves</a> (bei der U 21)</p>\n</div>",
             "paragraphs": [
               {
                 "index": 1,
@@ -6891,13 +6866,13 @@
               },
               {
                 "index": 3,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/ron-robert-zieler/spieler/bundesliga/2026-27/1-fc-koeln\">Zieler</a>, <a href=\"/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln\">Castro-Montes</a>, <a href=\"/joel-schmied/spieler/bundesliga/2026-27/1-fc-koeln\">Schmied</a>, <a href=\"/borna-sosa/spieler/bundesliga/2026-27/1-fc-koeln\">Sosa</a>, <a href=\"/rav-van-den-berg/spieler/bundesliga/2026-27/1-fc-koeln\">van den Berg</a>, <a href=\"/reigan-heskey/spieler/bundesliga/2026-27/1-fc-koeln\">Heskey</a>, <a href=\"/isak-bergmann-johannesson/spieler/bundesliga/2026-27/1-fc-koeln\">Johannesson</a>, <a href=\"/paul-okon-engstler/spieler/bundesliga/2026-27/1-fc-koeln\">Okon-Engstler</a>, <a href=\"/jan-thielmann/spieler/bundesliga/2026-27/1-fc-koeln\">Thielmann</a>, <a href=\"/imad-rondic/spieler/bundesliga/2026-27/1-fc-koeln\">Rondic</a>, <a href=\"/luca-waldschmidt/spieler/bundesliga/2026-27/1-fc-koeln\">Waldschmidt</a></p>",
-                "text": "Reservebank Zieler , Castro-Montes , Schmied , Sosa , van den Berg , Heskey , Johannesson , Okon-Engstler , Thielmann , Rondic , Waldschmidt"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/ron-robert-zieler/spieler/bundesliga/2026-27/1-fc-koeln\">Zieler</a>, <a href=\"/joel-schmied/spieler/bundesliga/2026-27/1-fc-koeln\">Schmied</a>, <a href=\"/borna-sosa/spieler/bundesliga/2026-27/1-fc-koeln\">Sosa</a>, <a href=\"/rav-van-den-berg/spieler/bundesliga/2026-27/1-fc-koeln\">van den Berg</a>, <a href=\"/reigan-heskey/spieler/bundesliga/2026-27/1-fc-koeln\">Heskey</a>, <a href=\"/isak-bergmann-johannesson/spieler/bundesliga/2026-27/1-fc-koeln\">Johannesson</a>, <a href=\"/paul-okon-engstler/spieler/bundesliga/2026-27/1-fc-koeln\">Okon-Engstler</a>, <a href=\"/jan-thielmann/spieler/bundesliga/2026-27/1-fc-koeln\">Thielmann</a>, <a href=\"/imad-rondic/spieler/bundesliga/2026-27/1-fc-koeln\">Rondic</a>, <a href=\"/luca-waldschmidt/spieler/bundesliga/2026-27/1-fc-koeln\">Waldschmidt</a></p>",
+                "text": "Reservebank Zieler , Schmied , Sosa , van den Berg , Heskey , Johannesson , Okon-Engstler , Thielmann , Rondic , Waldschmidt"
               },
               {
                 "index": 4,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/ragnar-ache/spieler/bundesliga/2026-27/1-fc-koeln\">Ache</a> (Muskelverletzung), <a href=\"/thijs-dallinga/spieler/bundesliga/2026-27/1-fc-koeln\">Dallinga</a> (Kreuzbandriss), <a href=\"/malek-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">M. El Mala</a> (bei der U 21), <a href=\"/timo-huebers/spieler/bundesliga/2026-27/1-fc-koeln\">Hübers</a> (Aufbautraining nach Knieverletzung), <a href=\"/martin-james/spieler/bundesliga/2026-27/1-fc-koeln\">James</a> (nicht berücksichtigt), <a href=\"/matthias-koebbing/spieler/bundesliga/2026-27/1-fc-koeln\">Köbbing</a> (nicht berücksichtigt), <a href=\"/gil-neves/spieler/bundesliga/2026-27/1-fc-koeln\">Neves</a> (bei der U 21)</p>",
-                "text": "Es fehlen Ache (Muskelverletzung), Dallinga (Kreuzbandriss), M. El Mala (bei der U 21), Hübers (Aufbautraining nach Knieverletzung), James (nicht berücksichtigt), Köbbing (nicht berücksichtigt), Neves (bei der U 21)"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/ragnar-ache/spieler/bundesliga/2026-27/1-fc-koeln\">Ache</a> (Muskelverletzung), <a href=\"/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln\">Castro-Montes</a> (Muskelverletzung im Oberschenkel), <a href=\"/thijs-dallinga/spieler/bundesliga/2026-27/1-fc-koeln\">Dallinga</a> (Kreuzbandriss), <a href=\"/malek-el-mala/spieler/bundesliga/2026-27/1-fc-koeln\">M. El Mala</a> (bei der U 21), <a href=\"/timo-huebers/spieler/bundesliga/2026-27/1-fc-koeln\">Hübers</a> (Aufbautraining nach Knieverletzung), <a href=\"/martin-james/spieler/bundesliga/2026-27/1-fc-koeln\">James</a> (nicht berücksichtigt), <a href=\"/matthias-koebbing/spieler/bundesliga/2026-27/1-fc-koeln\">Köbbing</a> (nicht berücksichtigt), <a href=\"/gil-neves/spieler/bundesliga/2026-27/1-fc-koeln\">Neves</a> (bei der U 21)</p>",
+                "text": "Es fehlen Ache (Muskelverletzung), Castro-Montes (Muskelverletzung im Oberschenkel), Dallinga (Kreuzbandriss), M. El Mala (bei der U 21), Hübers (Aufbautraining nach Knieverletzung), James (nicht berücksichtigt), Köbbing (nicht berücksichtigt), Neves (bei der U 21)"
               }
             ],
             "starting_xi": {
@@ -7046,7 +7021,7 @@
               "coach_url": "https://www.kicker.de/rene-wagner/trainer/bundesliga/2026-27/1-fc-koeln"
             },
             "bench": {
-              "raw_text": "Reservebank Zieler , Castro-Montes , Schmied , Sosa , van den Berg , Heskey , Johannesson , Okon-Engstler , Thielmann , Rondic , Waldschmidt",
+              "raw_text": "Reservebank Zieler , Schmied , Sosa , van den Berg , Heskey , Johannesson , Okon-Engstler , Thielmann , Rondic , Waldschmidt",
               "players": [
                 {
                   "full_name": null,
@@ -7055,17 +7030,6 @@
                   "injury_status": null,
                   "player_id": null,
                   "player_url": "https://www.kicker.de/ron-robert-zieler/spieler/bundesliga/2026-27/1-fc-koeln",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
-                  "displayed_name": "Castro-Montes",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln",
                   "formation_row": null,
                   "slot_index": null,
                   "starting_probability_rank": 1
@@ -7172,13 +7136,19 @@
               ]
             },
             "unavailable": {
-              "raw_text": "Es fehlen Ache (Muskelverletzung), Dallinga (Kreuzbandriss), M. El Mala (bei der U 21), Hübers (Aufbautraining nach Knieverletzung), James (nicht berücksichtigt), Köbbing (nicht berücksichtigt), Neves (bei der U 21)",
+              "raw_text": "Es fehlen Ache (Muskelverletzung), Castro-Montes (Muskelverletzung im Oberschenkel), Dallinga (Kreuzbandriss), M. El Mala (bei der U 21), Hübers (Aufbautraining nach Knieverletzung), James (nicht berücksichtigt), Köbbing (nicht berücksichtigt), Neves (bei der U 21)",
               "players": [
                 {
                   "raw_text": "Ache(Muskelverletzung),",
                   "name": "Ache",
                   "reason": "Muskelverletzung",
                   "player_url": "https://www.kicker.de/ragnar-ache/spieler/bundesliga/2026-27/1-fc-koeln"
+                },
+                {
+                  "raw_text": "Castro-Montes(Muskelverletzung im Oberschenkel),",
+                  "name": "Castro-Montes",
+                  "reason": "Muskelverletzung im Oberschenkel",
+                  "player_url": "https://www.kicker.de/alessio-castro-montes/spieler/bundesliga/2026-27/1-fc-koeln"
                 },
                 {
                   "raw_text": "Dallinga(Kreuzbandriss),",
@@ -7719,20 +7689,20 @@
           "lineup_block_count": 2,
           "explanations": [
             {
-              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Taktisch wäre auch eine Doppelspitze mit Bülter und El Mala denkbar, die von Moore und Maina flankiert wird. Castro-Montes trainierte am Dienstag noch individuell, für ihn dürfte das Rheinderby zu früh kommen.</p>",
-              "text": "Zum Spiel Taktisch wäre auch eine Doppelspitze mit Bülter und El Mala denkbar, die von Moore und Maina flankiert wird. Castro-Montes trainierte am Dienstag noch individuell, für ihn dürfte das Rheinderby zu früh kommen."
+              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Taktisch wäre auch eine Doppelspitze mit Bülter und El Mala denkbar, die von Moore und Maina flankiert wird. Castro-Montes trainierte am Donnerstag noch individuell, für ihn dürfte das Rheinderby zu früh kommen.</p>",
+              "text": "Zum Spiel Taktisch wäre auch eine Doppelspitze mit Bülter und El Mala denkbar, die von Moore und Maina flankiert wird. Castro-Montes trainierte am Donnerstag noch individuell, für ihn dürfte das Rheinderby zu früh kommen."
             },
             {
-              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Neu-Trainer Blessin wird die Elf wahrscheinlich in einer 3-4-2-1-Grundordnung aufstellen. Uno könnte die Überraschung in der Doppelsechs werden. Konoplia steht nach längerer Verletzungspause vor seiner Premiere, ist sogar Startelf-Kandidat.</p>",
-              "text": "Zum Spiel Neu-Trainer Blessin wird die Elf wahrscheinlich in einer 3-4-2-1-Grundordnung aufstellen. Uno könnte die Überraschung in der Doppelsechs werden. Konoplia steht nach längerer Verletzungspause vor seiner Premiere, ist sogar Startelf-Kandidat."
+              "outer_html": "<p class=\"kick__lineup-explanation\"><strong class=\"kick__card-sub-headline\">Zum Spiel</strong><br/>Bei den angeschlagenen Kleindienst und Itakura hoffen die Borussen auf eine Punktlandung. Uno könnte die Überraschung in der Doppelsechs werden. Konoplia steht nach längerer Verletzungspause vor seiner Premiere, ist sogar Startelf-Kandidat.</p>",
+              "text": "Zum Spiel Bei den angeschlagenen Kleindienst und Itakura hoffen die Borussen auf eine Punktlandung. Uno könnte die Überraschung in der Doppelsechs werden. Konoplia steht nach längerer Verletzungspause vor seiner Premiere, ist sogar Startelf-Kandidat."
             }
           ]
         }
       }
     },
     "https://www.kicker.de/freiburg-gegen-schalke-2026-bundesliga-5226848/aufstellung": {
-      "saved_at": 1791465686.6079612,
-      "captured_at": "2026-10-08T15:21:26+02:00",
+      "saved_at": 1791554910.5380657,
+      "captured_at": "2026-10-09T16:08:30+02:00",
       "match": {
         "match_time": "So. 17:30",
         "home": {
@@ -7864,7 +7834,7 @@
           ],
           "kicker_details": {
             "lineup_index": 1,
-            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 2x\"/><img alt=\"SC Freiburg\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png\"/></picture><strong>Freiburg</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/mio-backhaus/spieler/bundesliga/2026-27/sc-freiburg\">Backhaus</a> - <a href=\"/philipp-treu/spieler/bundesliga/2026-27/sc-freiburg\">Treu</a>, <a href=\"/matthias-ginter/spieler/bundesliga/2026-27/sc-freiburg\">Ginter</a>, <a href=\"/philipp-lienhart/spieler/bundesliga/2026-27/sc-freiburg\">Lienhart</a>, <a href=\"/jordy-makengo/spieler/bundesliga/2026-27/sc-freiburg\">Makengo</a> - <a href=\"/maximilian-eggestein/spieler/bundesliga/2026-27/sc-freiburg\">M. Eggestein</a>, <a href=\"/yannik-engelhardt/spieler/bundesliga/2026-27/sc-freiburg\">Engelhardt</a> - <a href=\"/jan-niklas-beste/spieler/bundesliga/2026-27/sc-freiburg\">Beste</a>, <a href=\"/yuito-suzuki/spieler/bundesliga/2026-27/sc-freiburg\">Y. Suzuki</a>, <a href=\"/derry-scherhant/spieler/bundesliga/2026-27/sc-freiburg\">Scherhant</a> - <a href=\"/igor-matanovic-2/spieler/bundesliga/2026-27/sc-freiburg\">Matanovic</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/julian-schuster/trainer/bundesliga/2026-27/sc-freiburg\">Schuster</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/jannik-huth/spieler/bundesliga/2026-27/sc-freiburg\">Huth</a>, <a href=\"/florian-mueller-3/spieler/bundesliga/2026-27/sc-freiburg\">F. Müller</a>, <a href=\"/christian-guenter/spieler/bundesliga/2026-27/sc-freiburg\">Günter</a>, <a href=\"/anthony-jung/spieler/bundesliga/2026-27/sc-freiburg\">A. Jung</a>, <a href=\"/lukas-kuebler/spieler/bundesliga/2026-27/sc-freiburg\">Kübler</a>, <a href=\"/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg\">Ogbus</a>, <a href=\"/max-rosenfelder/spieler/bundesliga/2026-27/sc-freiburg\">Rosenfelder</a>, <a href=\"/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg\">Yilmaz</a>, <a href=\"/vincenzo-grifo/spieler/bundesliga/2026-27/sc-freiburg\">Grifo</a>, <a href=\"/patrick-osterhage/spieler/bundesliga/2026-27/sc-freiburg\">Osterhage</a>, <a href=\"/rouven-tarnutzer/spieler/bundesliga/2026-27/sc-freiburg\">Tarnutzer</a>, <a href=\"/rihito-yamamoto/spieler/bundesliga/2026-27/sc-freiburg\">R. Yamamoto</a>, <a href=\"/keisuke-goto/spieler/bundesliga/2026-27/sc-freiburg\">Goto</a>, <a href=\"/lucas-hoeler/spieler/bundesliga/2026-27/sc-freiburg\">Höler</a>, <a href=\"/cyriaque-kalou-bi-irie/spieler/bundesliga/2026-27/sc-freiburg\">Irié</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/florent-muslija/spieler/bundesliga/2026-27/sc-freiburg\">Muslija</a> (Aufbautraining nach Kreuzbandriss)</p>\n</div>",
+            "raw_html": "<div class=\"kick__lineup-text\">\n<div class=\"kick__lineup-text__headline\">\n<div><picture><source srcset=\"https://derivates.kicker.de/image/fetch/f_webp/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 1x, https://derivates.kicker.de/image/fetch/f_webp/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 2x\" type=\"image/webp\"/><source srcset=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 1x, https://derivates.kicker.de/image/fetch/w_120%2Ch_120%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png 2x\"/><img alt=\"SC Freiburg\" loading=\"lazy\" src=\"https://derivates.kicker.de/image/fetch/w_60%2Ch_60%2Cc_fit%2Cq_auto:best/https://mediadb.kicker.de/2013/fussball/vereine/xxl/7_20150226260.png\"/></picture><strong>Freiburg</strong></div>\n<div class=\"kick__tabular-nums\"></div>\n</div>\n<p><strong class=\"kick__card-sub-headline\">Voraussichtliche Aufstellung</strong><br/><a href=\"/mio-backhaus/spieler/bundesliga/2026-27/sc-freiburg\">Backhaus</a> - <a href=\"/philipp-treu/spieler/bundesliga/2026-27/sc-freiburg\">Treu</a>, <a href=\"/matthias-ginter/spieler/bundesliga/2026-27/sc-freiburg\">Ginter</a>, <a href=\"/philipp-lienhart/spieler/bundesliga/2026-27/sc-freiburg\">Lienhart</a>, <a href=\"/jordy-makengo/spieler/bundesliga/2026-27/sc-freiburg\">Makengo</a> - <a href=\"/maximilian-eggestein/spieler/bundesliga/2026-27/sc-freiburg\">M. Eggestein</a>, <a href=\"/yannik-engelhardt/spieler/bundesliga/2026-27/sc-freiburg\">Engelhardt</a> - <a href=\"/jan-niklas-beste/spieler/bundesliga/2026-27/sc-freiburg\">Beste</a>, <a href=\"/yuito-suzuki/spieler/bundesliga/2026-27/sc-freiburg\">Y. Suzuki</a>, <a href=\"/derry-scherhant/spieler/bundesliga/2026-27/sc-freiburg\">Scherhant</a> - <a href=\"/igor-matanovic-2/spieler/bundesliga/2026-27/sc-freiburg\">Matanovic</a></p>\n<p><strong class=\"kick__card-sub-headline\">Trainer</strong><br/><a href=\"/julian-schuster/trainer/bundesliga/2026-27/sc-freiburg\">Schuster</a></p>\n<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/jannik-huth/spieler/bundesliga/2026-27/sc-freiburg\">Huth</a>, <a href=\"/florian-mueller-3/spieler/bundesliga/2026-27/sc-freiburg\">F. Müller</a>, <a href=\"/christian-guenter/spieler/bundesliga/2026-27/sc-freiburg\">Günter</a>, <a href=\"/anthony-jung/spieler/bundesliga/2026-27/sc-freiburg\">A. Jung</a>, <a href=\"/lukas-kuebler/spieler/bundesliga/2026-27/sc-freiburg\">Kübler</a>, <a href=\"/max-rosenfelder/spieler/bundesliga/2026-27/sc-freiburg\">Rosenfelder</a>, <a href=\"/vincenzo-grifo/spieler/bundesliga/2026-27/sc-freiburg\">Grifo</a>, <a href=\"/patrick-osterhage/spieler/bundesliga/2026-27/sc-freiburg\">Osterhage</a>, <a href=\"/rouven-tarnutzer/spieler/bundesliga/2026-27/sc-freiburg\">Tarnutzer</a>, <a href=\"/rihito-yamamoto/spieler/bundesliga/2026-27/sc-freiburg\">R. Yamamoto</a>, <a href=\"/keisuke-goto/spieler/bundesliga/2026-27/sc-freiburg\">Goto</a>, <a href=\"/lucas-hoeler/spieler/bundesliga/2026-27/sc-freiburg\">Höler</a>, <a href=\"/cyriaque-kalou-bi-irie/spieler/bundesliga/2026-27/sc-freiburg\">Irié</a></p>\n<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/florent-muslija/spieler/bundesliga/2026-27/sc-freiburg\">Muslija</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg\">Ogbus</a> (angeschlagen), <a href=\"/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg\">Yilmaz</a> (angeschlagen)</p>\n</div>",
             "paragraphs": [
               {
                 "index": 1,
@@ -7878,13 +7848,13 @@
               },
               {
                 "index": 3,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/jannik-huth/spieler/bundesliga/2026-27/sc-freiburg\">Huth</a>, <a href=\"/florian-mueller-3/spieler/bundesliga/2026-27/sc-freiburg\">F. Müller</a>, <a href=\"/christian-guenter/spieler/bundesliga/2026-27/sc-freiburg\">Günter</a>, <a href=\"/anthony-jung/spieler/bundesliga/2026-27/sc-freiburg\">A. Jung</a>, <a href=\"/lukas-kuebler/spieler/bundesliga/2026-27/sc-freiburg\">Kübler</a>, <a href=\"/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg\">Ogbus</a>, <a href=\"/max-rosenfelder/spieler/bundesliga/2026-27/sc-freiburg\">Rosenfelder</a>, <a href=\"/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg\">Yilmaz</a>, <a href=\"/vincenzo-grifo/spieler/bundesliga/2026-27/sc-freiburg\">Grifo</a>, <a href=\"/patrick-osterhage/spieler/bundesliga/2026-27/sc-freiburg\">Osterhage</a>, <a href=\"/rouven-tarnutzer/spieler/bundesliga/2026-27/sc-freiburg\">Tarnutzer</a>, <a href=\"/rihito-yamamoto/spieler/bundesliga/2026-27/sc-freiburg\">R. Yamamoto</a>, <a href=\"/keisuke-goto/spieler/bundesliga/2026-27/sc-freiburg\">Goto</a>, <a href=\"/lucas-hoeler/spieler/bundesliga/2026-27/sc-freiburg\">Höler</a>, <a href=\"/cyriaque-kalou-bi-irie/spieler/bundesliga/2026-27/sc-freiburg\">Irié</a></p>",
-                "text": "Reservebank Huth , F. Müller , Günter , A. Jung , Kübler , Ogbus , Rosenfelder , Yilmaz , Grifo , Osterhage , Tarnutzer , R. Yamamoto , Goto , Höler , Irié"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Reservebank</strong><br/><a href=\"/jannik-huth/spieler/bundesliga/2026-27/sc-freiburg\">Huth</a>, <a href=\"/florian-mueller-3/spieler/bundesliga/2026-27/sc-freiburg\">F. Müller</a>, <a href=\"/christian-guenter/spieler/bundesliga/2026-27/sc-freiburg\">Günter</a>, <a href=\"/anthony-jung/spieler/bundesliga/2026-27/sc-freiburg\">A. Jung</a>, <a href=\"/lukas-kuebler/spieler/bundesliga/2026-27/sc-freiburg\">Kübler</a>, <a href=\"/max-rosenfelder/spieler/bundesliga/2026-27/sc-freiburg\">Rosenfelder</a>, <a href=\"/vincenzo-grifo/spieler/bundesliga/2026-27/sc-freiburg\">Grifo</a>, <a href=\"/patrick-osterhage/spieler/bundesliga/2026-27/sc-freiburg\">Osterhage</a>, <a href=\"/rouven-tarnutzer/spieler/bundesliga/2026-27/sc-freiburg\">Tarnutzer</a>, <a href=\"/rihito-yamamoto/spieler/bundesliga/2026-27/sc-freiburg\">R. Yamamoto</a>, <a href=\"/keisuke-goto/spieler/bundesliga/2026-27/sc-freiburg\">Goto</a>, <a href=\"/lucas-hoeler/spieler/bundesliga/2026-27/sc-freiburg\">Höler</a>, <a href=\"/cyriaque-kalou-bi-irie/spieler/bundesliga/2026-27/sc-freiburg\">Irié</a></p>",
+                "text": "Reservebank Huth , F. Müller , Günter , A. Jung , Kübler , Rosenfelder , Grifo , Osterhage , Tarnutzer , R. Yamamoto , Goto , Höler , Irié"
               },
               {
                 "index": 4,
-                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/florent-muslija/spieler/bundesliga/2026-27/sc-freiburg\">Muslija</a> (Aufbautraining nach Kreuzbandriss)</p>",
-                "text": "Es fehlen Muslija (Aufbautraining nach Kreuzbandriss)"
+                "outer_html": "<p><strong class=\"kick__card-sub-headline\">Es fehlen</strong><br/><a href=\"/florent-muslija/spieler/bundesliga/2026-27/sc-freiburg\">Muslija</a> (Aufbautraining nach Kreuzbandriss), <a href=\"/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg\">Ogbus</a> (angeschlagen), <a href=\"/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg\">Yilmaz</a> (angeschlagen)</p>",
+                "text": "Es fehlen Muslija (Aufbautraining nach Kreuzbandriss), Ogbus (angeschlagen), Yilmaz (angeschlagen)"
               }
             ],
             "starting_xi": {
@@ -8033,7 +8003,7 @@
               "coach_url": "https://www.kicker.de/julian-schuster/trainer/bundesliga/2026-27/sc-freiburg"
             },
             "bench": {
-              "raw_text": "Reservebank Huth , F. Müller , Günter , A. Jung , Kübler , Ogbus , Rosenfelder , Yilmaz , Grifo , Osterhage , Tarnutzer , R. Yamamoto , Goto , Höler , Irié",
+              "raw_text": "Reservebank Huth , F. Müller , Günter , A. Jung , Kübler , Rosenfelder , Grifo , Osterhage , Tarnutzer , R. Yamamoto , Goto , Höler , Irié",
               "players": [
                 {
                   "full_name": null,
@@ -8092,33 +8062,11 @@
                 },
                 {
                   "full_name": null,
-                  "displayed_name": "Ogbus",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
                   "displayed_name": "Rosenfelder",
                   "position": null,
                   "injury_status": null,
                   "player_id": null,
                   "player_url": "https://www.kicker.de/max-rosenfelder/spieler/bundesliga/2026-27/sc-freiburg",
-                  "formation_row": null,
-                  "slot_index": null,
-                  "starting_probability_rank": 1
-                },
-                {
-                  "full_name": null,
-                  "displayed_name": "Yilmaz",
-                  "position": null,
-                  "injury_status": null,
-                  "player_id": null,
-                  "player_url": "https://www.kicker.de/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg",
                   "formation_row": null,
                   "slot_index": null,
                   "starting_probability_rank": 1
@@ -8203,13 +8151,25 @@
               ]
             },
             "unavailable": {
-              "raw_text": "Es fehlen Muslija (Aufbautraining nach Kreuzbandriss)",
+              "raw_text": "Es fehlen Muslija (Aufbautraining nach Kreuzbandriss), Ogbus (angeschlagen), Yilmaz (angeschlagen)",
               "players": [
                 {
-                  "raw_text": "Muslija(Aufbautraining nach Kreuzbandriss)",
+                  "raw_text": "Muslija(Aufbautraining nach Kreuzbandriss),",
                   "name": "Muslija",
                   "reason": "Aufbautraining nach Kreuzbandriss",
                   "player_url": "https://www.kicker.de/florent-muslija/spieler/bundesliga/2026-27/sc-freiburg"
+                },
+                {
+                  "raw_text": "Ogbus(angeschlagen),",
+                  "name": "Ogbus",
+                  "reason": "angeschlagen",
+                  "player_url": "https://www.kicker.de/bruno-ogbus/spieler/bundesliga/2026-27/sc-freiburg"
+                },
+                {
+                  "raw_text": "Yilmaz(angeschlagen)",
+                  "name": "Yilmaz",
+                  "reason": "angeschlagen",
+                  "player_url": "https://www.kicker.de/berkay-yilmaz-3/spieler/bundesliga/2026-27/sc-freiburg"
                 }
               ]
             }

@@ -169,13 +169,13 @@ def export_ratings(source_path=None, output_dir=DERIVED_KICKBASE_PERCENTILE_RATI
     return dict(json_path=json_path, csv_path=csv_path, document=document, appearances=frame, players=summary)
 
 
-def load_weighted_ratings(path, team_form_directory=SOFASCORE_TEAM_FORM_DIR):
+def load_weighted_ratings(path, team_form_directory=SOFASCORE_TEAM_FORM_DIR, *, include_mean_points=False):
     document = json.loads(Path(path).read_text(encoding='utf-8-sig'))
     report_flags(document.get('fallback_flags', []))
-    return _weighted_ratings(document, team_form_directory)
+    return _weighted_ratings(document, team_form_directory, include_mean_points=include_mean_points)
 
 
-def _weighted_ratings(document, team_form_directory):
+def _weighted_ratings(document, team_form_directory, *, include_mean_points=False):
     from sofascore_rating_odds_lineup_score import OVERALL_RECENCY_WEIGHTS, _rating_match_chronology
     name = document['source_file']
     if not isinstance(name, str) or Path(name).name != name:
@@ -198,6 +198,7 @@ def _weighted_ratings(document, team_form_directory):
                 raise ValueError('Duplicate player ID in derived ratings.')
             seen_players.add(player['player_id'])
             numerator = denominator = Decimal(0)
+            points_numerator = Decimal(0)
             seen = set()
             if not player['ratings'] or len(player['ratings']) != player['rating_count']:
                 raise ValueError('Inconsistent rating count.')
@@ -210,8 +211,17 @@ def _weighted_ratings(document, team_form_directory):
                 seen.add(identifier)
                 numerator += weights[identifier] * Decimal(str(rating))
                 denominator += weights[identifier]
-            rows.append(dict(player_id=player['player_id'], player_name=player['player_name'],
-                             position=player.get('position'), average_rating=rounded(numerator / denominator)))
+                if include_mean_points:
+                    points = record.get('points')
+                    if isinstance(points, bool) or not isinstance(points, (int, float)) or not math.isfinite(points):
+                        raise ValueError('Per-match points must be finite numbers for the mean-points blend. '
+                                         'Rerun derived-analysis notebook 10 if points are missing.')
+                    points_numerator += weights[identifier] * Decimal(str(points))
+            row = dict(player_id=player['player_id'], player_name=player['player_name'],
+                       position=player.get('position'), average_rating=rounded(numerator / denominator))
+            if include_mean_points:
+                row['recency_weighted_mean_points'] = float(points_numerator / denominator)
+            rows.append(row)
     if not rows:
         raise ValueError('No player ratings in derived export.')
     return pd.DataFrame(rows)
@@ -219,11 +229,26 @@ def _weighted_ratings(document, team_form_directory):
 
 def run_score_creation(questionable_injury_starting_chance_penalty=0.15,
                        alternative_starting_chance_decay=0.45, lineup_source_weights=None,
-                       score_multiplier=10.0062, goalkeeper_alternative_starting_chance_decay=0.60):
+                       score_multiplier=10.0062, goalkeeper_alternative_starting_chance_decay=0.60,
+                       *, blend_mean_points=False, calculated_expected_points_weight=0.8,
+                       mean_points_weight=0.2):
+    """Optionally blend calculated expected points and weighted mean points."""
     from sofascore_rating_odds_lineup_score import ScoreMetricInput, run_score_creation as run_shared
+    if not isinstance(blend_mean_points, bool):
+        raise ValueError('blend_mean_points must be True or False.')
+    for weight in (calculated_expected_points_weight, mean_points_weight):
+        if (isinstance(weight, bool) or not isinstance(weight, (int, float))
+                or not math.isfinite(weight) or not 0 <= weight <= 1):
+            raise ValueError('Blend weights must be finite numbers between 0 and 1.')
+    if not math.isclose(calculated_expected_points_weight + mean_points_weight, 1.0,
+                        rel_tol=0.0, abs_tol=1e-9):
+        raise ValueError('Calculated expected-points and mean-points weights must sum to 1.')
     path = latest_json(DERIVED_KICKBASE_PERCENTILE_RATINGS_DIR, PREFIX + '*.json')
-    metric = ScoreMetricInput(path, load_weighted_ratings(path), METRIC_COLUMN,
-                              'Kickbase percentile rating', OUTPUT_LABEL)
+    values = (load_weighted_ratings(path, include_mean_points=True) if blend_mean_points
+              else load_weighted_ratings(path))
+    metric = ScoreMetricInput(path, values, METRIC_COLUMN,
+                              'Kickbase percentile rating', OUTPUT_LABEL,
+                              mean_points_weight=mean_points_weight if blend_mean_points else 0.0)
     return run_shared('overall', metric_input=metric,
         questionable_injury_starting_chance_penalty=questionable_injury_starting_chance_penalty,
         alternative_starting_chance_decay=alternative_starting_chance_decay,
