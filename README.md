@@ -85,6 +85,22 @@ workflow. Settings are editable in the notebook. CSVs in `outputs/expected_point
 use the distinct `sofascore_kickbase_points_per_90_odds_lineup` filename label,
 preserve optimizer columns, and include the metric and individual source chances.
 
+## Metric consistency reflection
+
+Run `notebooks/09_reflection/05_sofascore_kickbase_metric_consistency.ipynb`
+to examine individual SofaScore-derived Kickbase awards over each team's existing
+last five matches across competitions. The notebook includes saved inline plots,
+position-specific classifications, source coverage, and next-match checks that
+recompute form strictly before kickoff. Current form selects the top 20% within
+each position using the existing recency-weighted percentile ratings; the percentage,
+consistency thresholds, and manual overrides are editable in its configuration cell.
+Shared minimum matchday qualification (including latest-match and goalkeeper
+exceptions) applies to current players and strictly pre-match cohorts. The matchday
+defaults to the source export's value and can be overridden in the notebook.
+Form ratings retain the 10-minute minimum and minute groups. Metric consistency
+defaults to 45-minute appearances, with actual points and points per 90 shown.
+Insufficient samples remain unclassified. No prediction scores are modified.
+
 ## Timestamped output retention
 
 Timestamped output exporters invoke the shared cleanup in `project_paths.py`. The
@@ -115,6 +131,23 @@ Run the automated checks with:
 ```powershell
 python -m pytest
 ```
+
+## Upload Kickbase screenshots from a phone
+
+Start the local upload page from PowerShell in the project root:
+
+```powershell
+python kickbase_screenshot_intake.py
+```
+
+Keep the terminal open. On the same Wi-Fi network, open the `On your phone`
+address printed by the app in Android Chrome and enter the displayed PIN. Choose
+the matchday, team, and screenshot. The image is saved under
+`data/kickbase_lineup_screenshots/md<N>/` using a team-based filename; uploading
+again for that team replaces its prior app-uploaded screenshot. The page shows
+which fixture teams have an uploaded image. The PIN expires after 30 minutes,
+and stopping the app closes the upload page. If Windows Firewall prompts you,
+allow access only on your private network.
 
 The existing `.venv` stays at the root because moving a virtual environment can
 invalidate absolute paths stored inside it. The browser-backed scraping notebooks

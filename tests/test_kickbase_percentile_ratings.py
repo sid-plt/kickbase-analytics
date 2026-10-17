@@ -90,22 +90,29 @@ def test_export_uses_chronology_and_preserves_missing_slots(tmp_path):
     assert player['average_rating'] == 7.3
     assert pd.read_csv(result['csv_path']).average_rating.tolist() == [7.3]
     assert ratings.load_weighted_ratings(result['json_path'], tmp_path).average_rating.tolist() == [7.3]
+    means = ratings.load_weighted_ratings(result['json_path'], tmp_path, include_mean_points=True)
+    assert means.recency_weighted_mean_points.tolist() == pytest.approx([100 * 28 / 48])
     assert result['document']['averaging_policy']['newest_first_weights'] == [28, 24, 20, 16, 12]
 
 
 @pytest.mark.parametrize('position', [1, 2])
-def test_shared_score_formula_and_adapter(tmp_path, monkeypatch, position):
+@pytest.mark.parametrize('blend_mean_points', [False, True])
+@pytest.mark.parametrize('starting_chance', [0.0, 0.8])
+@pytest.mark.parametrize('custom_mean_weight', [None, 0.35])
+def test_shared_score_formula_and_adapter(tmp_path, monkeypatch, position, blend_mean_points, starting_chance,
+                                        custom_mean_weight):
     players = pd.DataFrame([dict(id=1, name='Player', teamId=2, position=position)])
-    values = pd.DataFrame([dict(player_id=1, player_name='Player', average_rating=7.3)])
+    values = pd.DataFrame([dict(player_id=1, player_name='Player', average_rating=7.3,
+                                recency_weighted_mean_points=120.125)])
     monkeypatch.setattr(ratings, 'latest_json', lambda *args: Path('derived.json'))
-    monkeypatch.setattr(ratings, 'load_weighted_ratings', lambda path: values)
+    monkeypatch.setattr(ratings, 'load_weighted_ratings', lambda path, **kwargs: values)
     replacements = dict(
         request_matchday=lambda: 4,
         select_latest_kbstats_csv=lambda: SimpleNamespace(path=Path('players.csv'), timestamp_text='test'),
         load_kbstats_players=lambda path: players,
         load_expected_match_points=lambda day: ({'bayern': 2.5}, pd.DataFrame()),
         load_lineup_source=lambda source, *args, **kwargs: (Path(source.key + '.json'), {'bayern': {
-            shared.normalize_name('Player'): dict(name='Player', id=1, chance=0.8)}}),
+            shared.normalize_name('Player'): dict(name='Player', id=1, chance=starting_chance)}}),
         _load_lineup_overrides=lambda: pd.DataFrame(),
         _load_name_only_lineup_overrides=lambda: pd.DataFrame(),
         load_rating_overrides=lambda: pd.DataFrame(),
@@ -116,14 +123,56 @@ def test_shared_score_formula_and_adapter(tmp_path, monkeypatch, position):
         monkeypatch.setattr(shared, name, value)
     monkeypatch.setattr(shared, 'EXPECTED_POINTS_DIR', tmp_path)
     monkeypatch.setattr('builtins.input', lambda prompt: 'y')
-    result = ratings.run_score_creation()
+    weight_options = ({} if custom_mean_weight is None else dict(
+        calculated_expected_points_weight=1 - custom_mean_weight, mean_points_weight=custom_mean_weight))
+    result = ratings.run_score_creation(blend_mean_points=blend_mean_points, **weight_options)
     exported = pd.read_csv(result['output_path'])
     assert exported.kickbase_percentile_rating.tolist() == [7.3]
     match_points = 1.1 + 2.5 * (0.6 / 3) if position == 1 else 2.5
     assert exported.expected_match_points.iloc[0] == pytest.approx(match_points)
-    assert exported.score.iloc[0] == pytest.approx(round(10.0062 * 7.3 * match_points * 0.8, 6))
+    calculated = 10.0062 * 7.3 * match_points * starting_chance
+    mean_weight = 0.2 if custom_mean_weight is None else custom_mean_weight
+    expected = (1 - mean_weight) * calculated + mean_weight * 120.125 if blend_mean_points else calculated
+    assert exported.score.iloc[0] == pytest.approx(round(expected, 6))
+    if blend_mean_points:
+        assert exported.calculated_expected_points.iloc[0] == pytest.approx(round(calculated, 6))
+        assert exported.recency_weighted_mean_points.iloc[0] == 120.125
+        assert result['review'].score.iloc[0] == exported.score.iloc[0]
+    else:
+        assert 'calculated_expected_points' not in exported
+        assert 'recency_weighted_mean_points' not in exported
     assert ratings.OUTPUT_LABEL in result['output_path'].name
     assert 'sofascore_average_rating' not in exported
+
+
+@pytest.mark.parametrize('calculated_weight,mean_weight,message', [
+    (0.8, 0.3, 'sum to 1'), (-0.1, 1.1, 'finite numbers'),
+    (float('nan'), 0.2, 'finite numbers'), (0.8, float('inf'), 'finite numbers'),
+    (True, 0.0, 'finite numbers'),
+])
+def test_invalid_blend_weights(calculated_weight, mean_weight, message):
+    with pytest.raises(ValueError, match=message):
+        ratings.run_score_creation(blend_mean_points=True,
+                                   calculated_expected_points_weight=calculated_weight,
+                                   mean_points_weight=mean_weight)
+
+
+def test_weighted_mean_preserves_negative_points_and_missing_slots(tmp_path):
+    (tmp_path / 'form.json').write_text(json.dumps({'1': {'overall_matches': [
+        dict(match_id=i, timestamp=400-i) for i in [3, 1, 2]]}}))
+    document = dict(source_file='form.json', teams={'1': {'overall': {'players': [
+        dict(player_id=1, player_name='Player', rating_count=2, ratings=[
+            dict(match_id=3, rating=3.5, points=-30),
+            dict(match_id=1, rating=10, points=90)])]}}})
+    path = tmp_path / 'ratings.json'
+    path.write_text(json.dumps(document))
+    mean = ratings.load_weighted_ratings(path, tmp_path, include_mean_points=True)
+    assert mean.recency_weighted_mean_points.iloc[0] == pytest.approx((90 * 28 - 30 * 20) / 48)
+    document['teams']['1']['overall']['players'][0]['ratings'][0].pop('points')
+    path.write_text(json.dumps(document))
+    assert ratings.load_weighted_ratings(path, tmp_path).average_rating.tolist() == [7.3]
+    with pytest.raises(ValueError, match='Per-match points must be finite'):
+        ratings.load_weighted_ratings(path, tmp_path, include_mean_points=True)
 
 
 @pytest.mark.parametrize('raw,expected', [(0, 1.1), (1.5, 1.4), (3, 1.7)])

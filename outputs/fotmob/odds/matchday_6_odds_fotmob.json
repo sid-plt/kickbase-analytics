@@ -1,0 +1,137 @@
+[
+  {
+    "match_id": 5881191,
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "1. FC Köln",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.9,
+        "draw": 4.1,
+        "away_win": 3.5
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881192,
+    "home_team": "Elversberg",
+    "away_team": "Augsburg",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 2.5,
+        "draw": 3.6,
+        "away_win": 2.65
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881193,
+    "home_team": "Hamburger SV",
+    "away_team": "VfB Stuttgart",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 3.9,
+        "draw": 4.1,
+        "away_win": 1.8
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881194,
+    "home_team": "Schalke 04",
+    "away_team": "Mainz 05",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 3.0,
+        "draw": 3.6,
+        "away_win": 2.25
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881195,
+    "home_team": "Union Berlin",
+    "away_team": "Borussia Dortmund",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 4.9,
+        "draw": 4.3,
+        "away_win": 1.62
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881196,
+    "home_team": "Werder Bremen",
+    "away_team": "Paderborn",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.75,
+        "draw": 4.2,
+        "away_win": 4.1
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881189,
+    "home_team": "Bayern München",
+    "away_team": "RB Leipzig",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.22,
+        "draw": 8.2,
+        "away_win": 9.0
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881188,
+    "home_team": "Bayer Leverkusen",
+    "away_team": "Freiburg",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 1.7,
+        "draw": 4.2,
+        "away_win": 4.4
+      }
+    ],
+    "issues": []
+  },
+  {
+    "match_id": 5881190,
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "Hoffenheim",
+    "bookmakers": [
+      {
+        "bookmaker": "Tipico",
+        "bookmaker_source_id": 171,
+        "home_win": 3.2,
+        "draw": 4.0,
+        "away_win": 2.0
+      }
+    ],
+    "issues": []
+  }
+]

@@ -1,0 +1,1 @@
+.\.venv\Scripts\python.exe kickbase_screenshot_intake.py

@@ -1,0 +1,626 @@
+﻿file,bytes,audit_check,result
+.github/workflows/ci.yml,555,Configuration/documentation static review,Reviewed; see audit note
+.gitignore,152,Configuration/documentation static review,Reviewed; see audit note
+archive/data/sofascore/team_form/team_form_history.json,80867,JSON parsing,Parsed successfully; no comprehensive semantic validation
+archive/md exp pts/md2 exp pts.csv,154216,CSV parsing and row-width consistency,Passed structural check
+archive/md exp pts/md3 exp pts.csv,176241,CSV parsing and row-width consistency,Passed structural check
+archive/md exp pts/md4 exp pts.csv,195571,CSV parsing and row-width consistency,Passed structural check
+archive/notebooks/calculate_team_recent_form.ipynb,31469,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/notebooks/extract_sofascore_match_ids.ipynb,12394,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/04_extract_team_recent_form_recovered_checkpoint_20260810.ipynb,29728,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/05_create_bundesliga_snapshot_recovered_checkpoint_20260810.ipynb,60992,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/08_extract_best_players_from_prev_matches_recovered_checkpoint_20260810.ipynb,60472,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/extract_sofascore_match_ids_recovered_checkpoint_20260810.ipynb,11485,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/extract_sofascore_match_ids_team_ids_recovered_checkpoint_20260810.ipynb,12732,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+archive/recovered_checkpoints/extract_sofascore_odds_recovered_checkpoint_20260810.ipynb,27358,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+chrome_runtime.py,1670,Python AST syntax,Parsed successfully
+data/kickbase_lineup_screenshots/agentic_ai_prompt.txt,1074,Configuration/documentation static review,Reviewed; see audit note
+data/kickbase_lineup_screenshots/md1/bayer leverkusen.jpeg,67130,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/bayern münchen.jpeg,70022,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/borussia dortmund.jpeg,73079,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/borussia mönchengladbach.jpeg,65068,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/eintracht frankfurt.jpeg,64006,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/fc augsburg.jpeg,68351,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/fc köln.jpeg,63114,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/fc union berlin.jpeg,67344,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/fsv mainz.jpeg,62137,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/hamburger sv.jpeg,62968,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/rb leipzig.jpeg,65780,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/sc freiburg.jpeg,67724,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/sc paderborn.jpeg,64039,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/schalke 04.jpeg,67857,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/sv elversberg.jpeg,65031,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/tsg hoffenheim.jpeg,69900,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/vfb stuttgart.jpeg,65404,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md1/werder bremen.jpeg,63236,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_19.png,458350,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_20.png,478563,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_21.png,440839,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_22.png,462303,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_23.png,473747,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_24.png,474405,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_25.png,457007,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_26.png,423763,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_27.png,439471,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_28.png,405030,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_29.png,404244,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_30.png,406727,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_31.png,445593,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_32.png,439385,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_33.png,404883,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_34.png,376918,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_35.png,392749,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md2/screenshot_36.png,458022,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.46.54.jpeg,73641,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.00.jpeg,74132,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.07.jpeg,65051,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.12.jpeg,71749,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.18.jpeg,70400,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.23.jpeg,65168,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.28.jpeg,65811,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.33.jpeg,65969,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.39.jpeg,72221,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.45.jpeg,65392,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.52.jpeg,74295,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.47.57.jpeg,67594,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.02.jpeg,70125,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.07.jpeg,63951,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.12.jpeg,60290,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.18.jpeg,60468,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.23.jpeg,61217,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md3/WhatsApp Image 2026-09-11 at 09.48.30.jpeg,62879,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.13.jpeg,70665,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.20.jpeg,73042,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.26.jpeg,65316,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.31.jpeg,73605,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.37.jpeg,74812,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.51.jpeg,67303,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.05.57.jpeg,64726,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.04.jpeg,68282,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.10.jpeg,66076,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.15.jpeg,62986,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.23.jpeg,66257,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.29.jpeg,71985,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.35.jpeg,69468,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.40.jpeg,70099,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.46.jpeg,60385,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.51.jpeg,63987,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.06.56.jpeg,63566,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md4/WhatsApp Image 2026-09-18 at 17.07.01.jpeg,65201,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/1-fc-koln.jpg,238685,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/1-fc-union-berlin.jpg,309599,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/1-fsv-mainz-05.jpg,242409,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/bayer-04-leverkusen.jpg,251158,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/borussia-dortmund.jpg,303904,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/borussia-m-gladbach.jpg,318820,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/eintracht-frankfurt.jpg,270507,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/fc-augsburg.jpg,290492,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/fc-bayern-munchen.jpg,278128,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/fc-schalke-04.jpg,255968,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/hamburger-sv.jpg,248911,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/rb-leipzig.jpg,312772,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/sc-freiburg.jpg,255075,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/sc-paderborn-07.jpg,230129,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/sv-07-elversberg.jpg,261270,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/sv-werder-bremen.jpg,229628,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/tsg-hoffenheim.jpg,288323,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/md5/vfb-stuttgart.jpg,290651,Inventory only,Not visually inspected or executed
+data/kickbase_lineup_screenshots/prompt.txt,6019,Configuration/documentation static review,Reviewed; see audit note
+data/kickbase_lineup_screenshots/user_copy_paste.txt,291,Configuration/documentation static review,Reviewed; see audit note
+data/reference/kbstats_player_match_baseline.csv,43361,CSV parsing and row-width consistency,Passed structural check
+data/reference/kickbase/goalkeeper_residual_model.json,2550,JSON parsing,Parsed successfully; no comprehensive semantic validation
+data/reference/kickbase/kickbase_event_frequency.json,12881,JSON parsing,Parsed successfully; no comprehensive semantic validation
+data/reference/kickbase/kickbase_metrics.json,34162,JSON parsing,Parsed successfully; no comprehensive semantic validation
+data/reference/kickbase_player_name_cross_references.csv,2658,CSV parsing and row-width consistency,Passed structural check
+data/reference/player_name_cross_references.csv,8365,CSV parsing and row-width consistency,Passed structural check
+generate_kickbase_md5.ps1,6922,Configuration/documentation static review,Reviewed; see audit note
+goalkeeper_kickbase_calibration.py,5007,Python AST syntax,Parsed successfully
+kbstats_points_odds_lineup_score.py,25615,Python AST syntax,Parsed successfully
+kickbase_player_name_cross_references.py,3114,Python AST syntax,Parsed successfully
+kickbase_screenshot_intake.py,19389,Python AST syntax,Parsed successfully
+manual_lineup_helpers.py,54381,Python AST syntax,Parsed successfully
+notebooks/01_fixtures_and_teams/01_sofascore_match_ids.ipynb,21328,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/01_fixtures_and_teams/02_fotmob_match_ids.ipynb,35034,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/01_fixtures_and_teams/03_build_bundesliga_team_reference.ipynb,17313,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/02_odds/01_sofascore_match_odds.ipynb,35274,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/02_odds/02_fotmob_match_odds.ipynb,44228,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/03_team_data/01_sofascore_recent_form.ipynb,333843,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/03_team_data/02_sofascore_team_stats.ipynb,45237,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/03_team_data/03_transfermarkt_squads.ipynb,83401,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/03_team_data/04_kbstats_players.ipynb,15503,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/03_team_data/05_sofascore_upcoming_matches.ipynb,106721,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/01_bundesliga_snapshot.ipynb,93587,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/02_sofascore_high_rated_players.ipynb,63362,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/03_kbstats_high_average_points.ipynb,26541,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/04_kbstats_last_5_high_average_points.ipynb,27644,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/05_sofascore_player_average_ratings.ipynb,33006,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/06_transfermarkt_team_market_value_percentiles.ipynb,10867,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/07_kbstats_matchday_qualified_average_points.ipynb,19181,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/08_kbstats_matchday_qualified_last_5_average_points.ipynb,22479,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/09_sofascore_kickbase_point_averages.ipynb,9909,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/04_derived_analysis/10_sofascore_kickbase_percentile_ratings.ipynb,24876,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/05_predicted_lineups/01_rotowire_lineups.ipynb,27518,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/05_predicted_lineups/02_ligainsider_lineups.ipynb,34185,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/05_predicted_lineups/03_kicker_lineups.ipynb,38736,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/kbstats_average_points_odds_lineup_score.ipynb,4424,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/kbstats_last_5_average_points_odds_lineup_score.ipynb,4512,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/randomize_score.ipynb,19873,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_bundesliga_average_rating_score.ipynb,18311,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_bundesliga_rating_odds_lineup_score.ipynb,4766,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_kickbase_percentile_rating_odds_lineup_score.ipynb,165522,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_kickbase_points_per_minute_odds_lineup_score.ipynb,5286,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_overall_average_rating_score.ipynb,15556,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/sofascore_overall_rating_odds_lineup_score.ipynb,6232,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/transfermarkt_market_value_score.ipynb,23344,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/06_score_creation/transfermarkt_team_market_value_percentile_score.ipynb,20039,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/manually_create_lineup.ipynb,28134,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_all_limits_arena.ipynb,134549,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_insider_arena.ipynb,116457,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_max_2_per_team.ipynb,134950,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_three_teams_exclusive.ipynb,103817,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_three_teams_overlap_allowed.ipynb,103857,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/07_squad_optimisation/optimize_squad_v1.ipynb,140741,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/08_visualisation/matchday_report.ipynb,536056,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/09_reflection/01_sofascore_overall_score_reflection.ipynb,1321255,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/09_reflection/02_sofascore_ratings_vs_kickbase_points.ipynb,600613,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/09_reflection/03_sofascore_kickbase_points_by_minutes.ipynb,1244819,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/09_reflection/04_sofascore_kickbase_percentile_score_reflection.ipynb,1577618,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/09_reflection/05_sofascore_kickbase_metric_consistency.ipynb,14992347,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+notebooks/tests/test_sofascore_single_match_odds.ipynb,19944,Notebook JSON and code scan,JSON parsed; active code scanned; archived code not executed
+OPTIMIZER_IDEAS.md,15196,Configuration/documentation static review,Reviewed; see audit note
+outputs/analysis/compare_md3.py,4072,Python AST syntax,Parsed successfully
+outputs/analysis/compare_md3_calibrated.py,4290,Python AST syntax,Parsed successfully
+outputs/analysis/gk_audit/raw/16434037_lineups.json,121563,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/gk_audit/raw/16434037_shotmap.json,62022,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/gk_audit/raw_audit.json,4225,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/gk_audit/report.md,3898,Configuration/documentation static review,Reviewed; see audit note
+outputs/analysis/gk_audit/validation.json,333910,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/md3_sofascore_vs_kbstats.json,1559109,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/md3_sofascore_vs_kbstats.md,18097,Configuration/documentation static review,Reviewed; see audit note
+outputs/analysis/md3_sofascore_vs_kbstats_20260917.json,1614348,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/analysis/md3_sofascore_vs_kbstats_20260917.md,17428,Configuration/documentation static review,Reviewed; see audit note
+outputs/derived/bundesliga_snapshots/bundesliga_table_2026-09-09_13-38-34.json,10931,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/bundesliga_snapshots/bundesliga_table_2026-09-15_13-41-38.json,10979,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/bundesliga_snapshots/bundesliga_table_2026-09-27_21-45-14.json,10945,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_12-44-34_817853+0200.csv,18373,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_12-44-34_817853+0200.json,420910,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_12-51-41_004211+0200.csv,18373,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_12-51-41_004211+0200.json,420910,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_14-35-39_144147+0200.csv,18373,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_14-35-39_144147+0200.json,421211,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_20-29-27_379801+0200.csv,18373,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-16_20-29-27_379801+0200.json,421318,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-17_11-29-45_506921+0200.csv,18439,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-17_11-29-45_506921+0200.json,422500,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-17_11-44-30_850602+0200.csv,19386,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-17_11-44-30_850602+0200.json,432908,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-18_17-04-30_089313+0200.csv,19383,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-18_17-04-30_089313+0200.json,432206,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-27_21-46-31_569396+0200.csv,19383,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-27_21-46-31_569396+0200.json,432206,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-27_21-48-05_852018+0200.csv,18754,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-09-27_21-48-05_852018+0200.json,444232,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-10-08_15-15-43_201414+0200.csv,17054,CSV parsing and row-width consistency,Passed structural check
+outputs/derived/sofascore_kickbase_percentile_ratings/sofascore_kickbase_percentile_ratings_2026-10-08_15-15-43_201414+0200.json,382262,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260916_130403_+0200.csv,194816,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260916_140009_+0200.csv,194816,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260916_140117_+0200.csv,194802,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260916_203152_+0200.csv,194819,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260917_120057_+0200.csv,194863,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260915_134004_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260917_163612_+0200.csv,196265,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260918_170327_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260918_171556_+0200.csv,195571,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20260927_211938_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20260927_220050_+0200.csv,212631,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20261008_151434_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20261008_152330_+0200.csv,209177,CSV parsing and row-width consistency,Passed structural check
+outputs/expected_points/expected_points_20261008_151434_+0200_sofascore_kickbase_percentile_rating_odds_lineup_20261008_164017_+0200.csv,211912,CSV parsing and row-width consistency,Passed structural check
+outputs/fotmob/match_ids/match_ids_1_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/match_ids/match_ids_2_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/match_ids/match_ids_3_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/match_ids/match_ids_4_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/match_ids/match_ids_5_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/match_ids/match_ids_6_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/odds/matchday_2_odds_fotmob.json,2832,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/odds/matchday_3_odds_fotmob.json,2832,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/odds/matchday_4_odds_fotmob.json,2834,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/fotmob/odds/matchday_5_odds_fotmob.json,2832,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260904_104638_+0200.csv,122649,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260904_104638_+0200.json,416692,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260904_104843_+0200.csv,122649,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260904_104843_+0200.json,416692,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260909_122135_+0200.csv,143359,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260909_122135_+0200.json,444989,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260910_135325_+0200.csv,143346,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260910_135325_+0200.json,444976,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260911_094008_+0200.csv,143006,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260911_094008_+0200.json,443963,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260915_134004_+0200.csv,162840,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260915_134004_+0200.json,477618,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260918_170327_+0200.csv,162514,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260918_170327_+0200.json,477292,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20260927_211938_+0200.csv,180892,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20260927_211938_+0200.json,509222,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kbstats/players/kbstats_players_20261008_151434_+0200.csv,179879,CSV parsing and row-width consistency,Passed structural check
+outputs/kbstats/players/kbstats_players_20261008_151434_+0200.json,508918,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20261008_163916.json,90236,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/.cache/progress_2026-27_3.json,505822,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/.cache/progress_2026-27_4.json,506636,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/.cache/progress_2026-27_5.json,506347,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260904_165936.json,483051,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260910_134835.json,270840,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260910_174011.json,428313,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260910_174117.json,477663,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260911_094243.json,477723,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260917_115207.json,319408,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260917_115904.json,478650,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260917_163513.json,478434,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260918_170725.json,478426,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20261008_152026.json,478238,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260909_134039.json,99480,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260910_134827.json,98682,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260910_173302.json,99086,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260911_094158.json,99097,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260915_134359.json,101450,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260916_125306.json,102252,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260917_115118.json,101072,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260917_163237.json,99503,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260918_170542.json,99519,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260927_215644.json,101421,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/optimized_squad/optimized_squad_budget_150m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164607_+0200.csv,5824,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_150m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_165013_+0200.csv,5743,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_152_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164612_+0200.csv,5796,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_152_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_165017_+0200.csv,5751,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_155m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164615_+0200.csv,5768,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_155m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_165021_+0200.csv,5710,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_157_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164618_+0200.csv,5810,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_157_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_165024_+0200.csv,5757,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_180m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164901_+0200.csv,3357,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_182_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164902_+0200.csv,3357,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_185m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164903_+0200.csv,3357,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_187_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164904_+0200.csv,3357,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_255m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164319_+0200.csv,5654,CSV parsing and row-width consistency,Passed structural check
+outputs/optimized_squad/optimized_squad_budget_257_5m_sofascore_kickbase_percentile_rating_odds_lineup_20261008_151434_+0200_20261008_164017_+0200_20261008_164322_+0200.csv,5654,CSV parsing and row-width consistency,Passed structural check
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260910_134800.json,62743,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260910_174223.json,62741,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260911_094138.json,62744,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260915_135022.json,62710,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260916_125341.json,62714,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260917_115102.json,62702,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260917_163221.json,62700,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260918_170459.json,62684,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260927_214925.json,62738,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20261008_151706.json,62738,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/selected_lineups/all-limits-arena.json,3751,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/selected_lineups/bundesliga-arena.json,3737,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/selected_lineups/kickbase.insider-arena.json,2423,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/selected_lineups/kickbasekis-arena.json,3724,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_1.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_2.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_3.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_4.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_5.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/match_ids/match_ids_6.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/odds/matchday_2_odds.json,2906,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/odds/matchday_3_odds.json,2905,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/odds/matchday_4_odds.json,2904,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/odds/matchday_5_odds.json,2900,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-04_10-49-29_967272+0200.csv,45219,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-04_10-49-29_967272+0200.json,390022,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-09_13-40-25_003987+0200.csv,46359,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-09_13-40-25_003987+0200.json,419907,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-10_13-04-32_944696+0200.csv,46420,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-10_13-04-32_944696+0200.json,421939,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-11_09-41-12_926998+0200.csv,46355,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-11_09-41-12_926998+0200.json,421581,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-15_13-42-52_411631+0200.csv,35694,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-15_13-42-52_411631+0200.json,373169,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-04_10-50-10_219629+0200.csv,19613,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-04_10-50-10_219629+0200.json,4794283,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-10_13-07-08_654246+0200.csv,21620,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-10_13-07-08_654246+0200.json,6318580,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-15_13-43-45_436905+0200.csv,18861,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-15_13-43-45_436905+0200.json,7189656,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-16_20-24-15_272946+0200.csv,18893,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-16_20-24-15_272946+0200.json,8935104,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-17_11-29-33_772673+0200.csv,18968,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-17_11-29-33_772673+0200.json,9117843,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-17_11-44-17_408001+0200.csv,19935,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-17_11-44-17_408001+0200.json,9288571,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-18_17-04-19_990154+0200.csv,19932,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-18_17-04-19_990154+0200.json,9303681,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-27_21-47-31_551608+0200.csv,19256,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-27_21-47-31_551608+0200.json,9668481,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-10-08_15-15-35_109329+0200.csv,17551,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-10-08_15-15-35_109329+0200.json,8239261,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/reference/bundesliga_teams.json,1300,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-04_10-43-32_643242+0200.json,80910,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-09_13-31-46_693431+0200.json,82181,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-10_13-03-24_642850+0200.json,82185,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-11_09-39-44_057729+0200.json,82173,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-15_13-39-34_737941+0200.json,83413,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-17_11-28-44_443886+0200.json,83406,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-18_17-03-09_412865+0200.json,83399,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-09-27_21-19-11_464152+0200.json,84241,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_form/team_form_2026-10-08_15-14-18_764489+0200.json,84297,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260904T084406Z.csv,20900,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260904T084406Z.json,148547,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/team_stats/bundesliga_team_statistics_md_3_20260909T113206Z.csv,21351,CSV parsing and row-width consistency,Passed structural check
+outputs/sofascore/team_stats/bundesliga_team_statistics_md_3_20260909T113206Z.json,149026,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_3_2026-09-04_10-48-01_855470+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_3_2026-09-04_10-48-54_514055+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_4_2026-09-09_13-32-49_259486+0200.json,21009,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_4_2026-09-09_13-37-36_892409+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_4_2026-09-11_09-40-35_287443+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_5_2026-09-15_13-40-56_704550+0200.json,21019,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_5_2026-09-18_17-03-36_707149+0200.json,21019,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/sofascore/upcoming_matches/upcoming_matches_md_6_2026-10-08_15-14-42_152044+0200.json,21052,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260904_104425.csv,86582,CSV parsing and row-width consistency,Passed structural check
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260904_104425.json,271645,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260904_104425_team_market_value_p80.csv,21951,CSV parsing and row-width consistency,Passed structural check
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260909_133232.csv,85912,CSV parsing and row-width consistency,Passed structural check
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260909_133232.json,269533,JSON parsing,Parsed successfully; no comprehensive semantic validation
+outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260909_133232_team_market_value_p80.csv,21955,CSV parsing and row-width consistency,Passed structural check
+player_name_cross_references.py,3652,Python AST syntax,Parsed successfully
+project_paths.py,6297,Python AST syntax,Parsed successfully
+README.md,13020,Configuration/documentation static review,Reviewed; see audit note
+requirements.txt,269,Configuration/documentation static review,Reviewed; see audit note
+scripts/build_metric_consistency_notebook.py,24125,Python AST syntax,Parsed successfully
+scripts/calibrate_goalkeeper_points.py,14516,Python AST syntax,Parsed successfully
+selected_lineups.py,8500,Python AST syntax,Parsed successfully
+sofascore_average_rating_score.py,18250,Python AST syntax,Parsed successfully
+sofascore_kickbase_percentile_ratings.py,13816,Python AST syntax,Parsed successfully
+sofascore_kickbase_points.py,49677,Python AST syntax,Parsed successfully
+sofascore_kickbase_points_per_minute_odds_lineup_score.py,7050,Python AST syntax,Parsed successfully
+sofascore_metric_consistency.py,29041,Python AST syntax,Parsed successfully
+sofascore_rating_odds_lineup_score.py,64623,Python AST syntax,Parsed successfully
+sofascore_score_reflection.py,22990,Python AST syntax,Parsed successfully
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-09_22-59-09.json,6736,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-17_10-01-27.json,6735,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-17_19-43-43.json,6736,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-18_20-42-25.json,6736,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-23_00-49-56.json,6735,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-28_12-07-58.json,6736,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-08-31_10-44-48.json,10896,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/bundesliga_snapshots/bundesliga_table_2026-09-01_14-45-18.json,10893,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260811_105344_+0200.csv,26860,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260811_105344_+0200.json,75486,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260817_100312_+0200.csv,31233,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260817_100312_+0200.json,86041,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260817_194641_+0200.csv,31233,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260817_194641_+0200.json,86041,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260818_204316_+0200.csv,35039,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260818_204316_+0200.json,101581,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260823_005035_+0200.csv,34575,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_high_average_players/kbstats_high_average_players_20260823_005035_+0200.json,100274,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260811_110905_+0200.csv,27071,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260811_110905_+0200.json,79819,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260817_100356_+0200.csv,29332,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260817_100356_+0200.json,84731,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260817_194648_+0200.csv,29332,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260817_194648_+0200.json,84731,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260818_204321_+0200.csv,32583,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260818_204321_+0200.json,97916,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260823_005043_+0200.csv,32079,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_last_5_high_average_players/kbstats_last_5_high_average_players_20260823_005043_+0200.json,96436,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_matchday_qualified_average_players/kbstats_matchday_qualified_average_players_20260819_085902_+0200.csv,134204,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_matchday_qualified_average_players/kbstats_matchday_qualified_average_players_20260819_085902_+0200.json,390577,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_matchday_qualified_average_players/kbstats_matchday_qualified_average_players_20260819_091135_+0200.csv,134204,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_matchday_qualified_average_players/kbstats_matchday_qualified_average_players_20260819_091135_+0200.json,390577,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_matchday_qualified_last_5_average_players/kbstats_matchday_qualified_last_5_average_players_20260819_085949_+0200.csv,146925,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_matchday_qualified_last_5_average_players/kbstats_matchday_qualified_last_5_average_players_20260819_085949_+0200.json,443990,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/kbstats_matchday_qualified_last_5_average_players/kbstats_matchday_qualified_last_5_average_players_20260819_091529_+0200.csv,146925,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/kbstats_matchday_qualified_last_5_average_players/kbstats_matchday_qualified_last_5_average_players_20260819_091529_+0200.json,443990,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/derived/transfermarkt_team_market_value_percentiles/transfermarkt_team_market_value_percentiles_20260817_193844_20260818_120447_+0200.csv,98471,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/derived/transfermarkt_team_market_value_percentiles/transfermarkt_team_market_value_percentiles_20260818_204006_20260818_204356_+0200.csv,98684,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260823_175739_+0200_sofascore_overall_rating_odds_lineup_20260823_204315_+0200.csv,229359,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260823_175739_+0200_sofascore_overall_rating_odds_lineup_20260823_205636_+0200.csv,229747,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260825_121320_+0200.csv,230001,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260825_110735_+0200_sofascore_overall_rating_odds_lineup_20260827_123630_+0200.csv,231958,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260827_124042_+0200_sofascore_overall_rating_odds_lineup_20260827_124757_+0200.csv,231379,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260828_120706_+0200_sofascore_overall_rating_odds_lineup_20260828_122923_+0200.csv,230024,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260828_120706_+0200_sofascore_overall_rating_odds_lineup_20260828_131151_+0200.csv,230102,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260901_144432_+0200_sofascore_overall_rating_odds_lineup_20260901_145308_+0200.csv,153921,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260901_144432_+0200_sofascore_overall_rating_odds_lineup_20260901_154536_+0200.csv,155167,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/expected_points/expected_points_20260903_134023_+0200_sofascore_overall_rating_odds_lineup_20260903_151219_+0200.csv,156482,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/fotmob/match_ids/match_ids_1_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/fotmob/match_ids/match_ids_2_fotmob.json,1441,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/fotmob/odds/matchday_1_odds_fotmob.json,2830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/fotmob/odds/matchday_2_odds_fotmob.json,2830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260817_194320_+0200.csv,180165,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260817_194320_+0200.json,466575,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260818_204143_+0200.csv,202161,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260818_204143_+0200.json,552103,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260823_004913_+0200.csv,202603,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260823_004913_+0200.json,553450,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260823_175739_+0200.csv,202598,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260823_175739_+0200.json,553445,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260825_110735_+0200.csv,202732,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260825_110735_+0200.json,553579,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260827_124042_+0200.csv,202321,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260827_124042_+0200.json,552457,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260828_120706_+0200.csv,201814,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260828_120706_+0200.json,551207,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260831_111715_+0200.csv,123346,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260831_111715_+0200.json,418601,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260901_144432_+0200.csv,122950,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260901_144432_+0200.json,416915,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kbstats/players/kbstats_players_20260903_134023_+0200.csv,123704,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/kbstats/players/kbstats_players_20260903_134023_+0200.json,420335,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20260819_125416.json,95927,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20260825_113858.json,87766,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20260828_121925.json,81709,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20260901_153848.json,47870,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kickbase/predicted_lineups/kickbase_bundesliga_lineups_20260903_150707.json,87475,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260827_115839.json,212086,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260827_120504.json,261156,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260827_121116.json,496643,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260827_124652.json,496643,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260828_120953.json,497007,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260903_134247.json,485002,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/kicker/predicted_lineups/kicker_bundesliga_lineups_20260903_150455.json,485204,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260818_204434.json,108623,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260819_095720.json,109022,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260823_005130.json,108674,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260823_175954.json,108681,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260825_110923.json,101018,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260827_124626.json,101049,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260828_120913.json,98329,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260901_144653.json,100573,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260903_134159.json,101750,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/ligainsider/predicted_lineups/ligainsider_bundesliga_lineups_20260903_150514.json,101774,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_145308_+0200_20260901_151227_+0200.csv,4276,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_154536_+0200_20260901_154714_+0200.csv,4310,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_154536_+0200_20260901_154741_+0200.csv,4292,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_154536_+0200_20260901_155014_+0200.csv,4326,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_154536_+0200_20260901_155234_+0200.csv,2578,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260901_144432_+0200_20260901_154536_+0200_20260901_155347_+0200.csv,4304,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260903_134023_+0200_20260903_151219_+0200_20260903_151445_+0200.csv,4284,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260903_134023_+0200_20260903_151219_+0200_20260903_151706_+0200.csv,4421,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260903_134023_+0200_20260903_151219_+0200_20260903_151843_+0200.csv,2569,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/optimized_squad/optimized_squad_sofascore_overall_rating_odds_lineup_20260903_134023_+0200_20260903_151219_+0200_20260903_151934_+0200.csv,4313,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260818_204414.json,62630,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260819_095810.json,62630,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260823_005207.json,62653,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260823_175927.json,62645,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260825_110858.json,62700,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260827_124203.json,62736,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260828_120848.json,62720,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260901_144632.json,62696,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260903_134135.json,62706,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/rotowire/predicted_lineups/rotowire_bundesliga_lineups_20260903_150436.json,62703,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/selected_lineups/all-limits-arena.json,3681,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/selected_lineups/bundesliga-arena.json,3669,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/selected_lineups/kickbase.insider-arena.json,2324,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/selected_lineups/kickbasekis-arena.json,3696,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-10_18-08-03_302051+0200.csv,6316,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-10_18-08-03_302051+0200.json,68720,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-10_18-17-43_300745+0200.csv,5991,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-10_18-17-43_300745+0200.json,66583,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-17_10-01-37_282980+0200.csv,6300,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-17_10-01-37_282980+0200.json,69145,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-17_19-43-59_827165+0200.csv,6300,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-17_19-43-59_827165+0200.json,69145,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-18_10-24-37_999462+0200.csv,6300,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-18_10-24-37_999462+0200.json,69145,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-18_20-42-49_618316+0200.csv,8291,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-18_20-42-49_618316+0200.json,80706,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-23_00-50-07_509753+0200.csv,10444,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/high_rated_players/team_high_rated_players_2026-08-23_00-50-07_509753+0200.json,96311,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_1.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_2.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_3.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_4.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_5.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/match_ids/match_ids_6.json,1488,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/odds/matchday_1_odds.json,2903,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/odds/matchday_2_odds.json,2902,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-21_23-23-32_482779+0200.csv,31507,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-21_23-23-32_482779+0200.json,286416,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_00-51-08_216063+0200.csv,33608,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_00-51-08_216063+0200.json,303847,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_17-58-37_302679+0200.csv,35618,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_17-58-37_302679+0200.json,314743,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_20-55-39_758540+0200.csv,36856,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-23_20-55-39_758540+0200.json,323472,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-25_11-08-44_203527+0200.csv,38485,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-25_11-08-44_203527+0200.json,334512,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-25_12-05-13_232059+0200.csv,43202,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-25_12-05-13_232059+0200.json,361109,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-27_12-41-46_777583+0200.csv,43202,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-27_12-41-46_777583+0200.json,361109,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-28_12-08-34_505193+0200.csv,43202,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-08-28_12-08-34_505193+0200.json,362791,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-01_14-46-17_373410+0200.csv,45158,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-01_14-46-17_373410+0200.json,389356,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-03_13-41-22_093456+0200.csv,45219,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_average_ratings/team_player_average_ratings_2026-09-03_13-41-22_093456+0200.json,390022,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-03_13-10-50_830453+0200.csv,19543,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/player_kickbase_point_averages/overall_player_kickbase_point_averages_2026-09-03_13-10-50_830453+0200.json,4704422,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/reference/bundesliga_teams.json,1300,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-21_23-18-25_339945+0200.json,79809,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-23_00-46-27_454341+0200.json,79728,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-23_17-55-38_217152+0200.json,79716,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-23_20-42-32_490761+0200.json,79711,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-23_20-53-57_662850+0200.json,79711,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-25_11-02-05_869307+0200.json,79676,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-27_12-38-44_831736+0200.json,79676,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-08-28_12-02-52_861945+0200.json,79700,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-09-01_14-41-46_881236+0200.json,80890,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_form/team_form_2026-09-03_13-35-57_797681+0200.json,80910,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260810T111801Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260810T111801Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260817T075235Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260817T075235Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260817T173804Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260817T173804Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260818T183942Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260818T183942Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260822T224652Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260822T224652Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260825T090222Z.csv,11458,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_1_20260825T090222Z.json,67830,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260901T124205Z.csv,20900,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260901T124205Z.json,148547,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260903T113628Z.csv,20900,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/sofascore/team_stats/bundesliga_team_statistics_md_2_20260903T113628Z.json,148547,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-17_19-14-38_570233+0200.json,17656,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-17_19-17-10_621558+0200.json,21139,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-17_19-43-28_057804+0200.json,21139,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-18_20-41-53_614971+0200.json,21128,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-23_00-49-34_384394+0200.json,21069,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-23_17-57-53_708387+0200.json,21039,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-25_11-07-45_776026+0200.json,21052,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-27_12-40-55_435451+0200.json,21052,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_2_2026-08-28_12-07-17_681986+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_3_2026-09-01_14-44-40_444180+0200.json,21077,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/sofascore/upcoming_matches/upcoming_matches_md_3_2026-09-03_13-40-38_093590+0200.json,21017,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/debug/debug_1._FC_Köln.html,169668,Inventory only,Not visually inspected or executed
+tests/outputs/transfermarkt/debug/debug_Hamburger_SV.html,22148,Inventory only,Not visually inspected or executed
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260810_171333_team_market_value_p90.csv,12445,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_095322.csv,92640,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_095322.json,290632,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_095322_team_market_value_p80.csv,22906,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_193844.csv,92656,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_193844.json,290716,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260817_193844_team_market_value_p80.csv,22928,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260818_204006.csv,92852,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260818_204006.json,291153,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260818_204006_team_market_value_p80.csv,22770,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_004740.csv,92006,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_004740.json,288525,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_004740_team_market_value_p80.csv,22525,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_175610.csv,92016,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_175610.json,288533,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260823_175610_team_market_value_p80.csv,22525,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260825_110652.csv,91875,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260825_110652.json,288114,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260825_110652_team_market_value_p80.csv,22713,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260827_123859.csv,91543,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260827_123859.json,286964,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260827_123859_team_market_value_p80.csv,22699,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260828_120308.csv,81468,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260828_120308.json,256383,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260828_120308_team_market_value_p80.csv,19854,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260901_144312.csv,89211,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260901_144312.json,280145,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260901_144312_team_market_value_p80.csv,22667,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260903_133800.csv,87099,CSV parsing and row-width consistency,Passed structural check
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260903_133800.json,273338,JSON parsing,Parsed successfully; no comprehensive semantic validation
+tests/outputs/transfermarkt/squads/transfermarkt_bundesliga_squads_2026_20260903_133800_team_market_value_p80.csv,21946,CSV parsing and row-width consistency,Passed structural check
+tests/test_all_limits_arena_notebook.py,1055,Python AST syntax,Parsed successfully
+tests/test_goalkeeper_calibration.py,7378,Python AST syntax,Parsed successfully
+tests/test_insider_arena_notebook.py,1019,Python AST syntax,Parsed successfully
+tests/test_kickbase_lineup_scoring.py,21112,Python AST syntax,Parsed successfully
+tests/test_kickbase_percentile_ratings.py,7635,Python AST syntax,Parsed successfully
+tests/test_kickbase_screenshot_intake.py,4603,Python AST syntax,Parsed successfully
+tests/test_manual_lineup_helpers.py,4973,Python AST syntax,Parsed successfully
+tests/test_output_retention.py,5573,Python AST syntax,Parsed successfully
+tests/test_selected_lineups.py,4454,Python AST syntax,Parsed successfully
+tests/test_sofascore_kickbase_points.py,6155,Python AST syntax,Parsed successfully
+tests/test_sofascore_kickbase_points_per_minute.py,9104,Python AST syntax,Parsed successfully
+tests/test_sofascore_metric_consistency.py,13380,Python AST syntax,Parsed successfully
+tests/test_sofascore_minutes_reflection.py,4035,Python AST syntax,Parsed successfully
+tests/test_sofascore_points_eligibility.py,1605,Python AST syntax,Parsed successfully
+tests/test_sofascore_rating_recency.py,5106,Python AST syntax,Parsed successfully
+tests/test_sofascore_score_reflection.py,4616,Python AST syntax,Parsed successfully
+tests/test_sofascore_upcoming_matches.py,3134,Python AST syntax,Parsed successfully
+transfermarkt_market_value_score.py,18095,Python AST syntax,Parsed successfully
+transfermarkt_team_market_value_percentile.py,14639,Python AST syntax,Parsed successfully

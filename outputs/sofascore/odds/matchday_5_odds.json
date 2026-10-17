@@ -22,9 +22,9 @@
       {
         "bookmaker": null,
         "bookmaker_source_id": 200551026,
-        "home_win": 2.3,
-        "draw": 3.6,
-        "away_win": 2.9
+        "home_win": 2.4,
+        "draw": 3.7,
+        "away_win": 2.75
       }
     ],
     "issues": []
@@ -68,8 +68,8 @@
         "bookmaker": null,
         "bookmaker_source_id": 200551020,
         "home_win": 5.0,
-        "draw": 4.75,
-        "away_win": 1.6
+        "draw": 4.5,
+        "away_win": 1.57
       }
     ],
     "issues": []
@@ -83,7 +83,7 @@
         "bookmaker": null,
         "bookmaker_source_id": 200551012,
         "home_win": 1.42,
-        "draw": 5.0,
+        "draw": 4.75,
         "away_win": 7.0
       }
     ],
@@ -98,7 +98,7 @@
         "bookmaker": null,
         "bookmaker_source_id": 200551024,
         "home_win": 1.57,
-        "draw": 4.75,
+        "draw": 4.5,
         "away_win": 5.0
       }
     ],
@@ -127,9 +127,9 @@
       {
         "bookmaker": null,
         "bookmaker_source_id": 200551010,
-        "home_win": 1.65,
+        "home_win": 1.62,
         "draw": 4.0,
-        "away_win": 5.25
+        "away_win": 5.5
       }
     ],
     "issues": []

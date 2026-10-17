@@ -903,7 +903,7 @@ def _rating_candidate_maps(ratings: pd.DataFrame) -> tuple[dict[str, dict[str, A
     by_id: dict[int, dict[str, Any]] = {}
     for _, row in ratings.iterrows():
         entry = {"name": str(row["player_name"]), "id": int(row["player_id"]), "rating": float(row["average_rating"])}
-        for field in ("position", "history_status"):
+        for field in ("position", "history_status", "recency_weighted_mean_points"):
             if field in ratings.columns:
                 entry[field] = row[field]
         key = normalize_name(entry["name"])
@@ -1004,6 +1004,7 @@ class ScoreMetricInput:
     column: str
     label: str
     output_label: str
+    mean_points_weight: float = 0.0
 
 
 def is_goalkeeper(player: Mapping[str, Any], metric: Mapping[str, Any] | None = None) -> bool:
@@ -1049,6 +1050,16 @@ def run_score_creation(
     metric_label = "SofaScore rating" if metric_input is None else metric_input.label
     output_label = f"sofascore_{category}_rating_odds_lineup" if metric_input is None else metric_input.output_label
     metric_columns = (metric_column, *OUTPUT_METRIC_COLUMNS[1:])
+    mean_points_weight = 0.0 if metric_input is None else metric_input.mean_points_weight
+    if not math.isfinite(mean_points_weight) or not 0.0 <= mean_points_weight <= 1.0:
+        raise ValueError("Mean-points weight must be finite and between 0 and 1.")
+    if mean_points_weight:
+        if "recency_weighted_mean_points" not in metric_input.values:
+            raise ValueError("Mean-points blending requires recency-weighted per-player mean points.")
+        means = pd.to_numeric(metric_input.values["recency_weighted_mean_points"], errors="coerce")
+        if means.isna().any() or not means.map(math.isfinite).all():
+            raise ValueError("Recency-weighted mean points must be finite numbers.")
+        metric_columns += ("calculated_expected_points", "recency_weighted_mean_points")
     matchday = request_matchday()
     kbstats_input = select_latest_kbstats_csv()
     ratings_input = select_latest_ratings_csv() if metric_input is None else metric_input
@@ -1097,6 +1108,8 @@ def run_score_creation(
     injury_penalties: list[float] = []
     starting_chances: list[float] = []
     scores: list[float] = []
+    calculated_point_values: list[float] = []
+    mean_point_values: list[float] = []
     review_rows: list[dict[str, Any]] = []
 
     player_contexts: dict[int, dict[str, Any]] = {}
@@ -1261,7 +1274,14 @@ def run_score_creation(
         rating_value = 0.0 if rating is None else float(rating["rating"])
         match_points = player_expected_match_points(float(expected_points[team_key]), goalkeeper)
         # Keep the score scale safely within the optimizer's exact integerization range.
-        score = round(score_multiplier * rating_value * match_points * starting_chance, 6)
+        calculated_points = score_multiplier * rating_value * match_points * starting_chance
+        if mean_points_weight:
+            mean_points = 0.0 if rating is None else float(rating["recency_weighted_mean_points"])
+            score = round((1 - mean_points_weight) * calculated_points + mean_points_weight * mean_points, 6)
+            calculated_point_values.append(round(calculated_points, 6))
+            mean_point_values.append(mean_points)
+        else:
+            score = round(calculated_points, 6)
         rating_values.append(rating_value)
         match_point_values.append(match_points)
         ligainsider_starting_chances.append(source_chance_by_key["ligainsider"])
@@ -1283,6 +1303,9 @@ def run_score_creation(
     scored["questionable_injury_penalty"] = injury_penalties
     scored["starting_chance"] = starting_chances
     scored["score_multiplier"] = score_multiplier
+    if mean_points_weight:
+        scored["calculated_expected_points"] = calculated_point_values
+        scored["recency_weighted_mean_points"] = mean_point_values
     scored["score"] = scores
     validate_scored_players(players, scored, additional_columns=metric_columns)
     if new_rating_overrides:
@@ -1299,6 +1322,9 @@ def run_score_creation(
     scored.to_csv(output_path, index=False, encoding="utf-8-sig")
     prune_timestamped_outputs()
     review = pd.DataFrame(review_rows)
+    if mean_points_weight:
+        review["calculated_expected_points"] = calculated_point_values
+        review["recency_weighted_mean_points"] = mean_point_values
     if metric_input is not None:
         review = review.rename(columns={"rating": metric_column, "rating_status": "metric_status"})
     print("Input summary")
@@ -1317,6 +1343,8 @@ def run_score_creation(
         f"{questionable_injury_starting_chance_penalty:.2f}"
     )
     print(f"  Score multiplier: {score_multiplier:.4f}")
+    if mean_points_weight:
+        print(f"  Expected-points blend: {1 - mean_points_weight:.0%} calculated + {mean_points_weight:.0%} recency-weighted mean.")
     print(f"  Output: {output_path}")
     print("\nTeam odds and expected match points")
     display(odds_table)
